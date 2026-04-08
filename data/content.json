@@ -297,5 +297,37 @@
       "sourceLabel": "微信公众号"
     }
   ],
+  "sites": [
+    {
+      "name": "AI 短剧开源技术方案",
+      "url": "https://qyxznlkmwx.feishu.cn/wiki/BwWIwsCOuiMWGmkUzNHcKLvPnPh",
+      "desc": "AI 短剧全链路开源工具方案：Flux+LoRA→SkyReels-V3→Wan2.1→HunyuanVideo-Avatar→VACE→CosyVoice→MuseTalk→FFmpeg",
+      "tags": ["AI短剧", "开源", "技术方案"]
+    },
+    {
+      "name": "xiaohu.ai — AI 前沿资讯",
+      "url": "https://www.xiaohu.ai",
+      "desc": "AI 领域最新产品发布、模型更新、行业动态，更新及时",
+      "tags": ["资讯", "AI"]
+    },
+    {
+      "name": "GitHub Trending",
+      "url": "https://github.com/trending",
+      "desc": "全球开发者最热开源项目，每日更新",
+      "tags": ["开发", "开源"]
+    },
+    {
+      "name": "AI 日报技术方案文档",
+      "url": "https://xingdong23.github.io/ai-daily/docs/ai-short-drama-tech-spec.md",
+      "desc": "AI 短剧开源技术方案完整文档（含工具规格、部署清单、分镜格式）",
+      "tags": ["技术文档"]
+    },
+    {
+      "name": "AI 日报 Coding Prompts",
+      "url": "https://xingdong23.github.io/ai-daily/docs/ai-drama-coding-prompts.md",
+      "desc": "11 个提示词，交给 coding agent 搭建 AI 短剧生产系统",
+      "tags": ["提示词", "coding"]
+    }
+  ],
   "stock": []
 }

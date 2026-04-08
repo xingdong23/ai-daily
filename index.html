@@ -168,6 +168,7 @@
             <button class="tab" data-section="video">🎬 AI 视频</button>
             <button class="tab" data-section="ai-tool">🤖 AI 资讯</button>
             <button class="tab" data-section="star">⭐ 收藏</button>
+            <button class="tab" data-section="sites">🔗 站点</button>
             <button class="tab" data-section="stock">📈 股票</button>
         </div>
         
@@ -192,6 +193,11 @@
         <div id="star" class="section">
             <div class="section-title">⭐ 收藏夹 <span class="count-badge" id="star-count"></span></div>
             <div id="star-content"></div>
+        </div>
+        
+        <div id="sites" class="section">
+            <div class="section-title">🔗 优质站点 <span class="count-badge" id="sites-count"></span></div>
+            <div id="sites-content"></div>
         </div>
         
         <div id="stock" class="section">
@@ -228,6 +234,7 @@
             renderMoney();
             renderVideo();
             renderAiTool();
+            renderSites();
             renderStar();
             renderStock();
             document.getElementById('last-update').textContent = '更新于 ' + (allData.lastUpdate || '未知');
@@ -313,6 +320,19 @@
         function renderAiTool() {
             const items = [...(allData.aiTool || []), ...(allData.dev || [])].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
             renderItems('ai-tool-content', items, 'ai-tool-count');
+        }
+        
+        function renderSites() {
+            const items = allData.sites || [];
+            document.getElementById('sites-count').textContent = items.length + ' 个';
+            if (items.length === 0) { document.getElementById('sites-content').innerHTML = '<div class="card"><div class="card-body">暂无收藏站点</div></div>'; return; }
+            document.getElementById('sites-content').innerHTML = '<div class="tool-grid">' + items.map(s => `
+                <div class="tool-card">
+                    <h3><a href="${s.url}" target="_blank" style="color:var(--text);text-decoration:none;">${s.name}</a></h3>
+                    <div class="desc">${s.desc}</div>
+                    ${s.tags ? '<div style="margin-top:8px;">' + s.tags.map(t => `<span class="tag tag-${t}">${t}</span>`).join(' ') + '</div>' : ''}
+                </div>
+            `).join('') + '</div>';
         }
         
         function renderStar() {
