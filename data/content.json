@@ -1,0 +1,87 @@
+{
+  "lastUpdate": "2026-04-08 14:17",
+  "daily": {
+    "2026-04-08": [
+      {
+        "title": "Runway 发布 Multi-Shot App — AI 视频进入「全场景自动设计」时代",
+        "body": "<p>Runway 3/30 发布里程碑应用 Multi-Shot App。从单镜头生成升级到完整短片：文字/图片输入 → 最多5个连贯镜头 → 自动构图+运镜+对话+音效+剪辑 → 电影级完整短片。</p><p><b>核心创新</b>：Gen-4 模型的 Visual Reference System，给一张参考图就能在多个镜头中保持同一人物/场景/风格一致性，不需要 LoRA 训练。</p><p><b>对我们的意义</b>：Runway 在做模型层升级，我们在做应用层编排。底层越强上层越有价值。如果 API 开放 Multi-Shot，可作为我们工具链的视频生成后端。</p>",
+        "tags": ["ai", "video", "tool"],
+        "source": "https://www.xiaohu.ai/c/xiaohu-ai/runway-multi-shot-app",
+        "sourceLabel": "xiaohu.ai"
+      },
+      {
+        "title": "阿里 Wan2.7-Image 发布 — 千人千面告别 AI 标准脸",
+        "body": "<p>阿里通义实验室 4/1 发布统一图像生成/编辑模型。核心突破：</p><p>• 最多 9 张参考图做多主体一致性（合影、海报、家具组合）</p><p>• 精准色彩控制，告别「抽卡式」随机生成</p><p>• 超长文本渲染能力大幅提升</p><p>• API 已在阿里云百炼平台开放</p><p><b>对我们的意义</b>：直接解决 AI 短视频最大痛点——角色一致性。可作为短剧工具链的角色设计+分镜生成后端。与 Wan2.1 视频生成同系列，生态协同。</p>",
+        "tags": ["ai", "video", "tool"],
+        "source": "https://www.xiaohu.ai/c/xiaohu-ai/wan2-7-image",
+        "sourceLabel": "xiaohu.ai"
+      },
+      {
+        "title": "Pika 推出 AI Selves — 从视频工具转向数字分身",
+        "body": "<p>Pika Labs 不卷视频了，耗时两年推出 AI Selves：持续记忆+自主成长+可定制人格+能主动发帖的 AI 数字分身。目前 waitlist 阶段。</p><p><b>行业信号</b>：视频生成公司都在找新方向。Runway 做深（Multi-Shot），Pika 做广（数字分身）。说明纯视频工具难建壁垒。</p>",
+        "tags": ["ai", "agent"],
+        "source": "https://www.xiaohu.ai/c/xiaohu-ai/pika-ai-ai-self",
+        "sourceLabel": "xiaohu.ai"
+      },
+      {
+        "title": "Hermes Agent — Nous Research 的自我进化 Agent（3.2万星）",
+        "body": "<p>开源 Agent，与 OpenClaw 同赛道。核心差异化：自动从经验创建 Skill、Honcho 用户建模、FTS5 历史搜索。甚至有 hermes claw migrate 一键从 OpenClaw 迁移。</p><p>支持 200+ 模型，MIT 协议，Python，可跑在 $5 VPS 上。兼容 agentskills.io 标准。</p><p><b>对我们的意义</b>：最直接的竞品。它的自我进化设计（自动 Skill 创建 + 用户建模）值得学习。</p>",
+        "tags": ["ai", "agent", "deep"],
+        "source": "https://github.com/nousresearch/hermes-agent",
+        "sourceLabel": "GitHub"
+      }
+    ]
+  },
+  "deep": [
+    {
+      "title": "AI 视频赛道竞品分化分析",
+      "date": "2026-04-08",
+      "body": "<p><b>行业正在快速分化：</b></p><p>• <b>模型层</b>：Runway Gen-4（跨镜头一致性）、阿里 Wan2.7（多主体一致性）、Sora 2、Veo 3.1 — 都在卷「从单片段到完整故事」</p><p>• <b>工具层</b>：白日梦（AI 漫剧，2900星）、魔因漫创（AI 影视，1734星）、Elser.ai — 都在做垂直场景的短剧生成</p><p>• <b>换赛道</b>：Pika 做数字分身 — 说明纯工具难建壁垒</p><p><b>我们的机会</b>：不在模型层（太卷），不在工具层（白日梦们已在做），在<b>编排层</b>——帮创作者把零散 AI 能力串成完整生产流水线，加个性化、批量化、自动化。</p>",
+      "tags": ["ai", "video", "deep"]
+    },
+    {
+      "title": "FireRed-OpenStoryline 技术评估",
+      "date": "2026-04-08",
+      "body": "<p>开源 AI 视频编辑 Agent，FastAPI 后端 + LangChain + MCP 集成 + MoviePy/FFmpeg 视频处理。</p><p>技术栈：Python、350 行依赖、支持 MCP 工具调用、FunASR 语音识别、sentence-transformers 向量搜索。</p><p>可作为我们短剧工具链的参考架构。</p>",
+      "tags": ["ai", "video", "tool"]
+    }
+  ],
+  "money": [
+    {
+      "title": "AI 短剧/漫剧市场 — 2026 预计突破 1200 亿",
+      "date": "2026-04-08",
+      "body": "<p>• 2024 Q4 动漫短剧观看人次突破 20 亿，付费规模 2600 万</p><p>• 2026 春节档 AI 漫剧扎堆上线</p><p>• DataEye 预估 2026 年中国微短剧+漫剧市场规模突破 1200 亿</p><p>• 艾媒咨询预计到 2030 年 AI 漫剧市场规模超 850 亿</p><p><b>变现路径</b>：工具 SaaS + 内容制作服务 + 付费社群/教程</p>",
+      "tags": ["money", "video"]
+    }
+  ],
+  "tools": [
+    {
+      "name": "Runway Gen-4",
+      "desc": "AI 视频生成三巨头之一。跨镜头角色一致性是核心壁垒。Multi-Shot App 一键出完整短片。",
+      "pros": "跨镜头一致性最强、生态完善（GVFX/Act-Two/Aleph）、API 开放",
+      "cons": "价格偏高（$12-76/月）、国内访问需梯子",
+      "tags": ["video", "ai"]
+    },
+    {
+      "name": "阿里 Wan2.7-Image",
+      "desc": "统一图像生成/编辑模型。9张参考图多主体一致性，精准色彩控制。",
+      "pros": "国内直接用、百炼 API 开放、角色一致性好",
+      "cons": "仅图像（需配合视频模型）、新发布生态待验证",
+      "tags": ["video", "ai"]
+    },
+    {
+      "name": "白日梦 AI",
+      "desc": "AI 漫剧生成工具，从剧本到成片一键生成。GitHub 2900 星。",
+      "pros": "垂直场景深耕、角色一致性方案完善",
+      "cons": "仅漫剧风格、商业化程度不明确",
+      "tags": ["video", "tool"]
+    },
+    {
+      "name": "魔因漫创",
+      "desc": "AI 影视生产级工具，6层锚点角色一致性方案。GitHub 1734 星。",
+      "pros": "开源、生产级、6层锚点方案创新",
+      "cons": "部署复杂、需要多模型配合",
+      "tags": ["video", "tool"]
+    }
+  ]
+}

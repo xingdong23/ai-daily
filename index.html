@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 日报 — 前沿赛道 · 搞钱机会 · 深度分析</title>
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --surface: #141414;
+            --surface2: #1a1a1a;
+            --border: #2a2a2a;
+            --text: #e5e5e5;
+            --text2: #999;
+            --accent: #6366f1;
+            --accent2: #8b5cf6;
+            --green: #22c55e;
+            --orange: #f59e0b;
+            --red: #ef4444;
+            --blue: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Header */
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 24px 0;
+            margin-bottom: 32px;
+        }
+        header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        header p { color: var(--text2); font-size: 14px; margin-top: 4px; }
+        .header-right { float: right; }
+        .header-right a { color: var(--accent); text-decoration: none; font-size: 14px; }
+        
+        /* Nav tabs */
+        .tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 32px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 12px;
+        }
+        .tab {
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            color: var(--text2);
+            border: none;
+            background: none;
+            transition: all 0.2s;
+        }
+        .tab:hover { color: var(--text); background: var(--surface); }
+        .tab.active { color: var(--text); background: var(--surface2); border: 1px solid var(--border); }
+        
+        /* Section */
+        .section { display: none; }
+        .section.active { display: block; }
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        /* Date nav */
+        .date-nav {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+        .date-btn {
+            padding: 6px 14px;
+            border-radius: 6px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text2);
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .date-btn:hover { color: var(--text); border-color: var(--accent); }
+        .date-btn.active { color: var(--text); background: var(--accent); border-color: var(--accent); }
+        
+        /* Card */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 16px;
+            transition: border-color 0.2s;
+        }
+        .card:hover { border-color: var(--accent); }
+        .card-header { display: flex; justify-content: space-between; align-items: start; margin-bottom: 8px; }
+        .card-title { font-size: 16px; font-weight: 600; }
+        .card-date { font-size: 12px; color: var(--text2); white-space: nowrap; }
+        .card-body { font-size: 14px; color: var(--text2); }
+        .card-body p { margin-top: 8px; }
+        .card-tags { display: flex; gap: 6px; margin-top: 12px; flex-wrap: wrap; }
+        .tag {
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        .tag-ai { background: rgba(99,102,241,0.15); color: var(--accent); }
+        .tag-video { background: rgba(239,68,68,0.15); color: var(--red); }
+        .tag-money { background: rgba(34,197,94,0.15); color: var(--green); }
+        .tag-tool { background: rgba(245,158,11,0.15); color: var(--orange); }
+        .tag-deep { background: rgba(139,92,246,0.15); color: var(--accent2); }
+        .tag-agent { background: rgba(59,130,246,0.15); color: var(--blue); }
+        
+        .card-source { font-size: 12px; color: var(--text2); margin-top: 8px; }
+        .card-source a { color: var(--accent); text-decoration: none; }
+        
+        /* Tool comparison table */
+        .tool-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+        @media (max-width: 600px) { .tool-grid { grid-template-columns: 1fr; } }
+        .tool-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+        .tool-card h3 { font-size: 15px; margin-bottom: 8px; }
+        .tool-card .desc { font-size: 13px; color: var(--text2); }
+        .tool-card .pros { color: var(--green); font-size: 13px; margin-top: 8px; }
+        .tool-card .cons { color: var(--red); font-size: 13px; margin-top: 4px; }
+        
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 24px 0;
+            margin-top: 48px;
+            text-align: center;
+            color: var(--text2);
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-right"><a href="https://github.com/" id="repo-link">GitHub</a></div>
+            <h1>⚡ AI 日报</h1>
+            <p>前沿赛道 · 搞钱机会 · 深度分析 · 每日自动更新</p>
+        </header>
+        
+        <div class="tabs">
+            <button class="tab active" data-section="daily">📰 日报</button>
+            <button class="tab" data-section="deep">🔍 深度</button>
+            <button class="tab" data-section="money">💰 搞钱</button>
+            <button class="tab" data-section="tools">🛠️ 工具</button>
+        </div>
+        
+        <div id="daily" class="section active">
+            <div class="date-nav" id="date-nav"></div>
+            <div id="daily-content"></div>
+        </div>
+        
+        <div id="deep" class="section">
+            <div class="section-title">🔍 深度分析</div>
+            <div id="deep-content"></div>
+        </div>
+        
+        <div id="money" class="section">
+            <div class="section-title">💰 搞钱机会</div>
+            <div id="money-content"></div>
+        </div>
+        
+        <div id="tools" class="section">
+            <div class="section-title">🛠️ 工具库</div>
+            <div id="tools-content"></div>
+        </div>
+        
+        <footer>
+            由 AI 自动生成 · 每日更新 · <span id="last-update"></span>
+        </footer>
+    </div>
+    
+    <script>
+        // Load content from JSON
+        let allData = {};
+        
+        async function loadData() {
+            try {
+                const resp = await fetch('data/content.json');
+                allData = await resp.json();
+                renderAll();
+            } catch(e) {
+                document.getElementById('daily-content').innerHTML = 
+                    '<div class="card"><div class="card-body">内容加载中...首次部署后这里会出现日报内容。</div></div>';
+            }
+        }
+        
+        function renderAll() {
+            renderDaily();
+            renderDeep();
+            renderMoney();
+            renderTools();
+            document.getElementById('last-update').textContent = '更新于 ' + (allData.lastUpdate || '未知');
+        }
+        
+        function renderDaily() {
+            const dates = Object.keys(allData.daily || {}).sort().reverse();
+            const nav = document.getElementById('date-nav');
+            const content = document.getElementById('daily-content');
+            
+            if (dates.length === 0) {
+                content.innerHTML = '<div class="card"><div class="card-body">暂无日报内容</div></div>';
+                return;
+            }
+            
+            nav.innerHTML = dates.map((d, i) => 
+                `<button class="date-btn ${i===0?'active':''}" data-date="${d}">${d}</button>`
+            ).join('');
+            
+            nav.addEventListener('click', (e) => {
+                if (e.target.classList.contains('date-btn')) {
+                    nav.querySelectorAll('.date-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    renderDailyDate(e.target.dataset.date);
+                }
+            });
+            
+            renderDailyDate(dates[0]);
+        }
+        
+        function renderDailyDate(date) {
+            const items = allData.daily[date] || [];
+            const content = document.getElementById('daily-content');
+            if (items.length === 0) {
+                content.innerHTML = '<div class="card"><div class="card-body">当日暂无内容</div></div>';
+                return;
+            }
+            content.innerHTML = items.map(item => `
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">${item.title}</div>
+                    </div>
+                    <div class="card-body">${item.body}</div>
+                    <div class="card-tags">${(item.tags||[]).map(t => `<span class="tag tag-${t}">${tagLabel(t)}</span>`).join('')}</div>
+                    ${item.source ? `<div class="card-source">来源: <a href="${item.source}" target="_blank">${item.sourceLabel || item.source}</a></div>` : ''}
+                </div>
+            `).join('');
+        }
+        
+        function tagLabel(t) {
+            const map = {ai:'AI', video:'视频', money:'搞钱', tool:'工具', deep:'深度', agent:'Agent'};
+            return map[t] || t;
+        }
+        
+        function renderDeep() {
+            const items = allData.deep || [];
+            const content = document.getElementById('deep-content');
+            if (items.length === 0) {
+                content.innerHTML = '<div class="card"><div class="card-body">暂无深度分析</div></div>';
+                return;
+            }
+            content.innerHTML = items.map(item => `
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">${item.title}</div>
+                        <div class="card-date">${item.date}</div>
+                    </div>
+                    <div class="card-body">${item.body}</div>
+                    <div class="card-tags">${(item.tags||[]).map(t => `<span class="tag tag-${t}">${tagLabel(t)}</span>`).join('')}</div>
+                </div>
+            `).join('');
+        }
+        
+        function renderMoney() {
+            const items = allData.money || [];
+            const content = document.getElementById('money-content');
+            if (items.length === 0) {
+                content.innerHTML = '<div class="card"><div class="card-body">暂无搞钱机会</div></div>';
+                return;
+            }
+            content.innerHTML = items.map(item => `
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">${item.title}</div>
+                        <div class="card-date">${item.date}</div>
+                    </div>
+                    <div class="card-body">${item.body}</div>
+                    <div class="card-tags">${(item.tags||[]).map(t => `<span class="tag tag-${t}">${tagLabel(t)}</span>`).join('')}</div>
+                </div>
+            `).join('');
+        }
+        
+        function renderTools() {
+            const items = allData.tools || [];
+            const content = document.getElementById('tools-content');
+            if (items.length === 0) {
+                content.innerHTML = '<div class="card"><div class="card-body">暂无工具数据</div></div>';
+                return;
+            }
+            content.innerHTML = '<div class="tool-grid">' + items.map(item => `
+                <div class="tool-card">
+                    <h3>${item.name}</h3>
+                    <div class="desc">${item.desc}</div>
+                    <div class="pros">✅ ${item.pros}</div>
+                    <div class="cons">⚠️ ${item.cons}</div>
+                    <div class="card-tags">${(item.tags||[]).map(t => `<span class="tag tag-${t}">${tagLabel(t)}</span>`).join('')}</div>
+                </div>
+            `).join('') + '</div>';
+        }
+        
+        // Tab switching
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+                tab.classList.add('active');
+                document.getElementById(tab.dataset.section).classList.add('active');
+            });
+        });
+        
+        loadData();
+    </script>
+</body>
+</html>
