@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-08 15:30",
+  "lastUpdate": "2026-04-08 17:30",
   "money": [
     {
       "title": "AI 短剧/漫剧市场 — 2026 预计突破 1200 亿",
@@ -94,6 +94,38 @@
       "tags": ["video"],
       "source": "https://github.com/MeiGen-AI/InfiniteTalk",
       "sourceLabel": "GitHub"
+    },
+    {
+      "title": "🎬 AI 短剧开源技术方案 — 最终版（2026-04-08）",
+      "date": "2026-04-08",
+      "body": "<p><b>目标</b>：用开源工具复现 Runway Multi-Shot 效果，实现故事梗概→多镜头连贯短剧成片。</p><p><b>核心栈</b>：Flux+LoRA（角色定妆）→ SkyReels-V3（主镜头）→ Wan2.1（B-roll）→ HunyuanVideo-Avatar（对白表演）→ VACE（局部修补）→ CosyVoice 3.0（配音）→ MuseTalk（口型）→ HunyuanVideo-Foley（音效）→ ACE-Step（配乐）→ FFmpeg（合成）</p><p><b>硬件</b>：L20 48GB GPU，串行加载大模型</p><p><b>三阶段</b>：Week1 跑通 15 秒 demo → Week2 多角色对白 → Week3-4 音效配乐+一键流水线</p>",
+      "tags": ["video", "dev"],
+      "source": "https://xingdong23.github.io/ai-daily/docs/ai-short-drama-tech-spec.md",
+      "sourceLabel": "技术方案文档"
+    },
+    {
+      "title": "SkyReels-V3 — 短剧专用视频生成模型",
+      "date": "2026-04-08",
+      "body": "<p>昆仑万维出品，403 星。多主体参考图生成 + 音频引导视频 + Video-to-Video。14B-720P R2V / V2V + 19B Talking Avatar 三条模型线。短剧场景专用设计，角色一致性优于通用模型。</p>",
+      "tags": ["video"],
+      "source": "https://github.com/SkyworkAI/SkyReels-V3",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "VACE — All-in-One 视频创建与编辑（ICCV 2025）",
+      "date": "2026-04-08",
+      "body": "<p>阿里出品，3722 星，Apache-2.0。reference-to-video + video-to-video + masked video-to-video 三合一。短剧场景：只修嘴/手/道具局部区域，不重生整段，节省 80% 返工算力。</p>",
+      "tags": ["video"],
+      "source": "https://github.com/ali-vilab/VACE",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "HunyuanVideo-Avatar — 多角色对白表演专家",
+      "date": "2026-04-08",
+      "body": "<p>腾讯出品，2075 星。高动态角色动画 + 音频驱动情绪对齐 + 多角色动画。支持 portrait / upper-body / full-body 三种尺度。专门解决「把人演出来」的问题。</p>",
+      "tags": ["video"],
+      "source": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar",
+      "sourceLabel": "GitHub"
     }
   ],
   "videoTools": [
@@ -102,7 +134,10 @@
     {"name": "魔因漫创", "desc": "6层锚点角色一致性，2900 星", "pros": "方案创新、支持 Seedance 2.0", "cons": "AGPL、Electron 桌面端"},
     {"name": "OpenStoryline", "desc": "自然语言驱动视频编辑，1734 星", "pros": "Apache 2.0、Mac mini 可跑", "cons": "偏混剪、非纯 AI 生成"},
     {"name": "HunyuanVideo", "desc": "13B 开源最大视频模型，排名第1", "pros": "Apache 2.0、生态丰富", "cons": "需 GPU、消费级需量化"},
-    {"name": "InfiniteTalk", "desc": "唇形+头部+身体+表情同步", "pros": "无限时长、多维度同步", "cons": "需 NVIDIA GPU、超1分钟偏色"}
+    {"name": "InfiniteTalk", "desc": "唇形+头部+身体+表情同步", "pros": "无限时长、多维度同步", "cons": "需 NVIDIA GPU、超1分钟偏色"},
+    {"name": "SkyReels-V3", "desc": "短剧专用，多主体一致+音频引导+V2V", "pros": "短剧垂直设计、多参考图", "cons": "403星社区小、ComfyUI插件少"},
+    {"name": "HunyuanVideo-Avatar", "desc": "多角色对白表演、情绪可控", "pros": "高动态、情绪对齐、三种尺度", "cons": "Tencent License、EU/UK受限"},
+    {"name": "VACE", "desc": "局部修镜头，只改不改全", "pros": "Apache-2.0、节省80%返工", "cons": "需要精确mask"}
   ],
   "aiTool": [
     {
