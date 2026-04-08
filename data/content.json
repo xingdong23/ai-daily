@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-08 14:50",
+  "lastUpdate": "2026-04-08 15:10",
   "daily": {
     "2026-04-08": [
       {
@@ -30,6 +30,38 @@
         "source": "https://github.com/nousresearch/hermes-agent",
         "sourceLabel": "GitHub"
       }
+    ],
+    "2026-04-07": [
+      {
+        "title": "4 个爆火的 Claude Code 开源项目",
+        "body": "<p>• <b>badclaude</b>：增强型提示词指令集，绕过安全限制</p><p>• <b>gstack</b>（66k星）：23 个专业化角色（CEO/设计师/架构师/QA），每日交付万行代码</p><p>• <b>claw-code</b>：原 Claude Code 泄露代码，最快破 10w 星</p><p>• <b>everything-claude-code</b>（14w星）：支持 Claude Code/Cursor/OpenCode，Anthropic 黑客松冠军开发</p>",
+        "tags": ["ai", "tool"],
+        "source": "https://mp.weixin.qq.com/s/m_hrgvabPE-cSdEmGsORzw",
+        "sourceLabel": "开源AI项目落地"
+      },
+      {
+        "title": "Anthropic：不要等下一代模型了，立刻做 Harness！",
+        "body": "<p><b>同一个模型，只换 Harness，成功率 42% → 78%。</b></p><p>三代进化：Prompt Engineering → Context Engineering → Harness Engineering</p><p>OpenAI Codex：5个月百万行代码，零人工。Stripe：每周合并 1300+ PR 全无人值守。Cursor：每小时 1000 个 commit。</p><p>关键数据：LangChain 同一模型改 Harness，Terminal Bench 从 Top30 → Top5。Anthropic Solo 20min/$9（功能坏） vs Harness 6h/$200（功能可用）。</p>",
+        "tags": ["ai", "agent", "deep"],
+        "source": "https://mp.weixin.qq.com/s/iTLZQHw9Dkt6AsDumZZJNQ",
+        "sourceLabel": "微信公众号"
+      },
+      {
+        "title": "Harness Engineering 企业级应用全景",
+        "body": "<p>三支柱：上下文工程 + 架构约束 + 熵增对抗</p><p>Salesforce Agentforce：18,500家企业，月30亿工作流，仍有 Agent 跳过关键步骤</p><p>SAP Joule：350个AI功能 + 2,400个技能，业务数据结构化天然优势</p><p>UiPath Maestro：最务实，同时编排 AI Agent + RPA + 人类，ARR 18.5亿</p><p><b>结论</b>：真正稀缺的能力不在模型里，在模型外面。且每隔几个月得重写一次。</p>",
+        "tags": ["ai", "agent", "deep"],
+        "source": "https://mp.weixin.qq.com/s/1p69Vz8c3IplEYehCzmAKw",
+        "sourceLabel": "微信公众号"
+      }
+    ],
+    "2026-04-06": [
+      {
+        "title": "Karpathy LLM Wiki 方法论 — 个人知识库的正确打开方式",
+        "body": "<p>Karpathy 原话：「用 LLM 为感兴趣的研究主题构建个人知识库。大部分 token 消耗不是用来操作代码，而是用来操作知识。」</p><p>做法：raw/ 索引进源文档 → LLM 逐步编译出 wiki → 按目录结构组织 .md → 全部串联起来</p><p><b>为什么不用 RAG？</b>个人用、中小规模 → LLM+MD+Wiki 足够。精确工程化产品 → 推荐 RAG。</p>",
+        "tags": ["ai", "tool"],
+        "source": "https://mp.weixin.qq.com/s/gZWm3wMGGnKd7zlLPGgIPg",
+        "sourceLabel": "微信公众号"
+      }
     ]
   },
   "deep": [
@@ -44,6 +76,14 @@
       "date": "2026-04-07",
       "body": "<p><b>核心公式</b>：Agent = Model + Harness</p><p>Anthropic 实践：任务拆分→增量完成→做好交接，独立评估器跳出「当局者迷」</p><p>OpenAI 实践：百万行代码全由 Codex 完成，人类禁止写代码，职责转为设计环境和反馈回路</p><p>LangChain 实践：同一模型仅优化 Harness，Terminal Bench 2.0 从 Top 30 → Top 5</p><p><b>关键洞察</b>：想要获得极高的 Agent 自主权，就必须极大地限制其自由度。</p>",
       "tags": ["ai", "agent", "deep"]
+    },
+    {
+      "title": "Claude Code System Prompt 逆向工程完整指南",
+      "date": "2026-04-07",
+      "body": "<p>Claude Code 的 prompt 不是一大块，而是<b>模块化动态拼接</b>：</p><p>• Intro → System → Doing Tasks → Actions → Using Tools → Tone → Output Efficiency</p><p>• 用户类型区分：内部用户（更详细）vs 外部用户</p><p>• 权限分层：可逆操作自由执行，不可逆需确认</p><p>• 非平凡任务必须有<b>独立验证 Agent</b></p><p>• 反过度工程：不做超出要求的改进，不加不必要的注释</p>",
+      "tags": ["ai", "agent", "deep"],
+      "source": "https://medium.com/@fengliu_367/the-complete-guide-to-writing-agent-system-prompts-lessons-from-reverse-engineering-claude-code-09ecd87c7cc1",
+      "sourceLabel": "Medium"
     }
   ],
   "money": [
@@ -120,7 +160,7 @@
       },
       {
         "title": "AI 日报网站自动化",
-        "body": "配置 cron 每日自动搜索+更新网站内容。老板发链接自动同步。",
+        "body": "✅ cron 已配置（每天 8:00），✅ 6 个板块已上线",
         "tags": ["tool", "ai"],
         "date": "2026-04-08"
       }
@@ -212,6 +252,22 @@
       "sourceLabel": "xiaohu.ai"
     },
     {
+      "title": "4 个爆火的 Claude Code 开源项目",
+      "date": "2026-04-07",
+      "body": "<p>• <b>badclaude</b>：增强型提示词指令集</p><p>• <b>gstack</b>（66k星）：23个专业化角色，每日万行代码</p><p>• <b>claw-code</b>：最快破 10w 星</p><p>• <b>everything-claude-code</b>（14w星）：Anthropic 黑客松冠军开发</p>",
+      "tags": ["ai", "tool"],
+      "source": "https://mp.weixin.qq.com/s/m_hrgvabPE-cSdEmGsORzw",
+      "sourceLabel": "开源AI项目落地"
+    },
+    {
+      "title": "Claude Code System Prompt 逆向工程完整指南",
+      "date": "2026-04-07",
+      "body": "<p>揭示 Claude Code 内部 prompt 的动态组装架构：模块化拼接、用户类型区分、权限分层、独立验证 Agent、反过度工程。</p>",
+      "tags": ["ai", "agent", "deep"],
+      "source": "https://medium.com/@fengliu_367/the-complete-guide-to-writing-agent-system-prompts-lessons-from-reverse-engineering-claude-code-09ecd87c7cc1",
+      "sourceLabel": "Medium"
+    },
+    {
       "title": "FireRed-OpenStoryline — AI 视频编辑 Agent",
       "date": "2026-04-07",
       "body": "<p>自然语言驱动视频制作，1734 星，Apache 2.0。智能素材搜索+配音+BGM+转场+ASR 粗剪。已适配 OpenClaw Skill。Mac mini 可跑。</p>",
@@ -246,9 +302,17 @@
     {
       "title": "Harness Engineering — 从「玩具」到工业级 Agent",
       "date": "2026-04-07",
-      "body": "<p>Agent = Model + Harness。Anthropic：任务拆分+独立评估器。OpenAI：百万行代码全由 Codex 完成。LangChain：同一模型优化 Harness 从 Top30 → Top5。关键洞察：极高自主权需要极大限制自由度。</p>",
+      "body": "<p>Agent = Model + Harness。同一模型只换 Harness，成功率 42% → 78%。OpenAI Codex 5个月百万行代码零人工。Stripe 每周 1300+ PR 无人值守。</p>",
       "tags": ["ai", "agent", "deep"],
-      "source": "https://mp.weixin.qq.com/s/VUWD4ZLi-9oVSYcTmYD0jw",
+      "source": "https://mp.weixin.qq.com/s/iTLZQHw9Dkt6AsDumZZJNQ",
+      "sourceLabel": "微信公众号"
+    },
+    {
+      "title": "Harness Engineering 企业级应用全景",
+      "date": "2026-04-07",
+      "body": "<p>三支柱：上下文工程 + 架构约束 + 熵增对抗。Salesforce 18,500企业月30亿工作流。SAP Joule 350个AI功能+2,400个技能。UiPath ARR 18.5亿。结论：真正稀缺的能力不在模型里，在模型外面。</p>",
+      "tags": ["ai", "agent", "deep"],
+      "source": "https://mp.weixin.qq.com/s/1p69Vz8c3IplEYehCzmAKw",
       "sourceLabel": "微信公众号"
     },
     {
@@ -262,10 +326,10 @@
     {
       "title": "Karpathy LLM Wiki — 个人知识库方法论",
       "date": "2026-04-06",
-      "body": "<p>三层架构 + 四阶段流水线。已参考创建 ~/knowledge-base/，可用 Obsidian 打开。</p>",
+      "body": "<p>用 LLM 为感兴趣的研究主题构建个人知识库。三层架构：raw/ 索引 → LLM 编译 wiki → 全部串联。中小规模用 LLM+MD+Wiki，精确工程化用 RAG。</p>",
       "tags": ["tool", "deep"],
-      "source": "",
-      "sourceLabel": ""
+      "source": "https://mp.weixin.qq.com/s/gZWm3wMGGnKd7zlLPGgIPg",
+      "sourceLabel": "微信公众号"
     }
   ]
 }
