@@ -295,6 +295,14 @@
       "tags": ["star", "ai-tool"],
       "source": "https://mp.weixin.qq.com/s/gZWm3wMGGnKd7zlLPGgIPg",
       "sourceLabel": "微信公众号"
+    },
+    {
+      "title": "CutClaw — 音乐驱动长视频编辑 Agent（309星）",
+      "date": "2026-04-08",
+      "body": "<p>多智能体协作：编剧+剪辑+审阅，音乐节拍自动对齐剪辑，长视频→高质量短片。支持 Gemini-3/Qwen3.5/GPT-5.3，Streamlit+CLI 双模式。</p><p><b>对我们的意义</b>：后期卡点剪辑自动化，比手动 FFmpeg 时间轴优雅。</p>",
+      "tags": ["star", "video"],
+      "source": "https://github.com/GVCLab/CutClaw",
+      "sourceLabel": "GitHub"
     }
   ],
   "sites": [
@@ -328,12 +336,7 @@
       "desc": "11 个提示词，交给 coding agent 搭建 AI 短剧生产系统",
       "tags": ["提示词", "coding"]
     },
-    {
-      "name": "CutClaw — 音乐驱动长视频编辑 Agent",
-      "url": "https://github.com/GVCLab/CutClaw",
-      "desc": "Agentic Hours-Long Video Editing via Music Synchronization，音乐节拍自动对齐剪辑，309 星",
-      "tags": ["AI视频", "开源", "剪辑"]
-    }
+
   ],
   "stock": []
 }
