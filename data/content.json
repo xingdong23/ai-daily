@@ -299,10 +299,10 @@
   ],
   "sites": [
     {
-      "name": "AI 短剧开源技术方案",
+      "name": "AI开源项目知识库 (AI-GitHub)",
       "url": "https://qyxznlkmwx.feishu.cn/wiki/BwWIwsCOuiMWGmkUzNHcKLvPnPh",
-      "desc": "AI 短剧全链路开源工具方案：Flux+LoRA→SkyReels-V3→Wan2.1→HunyuanVideo-Avatar→VACE→CosyVoice→MuseTalk→FFmpeg",
-      "tags": ["AI短剧", "开源", "技术方案"]
+      "desc": "AI 开源项目全景知识库：数字人、TTS、视频生成、换脸、换衣、3D、游戏、Agent 等，每日更新，含详细评测和教程",
+      "tags": ["知识库", "AI", "开源", "必藏"]
     },
     {
       "name": "xiaohu.ai — AI 前沿资讯",
