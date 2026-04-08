@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI 日报 v2 — 搞钱 · AI视频 · 工具 · 收藏</title>
+    <title>AI 日报 v2 — 数字人 · AI资讯 · 收藏</title>
     <style>
         :root {
             --bg: #0a0a0a;
@@ -160,25 +160,19 @@
     <div class="container">
         <header>
             <h1>⚡ AI 日报</h1>
-            <p>搞钱 · AI视频 · 工具 · 收藏 · 每日自动更新</p>
+            <p>数字人 · AI资讯 · 收藏 · 每日自动更新</p>
         </header>
         
         <div class="tabs">
-            <button class="tab active" data-section="money">💰 搞钱</button>
-            <button class="tab" data-section="video">🎬 AI 视频</button>
+            <button class="tab active" data-section="video">🎬 数字人</button>
             <button class="tab" data-section="ai-tool">🤖 AI 资讯</button>
             <button class="tab" data-section="star">⭐ 收藏</button>
             <button class="tab" data-section="sites">🔗 站点</button>
             <button class="tab" data-section="stock">📈 股票</button>
         </div>
         
-        <div id="money" class="section active">
-            <div class="section-title">💰 搞钱机会 <span class="count-badge" id="money-count"></span></div>
-            <div id="money-content"></div>
-        </div>
-        
-        <div id="video" class="section">
-            <div class="section-title">🎬 AI 视频 <span class="count-badge" id="video-count"></span></div>
+        <div id="video" class="section active">
+            <div class="section-title">🎬 数字人 <span class="count-badge" id="video-count"></span></div>
             <div class="date-nav" id="video-date-nav"></div>
             <div id="video-content"></div>
             <h3 style="color:var(--text2);margin:24px 0 12px;">🛠️ 视频工具对比</h3>
@@ -231,7 +225,6 @@
         }
         
         function renderAll() {
-            renderMoney();
             renderVideo();
             renderAiTool();
             renderSites();
@@ -253,7 +246,7 @@
         }
         
         function tagLabel(t) {
-            const map = {money:'搞钱', video:'AI视频', 'ai-tool':'AI工具', dev:'开发', star:'收藏', stock:'股票', agent:'Agent'};
+            const map = {video:'数字人', 'ai-tool':'AI工具', dev:'开发', star:'收藏', stock:'股票', agent:'Agent'};
             return map[t] || t;
         }
         
@@ -262,10 +255,6 @@
             if (countId) document.getElementById(countId).textContent = items.length + ' 条';
             if (items.length === 0) { el.innerHTML = '<div class="card"><div class="card-body">暂无内容</div></div>'; return; }
             el.innerHTML = items.map(cardHTML).join('');
-        }
-        
-        function renderMoney() {
-            renderItems('money-content', allData.money || [], 'money-count');
         }
         
         function renderVideo() {

@@ -1,38 +1,13 @@
 {
   "lastUpdate": "2026-04-08 18:00",
-  "money": [
+  "money": [],
+  "video": [
     {
       "title": "AI 短剧/漫剧市场 — 2026 预计突破 1200 亿",
       "date": "2026-04-08",
       "body": "<p>• 2024 Q4 动漫短剧观看人次突破 20 亿，付费规模 2600 万</p><p>• DataEye 预估 2026 年中国微短剧+漫剧市场规模突破 1200 亿</p><p>• 艾媒咨询预计到 2030 年 AI 漫剧市场规模超 850 亿</p><p><b>变现路径</b>：工具 SaaS + 内容制作服务 + 付费社群/教程</p>",
-      "tags": ["money", "video"]
+      "tags": ["video"]
     },
-    {
-      "title": "4 个爆火的 Claude Code 开源项目 — 工具生态即搞钱",
-      "date": "2026-04-07",
-      "body": "<p>• <b>badclaude</b>：增强型提示词指令集，推特千万播放量</p><p>• <b>gstack</b>（66k星）：23个专业化角色，每日交付万行代码</p><p>• <b>claw-code</b>：最快破 10w 星</p><p>• <b>everything-claude-code</b>（14w星）：Anthropic 黑客松冠军开发</p><p><b>搞钱启示</b>：AI 开发工具生态本身就是赛道，Skill/插件/增强包都有变现空间</p>",
-      "tags": ["money", "dev"],
-      "source": "https://mp.weixin.qq.com/s/m_hrgvabPE-cSdEmGsORzw",
-      "sourceLabel": "开源AI项目落地"
-    },
-    {
-      "title": "Harness Engineering = 新工种 — Agent 外壳工程师",
-      "date": "2026-04-07",
-      "body": "<p>Anthropic：同一模型只换 Harness，成功率 42% → 78%。</p><p>Stripe 每周合并 1300+ PR 全无人值守。Cursor 每小时 1000 个 commit。</p><p><b>搞钱路径</b>：帮企业搭建 Agent Harness → 咨询+定制+运维。UiPath ARR 18.5 亿美元验证了这条路。</p>",
-      "tags": ["money", "dev"],
-      "source": "https://mp.weixin.qq.com/s/iTLZQHw9Dkt6AsDumZZJNQ",
-      "sourceLabel": "微信公众号"
-    },
-    {
-      "title": "自媒体内容自动化 — OpenClaw 编排公众号发布",
-      "date": "2026-04-07",
-      "body": "<p>用 OpenClaw 6 个 Skill 编排：飞书写文 → 自动配图+封面+压缩+格式转换 → 一键进公众号草稿箱。发布时间从 20 分钟缩到 10 分钟。</p><p><b>搞钱启示</b>：内容自动化 = 降本增效 = 可以帮别人做。小红书+公众号代运营。</p>",
-      "tags": ["money", "ai-tool"],
-      "source": "https://mp.weixin.qq.com/s/7DD_dMPrrNQ6E67AQdZ8tQ",
-      "sourceLabel": "微信公众号"
-    }
-  ],
-  "video": [
     {
       "title": "Runway 发布 Multi-Shot App — AI 视频进入全场景自动设计时代",
       "date": "2026-04-08",
@@ -140,6 +115,30 @@
     {"name": "VACE", "desc": "局部修镜头，只改不改全", "pros": "Apache-2.0、节省80%返工", "cons": "需要精确mask"}
   ],
   "aiTool": [
+    {
+      "title": "4 个爆火的 Claude Code 开源项目 — 工具生态即搞钱",
+      "date": "2026-04-07",
+      "body": "<p>• <b>badclaude</b>：增强型提示词指令集，推特千万播放量</p><p>• <b>gstack</b>（66k星）：23个专业化角色，每日交付万行代码</p><p>• <b>claw-code</b>：最快破 10w 星</p><p>• <b>everything-claude-code</b>（14w星）：Anthropic 黑客松冠军开发</p>",
+      "tags": ["dev"],
+      "source": "https://mp.weixin.qq.com/s/m_hrgvabPE-cSdEmGsORzw",
+      "sourceLabel": "开源AI项目落地"
+    },
+    {
+      "title": "Harness Engineering = 新工种 — Agent 外壳工程师",
+      "date": "2026-04-07",
+      "body": "<p>Anthropic：同一模型只换 Harness，成功率 42% → 78%。</p><p>Stripe 每周合并 1300+ PR 全无人值守。Cursor 每小时 1000 个 commit。</p><p><b>搞钱路径</b>：帮企业搭建 Agent Harness → 咨询+定制+运维。</p>",
+      "tags": ["dev"],
+      "source": "https://mp.weixin.qq.com/s/iTLZQHw9Dkt6AsDumZZJNQ",
+      "sourceLabel": "微信公众号"
+    },
+    {
+      "title": "自媒体内容自动化 — OpenClaw 编排公众号发布",
+      "date": "2026-04-07",
+      "body": "<p>用 OpenClaw 6 个 Skill 编排：飞书写文 → 自动配图+封面+压缩+格式转换 → 一键进公众号草稿箱。发布时间从 20 分钟缩到 10 分钟。</p>",
+      "tags": ["ai-tool"],
+      "source": "https://mp.weixin.qq.com/s/7DD_dMPrrNQ6E67AQdZ8tQ",
+      "sourceLabel": "微信公众号"
+    },
     {
       "title": "Hermes Agent — 自我进化 Agent（3.2万星）",
       "date": "2026-04-08",
