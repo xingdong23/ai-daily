@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-08 17:30",
+  "lastUpdate": "2026-04-08 18:00",
   "money": [
     {
       "title": "AI 短剧/漫剧市场 — 2026 预计突破 1200 亿",
@@ -327,6 +327,12 @@
       "url": "https://xingdong23.github.io/ai-daily/docs/ai-drama-coding-prompts.md",
       "desc": "11 个提示词，交给 coding agent 搭建 AI 短剧生产系统",
       "tags": ["提示词", "coding"]
+    },
+    {
+      "name": "CutClaw — 音乐驱动长视频编辑 Agent",
+      "url": "https://github.com/GVCLab/CutClaw",
+      "desc": "Agentic Hours-Long Video Editing via Music Synchronization，音乐节拍自动对齐剪辑，309 星",
+      "tags": ["AI视频", "开源", "剪辑"]
     }
   ],
   "stock": []
