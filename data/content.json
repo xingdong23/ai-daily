@@ -334,8 +334,7 @@
       "url": "https://xingdong23.github.io/ai-daily/docs/ai-drama-coding-prompts.md",
       "desc": "11 个提示词，交给 coding agent 搭建 AI 短剧生产系统",
       "tags": ["提示词", "coding"]
-    },
-
+    }
   ],
   "stock": []
 }
