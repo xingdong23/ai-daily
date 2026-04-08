@@ -215,7 +215,7 @@
         
         async function loadData() {
             try {
-                const resp = await fetch('data/content.json');
+                const resp = await fetch('data/content.json?t=' + Date.now());
                 allData = await resp.json();
                 renderAll();
             } catch(e) {
