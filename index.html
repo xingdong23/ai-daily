@@ -166,8 +166,7 @@
         <div class="tabs">
             <button class="tab active" data-section="money">💰 搞钱</button>
             <button class="tab" data-section="video">🎬 AI 视频</button>
-            <button class="tab" data-section="ai-tool">🤖 AI 工具</button>
-            <button class="tab" data-section="dev">💻 开发工具</button>
+            <button class="tab" data-section="ai-tool">🤖 AI 资讯</button>
             <button class="tab" data-section="star">⭐ 收藏</button>
             <button class="tab" data-section="stock">📈 股票</button>
         </div>
@@ -186,13 +185,8 @@
         </div>
         
         <div id="ai-tool" class="section">
-            <div class="section-title">🤖 AI 工具 <span class="count-badge" id="ai-tool-count"></span></div>
+            <div class="section-title">🤖 AI 资讯 <span class="count-badge" id="ai-tool-count"></span></div>
             <div id="ai-tool-content"></div>
-        </div>
-        
-        <div id="dev" class="section">
-            <div class="section-title">💻 开发工具 <span class="count-badge" id="dev-count"></span></div>
-            <div id="dev-content"></div>
         </div>
         
         <div id="star" class="section">
@@ -234,7 +228,6 @@
             renderMoney();
             renderVideo();
             renderAiTool();
-            renderDev();
             renderStar();
             renderStock();
             document.getElementById('last-update').textContent = '更新于 ' + (allData.lastUpdate || '未知');
@@ -318,11 +311,8 @@
         }
         
         function renderAiTool() {
-            renderItems('ai-tool-content', allData.aiTool || [], 'ai-tool-count');
-        }
-        
-        function renderDev() {
-            renderItems('dev-content', allData.dev || [], 'dev-count');
+            const items = [...(allData.aiTool || []), ...(allData.dev || [])].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+            renderItems('ai-tool-content', items, 'ai-tool-count');
         }
         
         function renderStar() {
