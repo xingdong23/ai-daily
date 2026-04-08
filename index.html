@@ -162,6 +162,8 @@
             <button class="tab" data-section="deep">🔍 深度</button>
             <button class="tab" data-section="money">💰 搞钱</button>
             <button class="tab" data-section="tools">🛠️ 工具</button>
+            <button class="tab" data-section="todo">📋 待办</button>
+            <button class="tab" data-section="stars">⭐ 收藏</button>
         </div>
         
         <div id="daily" class="section active">
@@ -182,6 +184,16 @@
         <div id="tools" class="section">
             <div class="section-title">🛠️ 工具库</div>
             <div id="tools-content"></div>
+        </div>
+        
+        <div id="todo" class="section">
+            <div class="section-title">📋 我的待办</div>
+            <div id="todo-content"></div>
+        </div>
+        
+        <div id="stars" class="section">
+            <div class="section-title">⭐ 收藏夹</div>
+            <div id="stars-content"></div>
         </div>
         
         <footer>
@@ -209,6 +221,8 @@
             renderDeep();
             renderMoney();
             renderTools();
+            renderTodo();
+            renderStars();
             document.getElementById('last-update').textContent = '更新于 ' + (allData.lastUpdate || '未知');
         }
         
@@ -315,6 +329,87 @@
                     <div class="card-tags">${(item.tags||[]).map(t => `<span class="tag tag-${t}">${tagLabel(t)}</span>`).join('')}</div>
                 </div>
             `).join('') + '</div>';
+        }
+        
+        function renderTodo() {
+            const data = allData.todo || {};
+            const content = document.getElementById('todo-content');
+            let html = '';
+            
+            // Active
+            const active = data.active || [];
+            if (active.length > 0) {
+                html += '<h3 style="color:var(--red);margin-bottom:12px;">🔴 进行中</h3>';
+                html += active.map(item => `
+                    <div class="card">
+                        <div class="card-title">${item.title}</div>
+                        <div class="card-body"><p>${item.body}</p></div>
+                        <div class="card-tags">${(item.tags||[]).map(t => `<span class="tag tag-${t}">${tagLabel(t)}</span>`).join('')}</div>
+                    </div>
+                `).join('');
+            }
+            
+            // Backlog
+            const backlog = data.backlog || [];
+            if (backlog.length > 0) {
+                html += '<h3 style="color:var(--orange);margin:24px 0 12px;">🟡 待办池</h3>';
+                const groups = {};
+                backlog.forEach(item => {
+                    const g = item.group || '其他';
+                    if (!groups[g]) groups[g] = [];
+                    groups[g].push(item);
+                });
+                Object.entries(groups).forEach(([group, items]) => {
+                    html += `<div style="color:var(--text2);font-size:14px;margin:16px 0 8px;font-weight:600;">${group}</div>`;
+                    html += items.map(item => `
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-title" style="font-size:14px;">${item.title}</div>
+                                <div class="card-date">${item.date || ''}</div>
+                            </div>
+                            <div class="card-body"><p>${item.body}</p></div>
+                            <div class="card-tags">${(item.tags||[]).map(t => `<span class="tag tag-${t}">${tagLabel(t)}</span>`).join('')}</div>
+                        </div>
+                    `).join('');
+                });
+            }
+            
+            // Done
+            const done = data.done || [];
+            if (done.length > 0) {
+                html += '<h3 style="color:var(--green);margin:24px 0 12px;">✅ 已完成</h3>';
+                html += done.map(item => `
+                    <div class="card" style="opacity:0.7">";
+                        <div class="card-header">
+                            <div class="card-title" style="font-size:14px;text-decoration:line-through">${item.title}</div>
+                            <div class="card-date">${item.date || ''}</div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+            
+            if (!html) html = '<div class="card"><div class="card-body">暂无待办</div></div>';
+            content.innerHTML = html;
+        }
+        
+        function renderStars() {
+            const items = allData.stars || [];
+            const content = document.getElementById('stars-content');
+            if (items.length === 0) {
+                content.innerHTML = '<div class="card"><div class="card-body">暂无收藏</div></div>';
+                return;
+            }
+            content.innerHTML = items.map(item => `
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">${item.title}</div>
+                        <div class="card-date">${item.date}</div>
+                    </div>
+                    <div class="card-body">${item.body}</div>
+                    <div class="card-tags">${(item.tags||[]).map(t => `<span class="tag tag-${t}">${tagLabel(t)}</span>`).join('')}</div>
+                    ${item.source ? `<div class="card-source">🔗 <a href="${item.source}" target="_blank">${item.sourceLabel || '查看原文'}</a></div>` : ''}
+                </div>
+            `).join('');
         }
         
         // Tab switching
