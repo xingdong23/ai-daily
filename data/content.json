@@ -142,7 +142,7 @@
     "active": [
       {
         "title": "搭建 AI 短剧 demo（方案 B：OpenStoryline 路线）",
-        "body": "用自然语言驱动混剪模式先跑通"霸道总裁"第一集。工具链：GPT 写剧本 → OpenStoryline 搜索素材+剪辑 → 内置配音 → 成片。Mac Mini 本地能跑。",
+        "body": "用自然语言驱动混剪模式先跑通「霸道总裁」第一集。工具链：GPT 写剧本 → OpenStoryline 搜索素材+剪辑 → 内置配音 → 成片。Mac Mini 本地能跑。",
         "tags": ["video", "ai"],
         "date": "2026-04-08"
       },
