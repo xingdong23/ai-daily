@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI 日报 — 搞钱 · AI视频 · 工具 · 收藏</title>
+    <title>AI 日报 v2 — 搞钱 · AI视频 · 工具 · 收藏</title>
     <style>
         :root {
             --bg: #0a0a0a;
@@ -215,13 +215,17 @@
         
         async function loadData() {
             try {
-                const resp = await fetch('data/content.json?t=' + Date.now());
-                allData = await resp.json();
+                const resp = await fetch('data/content.json?v=2&t=' + Date.now());
+                if (!resp.ok) throw new Error('HTTP ' + resp.status);
+                const text = await resp.text();
+                allData = JSON.parse(text);
+                console.log('Loaded', Object.keys(allData));
                 renderAll();
             } catch(e) {
+                console.error('Load failed:', e);
                 document.querySelectorAll('.section').forEach(s => {
                     const c = s.querySelector('[id$="-content"]');
-                    if (c) c.innerHTML = '<div class="card"><div class="card-body">加载失败，请刷新页面</div></div>';
+                    if (c) c.innerHTML = '<div class="card"><div class="card-body">加载失败: ' + e.message + '</div></div>';
                 });
             }
         }
