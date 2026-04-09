@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-09 08:15",
+  "lastUpdate": "2026-04-09 09:16",
   "money": [],
   "video": [
     {
@@ -396,9 +396,55 @@
   ],
   "star": [
     {
-      "title": "Hermes Agent — 3.2万星自我进化 Agent",
-      "date": "2026-04-08",
-      "body": "<p>自动 Skill 创建 + Honcho 用户建模 + FTS5 历史搜索。hermes claw migrate 一键迁移。MIT，200+ 模型。</p>",
+      "title": "DeepTutor — 港大 Agent 原生学习助手（1.36万星）",
+      "date": "2026-04-09",
+      "body": "<p>港大数据科学实验室出品。多Agent + RAG，统一聊天工作区共享上下文。支持深度探究、Quiz 生成、数学动画、AI Co-Writer。持久化 TutorBot 支持个性化记忆演进。</p>",
+      "tags": [
+        "star",
+        "agent",
+        "education"
+      ],
+      "source": "https://github.com/HKUDS/DeepTutor",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Obsidian Skills — Obsidian 创始人的 Agent 技能包（2.18万星）",
+      "date": "2026-04-09",
+      "body": "<p>遵循 Agent Skills 规范，让 AI Agent 原生操作 Obsidian 的 Markdown 文件、Bases 数据库、JSON Canvas 及 CLI 功能。含 Defuddle 网页转干净 Markdown 工具。</p>",
+      "tags": [
+        "star",
+        "agent",
+        "tool"
+      ],
+      "source": "https://github.com/kepano/obsidian-skills",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Shannon — 白盒 AI 渗透测试工具（3.75万星）",
+      "date": "2026-04-09",
+      "body": "<p>针对 Web 应用源码的自主渗透测试。多Agent协作执行，仅在成功利用后报告的低误报策略。支持生成 PoC 演示和安全报告。</p>",
+      "tags": [
+        "star",
+        "security"
+      ],
+      "source": "https://github.com/KeygraphHQ/shannon",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "GitNexus — 浏览器端代码知识图谱（2.5万星）",
+      "date": "2026-04-09",
+      "body": "<p>纯浏览器端、零服务器的代码智能工具。拖入 GitHub 仓库自动生成交互式知识图谱，内置 Graph RAG Agent 支持自然语言代码问答。基于 Tree-sitter 多语言解析。</p>",
+      "tags": [
+        "star",
+        "dev"
+      ],
+      "source": "https://github.com/abhigyanpatwari/GitNexus",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Hermes Agent — 3.7万星自我进化 Agent（OpenClaw 竞品）",
+      "date": "2026-04-09",
+      "body": "<p>2月底开源，2个月近4万星。核心：自动 Skill 创建 + Honcho 用户建模 + FTS5 历史搜索 + 多Agent协作。支持 Telegram/Discord/Slack/CLI，200+ 模型。被社区称为龙虾第一个真正竞争对手。</p>",
       "tags": [
         "star",
         "agent"
