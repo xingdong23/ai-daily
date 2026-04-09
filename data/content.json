@@ -1,18 +1,22 @@
 {
-  "lastUpdate": "2026-04-08 18:00",
+  "lastUpdate": "2026-04-09 08:15",
   "money": [],
   "video": [
     {
       "title": "AI 短剧/漫剧市场 — 2026 预计突破 1200 亿",
       "date": "2026-04-08",
       "body": "<p>• 2024 Q4 动漫短剧观看人次突破 20 亿，付费规模 2600 万</p><p>• DataEye 预估 2026 年中国微短剧+漫剧市场规模突破 1200 亿</p><p>• 艾媒咨询预计到 2030 年 AI 漫剧市场规模超 850 亿</p><p><b>变现路径</b>：工具 SaaS + 内容制作服务 + 付费社群/教程</p>",
-      "tags": ["video"]
+      "tags": [
+        "video"
+      ]
     },
     {
       "title": "Runway 发布 Multi-Shot App — AI 视频进入全场景自动设计时代",
       "date": "2026-04-08",
       "body": "<p>文字/图片 → 最多5个连贯镜头 → 自动构图+运镜+音效+剪辑 → 电影级短片。Gen-4 Visual Reference System 跨镜头角色一致性，不需 LoRA。</p><p><b>对我们的意义</b>：如果 API 开放，可作为工具链的视频生成后端。</p>",
-      "tags": ["video"],
+      "tags": [
+        "video"
+      ],
       "source": "https://www.xiaohu.ai/c/xiaohu-ai/runway-multi-shot-app",
       "sourceLabel": "xiaohu.ai"
     },
@@ -20,7 +24,9 @@
       "title": "阿里 Wan2.7-Image — 9张参考图多主体一致性",
       "date": "2026-04-08",
       "body": "<p>统一图像生成/编辑模型。最多 9 张参考图做多主体一致性（合影、海报），精准色彩控制，超长文本渲染。API 已在百炼平台开放。</p><p><b>意义</b>：直接解决短剧角色一致性痛点。与 Wan2.1 视频生成同系列，生态协同。</p>",
-      "tags": ["video"],
+      "tags": [
+        "video"
+      ],
       "source": "https://www.xiaohu.ai/c/xiaohu-ai/wan2-7-image",
       "sourceLabel": "xiaohu.ai"
     },
@@ -28,7 +34,9 @@
       "title": "Pika 推出 AI Selves — 从视频工具转向数字分身",
       "date": "2026-04-08",
       "body": "<p>Pika Labs 耗时两年：持续记忆+自主成长+可定制人格+能主动发帖的 AI 数字分身。Waitlist 阶段。</p><p><b>信号</b>：Runway 做深，Pika 做广。纯视频工具难建壁垒。</p>",
-      "tags": ["video"],
+      "tags": [
+        "video"
+      ],
       "source": "https://www.xiaohu.ai/c/xiaohu-ai/pika-ai-ai-self",
       "sourceLabel": "xiaohu.ai"
     },
@@ -36,13 +44,17 @@
       "title": "AI 视频赛道竞品分化分析",
       "date": "2026-04-08",
       "body": "<p>• <b>模型层</b>：Runway Gen-4、阿里 Wan2.7、Sora 2、Veo 3.1</p><p>• <b>工具层</b>：白日梦（2900星）、魔因漫创（1734星）</p><p>• <b>换赛道</b>：Pika 做数字分身</p><p><b>我们的机会</b>：编排层——帮创作者串成完整生产流水线。</p>",
-      "tags": ["video"]
+      "tags": [
+        "video"
+      ]
     },
     {
       "title": "FireRed-OpenStoryline — 自然语言驱动视频制作",
       "date": "2026-04-07",
       "body": "<p>AI 视频编辑 Agent，1734 星，Apache 2.0。智能素材搜索+配音+BGM+转场+ASR 粗剪。Skill 复用：保存编辑流程换素材一键复用。Mac mini 可跑。已适配 OpenClaw。</p>",
-      "tags": ["video"],
+      "tags": [
+        "video"
+      ],
       "source": "https://github.com/FireRedTeam/FireRed-OpenStoryline",
       "sourceLabel": "GitHub"
     },
@@ -50,7 +62,9 @@
       "title": "魔因漫创 (Moyin Creator) — AI 影视生产级工具",
       "date": "2026-04-07",
       "body": "<p>2900 星，AGPL-3.0。五大板块：剧本→角色→场景→导演→S级。6层身份锚点角色一致性。支持 Seedance 2.0。多供应商 AI 调度+API Key 轮询负载均衡。</p>",
-      "tags": ["video"],
+      "tags": [
+        "video"
+      ],
       "source": "https://github.com/MemeCalculate/moyin-creator",
       "sourceLabel": "GitHub"
     },
@@ -58,7 +72,9 @@
       "title": "HunyuanVideo — 腾讯开源视频生成模型（13B）",
       "date": "2026-04-07",
       "body": "<p>13B+ 参数开源最大视频生成模型，综合排名第1。Apache 2.0。衍生：HunyuanVideo-Avatar（数字人）、HunyuanCustom（定制化）。生态：ComfyUI/Diffusers/FP8量化。</p>",
-      "tags": ["video"],
+      "tags": [
+        "video"
+      ],
       "source": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
       "sourceLabel": "GitHub"
     },
@@ -66,7 +82,9 @@
       "title": "InfiniteTalk — 音频驱动无限时长说话视频",
       "date": "2026-04-07",
       "body": "<p>基于 Wan2.1-14B，支持唇形+头部+身体+表情同步。可用于数字人口播场景。无限时长生成。</p>",
-      "tags": ["video"],
+      "tags": [
+        "video"
+      ],
       "source": "https://github.com/MeiGen-AI/InfiniteTalk",
       "sourceLabel": "GitHub"
     },
@@ -74,7 +92,10 @@
       "title": "🎬 AI 短剧开源技术方案 — 最终版（2026-04-08）",
       "date": "2026-04-08",
       "body": "<p><b>目标</b>：用开源工具复现 Runway Multi-Shot 效果，实现故事梗概→多镜头连贯短剧成片。</p><p><b>核心栈</b>：Flux+LoRA（角色定妆）→ SkyReels-V3（主镜头）→ Wan2.1（B-roll）→ HunyuanVideo-Avatar（对白表演）→ VACE（局部修补）→ CosyVoice 3.0（配音）→ MuseTalk（口型）→ HunyuanVideo-Foley（音效）→ ACE-Step（配乐）→ FFmpeg（合成）</p><p><b>硬件</b>：L20 48GB GPU，串行加载大模型</p><p><b>三阶段</b>：Week1 跑通 15 秒 demo → Week2 多角色对白 → Week3-4 音效配乐+一键流水线</p>",
-      "tags": ["video", "dev"],
+      "tags": [
+        "video",
+        "dev"
+      ],
       "source": "https://xingdong23.github.io/ai-daily/docs/ai-short-drama-tech-spec.md",
       "sourceLabel": "技术方案文档"
     },
@@ -82,7 +103,9 @@
       "title": "SkyReels-V3 — 短剧专用视频生成模型",
       "date": "2026-04-08",
       "body": "<p>昆仑万维出品，403 星。多主体参考图生成 + 音频引导视频 + Video-to-Video。14B-720P R2V / V2V + 19B Talking Avatar 三条模型线。短剧场景专用设计，角色一致性优于通用模型。</p>",
-      "tags": ["video"],
+      "tags": [
+        "video"
+      ],
       "source": "https://github.com/SkyworkAI/SkyReels-V3",
       "sourceLabel": "GitHub"
     },
@@ -90,7 +113,9 @@
       "title": "VACE — All-in-One 视频创建与编辑（ICCV 2025）",
       "date": "2026-04-08",
       "body": "<p>阿里出品，3722 星，Apache-2.0。reference-to-video + video-to-video + masked video-to-video 三合一。短剧场景：只修嘴/手/道具局部区域，不重生整段，节省 80% 返工算力。</p>",
-      "tags": ["video"],
+      "tags": [
+        "video"
+      ],
       "source": "https://github.com/ali-vilab/VACE",
       "sourceLabel": "GitHub"
     },
@@ -98,28 +123,117 @@
       "title": "HunyuanVideo-Avatar — 多角色对白表演专家",
       "date": "2026-04-08",
       "body": "<p>腾讯出品，2075 星。高动态角色动画 + 音频驱动情绪对齐 + 多角色动画。支持 portrait / upper-body / full-body 三种尺度。专门解决「把人演出来」的问题。</p>",
-      "tags": ["video"],
+      "tags": [
+        "video"
+      ],
       "source": "https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar",
       "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Meta 发布 Muse Spark — 迈向个人超级智能的第一步",
+      "date": "2026-04-09",
+      "body": "<p>Meta 发布 Muse 模型家族首款产品 Muse Spark，在多模态感知、推理、健康和 Agent 任务上达到竞争力水平。</p><p><b>亮点</b>：Contemplating 模式——编排多个 Agent 并行推理，可与 Gemini 等前沿模型的极限推理模式竞争。</p><p>已在 meta.ai 和 Meta AI app 上线。Private API preview 开放申请。</p><p><b>对我们的意义</b>：多 Agent 并行推理是趋势，短剧编排工具链可借鉴该架构。</p>",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "sourceLabel": "Meta AI Blog"
+    },
+    {
+      "title": "Happy Horse 1.0 — AI 视频生成模型登顶 Artificial Analysis 榜单（321星）",
+      "date": "2026-04-09",
+      "body": "<p>新晋 AI 视频生成模型，在 Artificial Analysis AI Video Arena 排名第1。GitHub 321 星。</p><p>官方 Demo 和更新在 happyhorses.io，信息收集仓库在 GitHub。</p><p><b>值得关注</b>：新模型快速登顶意味着视频生成赛道仍在快速演化，需持续关注其 API/开源策略。</p>",
+      "tags": [
+        "video"
+      ],
+      "source": "https://github.com/brooks376/Happy-Horse-1.0",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "KupkaProd Cinema Pipeline — 本地全自主 AI 电影工厂（32星）",
+      "date": "2026-04-09",
+      "body": "<p>文本提示 → 完整视频，100% 本地运行，无需云服务或 API Key。</p><p>自动化电影制作流水线，从脚本到成片。对短剧工具链是很好的参考架构。</p><p><b>价值</b>：验证了「本地化全流程」路线的可行性，可作为开源技术方案的竞品参考。</p>",
+      "tags": [
+        "video"
+      ],
+      "source": "https://github.com/Matticusnicholas/KupkaProd-Cinema-Pipeline",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "MegaTrain — 单张 GPU 全精度训练 100B+ 参数 LLM（HN 249分）",
+      "date": "2026-04-09",
+      "body": "<p>arXiv 论文展示在单张 GPU 上全精度训练 100B+ 参数大语言模型的方法。</p><p>对个人开发者和小团队意义重大：大幅降低训练门槛。</p><p><b>搞钱信号</b>：如果训练成本继续下降，定制化小模型+垂直场景变现将更加可行。</p>",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://arxiv.org/abs/2604.05091",
+      "sourceLabel": "arXiv"
     }
   ],
   "videoTools": [
-    {"name": "Runway Gen-4", "desc": "跨镜头角色一致性，Multi-Shot 一键出短片", "pros": "一致性最强、生态完善、API 开放", "cons": "$12-76/月、国内需梯子"},
-    {"name": "阿里 Wan2.7", "desc": "9张参考图多主体一致性，精准色彩控制", "pros": "国内直接用、百炼 API 开放", "cons": "仅图像、需配合视频模型"},
-    {"name": "魔因漫创", "desc": "6层锚点角色一致性，2900 星", "pros": "方案创新、支持 Seedance 2.0", "cons": "AGPL、Electron 桌面端"},
-    {"name": "OpenStoryline", "desc": "自然语言驱动视频编辑，1734 星", "pros": "Apache 2.0、Mac mini 可跑", "cons": "偏混剪、非纯 AI 生成"},
-    {"name": "HunyuanVideo", "desc": "13B 开源最大视频模型，排名第1", "pros": "Apache 2.0、生态丰富", "cons": "需 GPU、消费级需量化"},
-    {"name": "InfiniteTalk", "desc": "唇形+头部+身体+表情同步", "pros": "无限时长、多维度同步", "cons": "需 NVIDIA GPU、超1分钟偏色"},
-    {"name": "SkyReels-V3", "desc": "短剧专用，多主体一致+音频引导+V2V", "pros": "短剧垂直设计、多参考图", "cons": "403星社区小、ComfyUI插件少"},
-    {"name": "HunyuanVideo-Avatar", "desc": "多角色对白表演、情绪可控", "pros": "高动态、情绪对齐、三种尺度", "cons": "Tencent License、EU/UK受限"},
-    {"name": "VACE", "desc": "局部修镜头，只改不改全", "pros": "Apache-2.0、节省80%返工", "cons": "需要精确mask"}
+    {
+      "name": "Runway Gen-4",
+      "desc": "跨镜头角色一致性，Multi-Shot 一键出短片",
+      "pros": "一致性最强、生态完善、API 开放",
+      "cons": "$12-76/月、国内需梯子"
+    },
+    {
+      "name": "阿里 Wan2.7",
+      "desc": "9张参考图多主体一致性，精准色彩控制",
+      "pros": "国内直接用、百炼 API 开放",
+      "cons": "仅图像、需配合视频模型"
+    },
+    {
+      "name": "魔因漫创",
+      "desc": "6层锚点角色一致性，2900 星",
+      "pros": "方案创新、支持 Seedance 2.0",
+      "cons": "AGPL、Electron 桌面端"
+    },
+    {
+      "name": "OpenStoryline",
+      "desc": "自然语言驱动视频编辑，1734 星",
+      "pros": "Apache 2.0、Mac mini 可跑",
+      "cons": "偏混剪、非纯 AI 生成"
+    },
+    {
+      "name": "HunyuanVideo",
+      "desc": "13B 开源最大视频模型，排名第1",
+      "pros": "Apache 2.0、生态丰富",
+      "cons": "需 GPU、消费级需量化"
+    },
+    {
+      "name": "InfiniteTalk",
+      "desc": "唇形+头部+身体+表情同步",
+      "pros": "无限时长、多维度同步",
+      "cons": "需 NVIDIA GPU、超1分钟偏色"
+    },
+    {
+      "name": "SkyReels-V3",
+      "desc": "短剧专用，多主体一致+音频引导+V2V",
+      "pros": "短剧垂直设计、多参考图",
+      "cons": "403星社区小、ComfyUI插件少"
+    },
+    {
+      "name": "HunyuanVideo-Avatar",
+      "desc": "多角色对白表演、情绪可控",
+      "pros": "高动态、情绪对齐、三种尺度",
+      "cons": "Tencent License、EU/UK受限"
+    },
+    {
+      "name": "VACE",
+      "desc": "局部修镜头，只改不改全",
+      "pros": "Apache-2.0、节省80%返工",
+      "cons": "需要精确mask"
+    }
   ],
   "aiTool": [
     {
       "title": "4 个爆火的 Claude Code 开源项目 — 工具生态即搞钱",
       "date": "2026-04-07",
       "body": "<p>• <b>badclaude</b>：增强型提示词指令集，推特千万播放量</p><p>• <b>gstack</b>（66k星）：23个专业化角色，每日交付万行代码</p><p>• <b>claw-code</b>：最快破 10w 星</p><p>• <b>everything-claude-code</b>（14w星）：Anthropic 黑客松冠军开发</p>",
-      "tags": ["dev"],
+      "tags": [
+        "dev"
+      ],
       "source": "https://mp.weixin.qq.com/s/m_hrgvabPE-cSdEmGsORzw",
       "sourceLabel": "开源AI项目落地"
     },
@@ -127,7 +241,9 @@
       "title": "Harness Engineering = 新工种 — Agent 外壳工程师",
       "date": "2026-04-07",
       "body": "<p>Anthropic：同一模型只换 Harness，成功率 42% → 78%。</p><p>Stripe 每周合并 1300+ PR 全无人值守。Cursor 每小时 1000 个 commit。</p><p><b>搞钱路径</b>：帮企业搭建 Agent Harness → 咨询+定制+运维。</p>",
-      "tags": ["dev"],
+      "tags": [
+        "dev"
+      ],
       "source": "https://mp.weixin.qq.com/s/iTLZQHw9Dkt6AsDumZZJNQ",
       "sourceLabel": "微信公众号"
     },
@@ -135,7 +251,9 @@
       "title": "自媒体内容自动化 — OpenClaw 编排公众号发布",
       "date": "2026-04-07",
       "body": "<p>用 OpenClaw 6 个 Skill 编排：飞书写文 → 自动配图+封面+压缩+格式转换 → 一键进公众号草稿箱。发布时间从 20 分钟缩到 10 分钟。</p>",
-      "tags": ["ai-tool"],
+      "tags": [
+        "ai-tool"
+      ],
       "source": "https://mp.weixin.qq.com/s/7DD_dMPrrNQ6E67AQdZ8tQ",
       "sourceLabel": "微信公众号"
     },
@@ -143,7 +261,10 @@
       "title": "Hermes Agent — 自我进化 Agent（3.2万星）",
       "date": "2026-04-08",
       "body": "<p>Nous Research 出品，OpenClaw 直接竞品。自动从经验创建 Skill、Honcho 用户建模、FTS5 历史搜索。有 hermes claw migrate 一键迁移。MIT 协议，200+ 模型。</p>",
-      "tags": ["ai-tool", "agent"],
+      "tags": [
+        "ai-tool",
+        "agent"
+      ],
       "source": "https://github.com/nousresearch/hermes-agent",
       "sourceLabel": "GitHub"
     },
@@ -151,7 +272,9 @@
       "title": "OpenClaw 公众号自动发布流程 — Skill 编排实战",
       "date": "2026-04-07",
       "body": "<p>6 个 Skill 串联：配图→生成→压缩→封面→格式转换→发布。飞书写文 → 10 分钟全自动进草稿箱。</p>",
-      "tags": ["ai-tool"],
+      "tags": [
+        "ai-tool"
+      ],
       "source": "https://mp.weixin.qq.com/s/7DD_dMPrrNQ6E67AQdZ8tQ",
       "sourceLabel": "微信公众号"
     },
@@ -159,9 +282,74 @@
       "title": "Karpathy LLM Wiki — 个人知识库方法论",
       "date": "2026-04-06",
       "body": "<p>用 LLM 构建个人知识库。raw/ 索引进源文档 → LLM 编译 wiki → 按目录结构组织 .md → 全部串联。中小规模用 LLM+MD+Wiki，精确工程化用 RAG。</p>",
-      "tags": ["ai-tool"],
+      "tags": [
+        "ai-tool"
+      ],
       "source": "https://mp.weixin.qq.com/s/gZWm3wMGGnKd7zlLPGgIPg",
       "sourceLabel": "微信公众号"
+    },
+    {
+      "title": "Hermes Agent 橙皮书 — 从入门到精通实战指南（390星）",
+      "date": "2026-04-09",
+      "body": "<p>中文社区出品的 Hermes Agent 完整实战指南，Nous Research 开源 AI Agent 框架。</p><p>390 星，覆盖从零到生产的全流程。与 OpenClaw 直接竞品的生态正在快速成熟。</p>",
+      "tags": [
+        "ai-tool",
+        "agent"
+      ],
+      "source": "https://github.com/alchaincyf/hermes-agent-orange-book",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Learn OpenHarness — 12 章交互式教程（125星）",
+      "date": "2026-04-09",
+      "body": "<p>OpenHarness 官方交互式教程，零到英雄 12 章。类似 Claude Code 的 Agent 编排学习路径。</p><p>Harness Engineering 生态的配套教育资源，验证了「Agent 外壳工程师」这个新工种的需求。</p>",
+      "tags": [
+        "ai-tool"
+      ],
+      "source": "https://github.com/joyehuang/Learn-Open-Harness",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "auto-deep-researcher-24x7 — 7×24 自主深度学习实验 Agent（123星）",
+      "date": "2026-04-09",
+      "body": "<p>自主 AI Agent，24/7 运行你的深度学习实验，零成本监控。</p><p>自动跑实验、调参、追踪 Leaderboard。睡觉时让 AI 帮你炼丹。</p><p><b>搞钱场景</b>：AI for Science / AI 辅助科研的自动化工具链。</p>",
+      "tags": [
+        "ai-tool",
+        "agent"
+      ],
+      "source": "https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "MindAct — AI Agent + 专业知识 = 真正自主 AI（114星）",
+      "date": "2026-04-09",
+      "body": "<p>核心理念：通用 Agent + 领域知识注入 = 领域专家 Agent。</p><p>与我们短剧工具链的思路一致——不是从零训练，而是把专业知识打包给通用 Agent。</p>",
+      "tags": [
+        "agent"
+      ],
+      "source": "https://github.com/KeploreAI-Lab/MindAct",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "TaoBaoApis — 淘宝算法逆向 + AI Agent 基座（79星）",
+      "date": "2026-04-09",
+      "body": "<p>淘宝 API 逆向工程 + WebSocket 自动运营 + AI Agent 基座。</p><p>电商自动化 + AI Agent 的交叉点，可直接用于电商运营搞钱。</p>",
+      "tags": [
+        "ai-tool",
+        "money"
+      ],
+      "source": "https://github.com/cv-cat/TaoBaoApis",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "repo-analyzer — AI 开源项目架构分析技能（79星）",
+      "date": "2026-04-09",
+      "body": "<p>AI Coding Agent Skill，深度分析开源项目架构。一句话生成专业级分析报告。</p><p>可作为 Agent 工具链中的「代码审计」模块复用。</p>",
+      "tags": [
+        "ai-tool"
+      ],
+      "source": "https://github.com/yzddmr6/repo-analyzer",
+      "sourceLabel": "GitHub"
     }
   ],
   "dev": [
@@ -169,7 +357,9 @@
       "title": "Claude Code System Prompt 逆向工程完整指南",
       "date": "2026-04-07",
       "body": "<p>Claude Code prompt 是<b>模块化动态拼接</b>：Intro→System→Doing Tasks→Actions→Using Tools→Tone→Output Efficiency。</p><p>核心设计：用户类型区分、权限分层（可逆 vs 不可逆）、独立验证 Agent、反过度工程（不做超出要求的改进）。</p>",
-      "tags": ["dev"],
+      "tags": [
+        "dev"
+      ],
       "source": "https://medium.com/@fengliu_367/the-complete-guide-to-writing-agent-system-prompts-lessons-from-reverse-engineering-claude-code-09ecd87c7cc1",
       "sourceLabel": "Medium"
     },
@@ -177,7 +367,9 @@
       "title": "Harness Engineering — Anthropic 实战：独立评估器跳出当局者迷",
       "date": "2026-04-07",
       "body": "<p><b>核心公式</b>：Agent = Model + Harness</p><p>Anthropic：任务拆分→增量完成→做好交接。独立评估器负责挑刺。</p><p>OpenAI Codex：5个月百万行代码零人工，人类职责=设计环境+反馈回路。</p><p>LangChain：同一模型只优化 Harness，Top 30 → Top 5。</p>",
-      "tags": ["dev"],
+      "tags": [
+        "dev"
+      ],
       "source": "https://mp.weixin.qq.com/s/iTLZQHw9Dkt6AsDumZZJNQ",
       "sourceLabel": "微信公众号"
     },
@@ -185,7 +377,9 @@
       "title": "Harness Engineering 企业级 — Salesforce/SAP/UiPath 三案例",
       "date": "2026-04-07",
       "body": "<p>三支柱：上下文工程 + 架构约束 + 熵增对抗。</p><p>Salesforce：18,500企业月30亿工作流。SAP Joule：350个AI功能+2,400个技能。UiPath Maestro：同时编排 AI+RPA+人类，ARR 18.5亿。</p><p><b>结论</b>：真正稀缺的能力不在模型里，在模型外面。且每隔几个月得重写一次。</p>",
-      "tags": ["dev"],
+      "tags": [
+        "dev"
+      ],
       "source": "https://mp.weixin.qq.com/s/1p69Vz8c3IplEYehCzmAKw",
       "sourceLabel": "微信公众号"
     },
@@ -193,7 +387,9 @@
       "title": "gstack — Claude Code 23角色专家技能包（66k星）",
       "date": "2026-04-07",
       "body": "<p>覆盖产品构思→技术规划→代码实现→视觉测试全生命周期。CEO、设计师、架构师、QA 等角色。每日交付万行代码。</p>",
-      "tags": ["dev"],
+      "tags": [
+        "dev"
+      ],
       "source": "https://github.com/garrytan/gstack",
       "sourceLabel": "GitHub"
     }
@@ -203,7 +399,10 @@
       "title": "Hermes Agent — 3.2万星自我进化 Agent",
       "date": "2026-04-08",
       "body": "<p>自动 Skill 创建 + Honcho 用户建模 + FTS5 历史搜索。hermes claw migrate 一键迁移。MIT，200+ 模型。</p>",
-      "tags": ["star", "agent"],
+      "tags": [
+        "star",
+        "agent"
+      ],
       "source": "https://github.com/nousresearch/hermes-agent",
       "sourceLabel": "GitHub"
     },
@@ -211,7 +410,10 @@
       "title": "Runway Multi-Shot App",
       "date": "2026-04-08",
       "body": "<p>文字/图片 → 5个连贯镜头 → 自动构图+运镜+音效+剪辑。Gen-4 跨镜头角色一致性。</p>",
-      "tags": ["star", "video"],
+      "tags": [
+        "star",
+        "video"
+      ],
       "source": "https://www.xiaohu.ai/c/xiaohu-ai/runway-multi-shot-app",
       "sourceLabel": "xiaohu.ai"
     },
@@ -219,7 +421,10 @@
       "title": "Wan2.7-Image — 阿里统一图像模型",
       "date": "2026-04-08",
       "body": "<p>9张参考图多主体一致性、精准色彩控制、百炼 API 开放。</p>",
-      "tags": ["star", "video"],
+      "tags": [
+        "star",
+        "video"
+      ],
       "source": "https://www.xiaohu.ai/c/xiaohu-ai/wan2-7-image",
       "sourceLabel": "xiaohu.ai"
     },
@@ -227,7 +432,10 @@
       "title": "Pika AI Selves — 数字分身",
       "date": "2026-04-08",
       "body": "<p>持续记忆+自主成长+可定制人格+主动发帖。Waitlist。</p>",
-      "tags": ["star", "agent"],
+      "tags": [
+        "star",
+        "agent"
+      ],
       "source": "https://www.xiaohu.ai/c/xiaohu-ai/pika-ai-ai-self",
       "sourceLabel": "xiaohu.ai"
     },
@@ -235,7 +443,10 @@
       "title": "Claude Code System Prompt 逆向工程",
       "date": "2026-04-07",
       "body": "<p>模块化动态拼接架构、权限分层、独立验证 Agent、反过度工程。</p>",
-      "tags": ["star", "dev"],
+      "tags": [
+        "star",
+        "dev"
+      ],
       "source": "https://medium.com/@fengliu_367/the-complete-guide-to-writing-agent-system-prompts-lessons-from-reverse-engineering-claude-code-09ecd87c7cc1",
       "sourceLabel": "Medium"
     },
@@ -243,7 +454,10 @@
       "title": "FireRed-OpenStoryline — AI 视频编辑 Agent",
       "date": "2026-04-07",
       "body": "<p>Apache 2.0，Mac mini 可跑，已适配 OpenClaw。</p>",
-      "tags": ["star", "video"],
+      "tags": [
+        "star",
+        "video"
+      ],
       "source": "https://github.com/FireRedTeam/FireRed-OpenStoryline",
       "sourceLabel": "GitHub"
     },
@@ -251,7 +465,10 @@
       "title": "魔因漫创 — 6层锚点角色一致性",
       "date": "2026-04-07",
       "body": "<p>2900 星，五大板块全流程，支持 Seedance 2.0。</p>",
-      "tags": ["star", "video"],
+      "tags": [
+        "star",
+        "video"
+      ],
       "source": "https://github.com/MemeCalculate/moyin-creator",
       "sourceLabel": "GitHub"
     },
@@ -259,7 +476,10 @@
       "title": "HunyuanVideo — 腾讯 13B 视频模型",
       "date": "2026-04-07",
       "body": "<p>开源最大，综合排名第1。Apache 2.0。</p>",
-      "tags": ["star", "video"],
+      "tags": [
+        "star",
+        "video"
+      ],
       "source": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
       "sourceLabel": "GitHub"
     },
@@ -267,7 +487,10 @@
       "title": "InfiniteTalk — 无限时长说话视频",
       "date": "2026-04-07",
       "body": "<p>基于 Wan2.1-14B，唇形+头部+身体+表情同步。</p>",
-      "tags": ["star", "video"],
+      "tags": [
+        "star",
+        "video"
+      ],
       "source": "https://github.com/MeiGen-AI/InfiniteTalk",
       "sourceLabel": "GitHub"
     },
@@ -275,7 +498,10 @@
       "title": "Harness Engineering 三篇合集",
       "date": "2026-04-07",
       "body": "<p>Anthropic 实战 + OpenAI Codex 百万行代码 + 企业级案例（Salesforce/SAP/UiPath）。</p>",
-      "tags": ["star", "dev"],
+      "tags": [
+        "star",
+        "dev"
+      ],
       "source": "https://mp.weixin.qq.com/s/iTLZQHw9Dkt6AsDumZZJNQ",
       "sourceLabel": "微信公众号"
     },
@@ -283,7 +509,10 @@
       "title": "OpenClaw 公众号自动发布",
       "date": "2026-04-07",
       "body": "<p>6 个 Skill 编排，飞书→公众号 10 分钟全自动。</p>",
-      "tags": ["star", "ai-tool"],
+      "tags": [
+        "star",
+        "ai-tool"
+      ],
       "source": "https://mp.weixin.qq.com/s/7DD_dMPrrNQ6E67AQdZ8tQ",
       "sourceLabel": "微信公众号"
     },
@@ -291,7 +520,10 @@
       "title": "Karpathy LLM Wiki 方法论",
       "date": "2026-04-06",
       "body": "<p>raw/ → LLM 编译 wiki → 全部串联。中小规模够用。</p>",
-      "tags": ["star", "ai-tool"],
+      "tags": [
+        "star",
+        "ai-tool"
+      ],
       "source": "https://mp.weixin.qq.com/s/gZWm3wMGGnKd7zlLPGgIPg",
       "sourceLabel": "微信公众号"
     },
@@ -299,9 +531,56 @@
       "title": "CutClaw — 音乐驱动长视频编辑 Agent（309星）",
       "date": "2026-04-08",
       "body": "<p>多智能体协作：编剧+剪辑+审阅，音乐节拍自动对齐剪辑，长视频→高质量短片。支持 Gemini-3/Qwen3.5/GPT-5.3，Streamlit+CLI 双模式。</p><p><b>对我们的意义</b>：后期卡点剪辑自动化，比手动 FFmpeg 时间轴优雅。</p>",
-      "tags": ["star", "video"],
+      "tags": [
+        "star",
+        "video"
+      ],
       "source": "https://github.com/GVCLab/CutClaw",
       "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Meta Muse Spark — 个人超级智能模型",
+      "date": "2026-04-09",
+      "body": "<p>多 Agent 并行推理（Contemplating 模式）、多模态感知+推理+Agent。meta.ai 已上线。</p>",
+      "tags": [
+        "star",
+        "ai"
+      ],
+      "source": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "sourceLabel": "Meta AI Blog"
+    },
+    {
+      "title": "Happy Horse — AI Video Arena 排名第1",
+      "date": "2026-04-09",
+      "body": "<p>新晋视频生成模型登顶，321 星。</p>",
+      "tags": [
+        "star",
+        "video"
+      ],
+      "source": "https://github.com/brooks376/Happy-Horse-1.0",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Hermes Agent 橙皮书",
+      "date": "2026-04-09",
+      "body": "<p>390 星，Nous Research 开源 Agent 框架中文实战指南。</p>",
+      "tags": [
+        "star",
+        "agent"
+      ],
+      "source": "https://github.com/alchaincyf/hermes-agent-orange-book",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "MegaTrain — 单卡训练 100B+ LLM",
+      "date": "2026-04-09",
+      "body": "<p>HN 249 分，全精度训练，大幅降低训练门槛。</p>",
+      "tags": [
+        "star",
+        "ai"
+      ],
+      "source": "https://arxiv.org/abs/2604.05091",
+      "sourceLabel": "arXiv"
     }
   ],
   "sites": [
@@ -309,31 +588,47 @@
       "name": "AI开源项目知识库 (AI-GitHub)",
       "url": "https://qyxznlkmwx.feishu.cn/wiki/BwWIwsCOuiMWGmkUzNHcKLvPnPh",
       "desc": "AI 开源项目全景知识库：数字人、TTS、视频生成、换脸、换衣、3D、游戏、Agent 等，每日更新，含详细评测和教程",
-      "tags": ["知识库", "AI", "开源", "必藏"]
+      "tags": [
+        "知识库",
+        "AI",
+        "开源",
+        "必藏"
+      ]
     },
     {
       "name": "xiaohu.ai — AI 前沿资讯",
       "url": "https://www.xiaohu.ai",
       "desc": "AI 领域最新产品发布、模型更新、行业动态，更新及时",
-      "tags": ["资讯", "AI"]
+      "tags": [
+        "资讯",
+        "AI"
+      ]
     },
     {
       "name": "GitHub Trending",
       "url": "https://github.com/trending",
       "desc": "全球开发者最热开源项目，每日更新",
-      "tags": ["开发", "开源"]
+      "tags": [
+        "开发",
+        "开源"
+      ]
     },
     {
       "name": "AI 日报技术方案文档",
       "url": "https://xingdong23.github.io/ai-daily/docs/ai-short-drama-tech-spec.md",
       "desc": "AI 短剧开源技术方案完整文档（含工具规格、部署清单、分镜格式）",
-      "tags": ["技术文档"]
+      "tags": [
+        "技术文档"
+      ]
     },
     {
       "name": "AI 日报 Coding Prompts",
       "url": "https://xingdong23.github.io/ai-daily/docs/ai-drama-coding-prompts.md",
       "desc": "11 个提示词，交给 coding agent 搭建 AI 短剧生产系统",
-      "tags": ["提示词", "coding"]
+      "tags": [
+        "提示词",
+        "coding"
+      ]
     }
   ],
   "stock": []
