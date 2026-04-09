@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-09 17:15",
+  "lastUpdate": "2026-04-09 19:35",
   "money": [],
   "video": [
     {
@@ -395,6 +395,17 @@
     }
   ],
   "star": [
+    {
+      "title": "六大 AI Agent 框架核心原理解读（OpenClaw/Claude Code/NanoBot/Hermes/ZeroClaw/PicoClaw）",
+      "date": "2026-04-09",
+      "body": "<p><b>硅基捕手维克托</b>万字长文，深度拆解 6 个框架的 Agent Loop、上下文管理、记忆、技能系统。</p><p><b>关键对比</b>：Claude Code 五层上下文压缩最精密；Hermes Agent 把持续学习做成可运行系统工程（FTS5+Honcho+nudge）；NanoBot Dream 两阶段记忆最有创意；PicoClaw EventBus+Go 并发+Steering 实时注入最干净。</p><p><b>共同盲区</b>：没有一个框架解决\"如何从零构建高质量技能库\"的问题。</p>",
+      "tags": [
+        "dev",
+        "agent"
+      ],
+      "source": "https://mp.weixin.qq.com/s/RDGdfJMABIPLMrLPGlDtlQ",
+      "sourceLabel": "硅基捕手维克托/公众号"
+    },
     {
       "title": "从 Rule、Spec 到 Harness：AI Coding 渐进式建设路径",
       "date": "2026-04-09",
