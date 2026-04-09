@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-09 19:35",
+  "lastUpdate": "2026-04-09 20:10",
   "money": [],
   "video": [
     {
@@ -720,9 +720,40 @@
       ]
     }
   ],
-  "stock": [],
+  "stock": [
+    {
+      "title": "把Tradingview接进Claude后，发现看盘的逻辑全变了",
+      "date": "2026-04-09",
+      "body": "<p><b>核心发现</b>：开源项目 tradingview-mcp 可将 TradingView 实时数据+30+技术指标接入 Claude Desktop，实现 AI 驱动的实时看盘。</p><p><b>三大AI分析师协同</b>：技术派（MACD/RSI/布林带）+ 情绪派（Reddit+路透社RSS）+ 风控派（波动率/最大回撤），三方博弈后输出带置信度的 BUY/SELL 评级。</p><p><b>回测能力</b>：内置6种经典策略（Supertrend、布林带均值回归、MACD、海龟突破等），含滑点和手续费，输出夏普比率和胜率。</p><p><b>数据源</b>：Yahoo Finance，覆盖美股/ETF/加密/外汇，支持15+种K线形态自动侦测。</p><p><b>接入方式</b>：uvx tradingview-mcp-server → Claude Desktop config → 重启即用。</p><p><b>项目地址</b>：GitHub atilaahmettaner/tradingview-mcp</p><p><b>对TradeClaw的启发</b>：这个架构跟我们的多Agent交易系统高度吻合——可以复用其MCP协议层+多人格分析框架，集成到 TradeClaw 产品中。</p>",
+      "tags": [
+        "stock"
+      ],
+      "source": "https://mp.weixin.qq.com/s/D8TkHsmNlLSfmr5vcaeXLQ",
+      "sourceLabel": "微信公众号·AgenTask"
+    },
+    {
+      "title": "📈 股票监控标的 & Polymarket 量化策略",
+      "date": "2026-04-09",
+      "body": "<p><b>当前持仓</b>：USAR 100股@$16.75 | AVGO 7股@$325.27（4/9盘前$351.98，浮盈+$187）</p><p><b>关注标的（护城河+大空间）</b>：</p><ul><li>RKLB $69 — 火箭实验室，SpaceX外唯一可复用火箭，目标买入价$60</li><li>ASTS $36.5 — 太空5G，手机直连卫星垄断，已涨48%暂不追</li><li>NKE $43 — 耐克52周最低1%位，回到$80即+86%</li><li>OKLO $50 — SMR微堆，Sam Altman投资，空间+286%</li></ul><p><b>Polymarket 量化方案</b>：</p><ul><li>方案A：BTC 15分钟Up/Down套利（poly-market-arbitrage-bot，827⭐）</li><li>方案B：跟单交易（Prediction-Markets-Trading-Bot-Toolkits，248⭐，Rust）</li></ul><p><b>执行计划</b>：第一周模拟跑 → 第二周小资金实盘50U → 第三周根据数据决定加仓</p>",
+      "tags": [
+        "stock"
+      ]
+    }
+  ],
   "todo": {
     "active": [
+      {
+        "title": "Polymarket 量化部署（方案A套利+方案B跟单）",
+        "desc": "第一步：clone两个bot到东京VPS，模拟跑7天。第二步：50U实盘试水。方案A用 polymarket-arbitrage-trading-bot，方案B用 Prediction-Markets-Trading-Bot-Toolkits。",
+        "date": "2026-04-09",
+        "status": "active"
+      },
+      {
+        "title": "评估 tradingview-mcp 接入 TradeClaw",
+        "desc": "开源项目 atilaahmettaner/tradingview-mcp，MCP协议+三人格分析框架，可复用到 TradeClaw 多Agent架构中。先本地跑通，评估实用性。",
+        "date": "2026-04-09",
+        "status": "active"
+      },
       {
         "title": "搭建 AI 短剧 demo（方案 B：OpenStoryline 路线）",
         "desc": "",
