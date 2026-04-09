@@ -675,7 +675,101 @@
         "提示词",
         "coding"
       ]
+    },
+    {
+      "name": "全民效率神器 — AI工具导航",
+      "url": "https://ai-tool.indevs.in/",
+      "desc": "2026 最新 AI 工具导航站，收录 1000+ AI 工具、免费资源、OpenClaw 自动化、量化投研、搜索框架与商业化案例。支持分类、专题、热度筛选。",
+      "tags": [
+        "AI工具",
+        "导航站",
+        "必藏"
+      ]
     }
   ],
-  "stock": []
+  "stock": [],
+  "todo": {
+    "active": [
+      {
+        "title": "搭建 AI 短剧 demo（方案 B：OpenStoryline 路线）",
+        "desc": "",
+        "date": "",
+        "status": "active"
+      },
+      {
+        "title": "竞品深入调研",
+        "desc": "",
+        "date": "",
+        "status": "active"
+      },
+      {
+        "title": "评估 FireRed-OpenStoryline 作为 demo 基座",
+        "desc": "",
+        "date": "",
+        "status": "active"
+      }
+    ],
+    "backlog": [
+      {
+        "title": "搭建 AI 短剧 demo",
+        "desc": "",
+        "date": "",
+        "status": "backlog"
+      },
+      {
+        "title": "竞品深入调研",
+        "desc": "",
+        "date": "",
+        "status": "backlog"
+      },
+      {
+        "title": "评估 FireRed-OpenStoryline",
+        "desc": "",
+        "date": "",
+        "status": "backlog"
+      },
+      {
+        "title": "评估魔因漫创架构",
+        "desc": "",
+        "date": "",
+        "status": "backlog"
+      },
+      {
+        "title": "InfiniteTalk + HunyuanVideo-Avatar 对比测试",
+        "desc": "",
+        "date": "",
+        "status": "backlog"
+      },
+      {
+        "title": "TradeClaw 产品化",
+        "desc": "",
+        "date": "",
+        "status": "backlog"
+      },
+      {
+        "title": "自媒体内容生产线",
+        "desc": "",
+        "date": "",
+        "status": "backlog"
+      },
+      {
+        "title": "X 自动浏览推送",
+        "desc": "",
+        "date": "",
+        "status": "backlog"
+      },
+      {
+        "title": "个人知识库持续整理",
+        "desc": "",
+        "date": "",
+        "status": "backlog"
+      },
+      {
+        "title": "LoRA 训练实践",
+        "desc": "",
+        "date": "",
+        "status": "backlog"
+      }
+    ]
+  }
 }

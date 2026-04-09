@@ -168,6 +168,7 @@
             <button class="tab" data-section="ai-tool">🤖 AI 资讯</button>
             <button class="tab" data-section="star">⭐ 收藏</button>
             <button class="tab" data-section="sites">🔗 站点</button>
+            <button class="tab" data-section="todo">📋 TODO</button>
             <button class="tab" data-section="stock">📈 股票</button>
         </div>
         
@@ -189,6 +190,11 @@
             <div id="star-content"></div>
         </div>
         
+        <div id="todo" class="section">
+            <div class="section-title">📋 TODO <span class="count-badge" id="todo-count"></span></div>
+            <div id="todo-content"></div>
+        </div>
+
         <div id="sites" class="section">
             <div class="section-title">🔗 优质站点 <span class="count-badge" id="sites-count"></span></div>
             <div id="sites-content"></div>
@@ -230,6 +236,7 @@
             renderSites();
             renderStar();
             renderStock();
+            renderTodo();
             document.getElementById('last-update').textContent = '更新于 ' + (allData.lastUpdate || '未知');
         }
         
@@ -330,6 +337,42 @@
         
         function renderStock() {
             renderItems('stock-content', allData.stock || [], 'stock-count');
+        }
+        
+        function renderTodo() {
+            const todo = allData.todo || { active: [], backlog: [] };
+            const active = todo.active || [];
+            const backlog = todo.backlog || [];
+            const total = active.length + backlog.length;
+            document.getElementById('todo-count').textContent = active.length + ' 进行 / ' + backlog.length + ' 待定';
+            
+            let html = '';
+            if (active.length > 0) {
+                html += '<h3 style="color:var(--green);margin-bottom:12px;">🔴 进行中 (' + active.length + ')</h3>';
+                active.forEach(item => {
+                    html += '<div class="card" style="border-left:3px solid var(--orange);">
+                        <div class="card-header">
+                            <div class="card-title">' + item.title + '</div>
+                            <div class="card-date">' + (item.date || '') + '</div>
+                        </div>
+                        <div class="card-body">' + item.desc + '</div>
+                    </div>';
+                });
+            }
+            if (backlog.length > 0) {
+                html += '<h3 style="color:var(--text2);margin:24px 0 12px;">📋 待定 (' + backlog.length + ')</h3>';
+                backlog.forEach(item => {
+                    html += '<div class="card" style="border-left:3px solid var(--border);">
+                        <div class="card-header">
+                            <div class="card-title" style="color:var(--text2);">' + item.title + '</div>
+                            <div class="card-date">' + (item.date || '') + '</div>
+                        </div>
+                        <div class="card-body">' + item.desc + '</div>
+                    </div>';
+                });
+            }
+            if (!html) html = '<div class="card"><div class="card-body">暂无 TODO</div></div>';
+            document.getElementById('todo-content').innerHTML = html;
         }
         
         // Tab switching
