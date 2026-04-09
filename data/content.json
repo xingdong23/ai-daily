@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-09 09:16",
+  "lastUpdate": "2026-04-09 17:15",
   "money": [],
   "video": [
     {
@@ -395,6 +395,28 @@
     }
   ],
   "star": [
+    {
+      "title": "从 Rule、Spec 到 Harness：AI Coding 渐进式建设路径",
+      "date": "2026-04-09",
+      "body": "<p>Phodal 总结的 AI Coding 落地方法论：<b>Rule</b>（不要乱来）→ <b>Spec</b>（这次只做什么）→ <b>Loop</b>（持续收敛）→ <b>Harness</b>（结果凭什么被接纳）。核心洞察：AI Coding 瓶颈在接收端而非生成端。试点靠个人兜底，规模化必须靠系统兜底。Rule/Spec/Loop/Harness 是递进关系，不是并列模块。</p>",
+      "tags": [
+        "dev",
+        "agent"
+      ],
+      "source": "https://mp.weixin.qq.com/s/UCh2bPzMZjNBMBCCJysuNw",
+      "sourceLabel": "Phodal/公众号"
+    },
+    {
+      "title": "claude-code-best-practice — 3.2万星 Claude Code 最佳实践",
+      "date": "2026-04-09",
+      "body": "<p>系统化 Claude Code 使用指南，收录 86+ 实战技巧。紧跟 Beta 功能（Ultraplan/Web/Auto Mode 等），横向对比 6+ 套主流工作流（Everything Claude Code/Superpowers/Spec Kit/gstack 等），每个标注 Star 数和适用场景。核心：追求质量选 Superpowers，效率选 Get Shit Done，全家桶选 Everything Claude Code。</p>",
+      "tags": [
+        "dev",
+        "agent"
+      ],
+      "source": "https://github.com/shanraisshan/claude-code-best-practice",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "DeepTutor — 港大 Agent 原生学习助手（1.36万星）",
       "date": "2026-04-09",
