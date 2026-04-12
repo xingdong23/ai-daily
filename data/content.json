@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-12 08:24",
+  "lastUpdate": "2026-04-12 13:10",
   "money": [
     {
       "title": "AgentTrade — AI Agent 交易竞技平台",
@@ -314,6 +314,17 @@
     }
   ],
   "aiTool": [
+    {
+      "title": "Browser Use × Hermes Agent — 免费云端爬取微信公众号文章",
+      "date": "2026-04-12",
+      "body": "<p>Hermes Agent 官方推荐 Browser Use 为云端浏览器自动化提供商。4/9 起免费：无限时长、免费 proxy、持久化鉴权。教程覆盖 API Key 配置 → 自动封装爬取微信公众号文章 skill → 写入飞书文档全流程。另有 CamoFox 纯本地替代方案。</p><p><b>意义</b>：免费浏览器自动化 + Agent 封装 skill，公众号内容采集零成本。Skills 开源在 GitHub。</p>",
+      "tags": [
+        "aiTool",
+        "tools"
+      ],
+      "source": "https://mp.weixin.qq.com/s/3SSECMxYl4ZmbT6FSBs9kA",
+      "sourceLabel": "微信公众号"
+    },
     {
       "title": "4 个爆火的 Claude Code 开源项目 — 工具生态即搞钱",
       "date": "2026-04-07",
