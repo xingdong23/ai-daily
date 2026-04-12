@@ -124,6 +124,67 @@
         .tag-star { background: rgba(245,158,11,0.15); color: var(--orange); }
         .tag-stock { background: rgba(6,182,212,0.15); color: var(--cyan); }
         .tag-agent { background: rgba(236,72,153,0.15); color: var(--pink); }
+
+        /* Stock Monitor Styles */
+        .stock-summary {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 10px; margin-bottom: 20px;
+        }
+        .stat-card {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 10px; padding: 14px; text-align: center;
+        }
+        .stat-card .label { font-size: 11px; color: var(--text2); margin-bottom: 4px; }
+        .stat-card .value { font-size: 20px; font-weight: 700; }
+        .stat-card .sub { font-size: 11px; color: var(--text2); margin-top: 2px; }
+        .stock-group-title {
+            font-size: 15px; font-weight: 600; margin: 20px 0 10px;
+            padding-left: 8px; border-left: 3px solid var(--accent);
+        }
+        .stock-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        .stock-table th {
+            text-align: left; padding: 8px 10px; color: var(--text2);
+            border-bottom: 1px solid var(--border); font-weight: 500;
+            font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
+            white-space: nowrap;
+        }
+        .stock-table td {
+            padding: 10px; border-bottom: 1px solid var(--border);
+            white-space: nowrap;
+        }
+        .stock-table tr:hover { background: var(--surface); }
+        .stock-table .sym { font-weight: 700; font-size: 14px; }
+        .stock-table .price { font-weight: 600; font-variant-numeric: tabular-nums; }
+        .up { color: var(--green); }
+        .down { color: var(--red); }
+        .flat { color: var(--text2); }
+        .tier-badge {
+            display: inline-block; padding: 1px 7px; border-radius: 4px;
+            font-size: 11px; font-weight: 600;
+        }
+        .tier-1 { background: rgba(34,197,94,0.15); color: var(--green); }
+        .tier-2 { background: rgba(245,158,11,0.15); color: var(--orange); }
+        .tier-3 { background: rgba(156,163,175,0.15); color: var(--text2); }
+        .rec-badge { font-size: 11px; padding: 1px 6px; border-radius: 4px; font-weight: 500; }
+        .rec-buy { background: rgba(34,197,94,0.15); color: var(--green); }
+        .rec-hold { background: rgba(245,158,11,0.15); color: var(--orange); }
+        .rec-sell { background: rgba(239,68,68,0.15); color: var(--red); }
+        .holding-row { background: rgba(99,102,241,0.05); }
+        .holding-row:hover { background: rgba(99,102,241,0.1); }
+        .pnl-tag { font-size: 12px; font-weight: 600; }
+        .stock-notes { font-size: 11px; color: var(--text2); max-width: 180px; overflow: hidden; text-overflow: ellipsis; }
+        .refresh-btn {
+            float: right; padding: 6px 14px; border-radius: 6px;
+            background: var(--surface); border: 1px solid var(--border);
+            color: var(--text2); cursor: pointer; font-size: 12px;
+            transition: all 0.2s;
+        }
+        .refresh-btn:hover { color: var(--text); border-color: var(--accent); }
+        @media (max-width: 700px) {
+            .stock-table { font-size: 11px; }
+            .stock-table th, .stock-table td { padding: 6px 5px; }
+            .stock-notes { max-width: 100px; }
+        }
         
         .card-source { font-size: 12px; color: var(--text2); margin-top: 8px; }
         .card-source a { color: var(--accent); text-decoration: none; }
@@ -335,8 +396,105 @@
             renderItems('star-content', allData.star || [], 'star-count');
         }
         
-        function renderStock() {
-            renderItems('stock-content', allData.stock || [], 'stock-count');
+        async function renderStock() {
+            const container = document.getElementById('stock-content');
+            try {
+                const resp = await fetch('data/stocks.json?v=1&t=' + Date.now());
+                const data = await resp.json();
+                const stocks = data.stocks || [];
+                document.getElementById('stock-count').textContent = stocks.length + ' 只';
+
+                // Summary cards
+                const holdings = stocks.filter(s => s.group === '持仓');
+                const totalPnl = holdings.reduce((sum, s) => sum + (s.pnl || 0), 0);
+                const upCount = stocks.filter(s => s.change > 0).length;
+                const downCount = stocks.filter(s => s.change < 0).length;
+
+                let html = `<div class="stock-summary">
+                    <div class="stat-card">
+                        <div class="label">监控总数</div>
+                        <div class="value">${stocks.length}</div>
+                        <div class="sub">持仓 ${holdings.length} / 候选 ${stocks.length - holdings.length}</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="label">持仓盈亏</div>
+                        <div class="value ${totalPnl >= 0 ? 'up' : 'down'}">$${totalPnl >= 0 ? '+' : ''}${totalPnl.toFixed(0)}</div>
+                        <div class="sub">${holdings.length} 只持仓</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="label">今日涨跌</div>
+                        <div class="value"><span class="up">↑${upCount}</span> <span class="down">↓${downCount}</span></div>
+                        <div class="sub">${data.lastUpdate ? data.lastUpdate.split(' ')[0] : ''}</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="label">CRDO</div>
+                        <div class="value ${stocks.find(s=>s.sym==='CRDO')?.change >= 0 ? 'up' : 'down'}">$${stocks.find(s=>s.sym==='CRDO')?.price || '-'}</div>
+                        <div class="sub">目标 $199</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="label">RDDT</div>
+                        <div class="value ${stocks.find(s=>s.sym==='RDDT')?.change >= 0 ? 'up' : 'down'}">$${stocks.find(s=>s.sym==='RDDT')?.price || '-'}</div>
+                        <div class="sub">目标 $230</div>
+                    </div>
+                </div>`;
+
+                // Group by category
+                const groups = [
+                    { key: '持仓', label: '📍 当前持仓', filter: s => s.group === '持仓' },
+                    { key: 'B-2026计划', label: '📋 分组B · 2026 计划', filter: s => s.group === 'B-2026计划' },
+                    { key: 'A-技术分析', label: '📊 分组A · 技术分析', filter: s => s.group === 'A-技术分析' },
+                ];
+
+                groups.forEach(g => {
+                    const items = stocks.filter(g.filter).sort((a, b) => (b.tier || 9) - (a.tier || 9));
+                    if (items.length === 0) return;
+                    html += `<div class="stock-group-title">${g.label}</div>`;
+                    html += `<table class="stock-table"><thead><tr>
+                        <th>标的</th><th>现价</th><th>日涨跌</th><th>市值</th><th>FwdPE</th>
+                        <th>Rev增长</th><th>52周高</th><th>距高点</th><th>评级</th>
+                        ${g.key === '持仓' ? '<th>盈亏</th>' : ''}
+                        <th>备注</th>
+                    </tr></thead><tbody>`;
+
+                    items.forEach(s => {
+                        const change = s.change || 0;
+                        const chgClass = change > 0 ? 'up' : change < 0 ? 'down' : 'flat';
+                        const chgSign = change > 0 ? '+' : '';
+                        const tierClass = s.tier ? `tier-${s.tier}` : '';
+                        const tierLabel = s.tier ? `T${s.tier}` : '';
+                        const recClass = s.rec === 'buy' ? 'rec-buy' : s.rec === 'sell' ? 'rec-sell' : 'rec-hold';
+                        const recLabel = {buy:'买入',hold:'持有',sell:'卖出'}[s.rec] || (s.rec || '-');
+                        const fromHigh = s.from_high || 0;
+                        const fhClass = fromHigh >= -10 ? 'up' : fromHigh <= -30 ? 'down' : 'flat';
+                        const rowClass = s.group === '持仓' ? 'holding-row' : '';
+
+                        html += `<tr class="${rowClass}">
+                            <td class="sym">${s.sym} ${tierLabel ? `<span class="tier-badge ${tierClass}">${tierLabel}</span>` : ''}</td>
+                            <td class="price">${s.price != null ? '$' + s.price.toFixed(2) : '-'}</td>
+                            <td class="${chgClass}">${chgSign}${change.toFixed(2)}%</td>
+                            <td>${s.mkt_cap != null ? '$' + s.mkt_cap + 'B' : '-'}</td>
+                            <td>${s.fwd_pe != null ? s.fwd_pe : '-'}</td>
+                            <td>${s.rev_growth != null ? s.rev_growth + '%' : '-'}</td>
+                            <td>${s.high52 != null ? '$' + s.high52 : '-'}</td>
+                            <td class="${fhClass}">${fromHigh.toFixed(1)}%</td>
+                            <td><span class="rec-badge ${recClass}">${recLabel}</span></td>
+                            ${g.key === '持仓' ? `<td class="pnl-tag ${s.pnl >= 0 ? 'up' : 'down'}">${s.pnl >= 0 ? '+' : ''}$${(s.pnl||0).toFixed(0)} (${(s.pnl_pct||0) >= 0 ? '+' : ''}${(s.pnl_pct||0).toFixed(1)}%)</td>` : ''}
+                            <td class="stock-notes" title="${s.notes || ''}">${s.notes || ''}</td>
+                        </tr>`;
+                    });
+                    html += '</tbody></table>';
+                });
+
+                html += `<div style="margin-top:16px;font-size:11px;color:var(--text2);">
+                    数据来源: Yahoo Finance · 更新时间: ${data.lastUpdate || '未知'} · 
+                    T1=核心推荐 T2=次选 T3=观察 · 
+                    <a href="https://finance.yahoo.com" target="_blank" style="color:var(--accent);">Yahoo Finance ↗</a>
+                </div>`;
+                container.innerHTML = html;
+            } catch(e) {
+                console.error('renderStock error:', e);
+                renderItems('stock-content', allData.stock || [], 'stock-count');
+            }
         }
         
         function renderTodo() {
