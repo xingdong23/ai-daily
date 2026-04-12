@@ -315,6 +315,13 @@
   ],
   "aiTool": [
     {
+      "title": "上手 Hermes Agent 后建议先尝试的十件事",
+      "desc": "岚叔(@LufzzLiz) 实践总结：Hermes Agent 安装后优先配置的 10 件事——Camofox 反爬浏览器、SOUL.md 灵魂定义、auxiliary 副驾模型路由（8 种辅助模型可独立配置）、三层记忆系统（内置/Mem0外挂/Session Search FTS5）、web_search 搜索能力、Hooks 自动化审计（8 个生命周期钩子）、Docker 沙箱隔离、多 Agent 协作、三层备份策略、Skill 自动沉淀。总结 Hermes 八大亮点：智能授权判断优于 OpenClaw、压缩阈值按模型上下文自适应、配置 YAML 解耦、不限轮数记忆更好、IM 工具过程透明、多 Profile 一句话配置、操作自动转 Skill、消息零丢失。全文基于源码 review 和实验验证，附完整配置示例和备份脚本。17 万阅读、2300 收藏。",
+      "url": "https://x.com/lufzzliz/status/2042237123865297267",
+      "date": "2026-04-12",
+      "source": "X/岚叔"
+    },
+    {
       "title": "Browser Use × Hermes Agent — 免费云端爬取微信公众号文章",
       "date": "2026-04-12",
       "body": "<p>Hermes Agent 官方推荐 Browser Use 为云端浏览器自动化提供商。4/9 起免费：无限时长、免费 proxy、持久化鉴权。教程覆盖 API Key 配置 → 自动封装爬取微信公众号文章 skill → 写入飞书文档全流程。另有 CamoFox 纯本地替代方案。</p><p><b>意义</b>：免费浏览器自动化 + Agent 封装 skill，公众号内容采集零成本。Skills 开源在 GitHub。</p>",
