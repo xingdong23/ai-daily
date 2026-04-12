@@ -1,7 +1,94 @@
 {
-  "lastUpdate": "2026-04-09 20:10",
-  "money": [],
+  "lastUpdate": "2026-04-12 08:24",
+  "money": [
+    {
+      "title": "AgentTrade — AI Agent 交易竞技平台",
+      "date": "2026-04-12",
+      "body": "<p>116 ⭐，TypeScript。AI Agent 交易竞赛，教育性质。可借鉴为 TradeClaw 社区玩法。</p>",
+      "tags": [
+        "money",
+        "tools"
+      ],
+      "source": "https://github.com/satashili/agenttrade",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "AI 副业赚钱手册",
+      "date": "2026-04-12",
+      "body": "<p>1610 ⭐，Apache 2.0。AI 副业项目变现路径大全。</p>",
+      "tags": [
+        "money"
+      ],
+      "source": "https://github.com/XiaomingX/ai-money-maker-handbook",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "MoneyPrinterTurbo — 55k⭐ AI 一键生成短视频",
+      "date": "2026-04-12",
+      "body": "<p>55485 ⭐，MIT，Python。AI 一键生成高清短视频：主题→文案→配音→字幕→合成。</p><p><b>意义</b>：最火的 AI 短视频工具，直接对标我们的编排层产品。</p>",
+      "tags": [
+        "money",
+        "video"
+      ],
+      "source": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "sourceLabel": "GitHub"
+    }
+  ],
   "video": [
+    {
+      "title": "Open-Higgsfield-AI — 开源影院级图像/视频工作室",
+      "date": "2026-04-12",
+      "body": "<p>4375 ⭐，JavaScript。Higgsfield AI 开源替代，集成 20+ 模型。</p>",
+      "tags": [
+        "video",
+        "tools"
+      ],
+      "source": "https://github.com/Anil-matcha/Open-Higgsfield-AI",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "ComfyStudio — 围绕 ComfyUI 的全功能视频编辑器",
+      "date": "2026-04-12",
+      "body": "<p>84 ⭐，MIT。本地和云端 ComfyUI 工作流的全功能视频编辑器。</p><p><b>意义</b>：降低 ComfyUI 使用门槛。</p>",
+      "tags": [
+        "video",
+        "tools"
+      ],
+      "source": "https://github.com/JaimeIsMe/comfystudio",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "ComfyUI Wan VACE Video Joiner — 视频片段平滑转场",
+      "date": "2026-04-12",
+      "body": "<p>72 ⭐，MIT。用 Wan VACE 实现视频片段间平滑转场。兼容任意模型生成的视频。</p><p><b>意义</b>：解决多镜头拼接转场问题，短剧生产流水线必备。</p>",
+      "tags": [
+        "video",
+        "tools"
+      ],
+      "source": "https://github.com/stuttlepress/ComfyUI-Wan-VACE-Video-Joiner",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Varg SDK — 统一 AI 视频 API（JSX for Videos）",
+      "date": "2026-04-12",
+      "body": "<p>271 ⭐，Apache 2.0，TypeScript。一个 API 调用 Kling、Flux、ElevenLabs、Sora。用 JSX 描述视频结构。</p><p><b>意义</b>：编排层理想后端——一个 SDK 串起多家视频服务。</p>",
+      "tags": [
+        "video",
+        "dev"
+      ],
+      "source": "https://github.com/vargHQ/sdk",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "HunyuanVideo-1.5 — 腾讯轻量级视频生成模型",
+      "date": "2026-04-12",
+      "body": "<p>腾讯发布 HunyuanVideo-1.5，轻量级视频生成模型。4365 ⭐，Python。相比 13B 原版更易部署，适合消费级显卡。</p><p><b>意义</b>：降低了短剧 demo 的硬件门槛，Mac/L20 都能跑。</p>",
+      "tags": [
+        "video"
+      ],
+      "source": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "AI 短剧/漫剧市场 — 2026 预计突破 1200 亿",
       "date": "2026-04-08",
@@ -353,6 +440,26 @@
     }
   ],
   "dev": [
+    {
+      "title": "Multica — 开源 Managed Agents 平台",
+      "date": "2026-04-12",
+      "body": "<p>7881 ⭐，TypeScript。把 coding agents 变成队友——分配任务、跟踪进度、积累技能。</p>",
+      "tags": [
+        "dev"
+      ],
+      "source": "https://github.com/multica-ai/multica",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Archon — 首个开源 AI Coding Harness Builder",
+      "date": "2026-04-12",
+      "body": "<p>16457 ⭐，MIT，TypeScript。让 AI 编程确定性可重复。与 Harness Engineering 研究直接对应。</p>",
+      "tags": [
+        "dev"
+      ],
+      "source": "https://github.com/coleam00/Archon",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "Claude Code System Prompt 逆向工程完整指南",
       "date": "2026-04-07",
