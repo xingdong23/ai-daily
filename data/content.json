@@ -1266,7 +1266,7 @@
       "price": 7.04,
       "change": 15.79,
       "mkt_cap": 1.08,
-      "fwd_pe": Infinity,
+      "fwd_pe": null,
       "rev_growth": 1075.3,
       "high52": 9.41,
       "low52": 3.58,
