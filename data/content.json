@@ -746,6 +746,22 @@
       ],
       "source": "https://www.53ai.com/news/LargeLanguageModel/2026040971054.html",
       "sourceLabel": "53AI"
+    },
+    {
+      "title": "claude-code-best-practice：Claude Code 最佳实践（近4万Star）",
+      "date": "2026-04-13",
+      "body": "GitHub: shanraisshan/claude-code-best-practice，近4万Star，Trending榜首，Claude Code核心开发者Boris Cherny多次背书。\n\n核心方法论：从Vibe Coding到Agentic Engineering，三层架构：\n- 智能体（Agents）：.claude/agents/ 子智能体，隔离上下文\n- 指令（Commands）：.claude/commands/ 触发工作流\n- 技能（Skills）：.claude/skills/ 封装可复用能力\n标准化工作流：指令触发→智能体执行→技能支撑，闭环：调研→规划→执行→审查→交付。\n\n解决三大痛点：越用越乱（上下文堆叠）、重复劳动（不会封装技能）、不会组织工作流（复杂任务拆解）。\n\n核心亮点：全场景配置模板复制即用、/loop本地定时+/schedule云端定时、Git Worktrees多智能体并行、横向对比10+套Claude Code工作流（Superpowers/Get Shit Done/BMAD-METHOD）、69+条实战技巧、最新beta功能（Auto Mode/Computer Use/Voice Dictation）。\n\n注：三层架构（Agents+Commands+Skills）与Hermes惊人相似，验证这是行业共识方向。\n\n来源：开源先锋（微信公众号）| 作者：开源君 | 2026-04-13",
+      "tags": [
+        "Claude Code",
+        "Agentic Engineering",
+        "最佳实践",
+        "智能体编程",
+        "Skills",
+        "Commands",
+        "Agents"
+      ],
+      "source": "https://mp.weixin.qq.com/s/U0193mJf0C2e-2WY_oR55g",
+      "sourceLabel": "开源先锋"
     }
   ],
   "star": [
