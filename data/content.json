@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-13 08:03",
+  "lastUpdate": "2026-04-13 13:10",
   "money": [
     {
       "title": "ai-hedge-fund — AI 对冲基金团队框架（GitHub Trending 663星/天）",
@@ -593,6 +593,19 @@
     }
   ],
   "dev": [
+    {
+      "title": "banana-slides — 基于 Gemini 的开源 AI PPT 生成器（每页都是 AI 原创设计）",
+      "date": "2026-04-13",
+      "body": "<p>GitHub 爆火项目。核心思路：用 Gemini 图片生成直接做每一页幻灯片，不套模板，风格天然统一。</p><p><b>功能</b>：三种起步方式（一句话/大纲/逐页描述）、素材上传解析（PDF/Word/MD）、框选+口头修改（Vibe式编辑）、可编辑PPTX导出。</p><p><b>技术栈</b>：React 18 + Flask + SQLite + python-pptx + Gemini nano banana pro。</p><p><b>关联</b>：可与罗根数字人组合——banana-slides 生成PPT → 数字人讲解 → ffmpeg画中画合成 → 培训视频成品。直接对接 Tina 客户需求。</p>",
+      "tags": [
+        "dev",
+        "aiTool",
+        "ppt",
+        "video"
+      ],
+      "source": "https://github.com/Anionex/banana-slides",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "ralph — 自主 AI Agent Loop 直到 PRD 全部完成（463星/天）",
       "date": "2026-04-13",
