@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-13 17:00",
+  "lastUpdate": "2026-04-13 17:10",
   "money": [
     {
       "title": "ai-hedge-fund — AI 对冲基金团队框架（GitHub Trending 663星/天）",
@@ -719,6 +719,18 @@
       ],
       "source": "https://mp.weixin.qq.com/s/aFm1yzFBlmZP4wQGNUxDYQ",
       "sourceLabel": "CourseAI"
+    },
+    {
+      "title": "上手 Hermes Agent 后建议先尝试的十件事（岚叔，18万阅读）",
+      "date": "2026-04-09",
+      "body": "<p>岚叔（某大厂架构师，1.4万粉丝）深度上手实践文章，纯手敲+源码review+实验验证。18万阅读，2396收藏，X Article 长文格式。</p><p><b>十件事：</b></p><p>1. <b>配置浏览器反爬</b>（Camofox/Browserbase）— 普通Chromium进站就拦截</p><p>2. <b>SOUL.md 灵魂定义</b> — 先聊两天再让它自动总结你的风格偏好</p><p>3. <b>Auxiliary 副驾模型</b> — 8个可独立配置（vision/compress/session_search/approval等），省钱提效</p><p>4. <b>记忆系统三层</b>：MEMORY.md(内置) + Memory Provider(mem0等8种外挂) + Session Search(FTS5+LLM摘要)</p><p>5. <b>Web Search</b> — 原生支持exa/Tavily/parallel/firecrawl</p><p>6. <b>Hooks 自动化审计</b> — 8个生命周期Hook + Plugin系统，事件通知vs功能扩展互补</p><p>7. <b>Docker Sandbox</b> — 安全隔离，支持多Profile+多Bot</p><p>8. <b>Subagent</b> — delegate_task 多Agent并行协作</p><p>9. <b>三层备份</b> — 本地git + 异地磁盘 + 远程对象存储</p><p>10. <b>Skill 自动沉淀</b> — 每15次工具循环自动review，非平凡经验→永久技能</p><p><b>八大亮点：</b>智能授权(比OpenClaw好)、session回读生成SOUL、压缩阈值跟随模型窗口、YAML配置解耦、IM工具过程清晰打印、自动Skill沉淀、消息不丢(20个退出触发点)、用qwen3.6即可稳定运行</p><p><b>关键评价：</b>稳定性比OpenClaw好，省30%修bug时间。OpenClaw依赖海外SOTA模型否则易崩，Hermes全程qwen3.6没崩过。</p>",
+      "tags": [
+        "dev",
+        "hermes",
+        "agent"
+      ],
+      "source": "https://x.com/LufzzLiz/status/2042237123865297267",
+      "sourceLabel": "岚叔 @LufzzLiz"
     }
   ],
   "star": [
