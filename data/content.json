@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-13 13:10",
+  "lastUpdate": "2026-04-13 17:00",
   "money": [
     {
       "title": "ai-hedge-fund — AI 对冲基金团队框架（GitHub Trending 663星/天）",
@@ -707,6 +707,18 @@
       ],
       "source": "https://github.com/garrytan/gstack",
       "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Agent 护城河：揭秘 Harness 的三大支柱（上交/CMU/OPPO 综述）",
+      "date": "2026-04-13",
+      "body": "<p>54 页 arXiv 综述（arXiv:2604.08224），20+ 位研究者提出 Agent 能力演进弧线：<b>Weights → Context → Harness</b>。</p><p><b>三大外部化支柱：</b></p><p>1. <b>记忆 Memory</b>（解决连续性失配）：工作上下文+过往经验+领域知识+用户偏好。从「回忆」变成「识别」。</p><p>2. <b>技能 Skills</b>（解决方差失配）：操作步骤+决策启发+规范约束。从「即兴生成」变成「组合执行」。</p><p>3. <b>协议 Protocols</b>（解决协调失配）：MCP（Agent-Tool）、A2A（Agent-Agent）、A2UI（Agent-User）。从「临时协调」变成「结构化交换」。</p><p><b>核心结论：</b>Agent 竞争正从「谁的模型更强」转向「谁的外部化基础设施更好」。差距不在模型，而在 Harness。</p><p><b>关联我们：</b>Hermes Skill = 技能支柱，Memory = 记忆支柱，MCP = 协议支柱。</p>",
+      "tags": [
+        "dev",
+        "agent",
+        "harness"
+      ],
+      "source": "https://mp.weixin.qq.com/s/aFm1yzFBlmZP4wQGNUxDYQ",
+      "sourceLabel": "CourseAI"
     }
   ],
   "star": [
