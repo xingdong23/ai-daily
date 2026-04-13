@@ -439,9 +439,9 @@
       "sourceLabel": "GitHub"
     },
     {
-      "title": "andrej-karpathy-skills — Karpathy 的 Claude Code 技能文件（16668星，Trending 2369星/天）",
+      "title": "andrej-karpathy-skills — Karpathy 的 LLM 编码准则（16.9k星）",
       "date": "2026-04-13",
-      "body": "<p>GitHub Trending 今日第3，2369 星。基于 Andrej Karpathy 对 LLM 编程坑点的观察，提炼成单个 CLAUDE.md 文件。</p><p><b>意义</b>：顶级 AI 教育者+顶级 AI 编程工具的碰撞，2369 星/天说明社区极度渴望高质量的 Agent 技能文件。</p>",
+      "body": "<p>GitHub Trending 2369 星/天。基于 Karpathy 对 LLM 编码常见问题的观察，提炼为 4 条核心准则：</p><p><b>① Think Before Coding</b> — 先说假设，不确定就问；有歧义列选项，别自作主张选</p><p><b>② Simplicity First</b> — 能 50 行解决的别写 200 行；没要求的功能/抽象/配置都不加</p><p><b>③ Surgical Changes</b> — 只改跟需求相关的行；别顺手重构旁边代码、改风格、加 type hints</p><p><b>④ Goal-Driven Execution</b> — 把模糊任务拆成可验证步骤，每步都有明确 verify 标准</p><p>EXAMPLES.md 给了正反对比代码，核心洞察：<b>过度复杂的代码不是明显错误的——它们遵循设计模式和最佳实践，问题在于时机</b>。在需要之前加的复杂度会让代码更难理解、更多 bug、更难测试。</p><p><b>对我们的意义</b>：可直接融入 Hermes Coding Skill，让 agent 写代码时更有自省意识。也适合做 Claude Code / Cursor 的 CLAUDE.md 插件。</p>",
       "tags": [
         "aiTool",
         "dev"
@@ -745,9 +745,9 @@
       "sourceLabel": "GitHub"
     },
     {
-      "title": "andrej-karpathy-skills — Claude Code 技能文件（16668星）",
+      "title": "andrej-karpathy-skills — LLM 编码准则 CLAUDE.md（16668星）",
       "date": "2026-04-13",
-      "body": "<p>16668 星，Trending 2369 星/天。Karpathy + Claude Code 技能文件。</p>",
+      "body": "<p>16668 星，Trending 2369 星/天。4 条 Karpathy 风格准则：先问再写、极简优先、手术刀式修改、目标驱动执行。附正反代码对比。</p>",
       "tags": [
         "star",
         "dev"
