@@ -399,9 +399,21 @@
         async function renderStock() {
             const container = document.getElementById('stock-content');
             try {
-                const resp = await fetch('data/stocks.json?v=1&t=' + Date.now());
-                const data = await resp.json();
-                const stocks = data.stocks || [];
+                // 优先用 allData.stock（来自 content.json，保证可用）
+                let stocks = allData.stock || [];
+                let lastUpdate = allData.stockMeta ? allData.stockMeta.lastUpdate : '';
+                // 尝试从 stocks.json 刷新更新数据
+                try {
+                    const resp = await fetch('data/stocks.json?v=1&t=' + Date.now());
+                    if (resp.ok) {
+                        const data = await resp.json();
+                        if (data.stocks && data.stocks.length > 0) {
+                            stocks = data.stocks;
+                            lastUpdate = data.lastUpdate || '';
+                        }
+                    }
+                } catch(fetchErr) { /* 静默忽略，用 content.json 数据 */ }
+                if (!stocks.length) return;
                 document.getElementById('stock-count').textContent = stocks.length + ' 只';
 
                 // Summary cards
@@ -424,7 +436,7 @@
                     <div class="stat-card">
                         <div class="label">今日涨跌</div>
                         <div class="value"><span class="up">↑${upCount}</span> <span class="down">↓${downCount}</span></div>
-                        <div class="sub">${data.lastUpdate ? data.lastUpdate.split(' ')[0] : ''}</div>
+                        <div class="sub">${lastUpdate ? lastUpdate.split(' ')[0] : ''}</div>
                     </div>
                     <div class="stat-card">
                         <div class="label">CRDO</div>
@@ -486,7 +498,7 @@
                 });
 
                 html += `<div style="margin-top:16px;font-size:11px;color:var(--text2);">
-                    数据来源: Yahoo Finance · 更新时间: ${data.lastUpdate || '未知'} · 
+                    数据来源: Yahoo Finance · 更新时间: ${lastUpdate || '未知'} · 
                     T1=核心推荐 T2=次选 T3=观察 · 
                     <a href="https://finance.yahoo.com" target="_blank" style="color:var(--accent);">Yahoo Finance ↗</a>
                 </div>`;

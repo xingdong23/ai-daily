@@ -1,6 +1,28 @@
 {
-  "lastUpdate": "2026-04-12 13:10",
+  "lastUpdate": "2026-04-13 08:03",
   "money": [
+    {
+      "title": "ai-hedge-fund — AI 对冲基金团队框架（GitHub Trending 663星/天）",
+      "date": "2026-04-13",
+      "body": "<p>GitHub Trending 今日 663 星。用 AI Agent 组建对冲基金交易团队。</p><p><b>搞钱信号</b>：AI + 量化交易持续火热，Agent 化交易是趋势。</p>",
+      "tags": [
+        "money",
+        "agent"
+      ],
+      "source": "https://github.com/virattt/ai-hedge-fund",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Kronos — 金融市场语言基础模型（15735星，Trending 1985星/天）",
+      "date": "2026-04-13",
+      "body": "<p>GitHub Trending 今日第2，1985 星。专为金融市场语言理解设计的基础模型。</p><p><b>搞钱信号</b>：垂直领域金融大模型，可用于投研分析、交易信号提取、研报自动解读。</p>",
+      "tags": [
+        "money",
+        "ai"
+      ],
+      "source": "https://github.com/shiyu-coder/Kronos",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "AgentTrade — AI Agent 交易竞技平台",
       "date": "2026-04-12",
@@ -35,6 +57,61 @@
     }
   ],
   "video": [
+    {
+      "title": "awesome-seedance — Seedance 2.0 终极提示词与资源合集（1438星）",
+      "date": "2026-04-13",
+      "body": "<p>1438 ⭐。Seedance 2.0 提示词终极合集：电影级短片、动漫、UGC、社交媒体全覆盖。</p><p><b>意义</b>：Seedance 是字节跳动视频生成模型，提示词库对短剧生产直接可用。</p>",
+      "tags": [
+        "video",
+        "tools"
+      ],
+      "source": "https://github.com/ZeroLu/awesome-seedance",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Awesome-World-Models — 世界模型/视频生成论文大全（1485星）",
+      "date": "2026-04-13",
+      "body": "<p>1485 ⭐。全面的世界模型论文列表，覆盖视频生成、具身智能、自动驾驶。</p><p><b>意义</b>：学术前沿追踪，了解视频生成模型底层原理的最佳入口。</p>",
+      "tags": [
+        "video"
+      ],
+      "source": "https://github.com/leofan90/Awesome-World-Models",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Nexior — 消费级 AI 多模态创作 App（350星）",
+      "date": "2026-04-13",
+      "body": "<p>350 ⭐。消费级 AI 应用：聊天 + 图像生成 + 视频生成 + 音乐创作，一个 App 全搞定。</p><p><b>意义</b>：验证了「多模态创作一体化」的产品形态，对标我们短剧工具链的终端产品。</p>",
+      "tags": [
+        "video",
+        "tools"
+      ],
+      "source": "https://github.com/AceDataCloud/Nexior",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "VoxCPM2 — 免 Tokenizer 多语言 TTS（OpenBMB 出品）",
+      "date": "2026-04-13",
+      "body": "<p>OpenBMB 出品，GitHub Trending 今日 1278 星。Tokenizer-Free TTS，支持多语言语音生成、创意声音设计、真人级克隆。</p><p><b>意义</b>：短剧配音工具链新选择——免 Tokenizer 意味着更好的多语言和情感表现力。可替代 CosyVoice。</p>",
+      "tags": [
+        "video",
+        "tools"
+      ],
+      "source": "https://github.com/OpenBMB/VoxCPM",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "blender-mcp — Blender + MCP 协议 3D 创作 Agent",
+      "date": "2026-04-13",
+      "body": "<p>GitHub Trending 今日 215 星。通过 MCP 协议让 AI Agent 操控 Blender 进行 3D 建模和渲染。</p><p><b>意义</b>：MCP 协议生态扩展到 3D 创作领域，短剧 3D 场景/道具生成的新路径。</p>",
+      "tags": [
+        "video",
+        "tools",
+        "agent"
+      ],
+      "source": "https://github.com/ahujasid/blender-mcp",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "Open-Higgsfield-AI — 开源影院级图像/视频工作室",
       "date": "2026-04-12",
@@ -315,6 +392,64 @@
   ],
   "aiTool": [
     {
+      "title": "agent-browser — Vercel Labs 出品 AI Agent 浏览器自动化 CLI（28835星）",
+      "date": "2026-04-13",
+      "body": "<p>28835 ⭐，Vercel Labs 出品。AI Agent 浏览器自动化命令行工具。</p><p><b>意义</b>：比 Playwright/Puppeteer 更 Agent-friendly，可用于自动化数据采集、网页操作。</p>",
+      "tags": [
+        "aiTool",
+        "agent",
+        "tools"
+      ],
+      "source": "https://github.com/vercel-labs/agent-browser",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "sim — AI Agent 编排与部署平台（27735星）",
+      "date": "2026-04-13",
+      "body": "<p>27735 ⭐。构建、部署和编排 AI Agent 的中央智能层。把 Agent 变成可协作的 AI 员工。</p><p><b>意义</b>：多 Agent 编排赛道再添重磅玩家，与 Multica、Archon 形成三足鼎立。</p>",
+      "tags": [
+        "aiTool",
+        "agent"
+      ],
+      "source": "https://github.com/simstudioai/sim",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "activepieces — AI Agent + MCP + 工作流自动化（21684星）",
+      "date": "2026-04-13",
+      "body": "<p>21684 ⭐。AI Agent + 400+ MCP 服务器 + 工作流自动化。开源的 Zapier/Make 替代品。</p><p><b>意义</b>：MCP 生态最大集成平台，验证了「MCP = 新一代 API 协议」的趋势。</p>",
+      "tags": [
+        "aiTool",
+        "agent",
+        "tools"
+      ],
+      "source": "https://github.com/activepieces/activepieces",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "claude-mem — Claude Code 自动记忆插件（753星/天）",
+      "date": "2026-04-13",
+      "body": "<p>GitHub Trending 今日 753 星。Claude Code 插件：自动记录编码过程，AI 压缩后注入未来会话。</p><p><b>意义</b>：Agent 记忆系统新范式——自动 capture + AI 压缩 + 上下文注入，与 Hermes Agent 的 FTS5 搜索互补。</p>",
+      "tags": [
+        "aiTool",
+        "agent",
+        "tools"
+      ],
+      "source": "https://github.com/thedotmack/claude-mem",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "andrej-karpathy-skills — Karpathy 的 Claude Code 技能文件（16668星，Trending 2369星/天）",
+      "date": "2026-04-13",
+      "body": "<p>GitHub Trending 今日第3，2369 星。基于 Andrej Karpathy 对 LLM 编程坑点的观察，提炼成单个 CLAUDE.md 文件。</p><p><b>意义</b>：顶级 AI 教育者+顶级 AI 编程工具的碰撞，2369 星/天说明社区极度渴望高质量的 Agent 技能文件。</p>",
+      "tags": [
+        "aiTool",
+        "dev"
+      ],
+      "source": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "sourceLabel": "GitHub"
+    },
+    {
       "title": "上手 Hermes Agent 后建议先尝试的十件事",
       "desc": "岚叔(@LufzzLiz) 实践总结：Hermes Agent 安装后优先配置的 10 件事——Camofox 反爬浏览器、SOUL.md 灵魂定义、auxiliary 副驾模型路由（8 种辅助模型可独立配置）、三层记忆系统（内置/Mem0外挂/Session Search FTS5）、web_search 搜索能力、Hooks 自动化审计（8 个生命周期钩子）、Docker 沙箱隔离、多 Agent 协作、三层备份策略、Skill 自动沉淀。总结 Hermes 八大亮点：智能授权判断优于 OpenClaw、压缩阈值按模型上下文自适应、配置 YAML 解耦、不限轮数记忆更好、IM 工具过程透明、多 Profile 一句话配置、操作自动转 Skill、消息零丢失。全文基于源码 review 和实验验证，附完整配置示例和备份脚本。17 万阅读、2300 收藏。",
       "url": "https://x.com/lufzzliz/status/2042237123865297267",
@@ -459,6 +594,48 @@
   ],
   "dev": [
     {
+      "title": "ralph — 自主 AI Agent Loop 直到 PRD 全部完成（463星/天）",
+      "date": "2026-04-13",
+      "body": "<p>GitHub Trending 今日 463 星。自主 AI Agent 循环执行，直到所有 PRD 事项全部完成才停止。</p><p><b>意义</b>：Agent Loop 设计的极端形态——不设轮数上限，目标驱动而非轮次驱动。可借鉴到短剧自动化流水线。</p>",
+      "tags": [
+        "dev",
+        "agent"
+      ],
+      "source": "https://github.com/snarktank/ralph",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Exploiting the most prominent AI agent benchmarks — UC Berkeley 研究（HN 488分）",
+      "date": "2026-04-13",
+      "body": "<p>UC Berkeley RDI 研究揭露主流 AI Agent 基准测试的系统性漏洞。</p><p><b>信号</b>：Agent 评测体系远未成熟，社区需要更可靠的评估方法。</p>",
+      "tags": [
+        "dev",
+        "ai"
+      ],
+      "source": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+      "sourceLabel": "UC Berkeley"
+    },
+    {
+      "title": "Anthropic 降低了 Claude Code 缓存 TTL（HN 461分）",
+      "date": "2026-04-13",
+      "body": "<p>Anthropic 在 3月6日 降低了 prompt caching TTL，影响 Claude Code 用户的长会话体验。</p><p><b>信号</b>：Prompt caching 成本与效果的平衡仍是 Agent 工程的核心挑战。</p>",
+      "tags": [
+        "dev"
+      ],
+      "source": "https://github.com/anthropics/claude-code/issues/46829",
+      "sourceLabel": "GitHub Issues"
+    },
+    {
+      "title": "Mistral 发布欧洲 AI 战略白皮书（HN 132分）",
+      "date": "2026-04-13",
+      "body": "<p>Mistral 发布 europe.mistral.ai，阐述欧洲 AI 产业的战略路径。</p><p><b>信号</b>：欧洲试图在 AI 竞赛中建立独立生态，Mistral 是核心旗手。</p>",
+      "tags": [
+        "ai"
+      ],
+      "source": "https://europe.mistral.ai/",
+      "sourceLabel": "Mistral"
+    },
+    {
       "title": "Multica — 开源 Managed Agents 平台",
       "date": "2026-04-12",
       "body": "<p>7881 ⭐，TypeScript。把 coding agents 变成队友——分配任务、跟踪进度、积累技能。</p>",
@@ -520,6 +697,135 @@
     }
   ],
   "star": [
+    {
+      "title": "agent-browser — Vercel Labs AI 浏览器自动化（28835星）",
+      "date": "2026-04-13",
+      "body": "<p>Vercel Labs 出品，28835 星。Agent-native 浏览器自动化 CLI。</p>",
+      "tags": [
+        "star",
+        "agent",
+        "tools"
+      ],
+      "source": "https://github.com/vercel-labs/agent-browser",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "sim — AI Agent 编排中央智能层（27735星）",
+      "date": "2026-04-13",
+      "body": "<p>27735 星。构建、部署、编排 AI Agent。</p>",
+      "tags": [
+        "star",
+        "agent"
+      ],
+      "source": "https://github.com/simstudioai/sim",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "activepieces — 开源 AI Agent + MCP 工作流（21684星）",
+      "date": "2026-04-13",
+      "body": "<p>21684 星。400+ MCP 服务器，开源 Zapier 替代品。</p>",
+      "tags": [
+        "star",
+        "agent",
+        "tools"
+      ],
+      "source": "https://github.com/activepieces/activepieces",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Kronos — 金融市场语言模型（15735星，Trending #2）",
+      "date": "2026-04-13",
+      "body": "<p>15735 星，Trending 1985 星/天。金融语言基础模型。</p>",
+      "tags": [
+        "star",
+        "money",
+        "ai"
+      ],
+      "source": "https://github.com/shiyu-coder/Kronos",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "andrej-karpathy-skills — Claude Code 技能文件（16668星）",
+      "date": "2026-04-13",
+      "body": "<p>16668 星，Trending 2369 星/天。Karpathy + Claude Code 技能文件。</p>",
+      "tags": [
+        "star",
+        "dev"
+      ],
+      "source": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "claude-mem — Claude Code 自动记忆（Trending 753星/天）",
+      "date": "2026-04-13",
+      "body": "<p>Claude Code 插件，自动记录+AI压缩+上下文注入。</p>",
+      "tags": [
+        "star",
+        "agent",
+        "tools"
+      ],
+      "source": "https://github.com/thedotmack/claude-mem",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "ai-hedge-fund — AI 对冲基金（Trending 663星/天）",
+      "date": "2026-04-13",
+      "body": "<p>AI Agent 组建对冲基金交易团队。</p>",
+      "tags": [
+        "star",
+        "money",
+        "agent"
+      ],
+      "source": "https://github.com/virattt/ai-hedge-fund",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "VoxCPM2 — 免 Tokenizer TTS（OpenBMB，Trending 1278星/天）",
+      "date": "2026-04-13",
+      "body": "<p>OpenBMB 出品，多语言 TTS，真人级克隆。</p>",
+      "tags": [
+        "star",
+        "video",
+        "tools"
+      ],
+      "source": "https://github.com/OpenBMB/VoxCPM",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "ralph — 自主 Agent Loop 到 PRD 完成（Trending 463星/天）",
+      "date": "2026-04-13",
+      "body": "<p>自主 AI Agent 循环，PRD 全部完成才停。</p>",
+      "tags": [
+        "star",
+        "agent",
+        "dev"
+      ],
+      "source": "https://github.com/snarktank/ralph",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "awesome-seedance — Seedance 2.0 提示词合集（1438星）",
+      "date": "2026-04-13",
+      "body": "<p>1438 星，Seedance 2.0 终极提示词资源。</p>",
+      "tags": [
+        "star",
+        "video",
+        "tools"
+      ],
+      "source": "https://github.com/ZeroLu/awesome-seedance",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "awesome-world-models — 世界模型论文大全（1485星）",
+      "date": "2026-04-13",
+      "body": "<p>1485 星，视频生成/具身智能/自动驾驶论文列表。</p>",
+      "tags": [
+        "star",
+        "video"
+      ],
+      "source": "https://github.com/leofan90/Awesome-World-Models",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "六大 AI Agent 框架核心原理解读（OpenClaw/Claude Code/NanoBot/Hermes/ZeroClaw/PicoClaw）",
       "date": "2026-04-09",
@@ -847,22 +1153,424 @@
   ],
   "stock": [
     {
-      "title": "把Tradingview接进Claude后，发现看盘的逻辑全变了",
-      "date": "2026-04-09",
-      "body": "<p><b>核心发现</b>：开源项目 tradingview-mcp 可将 TradingView 实时数据+30+技术指标接入 Claude Desktop，实现 AI 驱动的实时看盘。</p><p><b>三大AI分析师协同</b>：技术派（MACD/RSI/布林带）+ 情绪派（Reddit+路透社RSS）+ 风控派（波动率/最大回撤），三方博弈后输出带置信度的 BUY/SELL 评级。</p><p><b>回测能力</b>：内置6种经典策略（Supertrend、布林带均值回归、MACD、海龟突破等），含滑点和手续费，输出夏普比率和胜率。</p><p><b>数据源</b>：Yahoo Finance，覆盖美股/ETF/加密/外汇，支持15+种K线形态自动侦测。</p><p><b>接入方式</b>：uvx tradingview-mcp-server → Claude Desktop config → 重启即用。</p><p><b>项目地址</b>：GitHub atilaahmettaner/tradingview-mcp</p><p><b>对TradeClaw的启发</b>：这个架构跟我们的多Agent交易系统高度吻合——可以复用其MCP协议层+多人格分析框架，集成到 TradeClaw 产品中。</p>",
-      "tags": [
-        "stock"
-      ],
-      "source": "https://mp.weixin.qq.com/s/D8TkHsmNlLSfmr5vcaeXLQ",
-      "sourceLabel": "微信公众号·AgenTask"
+      "sym": "USAR",
+      "group": "持仓",
+      "price": 16.15,
+      "change": -3.41,
+      "mkt_cap": 3.52,
+      "fwd_pe": -11.0,
+      "rev_growth": null,
+      "high52": 43.98,
+      "low52": 8.0,
+      "from_high": -63.3,
+      "rec": "strong_buy",
+      "target": 31.8,
+      "notes": "100股 @ $16.75 不止损",
+      "tier": null,
+      "cost": 16.75,
+      "shares": 100,
+      "pnl": -60.0,
+      "pnl_pct": -3.58
     },
     {
-      "title": "📈 股票监控标的 & Polymarket 量化策略",
-      "date": "2026-04-09",
-      "body": "<p><b>当前持仓</b>：USAR 100股@$16.75 | AVGO 7股@$325.27（4/9盘前$351.98，浮盈+$187）</p><p><b>关注标的（护城河+大空间）</b>：</p><ul><li>RKLB $69 — 火箭实验室，SpaceX外唯一可复用火箭，目标买入价$60</li><li>ASTS $36.5 — 太空5G，手机直连卫星垄断，已涨48%暂不追</li><li>NKE $43 — 耐克52周最低1%位，回到$80即+86%</li><li>OKLO $50 — SMR微堆，Sam Altman投资，空间+286%</li></ul><p><b>Polymarket 量化方案</b>：</p><ul><li>方案A：BTC 15分钟Up/Down套利（poly-market-arbitrage-bot，827⭐）</li><li>方案B：跟单交易（Prediction-Markets-Trading-Bot-Toolkits，248⭐，Rust）</li></ul><p><b>执行计划</b>：第一周模拟跑 → 第二周小资金实盘50U → 第三周根据数据决定加仓</p>",
-      "tags": [
-        "stock"
-      ]
+      "sym": "CRDO",
+      "group": "持仓",
+      "price": 119.59,
+      "change": 10.8,
+      "mkt_cap": 22.06,
+      "fwd_pe": 25.3,
+      "rev_growth": 201.5,
+      "high52": 213.8,
+      "low52": 33.04,
+      "from_high": -44.1,
+      "rec": "strong_buy",
+      "target": 199.38,
+      "notes": "10股 @ $109.60 第1笔✅ 目标$199",
+      "tier": null,
+      "cost": 109.6,
+      "shares": 10,
+      "pnl": 99.9,
+      "pnl_pct": 9.11
+    },
+    {
+      "sym": "POET",
+      "group": "A-技术分析",
+      "price": 7.04,
+      "change": 15.79,
+      "mkt_cap": 1.08,
+      "fwd_pe": Infinity,
+      "rev_growth": 1075.3,
+      "high52": 9.41,
+      "low52": 3.58,
+      "from_high": -25.2,
+      "rec": "strong_buy",
+      "target": 8.2,
+      "notes": "",
+      "tier": 3,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "ALAB",
+      "group": "A-技术分析",
+      "price": 149.05,
+      "change": 15.13,
+      "mkt_cap": 25.37,
+      "fwd_pe": 41.7,
+      "rev_growth": 91.8,
+      "high52": 262.9,
+      "low52": 52.56,
+      "from_high": -43.3,
+      "rec": "buy",
+      "target": 202.75,
+      "notes": "",
+      "tier": 2,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "IREN",
+      "group": "A-技术分析",
+      "price": 39.32,
+      "change": 6.1,
+      "mkt_cap": 13.04,
+      "fwd_pe": 31.1,
+      "rev_growth": 59.0,
+      "high52": 76.87,
+      "low52": 5.24,
+      "from_high": -48.8,
+      "rec": "buy",
+      "target": 72.07,
+      "notes": "",
+      "tier": 2,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "RCAT",
+      "group": "A-技术分析",
+      "price": 12.37,
+      "change": 3.75,
+      "mkt_cap": 1.5,
+      "fwd_pe": -41.2,
+      "rev_growth": null,
+      "high52": 18.78,
+      "low52": 4.6,
+      "from_high": -34.1,
+      "rec": "strong_buy",
+      "target": 21.75,
+      "notes": "",
+      "tier": 2,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "ASTS",
+      "group": "A-技术分析",
+      "price": 94.9,
+      "change": 3.59,
+      "mkt_cap": 36.25,
+      "fwd_pe": -628.1,
+      "rev_growth": 2731.3,
+      "high52": 129.89,
+      "low52": 20.26,
+      "from_high": -26.9,
+      "rec": "hold",
+      "target": 89.15,
+      "notes": "",
+      "tier": 3,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "APLD",
+      "group": "A-技术分析",
+      "price": 26.26,
+      "change": 2.7,
+      "mkt_cap": 7.5,
+      "fwd_pe": -48.6,
+      "rev_growth": 139.3,
+      "high52": 42.27,
+      "low52": 3.31,
+      "from_high": -37.9,
+      "rec": "strong_buy",
+      "target": 50.09,
+      "notes": "",
+      "tier": 3,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "MP",
+      "group": "A-技术分析",
+      "price": 55.24,
+      "change": 2.49,
+      "mkt_cap": 9.81,
+      "fwd_pe": 44.1,
+      "rev_growth": 70.0,
+      "high52": 100.25,
+      "low52": 18.64,
+      "from_high": -44.9,
+      "rec": "strong_buy",
+      "target": 77.69,
+      "notes": "",
+      "tier": 3,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "AEVA",
+      "group": "A-技术分析",
+      "price": 13.35,
+      "change": 2.3,
+      "mkt_cap": 0.84,
+      "fwd_pe": -8.8,
+      "rev_growth": 108.5,
+      "high52": 38.8,
+      "low52": 6.1,
+      "from_high": -65.6,
+      "rec": "none",
+      "target": 24.1,
+      "notes": "",
+      "tier": 3,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "RKLB",
+      "group": "A-技术分析",
+      "price": 68.05,
+      "change": 1.96,
+      "mkt_cap": 39.18,
+      "fwd_pe": 1327.8,
+      "rev_growth": 35.7,
+      "high52": 99.58,
+      "low52": 18.21,
+      "from_high": -31.7,
+      "rec": "buy",
+      "target": 86.68,
+      "notes": "",
+      "tier": 2,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "VST",
+      "group": "B-2026计划",
+      "price": 154.73,
+      "change": 1.3,
+      "mkt_cap": 52.38,
+      "fwd_pe": 13.8,
+      "rev_growth": 13.6,
+      "high52": 219.82,
+      "low52": 103.34,
+      "from_high": -29.6,
+      "rec": "strong_buy",
+      "target": 234.26,
+      "notes": "",
+      "tier": 2,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "NVTS",
+      "group": "B-2026计划",
+      "price": 9.54,
+      "change": 1.27,
+      "mkt_cap": 2.2,
+      "fwd_pe": -67.8,
+      "rev_growth": -59.4,
+      "high52": 17.79,
+      "low52": 1.67,
+      "from_high": -46.4,
+      "rec": "none",
+      "target": 8.15,
+      "notes": "",
+      "tier": 2,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "PSTG",
+      "group": "B-2026计划",
+      "price": 60.94,
+      "change": 1.25,
+      "mkt_cap": 20.14,
+      "fwd_pe": 21.5,
+      "rev_growth": null,
+      "high52": 100.59,
+      "low52": 39.72,
+      "from_high": -39.4,
+      "rec": "none",
+      "target": 91.21,
+      "notes": "",
+      "tier": 2,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "CIFR",
+      "group": "B-2026计划",
+      "price": 16.53,
+      "change": 1.04,
+      "mkt_cap": 6.7,
+      "fwd_pe": 30.6,
+      "rev_growth": 41.4,
+      "high52": 25.52,
+      "low52": 2.2,
+      "from_high": -35.2,
+      "rec": "strong_buy",
+      "target": 27.61,
+      "notes": "",
+      "tier": 3,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "RDDT",
+      "group": "B-2026计划",
+      "price": 139.73,
+      "change": 0.98,
+      "mkt_cap": 26.69,
+      "fwd_pe": 17.0,
+      "rev_growth": 69.7,
+      "high52": 282.95,
+      "low52": 90.78,
+      "from_high": -50.6,
+      "rec": "buy",
+      "target": 228.98,
+      "notes": "待建仓 $3,000 第1笔$130-140 目标$230",
+      "tier": 1,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "SYM",
+      "group": "B-2026计划",
+      "price": 53.83,
+      "change": 0.45,
+      "mkt_cap": 32.42,
+      "fwd_pe": 71.7,
+      "rev_growth": 29.4,
+      "high52": 87.88,
+      "low52": 19.14,
+      "from_high": -38.7,
+      "rec": "buy",
+      "target": 64.05,
+      "notes": "",
+      "tier": 3,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "UUUU",
+      "group": "B-2026计划",
+      "price": 18.4,
+      "change": 0.44,
+      "mkt_cap": 4.45,
+      "fwd_pe": 63.4,
+      "rev_growth": -32.1,
+      "high52": 27.9,
+      "low52": 4.06,
+      "from_high": -34.1,
+      "rec": "strong_buy",
+      "target": 26.55,
+      "notes": "",
+      "tier": 3,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "DXYZ",
+      "group": "B-2026计划",
+      "price": 28.0,
+      "change": 0.04,
+      "mkt_cap": 0.62,
+      "fwd_pe": null,
+      "rev_growth": null,
+      "high52": 50.5,
+      "low52": 19.71,
+      "from_high": -44.6,
+      "rec": "none",
+      "target": null,
+      "notes": "",
+      "tier": 3,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "RIOT",
+      "group": "B-2026计划",
+      "price": 16.6,
+      "change": -0.5,
+      "mkt_cap": 6.29,
+      "fwd_pe": -31.0,
+      "rev_growth": 7.2,
+      "high52": 23.93,
+      "low52": 6.19,
+      "from_high": -30.6,
+      "rec": "strong_buy",
+      "target": 25.78,
+      "notes": "",
+      "tier": 3,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "sym": "WOLF",
+      "group": "B-2026计划",
+      "price": 23.22,
+      "change": -4.95,
+      "mkt_cap": 1.12,
+      "fwd_pe": -4.8,
+      "rev_growth": -6.6,
+      "high52": 36.6,
+      "low52": 8.05,
+      "from_high": -36.6,
+      "rec": "none",
+      "target": 15.0,
+      "notes": "",
+      "tier": 3,
+      "cost": null,
+      "shares": null,
+      "pnl": 0,
+      "pnl_pct": 0
     }
   ],
   "todo": {
@@ -960,5 +1668,9 @@
         "status": "backlog"
       }
     ]
+  },
+  "stockMeta": {
+    "lastUpdate": "2026-04-12 22:17:33",
+    "totalSymbols": 21
   }
 }
