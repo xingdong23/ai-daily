@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-13 17:10",
+  "lastUpdate": "2026-04-13",
   "money": [
     {
       "title": "ai-hedge-fund — AI 对冲基金团队框架（GitHub Trending 663星/天）",
@@ -731,6 +731,21 @@
       ],
       "source": "https://x.com/LufzzLiz/status/2042237123865297267",
       "sourceLabel": "岚叔 @LufzzLiz"
+    },
+    {
+      "title": "Anthropic 官方 Harness 发布：全面解读 Claude Managed Agents",
+      "date": "2026-04-09",
+      "body": "Anthropic 发布 Claude Managed Agents，从模型提供商转型为 Agent 基础设施提供商。核心产品：云托管 AI Agent 平台，内置 Harness 编排引擎，自动处理工具调用决策、上下文管理、错误恢复。\n\n技术架构亮点 — \"把大脑和手分开\"：\n- 三层虚拟化解耦：Session（持久事件日志）、Harness（编排循环）、Sandbox（执行容器）\n- \"从宠物到牲畜\"：容器/Harness 都是可替换的牲畜，挂了自动恢复\n- Session ≠ 上下文窗口：独立持久化对象，可通过 getEvents() 按需回溯任意时刻\n- p50 TTFT 下降 ~60%，p95 下降 >90%\n\n核心能力：生产级沙箱、长时间 Session（数小时）、多 Agent 协调（研究预览）、自评估（成功率提升最多 10pp）、Scoped 权限治理。\n定价：$0.08/session-hour（空闲不计）+ $10/千次搜索 + 标准 token 费率。\n客户：Notion、Rakuten、Asana、Sentry、Atlassian。\n关键信号：4/4 封杀 OpenClaw → 4/7 Mythos → 4/8 Managed Agents，三天形成商业闭环。Session-hour 是比 token 更稳定的新收入流。\n\n来源：53AI | 作者：赛博禅心 | 浏览：2017",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Managed Agents",
+        "Harness",
+        "Agent基础设施",
+        "meta-harness"
+      ],
+      "source": "https://www.53ai.com/news/LargeLanguageModel/2026040971054.html",
+      "sourceLabel": "53AI"
     }
   ],
   "star": [
