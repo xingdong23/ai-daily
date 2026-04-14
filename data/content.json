@@ -1,6 +1,28 @@
 {
-  "lastUpdate": "2026-04-13",
+  "lastUpdate": "2026-04-14",
   "money": [
+    {
+      "title": "agenti — AI Agent 钱包 + DeFi 全链操作 MCP（62⭐）",
+      "date": "2026-04-14",
+      "body": "<p>62 ⭐。MCP Server 让 AI Agent 管理资金、交易加密货币。380+ 工具覆盖 DeFi、DEX 聚合、跨链桥、QR 支付。支持 x402 协议——Agent 可自主付费调用 API。</p><p><b>搞钱信号</b>：Agent 自主支付是 Agent Economy 的基础设施。</p>",
+      "tags": [
+        "money",
+        "agent"
+      ],
+      "source": "https://github.com/nirholas/agenti",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "agentpay-sdk — Agent 支付开发套件（55⭐）",
+      "date": "2026-04-14",
+      "body": "<p>55 ⭐，worldliberty 出品。开源 Agent 支付 SDK——让 AI Agent 发起支付、持有资金、跨链转账。内置策略执行和人工审批机制。</p><p><b>搞钱信号</b>：Agent Economy 支付基础设施竞争者，与 agenti 形成互补。</p>",
+      "tags": [
+        "money",
+        "agent"
+      ],
+      "source": "https://github.com/worldliberty/agentpay-sdk",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "ai-hedge-fund — AI 对冲基金团队框架（GitHub Trending 663星/天）",
       "date": "2026-04-13",
@@ -57,6 +79,51 @@
     }
   ],
   "video": [
+    {
+      "title": "ArcReel — AI Agent 驱动开源视频生成工作台（1704⭐）",
+      "date": "2026-04-14",
+      "body": "<p>1704 ⭐。小说→角色/场景/道具设计→剧本→分镜图→视频，跨镜头角色与场景一致性。</p><p><b>意义</b>：完整的 AI 短剧生产 Agent 工作台，集成 Seedance/Veo 3.1/Grok/OpenAI 多模型。直接对标魔因漫创和我们的技术方案。</p>",
+      "tags": [
+        "video",
+        "agent",
+        "tools"
+      ],
+      "source": "https://github.com/ArcReel/ArcReel",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Generative-Media-Skills — Agent 多模态生成技能包（3023⭐）",
+      "date": "2026-04-14",
+      "body": "<p>3023 ⭐。为 Claude Code/Cursor/Gemini CLI 等 AI Agent 提供图像、视频、音频生成能力。基于 muapi.ai。</p><p><b>意义</b>：把视频/图像生成封装为 Agent 可调用的 Skill，与我们的短剧工具链 Skill 化思路一致。</p>",
+      "tags": [
+        "video",
+        "agent",
+        "tools"
+      ],
+      "source": "https://github.com/SamurAIGPT/Generative-Media-Skills",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "seedance2-comfyui — Seedance 2.0 ComfyUI 自定义节点（166⭐）",
+      "date": "2026-04-14",
+      "body": "<p>166 ⭐。ComfyUI 自定义节点，支持 Seedance 2.0 文本生成视频、图片生成视频、视频扩展。</p><p><b>意义</b>：Seedance 2.0 接入 ComfyUI 生态的桥梁，短剧工作流可直接编排。</p>",
+      "tags": [
+        "video",
+        "tools"
+      ],
+      "source": "https://github.com/Anil-matcha/seedance2-comfyui",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "LightX2V — 轻量级图像视频生成推理框架（2164⭐）",
+      "date": "2026-04-14",
+      "body": "<p>2164 ⭐。轻量级图像和视频生成推理框架，高效推理引擎。</p><p><b>意义</b>：解决视频生成模型推理效率问题，消费级硬件跑大模型的加速方案。</p>",
+      "tags": [
+        "video"
+      ],
+      "source": "https://github.com/ModelTC/LightX2V",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "awesome-seedance — Seedance 2.0 终极提示词与资源合集（1438星）",
       "date": "2026-04-13",
@@ -392,6 +459,51 @@
   ],
   "aiTool": [
     {
+      "title": "voicebox — 开源语音合成工作室（16277⭐，Trending 512星/天）",
+      "date": "2026-04-14",
+      "body": "<p>16277 ⭐，GitHub Trending 今日 512 星。开源语音合成工作室，专业级 TTS 工具。</p><p><b>意义</b>：短剧配音工具链新选择，开源社区语音合成的又一重磅项目。</p>",
+      "tags": [
+        "aiTool",
+        "video",
+        "tools"
+      ],
+      "source": "https://github.com/jamiepine/voicebox",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "markitdown — Microsoft 文件转 Markdown 工具（106883⭐，Trending 2808星/天）",
+      "date": "2026-04-14",
+      "body": "<p>106883 ⭐，GitHub Trending 今日 2808 星。Python 工具，将 PDF/Word/PPT/Excel 等文件转换为 Markdown。</p><p><b>意义</b>：Agent 读取文档的标准工具，可用在短剧剧本导入、知识库构建等场景。</p>",
+      "tags": [
+        "aiTool",
+        "tools"
+      ],
+      "source": "https://github.com/microsoft/markitdown",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "claude-cookbooks — Anthropic Claude 官方使用手册（39478⭐，Trending 1012星/天）",
+      "date": "2026-04-14",
+      "body": "<p>39478 ⭐，GitHub Trending 今日 1012 星。Anthropic 官方出品，展示 Claude 的各种高效使用方式。</p><p><b>意义</b>：Agent 编排的最佳实践参考，尤其 prompt engineering 和 tool use 部分。</p>",
+      "tags": [
+        "aiTool",
+        "dev"
+      ],
+      "source": "https://github.com/anthropics/claude-cookbooks",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "get-shit-done — Claude Code 元提示词+规格驱动开发（52082⭐，Trending 655星/天）",
+      "date": "2026-04-14",
+      "body": "<p>52082 ⭐，GitHub Trending 今日 655 星。轻量级 Claude Code 元提示词系统，上下文工程+规格驱动开发。</p><p><b>意义</b>：与 claude-code-best-practice 互补，专注「高效交付」而非「最佳实践」。适合快速原型开发。</p>",
+      "tags": [
+        "aiTool",
+        "dev"
+      ],
+      "source": "https://github.com/gsd-build/get-shit-done",
+      "sourceLabel": "GitHub"
+    },
+    {
       "title": "agent-browser — Vercel Labs 出品 AI Agent 浏览器自动化 CLI（28835星）",
       "date": "2026-04-13",
       "body": "<p>28835 ⭐，Vercel Labs 出品。AI Agent 浏览器自动化命令行工具。</p><p><b>意义</b>：比 Playwright/Puppeteer 更 Agent-friendly，可用于自动化数据采集、网页操作。</p>",
@@ -593,6 +705,39 @@
     }
   ],
   "dev": [
+    {
+      "title": "Deep-Live-Cam — 实时换脸+一键视频 Deepfake（90222⭐，Trending 217星/天）",
+      "date": "2026-04-14",
+      "body": "<p>90222 ⭐，GitHub Trending 今日 217 星。仅需一张照片即可实现实时换脸和一键视频 Deepfake。</p><p><b>意义</b>：数字人/虚拟主播的底层技术，与短剧数字人制作直接相关。9万+ 星说明需求旺盛。</p>",
+      "tags": [
+        "dev",
+        "video"
+      ],
+      "source": "https://github.com/hacksider/Deep-Live-Cam",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Stanford 报告：AI 内部人士与公众的认知鸿沟在加深（HN 169分）",
+      "date": "2026-04-14",
+      "body": "<p>TechCrunch 报道 Stanford 最新报告：AI 行业内部人士对 AI 能力的评估与公众感知之间存在显著差距。</p><p><b>信号</b>：信息差 = 机会。了解真实 AI 能力边界的人更容易找到变现切入点。</p>",
+      "tags": [
+        "dev",
+        "ai"
+      ],
+      "source": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
+      "sourceLabel": "TechCrunch"
+    },
+    {
+      "title": "AMD GAIA — 本地运行 AI Agent 框架（HN 74分）",
+      "date": "2026-04-14",
+      "body": "<p>AMD 发布 GAIA 框架，支持在 AMD 硬件上本地运行 AI Agent。</p><p><b>意义</b>：本地 Agent 部署又一选择，降低对 NVIDIA 生态的依赖。</p>",
+      "tags": [
+        "dev",
+        "agent"
+      ],
+      "source": "https://amd-gaia.ai/docs",
+      "sourceLabel": "AMD"
+    },
     {
       "title": "banana-slides — 基于 Gemini 的开源 AI PPT 生成器（每页都是 AI 原创设计）",
       "date": "2026-04-13",
