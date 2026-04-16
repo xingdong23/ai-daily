@@ -471,6 +471,20 @@
   ],
   "aiTool": [
     {
+      "title": "17K+ star！ElevenLabs 超强平替，能克隆、能混音、能 API 调用！",
+      "date": "2026-04-16",
+      "body": "<p><b>Voicebox</b> 是一款本地优先运行的开源语音克隆桌面应用，堪称免费开源版的 ElevenLabs。它基于 Tauri (Rust) + React 构建，主打声音克隆、文本转语音、音频后期处理与多轨叙事编辑，所有模型与语音数据都留在本地设备上，全程不上云，隐私安全有保障。GitHub 已收获 <b>17.4K+ Star</b>。</p>\n<p><b>核心亮点：</b>内置 Qwen3-TTS、LuxTTS、Chatterbox 等 5 种 TTS 引擎，支持 23 种语言；提供变调、混响、延迟等 8 种专业音效；支持最高 50000 字符的长文本生成；配备专业级多轨故事编辑器（类 DAW 时间线）；支持 macOS/Windows/Linux，适配 CUDA/Metal/XPU 加速。</p>\n<p><b>安装使用：</b>直接从官网 voicebox.sh 或 GitHub Releases 下载安装包即可，首次启动自动下载语音模型。提供 REST API 接口，方便开发者二次集成。适合内容创作者配音、有声书制作、播客编辑等多种场景。</p>",
+      "tags": [
+        "voicebox",
+        "TTS",
+        "语音克隆",
+        "开源",
+        "ElevenLabs替代"
+      ],
+      "source": "https://mp.weixin.qq.com/s/iE5HQYW4VDPM_ZBJgv95ZA",
+      "sourceLabel": "开源先锋"
+    },
+    {
       "title": "零 API Key也能制作视频，首个完整的开源智能化视频制作工作室",
       "date": "2026-04-16",
       "body": "<p><b>OpenMontage</b>——把 AI 编程助手变成完整视频制作工作室。用自然语言描述需求，智能体自动完成调研、脚本写作、素材生成、剪辑和最终合成。不仅能做图片驱动视频，还能用免费开放档案制作<b>实拍视频蒙太奇</b>。</p><p><b>零 API Key 免费工具链</b>：Piper TTS 离线高品质旁白、Archive.org/NASA/Wikimedia 免费素材库、Pexels/Unsplash/Pixabay 免费图库、Remotion 物理动画与转场合成、FFmpeg 编码混音调色、内置逐词字幕生成。两条免费路线：图片驱动视频（Piper+FLUX+Remotion）和真实素材蒙太奇（开放档案 footage 剪辑）。</p><p><b>从参考视频起步</b>：支持输入 YouTube/TikTok/Reels 视频，智能体分析字幕节奏场景后返回差异化概念、工具路径和成本预估。示例：60 秒皮克斯风格动画短片总成本仅 1.33 美元。支持 Claude Code/Cursor/Copilot/Windsurf/Codex 等任意 AI 编程助手。</p>",
