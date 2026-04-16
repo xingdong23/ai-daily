@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-14",
+  "lastUpdate": "2026-04-16",
   "money": [
     {
       "title": "agenti — AI Agent 钱包 + DeFi 全链操作 MCP（62⭐）",
@@ -403,6 +403,18 @@
   ],
   "videoTools": [
     {
+      "title": "零 API Key也能制作视频，首个完整的开源智能化视频制作工作室",
+      "date": "2026-04-16",
+      "body": "<p><b>OpenMontage</b>——把 AI 编程助手变成完整视频制作工作室。用自然语言描述需求，智能体自动完成调研、脚本写作、素材生成、剪辑和最终合成。不仅能做图片驱动视频，还能用免费开放档案制作<b>实拍视频蒙太奇</b>。</p><p><b>零 API Key 免费工具链</b>：Piper TTS 离线高品质旁白、Archive.org/NASA/Wikimedia 免费素材库、Pexels/Unsplash/Pixabay 免费图库、Remotion 物理动画与转场合成、FFmpeg 编码混音调色、内置逐词字幕生成。两条免费路线：图片驱动视频（Piper+FLUX+Remotion）和真实素材蒙太奇（开放档案 footage 剪辑）。</p><p><b>从参考视频起步</b>：支持输入 YouTube/TikTok/Reels 视频，智能体分析字幕节奏场景后返回差异化概念、工具路径和成本预估。示例：60 秒皮克斯风格动画短片总成本仅 1.33 美元。支持 Claude Code/Cursor/Copilot/Windsurf/Codex 等任意 AI 编程助手。</p>",
+      "tags": [
+        "videoTools",
+        "aiTool",
+        "开源"
+      ],
+      "source": "https://mp.weixin.qq.com/s/EP6IV0QFias8fc_5QLD7FA",
+      "sourceLabel": "GitHubStore"
+    },
+    {
       "name": "Runway Gen-4",
       "desc": "跨镜头角色一致性，Multi-Shot 一键出短片",
       "pros": "一致性最强、生态完善、API 开放",
@@ -458,6 +470,30 @@
     }
   ],
   "aiTool": [
+    {
+      "title": "零 API Key也能制作视频，首个完整的开源智能化视频制作工作室",
+      "date": "2026-04-16",
+      "body": "<p><b>OpenMontage</b>——把 AI 编程助手变成完整视频制作工作室。用自然语言描述需求，智能体自动完成调研、脚本写作、素材生成、剪辑和最终合成。不仅能做图片驱动视频，还能用免费开放档案制作<b>实拍视频蒙太奇</b>。</p><p><b>零 API Key 免费工具链</b>：Piper TTS 离线高品质旁白、Archive.org/NASA/Wikimedia 免费素材库、Pexels/Unsplash/Pixabay 免费图库、Remotion 物理动画与转场合成、FFmpeg 编码混音调色、内置逐词字幕生成。两条免费路线：图片驱动视频（Piper+FLUX+Remotion）和真实素材蒙太奇（开放档案 footage 剪辑）。</p><p><b>从参考视频起步</b>：支持输入 YouTube/TikTok/Reels 视频，智能体分析字幕节奏场景后返回差异化概念、工具路径和成本预估。示例：60 秒皮克斯风格动画短片总成本仅 1.33 美元。支持 Claude Code/Cursor/Copilot/Windsurf/Codex 等任意 AI 编程助手。</p>",
+      "tags": [
+        "videoTools",
+        "aiTool",
+        "开源"
+      ],
+      "source": "https://mp.weixin.qq.com/s/EP6IV0QFias8fc_5QLD7FA",
+      "sourceLabel": "GitHubStore"
+    },
+    {
+      "title": "Harness Engineering 万字综述 — Agent = Model + Harness",
+      "date": "2026-04-14",
+      "body": "<p><b>核心公式</b>：Agent = Model + Harness。Harness 是包裹模型运行的一切外围——运行时、工具、上下文、权限、状态、反馈循环。同一个模型只换 Harness，编程成功率 42% → 78%（Anthropic 数据）。</p><p><b>Agent 五大落地卡点</b>：无限循环、上下文爆炸、权限失控、质量不可控、成本不透明。</p><p><b>Harness 六大组件</b>：Agentic Loop（心脏）→ Tool System（手脚）→ Memory & Context（记忆）→ Guardrails（缰绳）→ Hooks（守卫）→ Session（连续性）。</p><p><b>工程三次跃迁</b>：2023 Prompt Engineering → 2024 Context Engineering → 2026 Harness Engineering。驾驭对象从确定性的代码变为不确定性的概率系统。</p><p><b>阵营分类</b>：纵深型（Claude Code，深度工程）vs 横向型（OpenClaw/Hermes，跨平台运营），两者配合使用。</p>",
+      "tags": [
+        "aiTool",
+        "agent",
+        "dev"
+      ],
+      "source": "https://mp.weixin.qq.com/s/GDr1fzwC8ZX8iXeD5WX4Ug",
+      "sourceLabel": "探索AGI"
+    },
     {
       "title": "voicebox — 开源语音合成工作室（16277⭐，Trending 512星/天）",
       "date": "2026-04-14",
@@ -705,6 +741,42 @@
     }
   ],
   "dev": [
+    {
+      "title": "Claude Code 开发者分享：如何管理百万上下文",
+      "date": "2026-04-16",
+      "body": "<p>Claude Code 核心开发者 Thariq Shihipar 专门撰文讲解 1M context 下的会话管理策略。Context 越长模型注意力越分散，老内容会干扰当前任务，Thariq 称之为<b>context rot（上下文腐烂）</b>。</p><p><b>五种会话管理策略</b>：①<b>Continue</b>——直接在当前 session 继续发消息；②<b>Rewind</b>（双击 Esc）——跳回历史某条消息重新开始，丢弃后续对话，比纠正更高效，避免失败尝试污染 context；③<b>/clear</b>——手写简报后开全新 session，每 token 都是自己筛选的；④<b>Compact</b>——让模型自动总结对话压缩为摘要继续工作，可引导总结方向；⑤<b>子 Agent</b>——派生子 Agent 独立 context 干活，只带结论回来。</p><p><b>核心原则</b>：新任务新 session；关联任务根据 context 干净程度取舍；Rewind 前让 Claude 先写交接信息，就像未来给过去写信。</p><p><b>决策要点</b>：Continue 适合连贯短任务；Rewind 适合方案失败时回退；Clear 适合任务切换；Compact 适合长任务中途减负；Subagent 适合独立子任务并行。</p>",
+      "tags": [
+        "dev",
+        "agent",
+        "Claude"
+      ],
+      "source": "https://mp.weixin.qq.com/s/S0LfJvhkZTV-xJCrC7uUjw",
+      "sourceLabel": "AGI Hunt"
+    },
+    {
+      "title": "RAG已死，但Agent记忆永生！",
+      "date": "2026-04-15",
+      "body": "<p><b>三种记忆类型</b>：①<b>持久化记忆</b>——解决大模型无状态问题（CLAUDE.md、MEMORY.md），规模上来后关键词检索无法处理同义词和跨事实关联；②<b>知识编译</b>——Karpathy 的 LLM.wiki 理念，新信息进来立刻提炼编入结构化知识网络，而非被动索引等待检索，跨文档交叉引用和矛盾标注是传统 RAG 做不到的；③<b>检索记忆</b>——向量检索面临语义崩坏（斯坦福研究：超 10000 篇后效果骤降）和多跳推理难题。</p><p><b>RAG 的局限</b>：RAG 能从单份文档检索片段，但不会主动发现不同人对同一问题的解决方式；Alice→Atlas→PostgreSQL→故障 的多跳推理在稠密空间里无近邻关系。</p><p><b>两条路线</b>：①memory/retrieval 侧补结构（graph memory、multimodal RAG、wiki 编译）解决找得到、连得上；②inference/context 侧补成本（KV cache 压缩、long-context efficiency）解决装得下、跑得动。二者互补。</p><p><b>结论</b>：上下文窗口是工作台大小，记忆是仓库容量和检索效率。工作台再大，仓库的东西不主动搬上来模型也看不到。The model is not the agent, the harness is.</p>",
+      "tags": [
+        "dev",
+        "agent",
+        "RAG"
+      ],
+      "source": "https://mp.weixin.qq.com/s/7JE0S5Cb3tBhgWYhgTFi2w",
+      "sourceLabel": "探索AGI"
+    },
+    {
+      "title": "你的工程真的需要多Agent吗？Anthropic官方给了答案",
+      "date": "2026-04-14",
+      "body": "<p>Anthropic 官方博客多 Agent 协调模式系列第二篇，给出五种模式选型指南。核心原则：<b>从最简单的开始，观察瓶颈再升级</b>。</p><p><b>五种模式（复杂度递增）</b>：①<b>生成器-验证器</b>——一写一查循环迭代，适合输出质量要求高且验收标准明确的场景；②<b>编排者-子代理</b>——项目经理分发任务汇总结果（Claude Code 自己就是这种模式），推荐默认起点；③<b>Agent 团队</b>——持久存活的团队成员积累经验越干越好，适合独立长任务；④<b>消息总线</b>——事件驱动发布订阅，适合动态工作流；⑤<b>共享状态</b>——无中心协调者，Agent 直接读写共享数据库，适合协作式研究但需防死循环。</p><p><b>四组关键决策</b>：子任务短→编排者，需持续积累→团队；流程固定→编排者，事件驱动→消息总线；各自干各自→团队，需实时共享→共享状态；事件逐级传递→消息总线，知识沉淀→共享状态。</p>",
+      "tags": [
+        "dev",
+        "agent",
+        "Anthropic"
+      ],
+      "source": "https://mp.weixin.qq.com/s/qCviHqvH5YrLBIS_M0O74w",
+      "sourceLabel": "Macaron"
+    },
     {
       "title": "Deep-Live-Cam — 实时换脸+一键视频 Deepfake（90222⭐，Trending 217星/天）",
       "date": "2026-04-14",
