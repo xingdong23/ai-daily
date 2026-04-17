@@ -1,6 +1,16 @@
 {
-  "lastUpdate": "2026-04-16",
+  "lastUpdate": "2026-04-17",
   "money": [
+    {
+      "title": "MakeMoneyWithAI — 开源 AI 搞钱项目清单（285⭐）",
+      "date": "2026-04-17",
+      "body": "<p>285 ⭐。收集可以用 AI 产生收入的开源项目列表。与 ai-money-maker-handbook（1871星）互补。</p>",
+      "tags": [
+        "money"
+      ],
+      "source": "https://github.com/garylab/MakeMoneyWithAI",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "agenti — AI Agent 钱包 + DeFi 全链操作 MCP（62⭐）",
       "date": "2026-04-14",
@@ -79,6 +89,29 @@
     }
   ],
   "video": [
+    {
+      "title": "short-video-factory — AI 一键生成产品营销短视频（3790⭐）",
+      "date": "2026-04-17",
+      "body": "<p>3790 ⭐。一键生成产品营销短视频：AI 批量自动剪辑，跨平台桌面工具。输入产品信息和素材，自动生成多条营销短视频。</p><p><b>搞钱信号</b>：直接对标 MoneyPrinterTurbo（55k星），专注产品营销垂直场景。可做「AI 短视频代运营」服务。</p>",
+      "tags": [
+        "video",
+        "tools",
+        "money"
+      ],
+      "source": "https://github.com/YILS-LIN/short-video-factory",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Open-Generative-AI — 无限制 AI 图像/视频生成（4997⭐）",
+      "date": "2026-04-17",
+      "body": "<p>4997 ⭐。Higgsfield AI/Freepik/Krea/OpenArt 的无限制开源替代品。免费、无审查的 AI 图像与视频生成平台。</p><p><b>意义</b>：Open-Higgsfield-AI（4375星）的升级版，功能更全面，视频生成能力更强。</p>",
+      "tags": [
+        "video",
+        "tools"
+      ],
+      "source": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "ArcReel — AI Agent 驱动开源视频生成工作台（1704⭐）",
       "date": "2026-04-14",
@@ -471,6 +504,50 @@
   ],
   "aiTool": [
     {
+      "title": "GenericAgent — 自进化 Agent 技能树（2745⭐，Trending 872星/天）",
+      "date": "2026-04-17",
+      "body": "<p>GitHub Trending 今日第3，872 星。从 3300 行种子代码开始自进化，构建技能树，实现全系统控制。Token 消耗仅为传统 Agent 的 1/6。</p><p><b>意义</b>：Agent 自进化是 Hermes Skill 系统的竞品方向——让 Agent 自己学习新技能而非手动编写。</p>",
+      "tags": [
+        "agent",
+        "ai"
+      ],
+      "source": "https://github.com/lsdefine/GenericAgent",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "ebook2audiobook — 电子书转有声书+语音克隆（18702⭐）",
+      "date": "2026-04-17",
+      "body": "<p>18702 ⭐。将电子书自动转换为有声书，支持语音克隆和 1158+ 种语言。内置多种 TTS 引擎。</p><p><b>搞钱信号</b>：有声书市场快速增长，AI 自动化转换+语音克隆可做代工服务。</p>",
+      "tags": [
+        "ai",
+        "tools"
+      ],
+      "source": "https://github.com/DrewThomasson/ebook2audiobook",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "open-agents — Vercel Labs 开源云 Agent 模板（3179⭐，Trending 738星/天）",
+      "date": "2026-04-17",
+      "body": "<p>GitHub Trending，738 星。Vercel Labs 出品，开源云 Agent 构建模板。TypeScript，一键部署。</p><p><b>意义</b>：Vercel 生态持续加码 Agent，与 Vercel AI SDK、agent-browser 形成完整 Agent 开发栈。</p>",
+      "tags": [
+        "agent",
+        "tools"
+      ],
+      "source": "https://github.com/vercel-labs/open-agents",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "deer-flow — 字节跳动开源 SuperAgent（62040⭐）",
+      "date": "2026-04-17",
+      "body": "<p>62040 ⭐。字节跳动出品，开源长程 SuperAgent：自主研究、编码、创作，内置沙箱和记忆系统。</p><p><b>意义</b>：字节 AI 基础设施开源，验证了「研究+编码+创作」三位一体 Agent 路线。6.2 万星体量仅次于 langflow。</p>",
+      "tags": [
+        "agent",
+        "ai"
+      ],
+      "source": "https://github.com/bytedance/deer-flow",
+      "sourceLabel": "GitHub"
+    },
+    {
       "title": "17K+ star！ElevenLabs 超强平替，能克隆、能混音、能 API 调用！",
       "date": "2026-04-16",
       "body": "<p><b>Voicebox</b> 是一款本地优先运行的开源语音克隆桌面应用，堪称免费开源版的 ElevenLabs。它基于 Tauri (Rust) + React 构建，主打声音克隆、文本转语音、音频后期处理与多轨叙事编辑，所有模型与语音数据都留在本地设备上，全程不上云，隐私安全有保障。GitHub 已收获 <b>17.4K+ Star</b>。</p>\n<p><b>核心亮点：</b>内置 Qwen3-TTS、LuxTTS、Chatterbox 等 5 种 TTS 引擎，支持 23 种语言；提供变调、混响、延迟等 8 种专业音效；支持最高 50000 字符的长文本生成；配备专业级多轨故事编辑器（类 DAW 时间线）；支持 macOS/Windows/Linux，适配 CUDA/Metal/XPU 加速。</p>\n<p><b>安装使用：</b>直接从官网 voicebox.sh 或 GitHub Releases 下载安装包即可，首次启动自动下载语音模型。提供 REST API 接口，方便开发者二次集成。适合内容创作者配音、有声书制作、播客编辑等多种场景。</p>",
@@ -756,6 +833,39 @@
   ],
   "dev": [
     {
+      "title": "Claude Opus 4.7 — Anthropic 最新旗舰模型（HN 1384分）",
+      "date": "2026-04-17",
+      "body": "<p>Hacker News 今日榜首，1384 分，1005 评论。Anthropic 发布 Claude Opus 4.7。</p><p>同时 HN 热帖：Qwen3.6-35B-A3B 在画 pelican 上赢了 Opus 4.7（269分）——开源模型在特定任务追平闭源。</p><p><b>信号</b>：模型竞争白热化，OpenAI 同日发布 Codex 全能扩展（628分），两大阵营同日重磅。</p>",
+      "tags": [
+        "ai",
+        "deep"
+      ],
+      "source": "https://www.anthropic.com/news/claude-opus-4-7",
+      "sourceLabel": "Anthropic"
+    },
+    {
+      "title": "Qwen3.6-35B-A3B — 开源 Agent 编程模型（HN 866分）",
+      "date": "2026-04-17",
+      "body": "<p>Hacker News 866 分。通义千问发布 Qwen3.6-35B-A3B，3B 激活参数实现 35B 级别的 Agent 编程能力。开源可用。</p><p>Simon Willison 测试：在本地笔记本上画的 pelican 质量超过 Claude Opus 4.7。</p><p><b>意义</b>：开源小模型在编程任务追平旗舰闭源模型，对本地部署和成本优化意义重大。</p>",
+      "tags": [
+        "ai",
+        "deep"
+      ],
+      "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
+      "sourceLabel": "Qwen"
+    },
+    {
+      "title": "OpenAI Codex 全能扩展 — Codex for almost everything（HN 628分）",
+      "date": "2026-04-17",
+      "body": "<p>Hacker News 628 分，349 评论。OpenAI 将 Codex 从纯编码扩展到「几乎一切」任务。</p><p>与 Claude Opus 4.7 同日发布，两大厂商正面交锋。</p><p><b>意义</b>：编码 Agent → 通用 Agent 的路线已确立，OpenAI 和 Anthropic 同时押注。</p>",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "source": "https://openai.com/index/codex-for-almost-everything/",
+      "sourceLabel": "OpenAI"
+    },
+    {
       "title": "为什么 5 万人给 GSD 点了 Star？一篇文章讲透它的核心工作流",
       "date": "2026-04-16",
       "body": "<p><b>核心概念：Context Rot（上下文腐烂）</b></p><p>LLM 注意力机制缺陷：对话积累到几万 token 后 Agent 对早期设计意图的记忆退化。</p><p><b>GSD（Get Shit Done）</b> — 元提示 + 上下文工程 + 规格驱动开发系统。核心理念：<b>规格就是提示词</b>。</p><p><b>v1→v2：</b>v1 是 Claude Code Prompt 框架（51K+ stars），v2 是独立 TypeScript 应用（Pi SDK），程序化控制 Agent 会话——每任务清空上下文、精确注入、Git 分支管理、token 追踪、崩溃恢复。</p><p><b>四阶段：</b>讨论→规划→执行→验证。上下文工程三要素：事实+规格+护栏。每个任务全新上下文窗口。<b>不是让 Agent 记住一切，而是让它每次只关注一件事。</b></p><p><b>同类工具对比：</b>GSD（上下文工程）| Spec Kit（20+平台广度）| Taskmaster AI（依赖感知）| Kiro（Amazon Hooks）| Claude Code（推理80.9% SWE-bench）| Codex CLI（隔离执行）| Aider（开源BYOK）</p><p><b>2026趋势：三层分化</b> — 底层模型→执行Agent→编排系统。GSD跨越第2+3层。</p><p><b>文内工具：</b>GSD, Claude Code, Codex CLI, Aider, Spec Kit, Taskmaster AI, Kiro, Pi SDK, MiniSearch, OpenRouter, GitHub Copilot, Claude Max</p>",
@@ -1022,6 +1132,63 @@
     }
   ],
   "star": [
+    {
+      "title": "andrej-karpathy-skills — Karpathy CLAUDE.md（49684星，Trending 7959星/天）",
+      "date": "2026-04-17",
+      "body": "<p>GitHub Trending 今日第1，7959 星。Karpathy 风格 LLM 编码准则，近 5 万星。</p>",
+      "tags": [
+        "star",
+        "dev"
+      ],
+      "source": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "claude-mem — Claude Code 自动记忆（59654星，Trending 1897星/天）",
+      "date": "2026-04-17",
+      "body": "<p>GitHub Trending 今日第2，1897 星。自动记录+AI 压缩+上下文注入。</p>",
+      "tags": [
+        "star",
+        "agent",
+        "tools"
+      ],
+      "source": "https://github.com/thedotmack/claude-mem",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "GenericAgent — 自进化 Agent 技能树（Trending 872星/天）",
+      "date": "2026-04-17",
+      "body": "<p>Trending 872 星。从种子代码自进化，6x 省 token。</p>",
+      "tags": [
+        "star",
+        "agent"
+      ],
+      "source": "https://github.com/lsdefine/GenericAgent",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "evolver — GEP 自进化引擎（Trending 812星/天）",
+      "date": "2026-04-17",
+      "body": "<p>GitHub Trending 812 星。Genome Evolution Protocol 驱动 AI Agent 自进化。</p>",
+      "tags": [
+        "star",
+        "agent"
+      ],
+      "source": "https://github.com/EvoMap/evolver",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "open-agents — Vercel Labs 云 Agent 模板（Trending 738星/天）",
+      "date": "2026-04-17",
+      "body": "<p>Trending 738 星。Vercel 出品开源 Agent 模板。</p>",
+      "tags": [
+        "star",
+        "agent",
+        "tools"
+      ],
+      "source": "https://github.com/vercel-labs/open-agents",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "agent-browser — Vercel Labs AI 浏览器自动化（28835星）",
       "date": "2026-04-13",
