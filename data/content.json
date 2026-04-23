@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-17",
+  "lastUpdate": "2026-04-23",
   "money": [
     {
       "title": "MakeMoneyWithAI — 开源 AI 搞钱项目清单（285⭐）",
@@ -86,6 +86,29 @@
       ],
       "source": "https://github.com/harry0703/MoneyPrinterTurbo",
       "sourceLabel": "GitHub"
+    },
+    {
+      "title": "OpenClaw Star 超 40 万 — 超越 Linux 成为 GitHub 历史第一（持续破纪录中）",
+      "date": "2026-04-23",
+      "body": "<p>2026年3月初，OpenClaw 以 25万+ Stars 超越 Linux，登顶 GitHub 平台活跃度榜首。4月中旬，其 Stars 已突破 40 万，持续刷新开源项目增速历史记录（48小时破10万星，React 用8年、Linux 用12年）。</p><p><b>搞钱信号</b>：OpenClaw 的爆发验证了「个人 AI 助手」赛道的需求真实存在。其 NanoClaw 等子项目（NanoClaw/IronClaw/ZeroClaw 等）生态正在快速扩张，围绕 OpenClaw 的二次开发和 SaaS 服务是可直接变现的方向。</p>",
+      "tags": [
+        "money",
+        "agent"
+      ],
+      "source": "https://blog.csdn.net/CalEx_Tech/article/details/158701669",
+      "sourceLabel": "CSDN"
+    },
+    {
+      "title": "GPT-5.5 内部模型疑泄露 — Agent 编程模型即将发布",
+      "date": "2026-04-22",
+      "body": "<p>4月22日，OpenAI 推出 ChatGPT Images 2.0 生图工具当天，有用户在 Codex CLI 终端界面意外看到 GPT-5.5 模型，标注为「最前沿的 Agent 编程模型」。</p><p><b>搞钱信号</b>：GPT-5.5 定位 Agent 编程意味着 OpenAI 正式将 AI 编程能力升级为 Agent 级别能力。个人开发者可提前布局基于 Codex CLI 的自动化工作流工具。</p>",
+      "tags": [
+        "money",
+        "agent",
+        "ai"
+      ],
+      "source": "https://finance.jrj.com.cn/2026/04/22155256846236.shtml",
+      "sourceLabel": "金融界"
     }
   ],
   "video": [
@@ -432,6 +455,61 @@
       ],
       "source": "https://arxiv.org/abs/2604.05091",
       "sourceLabel": "arXiv"
+    },
+    {
+      "title": "原创 AI 动画微电影《钟馗斩鬼录》入选 2026 戛纳 AI 国际电影节",
+      "date": "2026-04-18",
+      "body": "<p>原创 AI 动画微电影《钟馗斩鬼录》成功入选 2026 戛纳 AI 国际电影节！这是中国传统文化故事首次登上国际 AI 影像舞台。</p><p><b>意义</b>：AI 生成内容（AIGC）从「能看」升级到「能获奖」——质量已获得专业评审认可。短剧出海和文化输出有了新的制作路径参考。</p>",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "source": "https://www.sohu.com/a/1011362030_456455",
+      "sourceLabel": "搜狐"
+    },
+    {
+      "title": "AI 视频赛道 2026 年最新格局：Sora、Kling、Pika 三国杀",
+      "date": "2026-04-14",
+      "body": "<p>2026年视频创作行业正在经历前所未有的技术地震。OpenAI Sora、可灵（Kling）、Runway、Pika 四强争霸，AI 正在用令人瞠目的速度重新定义什么叫「创作」。</p><p><b>竞争格局</b>：Runway Gen-4 跨镜头角色一致性最强；可灵（Kling）每月 92 美元含 8000 积分；Pika 转向数字分身战略；Sora 2 以 20 美元/月含 100 条视频的 API 定价切入开发者市场。</p>",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_05269ddf1ee38652",
+      "sourceLabel": "腾讯新闻"
+    },
+    {
+      "title": "Runway Gen-4 vs Sora Pro vs 国产工具 — 2026 AI 视频三足鼎立新格局",
+      "date": "2026-04-12",
+      "body": "<p>视频时长上限提升至180秒，配合全新升级的镜头语言系统，创作者可以在 AI 辅助下完成长镜头、蒙太奇等复杂叙事手法。在配备 RTX 4090 显卡的本地环境中，生成一段 8K/24fps、时长 30 秒的视频仅需 3 分钟。</p><p><b>对我们的意义</b>：如果 API 开放，Gen-4 Visual Reference System 可作为工具链的视频生成后端，其跨镜头一致性直接解决短剧最大痛点。</p>",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_92169db088556452",
+      "sourceLabel": "腾讯新闻"
+    },
+    {
+      "title": "2026 年 Q1 全球 AI 产品价值榜重磅发布 — 中国产品占四席",
+      "date": "2026-04-10",
+      "body": "<p>2026 Q1 全球 AI 产品榜：每3天一个大模型，267个大模型发布。其中 OpenClaw Star 超越 Linux；MiniMax/DeepSeek/GLM/Kimi 四款中国产品进入全球 Token 调用量前五；2月中旬，中国模型产品总调用量首次超越美国。</p><p><b>关键信号</b>：中国 AI 产品已不仅在技术层面领先，在 Agent 产品规模化商用上也已胜出。</p>",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "source": "https://new.qq.com/rain/a/20260410A05Q7B00",
+      "sourceLabel": "腾讯新闻"
+    },
+    {
+      "title": "AI 对影视制作及行业未来影响研究报告（2026版）",
+      "date": "2026-04-21",
+      "body": "<p>AI 已初步重塑核心生产流程，短期聚焦开发与后期制作。AI 于影视制作里的初期应用，对行业有百分之五十至百分之十的生产力提升能力，特别是在开发及前期制作阶段成效明显。</p><p><b>报告结论</b>：AI 不会取代演员，但会改变制作团队结构——对白表演、特效、剪辑等环节的 AI 渗透率将持续提升。物理制作环节由于技术质量、人才保护及观众偏好等因素，当前采用比例较低。</p>",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "source": "https://www.sohu.com/a/1011647467_122195158",
+      "sourceLabel": "搜狐"
     }
   ],
   "videoTools": [
