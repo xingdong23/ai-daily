@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-23",
+  "lastUpdate": "2026-04-25",
   "money": [
     {
       "title": "MakeMoneyWithAI — 开源 AI 搞钱项目清单（285⭐）",
@@ -109,6 +109,49 @@
       ],
       "source": "https://finance.jrj.com.cn/2026/04/22155256846236.shtml",
       "sourceLabel": "金融界"
+    },
+    {
+      "title": "Google Cloud《AI Agent Trends 2026》：五大转变重塑企业价值",
+      "date": "2026-04-25",
+      "body": "<p>Google Cloud 发布《AI Agent Trends 2026》报告，基于 3466 名全球企业决策者调研。报告指出真正的商业变革不在于遥远的 AGI，而在于当下正在发生的「Agentic AI」转变。52% 使用生成式 AI 的企业高管表示其组织已在生产环境部署 AI Agent。</p><p><b>搞钱信号</b>：企业 AI Agent 落地加速，营销、客服、数据分析是三大核心场景。个人开发者可关注 Agent 技能培训、Agent 工作流模板、垂直行业 Agent 套件等方向。</p>",
+      "tags": [
+        "money",
+        "agent"
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_5626990114b63752",
+      "sourceLabel": "腾讯网"
+    },
+    {
+      "title": "2026年AI短剧发霆：爱奇艺/腾讯/快手各显神通，争夺AI视频规模化先机",
+      "date": "2026-04-25",
+      "body": "<p>4月，爱奇艺在世界大会上推出纳影Pro平台，汇聚超70个智能体覆盖创作全流程；腾讯视频透露将推全流程AI制作长视频内容，包含十几集连续剧与90分钟短剧；快手可灵AI 2026年1月年化收入破3亿，目标翻倍增长。</p><p><b>搞钱信号</b>：AI 视频从「能用」进化到「好用」阶段，平台军备竞赛已开。内容创业者和工具开发者均有大量机会。</p>",
+      "tags": [
+        "money",
+        "video"
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_85169eb656409952",
+      "sourceLabel": "腾讯网"
+    },
+    {
+      "title": "2026年AI短剧风暴：内容创作的成本革命与工业爆发",
+      "date": "2026-04-25",
+      "body": "<p>AI 制作一部60集短剧：传统模式成本30-50万、周期1-4周；AI模式成本500-5000元、周期5小时-4天，成本降低99%，效率提升5-10倍。</p><p><b>搞钱信号</b>：AI 短剧制作进入工业化量产阶段，单日产片超470部，市场规模有望突破240亿元。个人创作者和小型工作室迎来最大红利期。</p>",
+      "tags": [
+        "money",
+        "video"
+      ],
+      "source": "https://www.sohu.com/a/1011867064_122670887",
+      "sourceLabel": "搜狐"
+    },
+    {
+      "title": "2026实战指南：普通人怎么用AI搞钱？三大方向与实操路径",
+      "date": "2026-04-25",
+      "body": "<p>AI 正在深度介入数据监控环节，跨平台对比同一类目商品在不同生态中的价格差和搜索热度（BSR走趋）。在流量端，AI 批量产出用于 TikTok/Instagram 矩阵分发的短视步素材已成为行业标配。</p><p><b>搞钱信号</b>：AI 跨境电商选品、社交媒体内容矩阵、AI 数字人直播是三大已被验证的高变现路径。</p>",
+      "tags": [
+        "money"
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_40369c7953e08552",
+      "sourceLabel": "腾讯网"
     }
   ],
   "video": [
@@ -510,6 +553,28 @@
       ],
       "source": "https://www.sohu.com/a/1011647467_122195158",
       "sourceLabel": "搜狐"
+    },
+    {
+      "title": "AI视频生成进入「好用」阶段：爱奇艺、腾讯、快手密集加码",
+      "date": "2026-04-25",
+      "body": "<p>进入2026年，AI视频生成已经从「能用」进化到「好用」的阶段。Sora、Runway等海外产品持续迭代，国内可灵AI、即梦AI、海螺AI等也在快速追赶，用户的选择空间越来越大。</p><p>爱奇艺4月20日推出纳影Pro，4月15日腾讯视频透露全流程AI长视频计划，猎聘4月8日公布输入法大模型行业第一，DataEye数据显示2026年Q1 AI剧/微剧总播放量已超1300亿。</p>",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_85169eb656409952",
+      "sourceLabel": "腾讯网"
+    },
+    {
+      "title": "AI短剧制作工具实力榜（2026年4月）：工业化量产时代开启",
+      "date": "2026-04-25",
+      "body": "<p>2026年AI短剧进入工业化量产时代，4月最新工具实力榜：客云可灵AI以9.7分稳居第一，MoneyPrinterTurbo（55k星）提供一键短视频生成完整链路；ArcReel（1704星）覆盖小说→剧本→分镜→视频全流程；Generative-Media-Skills（3023星）提供多模型Agent生成能力。</p><p><b>意义</b>：AI视频工具竞争加剧，垂直场景工具和跨模型编排是当前最大机会。</p>",
+      "tags": [
+        "video",
+        "tools"
+      ],
+      "source": "https://www.sohu.com/a/1007649089_122512702",
+      "sourceLabel": "搜狐"
     }
   ],
   "videoTools": [
@@ -906,6 +971,30 @@
         "ai-tool"
       ],
       "source": "https://github.com/yzddmr6/repo-analyzer",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "DeerFlow 2.0 — GitHub Trending #1（2026.04）字节跳动开源长程Agent框架",
+      "date": "2026-04-25",
+      "body": "<p>2026年2月28日，DeerFlow 2.0 正式发布并迅速登上 GitHub Trending 第一名。DeerFlow 是字节跳动开源的长程超级Agent框架，支持研究、编码和创作任务。基于「Video-as-Data」基础设施，可构建能够推理复杂视频任务的视频Agent。</p><p><b>意义</b>：DeerFlow 2.0 是当前最火的开源 Agent 框架之一，集成了 Doubao-Seed-2.0-Code、DeepSeek v3.2 和 Kimi 2.5 等大模型。</p>",
+      "tags": [
+        "ai",
+        "agent",
+        "tool"
+      ],
+      "source": "https://github.com/bytedance/deer-flow",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Open-Claw Star 超40万——超越 Linux 成为 GitHub 历史第一开源项目",
+      "date": "2026-04-25",
+      "body": "<p>2026年3月初，OpenClaw 以25万+ Stars 超越 Linux 登顶 GitHub 平台活跃度榜首；4月中旬 Stars 已突破40万，持续刷新开源项目增速历史记录（48小时破10万星，React 用8年、Linux 用12年）。</p><p><b>意义</b>：OpenClaw 的爆发验证了「个人AI助手」赛道的真实需求。NanoClaw/IronClaw/ZeroClaw 等子项目生态快速扩张，围绕 OpenClaw 的二次开发和 SaaS 服务是可直接变现的方向。</p>",
+      "tags": [
+        "ai",
+        "agent",
+        "tool"
+      ],
+      "source": "https://github.com/openclaw/openclaw",
       "sourceLabel": "GitHub"
     }
   ],
