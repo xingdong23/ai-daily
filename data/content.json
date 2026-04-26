@@ -1,6 +1,28 @@
 {
-  "lastUpdate": "2026-04-25",
+  "lastUpdate": "2026-04-26",
   "money": [
+    {
+      "title": "2026 实战指南：普通人用 AI 搞钱三大方向",
+      "date": "2026-04-26",
+      "body": "<p>2026 年，AI 已在普通人生活中大规模落地，搞钱方式快速进化。最新实战指南指出三大方向：</p><p><b>第一类：技术变现</b><br/>出售 AI 指令、教程、搭建智能体或给平台进行大模型训练，技术含量高但收益大。</p><p><b>第二类：AI 内容变现</b><br/>借助 AI 工具进行 AI 写作、AI 头像、AI 壁纸、AI 表情包、AI 视频、AI 动漫、AI 绘本等，无论自行接单还是辅助做自媒体都可以。</p><p><b>第三类：流量变现</b><br/>利用 AI 快速起号（如 AI 账号 30 天破万粉），接广告或带货。核心逻辑：AI 是放大器——有流量的人用它放大收益，没流量的人用它快速起量。</p>",
+      "tags": [
+        "money",
+        "ai"
+      ],
+      "source": "https://new.qq.com/rain/a/20260105A0444Z00",
+      "sourceLabel": "腾讯新闻"
+    },
+    {
+      "title": "AI 驱动电商跨平台数据同步：卖家发现套利机会的利器",
+      "date": "2026-04-26",
+      "body": "<p>AI 驱动的跨平台数据对齐工具，能跨平台对比同一类目商品在不同生态（亚马逊高溢价市场 vs Temu 极致供应链）中的价格差和搜索热度（BSR 走趋），帮助卖家大幅缩短发现\"信息差\"的时间。</p><p>在流量端，利用 AI 重构符合当地 SEO 逻辑的 Listing，或批量产出 TikTok、Instagram 矩阵分发短视频素材，都已经成为行业标配。</p>",
+      "tags": [
+        "money",
+        "ai"
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_40369c7953e08552",
+      "sourceLabel": "QQ浏览器"
+    },
     {
       "title": "MakeMoneyWithAI — 开源 AI 搞钱项目清单（285⭐）",
       "date": "2026-04-17",
@@ -155,6 +177,28 @@
     }
   ],
   "video": [
+    {
+      "title": "LTX-2 by Lightricks：首款支持 4K 有声生成的消费级 AI 视频模型",
+      "date": "2026-04-26",
+      "body": "<p>Lightricks 发布 <b>LTX-2</b>，升级版视频生成模型。与早期只能生成无声片段的系统不同，LTX-2 采用统一架构同时生成视频和音频，能够产出连贯的视听场景。</p><p>核心亮点：支持 4K 分辨率输出；融合视频与音频生成于单一架构；消费级显卡即可运行；延续 LTX Studio 平台专业电影级工作流。</p><p>标志着 AI 视频从\"能用\"进化到\"好用\"，家用设备也能产出广播级内容。</p>",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "source": "https://blog.csdn.net/linshantang/article/details/156695476",
+      "sourceLabel": "CSND"
+    },
+    {
+      "title": "2026 年 AI 视频生成工具横评：LTX Studio vs Wan2.1 vs Hailuo",
+      "date": "2026-04-26",
+      "body": "<p>进入 2026 年，AI 视频生成已经从\"能用\"进化到\"好用\"的阶段。Sora、Runway 等海外产品持续迭代，国内可灵 AI、即梦 AI、海螺 AI 等工具也在快速追赶。</p><p><b>主流工具综合实力对比：</b></p><ul><li><b>LTX Studio</b>：专业电影级工作流，支持 4K 有声视频</li><li><b>Wan2.1</b>：阿里开源，MoE 架构，高效视频生成</li><li><b>MiniMax Hailuo-02</b>：图生/文生视频全球前三，成本低于 Google Veo 3</li><li><b>Seedance 2.0</b>（字节）：ComfyUI 原生支持，电影级高保真</li></ul>",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_047697b662f34152",
+      "sourceLabel": "QQ浏览器"
+    },
     {
       "title": "short-video-factory — AI 一键生成产品营销短视频（3790⭐）",
       "date": "2026-04-17",
@@ -579,6 +623,42 @@
   ],
   "videoTools": [
     {
+      "title": "video-db/Director：AI Video Agents 框架，像用 ChatGPT 一样处理视频",
+      "date": "2026-04-26",
+      "body": "<p><b>Director</b> 是 VideoDB 推出的 AI 视频代理框架，被称为\"视频领域的 ChatGPT\"。能够处理复杂的视频任务：自然语言搜索视频、秒级摘要、一键剪辑、叠加层与帧提取。</p><p>基于 VideoDB 的\"Video-as-Data\"基础设施构建，支持流式输出，适合构建下一代视频交互和工作流。</p>",
+      "tags": [
+        "videoTools",
+        "video",
+        "ai"
+      ],
+      "source": "https://github.com/video-db/Director",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "FastVideo：微软加速视频生成统一推理框架",
+      "date": "2026-04-26",
+      "body": "<p><b>FastVideo</b> 是微软推出的统一推理和后训练框架，专为加速视频生成而设计。源自 Microsoft RD-Agent 项目，旨在为视频生成模型提供高效的推理加速能力，降低视频 AI 的计算成本。</p>",
+      "tags": [
+        "videoTools",
+        "video",
+        "ai"
+      ],
+      "source": "https://github.com/microsoft/FastVideo",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "ComfyUI Partner Nodes 新增 MiniMax Hailuo-02、Kling2.1、Veo3 等模型",
+      "date": "2026-04-26",
+      "body": "<p>ComfyUI Partner Nodes 迎来重大更新，现已支持<b>无限并行 API 节点</b>，无需等待每个请求完成即可触发下一个，极大提升创作效率。</p><p><b>最新可用模型：</b>MiniMax Hailuo-02（768p/1080p）；Vidu（文生/图生/参考生/首尾帧生视频）；Kling 2.1（快手）；Veo 3/Veo3-fast（Google，支持音频）；GPT-5 系列。</p>",
+      "tags": [
+        "videoTools",
+        "video",
+        "ai"
+      ],
+      "source": "https://blog.comfy.org/p/unlimited-parallel-api-nodes-and",
+      "sourceLabel": "ComfyUI Blog"
+    },
+    {
       "title": "零 API Key也能制作视频，首个完整的开源智能化视频制作工作室",
       "date": "2026-04-16",
       "body": "<p><b>OpenMontage</b>——把 AI 编程助手变成完整视频制作工作室。用自然语言描述需求，智能体自动完成调研、脚本写作、素材生成、剪辑和最终合成。不仅能做图片驱动视频，还能用免费开放档案制作<b>实拍视频蒙太奇</b>。</p><p><b>零 API Key 免费工具链</b>：Piper TTS 离线高品质旁白、Archive.org/NASA/Wikimedia 免费素材库、Pexels/Unsplash/Pixabay 免费图库、Remotion 物理动画与转场合成、FFmpeg 编码混音调色、内置逐词字幕生成。两条免费路线：图片驱动视频（Piper+FLUX+Remotion）和真实素材蒙太奇（开放档案 footage 剪辑）。</p><p><b>从参考视频起步</b>：支持输入 YouTube/TikTok/Reels 视频，智能体分析字幕节奏场景后返回差异化概念、工具路径和成本预估。示例：60 秒皮克斯风格动画短片总成本仅 1.33 美元。支持 Claude Code/Cursor/Copilot/Windsurf/Codex 等任意 AI 编程助手。</p>",
@@ -646,6 +726,74 @@
     }
   ],
   "aiTool": [
+    {
+      "title": "Google Cloud《AI Agent Trends 2026》：52% 企业已在生产环境部署 Agent",
+      "date": "2026-04-26",
+      "body": "<p>Google Cloud 基于 3466 名全球企业决策者调研发布《AI Agent Trends 2026》报告，指出真正的商业变革不在于遥远的 AGI，而在于当下正在发生的 <b>Agentic AI 转型</b>。</p><p><b>核心发现：</b>52% 使用生成式 AI 的企业已在生产环境部署 AI Agent；49% 用于客户服务，46% 用于营销，45% 用于技术支持；Agent 时代，营销经理可同时调度五个专业 Agent。</p><p>从指令式计算转向意图式计算——员工只需表达期望结果，AI 自主规划并执行。</p>",
+      "tags": [
+        "aiTool",
+        "agent"
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_5626990114b63752",
+      "sourceLabel": "Google Cloud"
+    },
+    {
+      "title": "OpenClaw GitHub 星标超越 Linux，登上历史第一",
+      "date": "2026-04-26",
+      "body": "<p>开源 AI Agent 产品 <b>OpenClaw</b> 继续保持惊人增长——截至 2026 年 3 月初，GitHub Star 数量正式超越 Linux，<b>登顶历史第一</b>，这是开源史上的历史性时刻。</p><p>OpenRouter 平台全球 Token 调用量前五名中，中国产品占据四席（MiniMax、DeepSeek、GLM、Kimi），2026 年 2 月中国模型产品总调用量首次超越美国——这不仅是技术领先，更是 Agent 产品规模化商用的胜利。</p>",
+      "tags": [
+        "aiTool",
+        "agent"
+      ],
+      "source": "https://new.qq.com/rain/a/20260410A05Q7B00",
+      "sourceLabel": "腾讯新闻"
+    },
+    {
+      "title": "2026 Q1 全球新增 267 个大模型，平均每天 3 个",
+      "date": "2026-04-26",
+      "body": "<p>据 AI 产业研究第 21 轮报告，2026 年第一季度全球主要 AI 实验室共推出 <b>267 个大模型</b>，平均每天约 3 个新模型问世，刷新了自生成式 AI 爆发以来的发布速度纪录。</p><p><b>关键趋势：</b>GPT-5、Gemini 3 等新一代大模型进入市场，AI 智能体升级为\"能自主思考、主动协助\"；中国模型产品在全球 Token 调用量上首次超越美国；垂直 AI 创业潮带动 Forbes AI 50 出现 20 家新面孔。</p>",
+      "tags": [
+        "aiTool",
+        "agent"
+      ],
+      "source": "https://new.qq.com/rain/a/20260410A05Q7B00",
+      "sourceLabel": "腾讯新闻"
+    },
+    {
+      "title": "京东「新品全域通千亿计划」：全链路融入 AI Agent 助力品牌增长",
+      "date": "2026-04-26",
+      "body": "<p>4 月 23 日，京东正式发布<b>「新品全域通千亿计划」</b>，整合搜索流量、营销 IP、全渠道、AI 工具、内容生态及广告稳赚计划，目标：今年打造至少 1000 款年销过亿新品。</p><p>AI 全链路驱动，从新品孵化到爆款打造全面智能化。京东致力于三重营销价值：以高质量用户资产筑信任之墙，以全渠道立触达之广，以 AI 驱动的全链路营销保增之实效。</p>",
+      "tags": [
+        "aiTool",
+        "agent",
+        "money"
+      ],
+      "source": "https://www.cet.com.cn/wzsy/cyzx/10346568.shtml",
+      "sourceLabel": "中国经济网"
+    },
+    {
+      "title": "Meta 裁员 10% 提效，全力押注 AI Agent",
+      "date": "2026-04-26",
+      "body": "<p>Meta Platforms 宣布<b>裁员 10%</b>（约 8000 名员工受影响，5 月 20 日实施），并将节省资金大规模投入 AI。公司已预计今年资本支出将创下纪录，过去几个月已公布多项与 AI 合作的数十亿美元交易。</p><p>Meta 鼓励员工在内部使用 AI 智能体协助编写代码，并预测 Agent 将重塑企业数字化流水线的每个环节。</p>",
+      "tags": [
+        "aiTool",
+        "agent"
+      ],
+      "source": "https://k.sina.com.cn/article_7857201856_1d45362c001904nq9o.html",
+      "sourceLabel": "新浪财经"
+    },
+    {
+      "title": "MiniMax AI 全工具 MCP Server 正式发布",
+      "date": "2026-04-26",
+      "body": "<p>MiniMax 官方发布 Model Context Protocol (MCP) Server，支持通过标准协议调用其强大的 <b>TTS、图像生成、视频生成和语音克隆</b> API。该 Server 已上架 GitHub，为开发者提供了一站式接入 MiniMax 全模态能力的标准途径。</p>",
+      "tags": [
+        "aiTool",
+        "video",
+        "ai"
+      ],
+      "source": "https://github.com/MiniMax-AI",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "GenericAgent — 自进化 Agent 技能树（2745⭐，Trending 872星/天）",
       "date": "2026-04-17",
@@ -1000,6 +1148,42 @@
   ],
   "dev": [
     {
+      "title": "2026 AI Agent 元年爆发：五大关键趋势",
+      "date": "2026-04-26",
+      "body": "<p>2026 年，AI Agent 迎来全面落地爆发，被科技圈、资本圈、职场圈广泛认可，被定义为<b>智能体规模化应用的元年</b>。</p><p><b>五大关键趋势：</b></p><ul><li>OpenClaw GitHub 星标超越 Linux 成历史第一</li><li>Google Cloud 报告：52% 企业已在生产环境部署 AI Agent</li><li>IDC：2026 年将有多 50% 的中国 500 强数据团队使用 AI Agent</li><li>GPT-5、Gemini 3 等新一代大模型让 Agent 升级为\"智能数字伙伴\"</li><li>Forbes AI 50：垂直 AI 黄金时代到来，20 家新面孔</li></ul>",
+      "tags": [
+        "dev",
+        "agent",
+        "ai"
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_06169d439c609152",
+      "sourceLabel": "QQ浏览器"
+    },
+    {
+      "title": "AI+Crypto 深度融合三大趋势（a16z Crypto）",
+      "date": "2026-04-26",
+      "body": "<p>基于 a16z Crypto 研究团队预测，2026 年将是 AI 与 Crypto 深度融合的一年。<b>三大核心趋势：</b></p><p><b>1. 科研新范式：从单 Agent 走向\"Agent-Wrapping-Agent\"架构</b>，高级协作要求智能体具备可验证的身份（KYA）。</p><p><b>2. 金融基础设施革命：从 KYC 到 KYA（Know Your Agent）</b>，身份验证从人类扩展到 AI Agent。</p><p><b>3. 经济模型重构：通过纳支付与可编程 IP 解决开放网络面临的\"隐形税\"危机</b>。</p>",
+      "tags": [
+        "dev",
+        "ai",
+        "deep"
+      ],
+      "source": "https://new.qq.com/rain/a/20260126A03N5G00",
+      "sourceLabel": "腾讯新闻"
+    },
+    {
+      "title": "飞书 AI 先锋大赛：73 家企业同台，AI Agent 赋能先进制造",
+      "date": "2026-04-26",
+      "body": "<p>4 月 21 日，\"<b>2026 飞书 AI 先锋大赛·先进制造专场</b>\"决赛在北京收官。大赛共汇聚 73 家企业、146 个参赛案例，汇集同济大学、奇端/上汽/北汽/理想/小米等产学界评委。</p><p>TCL 华星、海信、北汽福田、SKG、雅迪、亿咖通等十家制造业领军企业斩获年度\"制造 AI 先锋\"荣誉，展示了 AI Agent 在产线、供应链、研发和营销等一线场景的落地解决方案。</p>",
+      "tags": [
+        "dev",
+        "agent",
+        "ai"
+      ],
+      "source": "https://k.sina.com.cn/article_5953740931_162dee083067032n0q.html",
+      "sourceLabel": "新浪新闻"
+    },
+    {
       "title": "Claude Opus 4.7 — Anthropic 最新旗舰模型（HN 1384分）",
       "date": "2026-04-17",
       "body": "<p>Hacker News 今日榜首，1384 分，1005 评论。Anthropic 发布 Claude Opus 4.7。</p><p>同时 HN 热帖：Qwen3.6-35B-A3B 在画 pelican 上赢了 Opus 4.7（269分）——开源模型在特定任务追平闭源。</p><p><b>信号</b>：模型竞争白热化，OpenAI 同日发布 Codex 全能扩展（628分），两大阵营同日重磅。</p>",
@@ -1299,6 +1483,41 @@
     }
   ],
   "star": [
+    {
+      "title": "OpenClaw — 跨平台个人 AI 助手（171394⭐，日增 58305⭐）",
+      "date": "2026-04-26",
+      "body": "<p>OpenClaw 定位为跨平台个人 AI 助手，核心优势在于跨系统、跨终端适配，可兼容各种操作系统与硬件平台，打破了 AI 助手的平台局限性。</p><p>其标志性的\"龙虾\"形象象征灵活适配的特性，能为用户提供专的 AI 辅助服务，覆盖日常交互、任务处理等基础场景。凭借全平台通用性和便携性，快速积累大量关注。</p>",
+      "tags": [
+        "star",
+        "agent"
+      ],
+      "source": "https://github.com/openclaw/openclaw",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "video-db/Director — AI 视频代理框架（499 Commits）",
+      "date": "2026-04-26",
+      "body": "<p>Director 是 VideoDB 推出的 AI 视频代理框架，被称为\"视频领域的 ChatGPT\"。支持自然语言搜索视频、秒级摘要、一键剪辑、叠加层与帧提取。基于 VideoDB 的 Video-as-Data 基础设施，支持流式输出，适合构建下一代视频交互和工作流。</p>",
+      "tags": [
+        "star",
+        "video",
+        "ai"
+      ],
+      "source": "https://github.com/video-db/Director",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Forbes AI 50 榜单：垂直 AI 黄金时代到来",
+      "date": "2026-04-26",
+      "body": "<p>Forbes 最新\"AI 50\"榜单揭示两大特征：<b>两极分化</b>与<b>垂直深耕</b>。</p><p>OpenAI 与 Anthropic 继续在 AGI 道路上狂奔；同时 20 家垂直 AI 新面孔的出现，宣告垂直 AI 黄金时代到来。中国模型产品（MiniMax、DeepSeek、GLM、Kimi）在 OpenRouter 全球 Token 调用量前五占四席，2026 年 2 月中国模型总调用量首次超越美国。</p>",
+      "tags": [
+        "star",
+        "ai",
+        "agent"
+      ],
+      "source": "https://www.sohu.com/a/1013102025_122735585",
+      "sourceLabel": "搜狐新闻"
+    },
     {
       "title": "andrej-karpathy-skills — Karpathy CLAUDE.md（49684星，Trending 7959星/天）",
       "date": "2026-04-17",
