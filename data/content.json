@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-26",
+  "lastUpdate": "2026-04-27",
   "money": [
     {
       "title": "2026 实战指南：普通人用 AI 搞钱三大方向",
@@ -174,6 +174,28 @@
       ],
       "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_40369c7953e08552",
       "sourceLabel": "腾讯网"
+    },
+    {
+      "title": "AI Agent 经济爆发：620亿美元市场的五大变革信号",
+      "date": "2026-04-27",
+      "body": "<p>Gartner 预测 2026 年 AI Agent 市场规模将突破 <b>620 亿美元</b>，年复合增长率达 45%。企业级 Agent 渗透率从 2024 年的 32% 跃升至 2025 年的 58%。</p><p><b>五大变革信号：</b>全员 Agent 化（意图驱动替代指令驱动）；业务流 Agent 化打破「业务孤岛」；客户体验专家化推动客服从被动响应转向主动服务；语音 AI 成下一波核心战场；Agent 化开发范式从「人写代码」转向「人定义目标」。</p><p><b>搞钱机会</b>：Agent 技能培训、垂直行业 Agent 套件、Agent 工作流模板是 2026 年最直接的变现路径。</p>",
+      "tags": [
+        "money",
+        "agent"
+      ],
+      "source": "https://k.sina.com.cn/article_7857201856_1d45362c00190389r4.html",
+      "sourceLabel": "新浪财经"
+    },
+    {
+      "title": "AI 视频短剧工业化量产：单日产片超470部，240亿市场爆发",
+      "date": "2026-04-27",
+      "body": "<p>AI 制作一部 60 集短剧，传统模式成本 <b>30-50 万/周期 1-4 周</b>；AI 模式成本 <b>500-5000 元/周期 5 小时-4 天</b>，成本降低 99%，效率提升 5-10 倍。</p><p><b>市场规模</b>：DataEye 预估 2026 年中国微短剧+漫剧市场规模突破 <b>1200 亿</b>；艾媒咨询预计 2030 年 AI 漫剧市场超 850 亿。</p><p><b>搞钱信号</b>：AI 短剧制作进入工业化量产阶段，单日产片超 470 部。个人创作者和小型工作室迎来最大红利期，工具 SaaS + 内容制作服务是主要变现路径。</p>",
+      "tags": [
+        "money",
+        "video"
+      ],
+      "source": "https://www.sohu.com/a/1011867064_122670887",
+      "sourceLabel": "搜狐"
     }
   ],
   "video": [
@@ -619,6 +641,29 @@
       ],
       "source": "https://www.sohu.com/a/1007649089_122512702",
       "sourceLabel": "搜狐"
+    },
+    {
+      "title": "GenVidBench：AAAI 2026 发布 600 万样本 AI 生成视频检测基准",
+      "date": "2026-04-27",
+      "body": "<p><b>GenVidBench</b> 是 AAAI 2026 发布的 AI 生成视频检测基准，包含 600 万样本，用于评估 AI 生成视频的检测能力。</p><p>该基准覆盖多种视频生成模型，对 AI 视频检测、水印识别、真实性验证等具有重要意义。</p><p><b>意义</b>：随着 AI 视频生成泛滥，检测和溯源工具将成为刚性需求。</p>",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "source": "https://github.com/genvidbench/GenVidBench",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Pollinations AI：开源开放式 Gen-AI 平台，新增视频生成能力",
+      "date": "2026-04-27",
+      "body": "<p><b>Pollinations</b> 是开源开放式 Gen-AI 平台，新增视频生成能力。基于 Seedance 模型，支持 AI 视频生成、图片生成等。</p><p>提供 Prompt Builder、可选本地 ComfyUI 桥接和基于角色的访问控制。</p><p><b>意义</b>：开源免费视频生成平台，降低 AI 视频创作门槛。</p>",
+      "tags": [
+        "video",
+        "ai",
+        "tools"
+      ],
+      "source": "https://github.com/pollinations/pollinations",
+      "sourceLabel": "GitHub"
     }
   ],
   "videoTools": [
@@ -1144,6 +1189,28 @@
       ],
       "source": "https://github.com/openclaw/openclaw",
       "sourceLabel": "GitHub"
+    },
+    {
+      "title": "2026 AI Agent 爆发：多智能体协同成主流，单打独斗已落伍",
+      "date": "2026-04-27",
+      "body": "<p>2026 年 AI Agent 的标志性转变：<b>单 Agent 正在让位于多智能体系统（Multi-Agent System）</b>。复杂任务需要分工——Research Agent 负责信息检索、Coder Agent 负责代码生成、Reviewer Agent 负责质量审核，通过协作协议互通有无。</p><p>这种组合的能效上限远高于单个 All-in-One Agent。<b>主流多智能体框架</b>：LangGraph（2026 年 Q1 周下载量突破 150 万次）；CrewAI；AutoGen。</p><p><b>意义</b>：Multi-Agent 协作是 2026 年 Agent 开发的主流范式，个人开发者应重点关注多 Agent 架构设计能力。</p>",
+      "tags": [
+        "aiTool",
+        "agent"
+      ],
+      "source": "https://blog.csdn.net/m0_65555479/article/details/159731777",
+      "sourceLabel": "CSDN"
+    },
+    {
+      "title": "Manus AI 通用型 Agent 发布：AGI 距离我们还有多远？",
+      "date": "2026-04-27",
+      "body": "<p><b>Manus</b> 是通用型 AI Agent，定位为「数字劳动力」。在 GAIA 基准（真实世界任务）中刷新 SOTA，超越 GPT-4o 和 Claude 3.5。</p><p>Manus 的核心突破在于将复杂任务拆解为多个子任务并调用外部工具自主执行，实现从「会说话」到「会干活」的跨越。</p><p><b>意义</b>：通用 Agent 的出现验证了「意图驱动」而非「指令驱动」的开发范式转变，对我们的工具链设计具有参考价值。</p>",
+      "tags": [
+        "aiTool",
+        "agent"
+      ],
+      "source": "https://k.sina.com.cn/article_7857201856_1d45362c00190389r4.html",
+      "sourceLabel": "新浪财经"
     }
   ],
   "dev": [
@@ -1480,6 +1547,29 @@
       ],
       "source": "https://mp.weixin.qq.com/s/U0193mJf0C2e-2WY_oR55g",
       "sourceLabel": "开源先锋"
+    },
+    {
+      "title": "omi — 可「看到」屏幕、听到对话的 AI 可穿戴设备（10,551⭐）",
+      "date": "2026-04-27",
+      "body": "<p><b>omi</b> 是可穿戴 AI 设备，能「看到」屏幕、听到对话，实时转录、生成摘要和操作建议，同时提供 AI 聊天功能。GitHub 10,551 ⭐，最近趋势 +609 ⭐/天。</p><p><b>技术亮点</b>：实时屏幕理解+对话转录+多模态感知，设备端运行保护隐私。</p><p><b>开发者价值</b>：BCI（脑机接口）+AI 的跨界探索，o1 算法可穿戴化。</p>",
+      "tags": [
+        "dev",
+        "ai",
+        "agent"
+      ],
+      "source": "https://www.cnblogs.com/saodiseng2015/p/19890592",
+      "sourceLabel": "博客园"
+    },
+    {
+      "title": "free-claude-code：Claude Code 免费路线代理（AI 开源新星）",
+      "date": "2026-04-27",
+      "body": "<p><b>free-claude-code</b> 是 Claude Code 免费路线代理，GitHub Trending 热门项目，日增 87 ⭐。</p><p>解决 Claude Code 订阅费用问题，为开发者提供免费使用路径。</p><p><b>开发者价值</b>：Claude Code 的开源替代方案，对 AI 编程工具生态有重要意义。</p>",
+      "tags": [
+        "dev",
+        "tools"
+      ],
+      "source": "https://blog.csdn.net/xiaoquqi/article/details/160489778",
+      "sourceLabel": "CSDN"
     }
   ],
   "star": [
