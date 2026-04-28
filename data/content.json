@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-27",
+  "lastUpdate": "2026-04-28",
   "money": [
     {
       "title": "2026 实战指南：普通人用 AI 搞钱三大方向",
@@ -196,6 +196,30 @@
       ],
       "source": "https://www.sohu.com/a/1011867064_122670887",
       "sourceLabel": "搜狐"
+    },
+    {
+      "title": "AI Agent经济爆发：52%企业已在生产环境部署，数字员工时代来临",
+      "date": "2026-04-28",
+      "body": "<p>Google Cloud《AI Agent Trends 2026》报告显示，<b>52%使用生成式AI的企业</b>已在生产环境部署AI Agent，其中49%用于客户服务、46%用于营销、45%用于技术支持、43%用于产品创新。</p><p>加拿大电信巨头的实践案例证明：<b>超7000名员工</b>定期使用AI工具，每次AI交互节省40分钟，年化效益显著。</p><p><b>搞钱信号</b>：AI Agent正在从\"实验性工具\"变为\"企业必选基础设施\"，相关的AI Agent开发、集成、运维服务将产生巨大商业机会。</p>",
+      "tags": [
+        "money",
+        "ai",
+        "agent"
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_5626990114b63752",
+      "sourceLabel": "腾讯网"
+    },
+    {
+      "title": "中信通院启动DeepSeek-V4国产化适配：企业AI落地加速",
+      "date": "2026-04-28",
+      "body": "<p>2026年4月27日，中国信息通信研究院宣布联合人工智能软硬件协同创新中心，正式启动<b>DeepSeek-V4国产化适配测试工作</b>。</p><p>与此同时，深圳龙岗区和无锡高新区已将相关软件写进政府补贴文件，AI Agent开发进入政府采购范畴。</p><p><b>搞钱信号</b>：政府补贴+企业采购双轮驱动，AI Agent企业市场正在快速规模化，第一批吃螃蟹的ISV已拿到真实订单。</p>",
+      "tags": [
+        "money",
+        "ai",
+        "agent"
+      ],
+      "source": "https://k.sina.com.cn/article_7857201856_1d45362c001904rxk4.html",
+      "sourceLabel": "新浪财经"
     }
   ],
   "video": [
@@ -664,6 +688,41 @@
       ],
       "source": "https://github.com/pollinations/pollinations",
       "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Adobe Firefly集成Sora 2：专业视频编辑进入AI生成时代",
+      "date": "2026-04-28",
+      "body": "<p><b>Adobe</b>于2026年4月1日宣布在其<b>Firefly视频编辑器</b>中集成OpenAI <b>Sora 2</b>视频生成模型。用户可在时间线中直接生成高质量视频片段，支持文生视频和图生视频。</p><p>该功能现已向Beta用户开放，标志着专业视频编辑正式进入AI生成时代。</p><p><b>意义</b>：Adobe将生成式AI与专业工具链深度整合，对视频内容生产方式具有里程碑意义。</p>",
+      "tags": [
+        "video",
+        "ai",
+        "tool"
+      ],
+      "source": "https://helpx.adobe.com/vn_vi/firefly/web/firefly-video-editor/generate-videos/generate-videos-using-openai-video-models.html",
+      "sourceLabel": "Adobe Help"
+    },
+    {
+      "title": "WAIFF 2026 世界AI短剧节在中国举办：全球首个AI短剧专业国际节",
+      "date": "2026-04-28",
+      "body": "<p><b>世界人工智能短剧节（WAIFF）</b>2026年4月在中国举办，主题为\"AI+内容与短剧的交汇\"。入围名单已公布，全球首个AI短剧专业国际短剧节正式落地。</p><p>参赛作品涵盖AI生成的微电影、动画短剧和互动叙事内容，标志着AI视频内容正式进入主流影视评价体系。</p><p><b>意义</b>：AI短剧进入专业评奖体系，内容工业化进一步成熟。</p>",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "source": "https://worldaifilmfestival.cn/",
+      "sourceLabel": "WAIFF官网"
+    },
+    {
+      "title": "Google Veo 3.1 Lite发布：快速、低成本的AI视频生成工具",
+      "date": "2026-04-28",
+      "body": "<p><b>Google</b>发布<b>Veo 3.1 Lite</b>，定位为快速、低成本的AI视频生成工具，面向开发者提供。该版本在保持质量的同时大幅降低延迟和调用成本。</p><p><b>意义</b>：视频生成能力正在从\"高质量但昂贵\"向\"可用且廉价\"快速过渡，降低开发者接入门槛。</p>",
+      "tags": [
+        "video",
+        "ai",
+        "tool"
+      ],
+      "source": "https://www.c-sharpcorner.com/News",
+      "sourceLabel": "C# Corner"
     }
   ],
   "videoTools": [
@@ -1211,9 +1270,56 @@
       ],
       "source": "https://k.sina.com.cn/article_7857201856_1d45362c00190389r4.html",
       "sourceLabel": "新浪财经"
+    },
+    {
+      "title": "Google Cloud《AI Agent趋势报告2026》：五大转变重塑企业价值",
+      "date": "2026-04-28",
+      "body": "<p>Google Cloud发布《AI Agent Trends 2026》报告，基于3466名全球企业决策者调研数据。报告显示：<b>52%使用生成式AI的企业高管</b>表示其组织已在生产环境部署AI Agent；<b>49%用于客户服务，46%用于营销或安全运营，45%用于技术支持，43%用于产品创新或研究</b>。</p><p>报告指出真正的商业变革不在于遥远的通用人工智能（AGI），而在于当下正在发生的\"<b>Agentic AI</b>\"转型。员工只需表达期望的结果，AI Agent便能自主规划并执行任务。</p><p><b>意义</b>：AI Agent从\"对话窗口\"变成\"数字员工\"，2026年将成为企业AI规模化应用元年。</p>",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_5626990114b63752",
+      "sourceLabel": "腾讯网"
+    },
+    {
+      "title": "OpenClaw v2026.4.x：302k Stars的AI Agent框架持续迭代",
+      "date": "2026-04-28",
+      "body": "<p><b>OpenClaw</b>是2026年全球增长最快的开源AI Agent框架，GitHub Stars突破<b>302k</b>，84天内突破20万Stars，远超历史所有开源项目。最新v2026.4.x版本带来：Memory和Dreaming系统重大改进、Control UI用户体验优化、QA和工具系统增强、插件和提供者系统扩展、线性任务流控制（首个Linear任务集成）、安全性加固。</p><p>v2026.4.11-beta还新增<atool>视频生成能力</atool>，支持URL-only资产交付、自适应宽高比和多模态输入。</p><p><b>意义</b>：OpenClaw已从\"个人助手\"升级为\"企业级数字员工平台\"，阿里云、腾讯等巨头已将其纳入数字化办公生态。</p>",
+      "tags": [
+        "ai",
+        "agent",
+        "tool",
+        "dev"
+      ],
+      "source": "https://github.com/openclaw/openclaw/releases",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "Qwen3.5-Omni：阿里千问全模态大模型，超越Gemini-3.1 Pro",
+      "date": "2026-03-30",
+      "body": "<p><b>阿里巴巴</b>于2026年3月30日发布<b>千问3.5-Omni</b>全模态大模型，在音视频理解、识别、交互等215项任务中取得SOTA（性能最佳），超越Gemini-3.1 Pro，成为目前全球最强的全模态大模型之一。</p><p>该模型同时支持文本、图像、音频、视频的多模态理解和生成。</p><p><b>意义</b>：中国AI模型能力持续突破，在全球全模态竞争中占据重要地位。</p>",
+      "tags": [
+        "ai",
+        "deep"
+      ],
+      "source": "https://article.pchome.net/n3_2137/s1/1.html",
+      "sourceLabel": "PChome"
     }
   ],
   "dev": [
+    {
+      "title": "推荐搞 Agent 的把这个 4 万 Star 的 GitHub 项目研究透",
+      "date": "2026-04-27",
+      "body": "<p>pi-mono 是一个 TypeScript 单仓项目，专门用来构建 AI Agent 和管理 LLM 部署，冲到 GitHub 4 万 Star。</p><p>OpenClaw 的核心运行时，就是基于 Pi 的 SDK 构建的。</p><p><b>极简哲学</b>：核心只有 4 个工具（read/write/edit/bash），系统提示词不到 1000 token。没有 MCP、没有子 Agent、没有权限弹窗、没有 Plan 模式。</p><p><b>7 个独立 npm 包</b>：pi-ai（统一 20+ LLM 提供商）、pi-agent-core（轻量运行时）、pi-coding-agent（主产品）、pi-tui、pi-web-ui、pi-mom、pi-pods。</p><p><b>亮点</b>：20+ LLM 统一接入（支持 OAuth 订阅登录）；Session 树状分支；Extensions 扩展（有人做了 Doom 扩展）；Skills 技能系统（Markdown 即技能）；四种运行模式（交互终端/Print-JSON/RPC/SDK 嵌入）。</p>",
+      "tags": [
+        "dev",
+        "agent",
+        "openclaw"
+      ],
+      "source": "https://mp.weixin.qq.com/s/8kLJvAEgN_qtcGWQAfORvg",
+      "sourceLabel": "逛逛GitHub"
+    },
     {
       "title": "2026 AI Agent 元年爆发：五大关键趋势",
       "date": "2026-04-26",
@@ -1570,6 +1676,30 @@
       ],
       "source": "https://blog.csdn.net/xiaoquqi/article/details/160489778",
       "sourceLabel": "CSDN"
+    },
+    {
+      "title": "AI_Video_Generation_Pipeline：AI自动生成YouTube视频的完整流水线",
+      "date": "2026-04-28",
+      "body": "<p><b>AI_Video_Generation_Pipeline</b>是GitHub Trending热门项目（最新更新2026-04-26），一个自动化AI流水线，输入主题即可生成<b>YouTube就绪视频</b>。</p><p>该工具使用Google Gemini进行脚本生成、免费TTS进行语音合成、智能选择素材并组合成完整视频，全程无需人工干预。</p><p><b>开发者价值</b>：展示了AI视频内容自动化的完整技术栈，对构建内容自动化平台有重要参考价值。</p>",
+      "tags": [
+        "dev",
+        "video",
+        "tools"
+      ],
+      "source": "https://github.com/its-rath/AI_Video_Generation_Pipeline",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "GenVidBench：AAAI 2026发布的600万样本AI视频检测基准",
+      "date": "2026-04-28",
+      "body": "<p><b>GenVidBench</b>是发表于AAAI 2026的AI生成视频检测基准，包含<b>600万个样本</b>，为AI视频内容溯源和检测提供了标准化评估框架。</p><p>随着AI视频生成能力爆发，区分真实视频与AI生成视频成为重要议题，该基准填补了这一空白。</p><p><b>意义</b>：AI视频检测与溯源将成为内容审核和版权保护的重要基础设施。</p>",
+      "tags": [
+        "dev",
+        "ai",
+        "video"
+      ],
+      "source": "https://github.com/genvidbench/GenVidBench",
+      "sourceLabel": "GitHub"
     }
   ],
   "star": [
@@ -2059,6 +2189,42 @@
       ],
       "source": "https://arxiv.org/abs/2604.05091",
       "sourceLabel": "arXiv"
+    },
+    {
+      "title": "MemPalace — AI Memory System，GitHub 43k Stars",
+      "date": "2026-04-28",
+      "body": "<p><b>MemPalace</b>是GitHub上的高评分AI记忆系统，在基准测试中创下历史最高分，且完全免费。它为AI Agent提供持久化记忆和上下文管理能力。</p><p>日增<b>5407 Stars</b>，是最快崛起的AI基础设施项目之一。</p>",
+      "tags": [
+        "star",
+        "ai",
+        "agent"
+      ],
+      "source": "https://github.com/mempalace/mempalace",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "career-ops — AI求职系统，GitHub 31k Stars",
+      "date": "2026-04-28",
+      "body": "<p><b>career-ops</b>是基于Claude Code构建的AI求职系统，支持14种技能模式、Go仪表盘、PDF生成和批处理。帮助用户自动化求职全流程。</p><p>日增<b>3515 Stars</b>，展示了AI在人力资源领域的落地能力。</p>",
+      "tags": [
+        "star",
+        "ai",
+        "agent"
+      ],
+      "source": "https://github.com/career-ops/career-ops",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "claw-code (ultraworkers) — OpenClaw最强代码执行版本，GitHub破10万Stars",
+      "date": "2026-04-28",
+      "body": "<p><b>claw-code</b>是OpenClaw生态中最强大的代码执行分支，由ultraworkers团队开发。GitHub Stars突破<b>10万</b>，是有史以来增长最快的AI编程相关repo。</p><p>该repo解锁后受到社区热捧，展示了AI代码执行能力在开发者中的强劲需求。</p>",
+      "tags": [
+        "star",
+        "dev",
+        "ai"
+      ],
+      "source": "https://github.com/ultraworkers/claw-code",
+      "sourceLabel": "GitHub"
     }
   ],
   "sites": [
