@@ -1,6 +1,39 @@
 {
-  "lastUpdate": "2026-04-28",
+  "lastUpdate": "2026-04-29",
   "money": [
+    {
+      "title": "Qwen3.5-Omni — 阿里全模态大模型发布：音频/视觉/交互全面超越Gemini-3.1 Pro",
+      "date": "2026-03-30",
+      "body": "<p>3月30日，阿里发布千问新一代全模态大模型Qwen3.5-Omni，在音频、视频、识别、交互215项任务中取得SOTA（性能最佳），超越Gemini-3.1 Pro，成为目前全球最强的全模态大模型之一。</p><p><b>搞钱信号</b>：全模态Agent的底层模型能力再升级，多模态内容创作、智能客服、视频理解等场景直接受益。</p>",
+      "tags": [
+        "money",
+        "agent"
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_047697b662f34152",
+      "sourceLabel": "QQ浏览器"
+    },
+    {
+      "title": "MuleRun — 全球首个自进化的个人AI（虫子快跑）",
+      "date": "2026-03-15",
+      "body": "<p>全球首个自进化的个人AI MuleRun（虫子快跑）正式发布，MuleRun有极强的自进化能力，可以让用户轻松部署，将工作交给数字员工完成，0门槛驾驭这位数字员工。</p><p><b>搞钱信号</b>：自进化Agent降低使用门槛，普通人也能拥有专属AI员工。个人助理+自动化工作流是直接变现路径。</p>",
+      "tags": [
+        "money",
+        "agent"
+      ],
+      "source": "https://so.html5.qq.com/page/real/search_news?docid=70000021_06169d439c609152",
+      "sourceLabel": "腾讯新闻"
+    },
+    {
+      "title": "支付宝推AI收款服务：AI Agent按次调用+即时结算",
+      "date": "2026-04-28",
+      "body": "<p>2026年4月28日，支付宝正式推出「支付宝AI收」服务，面向商家及个人开发者，支持通过OpenClaw等AI Agent提供商业化能力，并实现按次调用、即时结算的收款模式。</p><p>这是继「AI付」上线后，支付宝在智能体支付领域的重要延伸。以实际市场为例：用户安装某功能模块后，向AI Agent发出指令，例如「帮我整理最新AI行业的分析报告」，该Agent随即向服务端发起资源查询与定价请求，并向用户提示「获取结果需支付0.02元」。用户在安装并授权「支付宝AI付」功能模块后，即可完成支付，立即获取所需服务。</p><p>目前，「支付宝AI收」已在支付宝A2A交易专区正式上线，接入流程精简为三步：完成入驻签约→创建应用→集成SDK。接入完成后，每次AI Agent调用服务时，系统将自动触发定价与支付结算流程。</p><p><b>搞钱信号</b>：AI Agent商业化变现的基础设施——支付+结算+分发一站式解决。个人开发者可基于此快速将AI能力变现。</p>",
+      "tags": [
+        "money",
+        "agent"
+      ],
+      "source": "http://field.10jqka.com.cn/20260428/c676352563.shtml",
+      "sourceLabel": "同花顺"
+    },
     {
       "title": "2026 实战指南：普通人用 AI 搞钱三大方向",
       "date": "2026-04-26",
@@ -223,6 +256,40 @@
     }
   ],
   "video": [
+    {
+      "title": "MiniMax Hailuo 02 — 全球AI视频排名第2，超Google Veo 3",
+      "date": "2026-04-28",
+      "body": "<p>MiniMax旗下Hailuo 02在全球AI视频生成 Artificial Analysis 基准中排名第2，超越Google Veo 3，以专业电影级画质著称。1080P视频质量、10秒最长时长、30FPS帧率，每次生成仅$0.28。</p><p><b>意义</b>：国产视频模型登顶全球前列，成本优势明显（$0.28/次 vs Google Veo 3），是AI短剧制作的核心工具之一。</p>",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "source": "https://hailuo-02.com/",
+      "sourceLabel": "Hailuo 02官网"
+    },
+    {
+      "title": "GenVidBench — AAAI 2026发布的600万样本AI视频检测基准",
+      "date": "2026-04-28",
+      "body": "<p><b>GenVidBench</b>是发表于AAAI 2026的AI生成视频检测基准，包含<b>600万个样本</b>，为AI视频内容溯源和检测提供标准化评估框架。</p><p>随着AI视频生成能力爆发，区分真实视频与AI生成视频成为重要议题，该基准填补了这一空白。</p><p><b>意义</b>：AI视频检测与溯源将成为内容审核和版权保护的重要基础设施。</p>",
+      "tags": [
+        "video",
+        "ai",
+        "deep"
+      ],
+      "source": "https://github.com/genvidbench/GenVidBench",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "AI-Faceless-Video-Generator — AI生成虚拟形象视频（GitHub新星）",
+      "date": "2026-04-28",
+      "body": "<p>GitHub新发布项目，20 Commits。AI生成虚拟形象视频：输入主题→AI生成脚本→文字转语音→人脸动画→自动合成完整视频。</p><p><b>意义</b>：面向无脸视频赛道的自动化工具，数字人短视频制作的轻量化替代方案。</p>",
+      "tags": [
+        "video",
+        "tools"
+      ],
+      "source": "https://github.com/SamurAIGPT/AI-Faceless-Video-Generator",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "LTX-2 by Lightricks：首款支持 4K 有声生成的消费级 AI 视频模型",
       "date": "2026-04-26",
@@ -1309,6 +1376,33 @@
   ],
   "dev": [
     {
+      "title": "别再只会搭RAG了，LLM Wiki才是个人和团队知识库的新做法",
+      "date": "2026-04-28",
+      "body": "<p>作者：掘金侠（公众号：AI淘金热）</p>\n<p><b>核心观点：</b>RAG 是查询时检索，LLM Wiki 是提前编译知识。</p>\n<h2>RAG vs LLM Wiki</h2>\n<p>传统 RAG：用户提问时再检索，每次都像第一次见到资料，没有积累。</p>\n<p>LLM Wiki：资料进入系统时就整理成结构化、可链接、可维护的 Markdown 页面，持续更新。</p>\n<h2>最小落地目录结构</h2>\n<pre>llm-wiki/\n  AGENTS.md（维护规则）\n  raw/（原始资料）\n  wiki/（整理后的知识页面）\n    concepts/（概念页）\n    entities/（实体页）\n    workflows/（流程页）\n    decisions/（决策页）\n  reviews/（矛盾/缺口检查）\n  sources/（来源日志）</pre>\n<h2>五步落地</h2>\n<ol><li>建文件夹</li><li>放10份代表性资料</li><li>写AGENTS.md规定整理规则</li><li>生成第一批概念页</li><li>每周做lint检查</li></ol>\n<h2>核心结论</h2>\n<p>RAG 让 AI 能找到资料。LLM Wiki 让 AI 和人一起把资料变成长期资产。</p>\n<p>当知识能持续沉淀，你会发现 AI 不再只是临时聊天框，而是会维护资料、整理判断、提醒矛盾的知识编辑。</p>",
+      "tags": [
+        "dev",
+        "agent",
+        "知识管理",
+        "rag",
+        "llm-wiki"
+      ],
+      "source": "https://mp.weixin.qq.com/s/iF2BX-PZkNhcpYyv9yiMfA",
+      "sourceLabel": "掘金侠"
+    },
+    {
+      "title": "Harness不是目的，知识才是护城河——一个AI工程交付团队的知识沉淀实践",
+      "date": "2026-04-27",
+      "body": "<p>作者：stevenpxiao（腾讯技术工程）</p>\n<p>当 Harness Engineering 成为 2026 年最热门的 AI 工程话题，业界争论焦点集中在\"该用多大的模型\"还是\"该搭多复杂的工作流\"时，我们团队在落地实践中发现了一个被低估的事实——构建 Harness 工作流不是最终目的，<b>私域和团队知识的沉淀才是真正的技术护城河</b>。</p>\n<p>本文分享我们在 AI Team 工程交付编排系统中，如何设计知识分层架构、如何让团队知识库共建共享、如何让工作流成为知识沉淀的载体、如何突破人机交互瓶颈实现随时随地的工作流流转，以及我们的落地经验和思考。</p>\n<h2>一、从 Harness Engineering 热潮说起</h2>\n<p>2025 年末至 2026 年初，AI 工程领域掀起了一场关于 Harness Engineering 的热烈讨论。这个术语源自\"harness\"（马具）的隐喻——就像骑师通过缰绳和马鞍来引导马的力量走正确的方向，而非增强马本身的体能，Harness Engineering 强调的是引导和约束 AI 模型的能力，而非提升模型本身。</p>\n<p>从三大标志性实践来看：OpenAI Codex（人机交互协议）、Cursor Self-Driving（多 Agent 协同）、Anthropic Claude Code（长时运行稳定性）。</p>\n<p><b>核心论断：将来的技术护城河不在模型，而在垂直领域知识的沉淀。</b></p>\n<h2>二、Harness Engineering 本质：三支柱与知识的位置</h2>\n<p>工作流只是管道，知识才是流过管道的活水。模型会迭代，工具链会更新，工作流会重构。但团队在特定业务领域积累的领域模型、架构决策、最佳实践、已知陷阱、业务流程——这些知识是永恒的。</p>\n<h2>三、知识分层架构设计</h2>\n<p>团队设计了四层知识架构：基础设施层（Agent、工具链配置）→ 流程层（工作流模板）→ 知识层（领域知识库）→ 应用层（业务场景解决方案）。</p>\n<h2>四、团队知识库共建共享机制</h2>\n<p>通过 Skill 机制实现知识共建——每个团队的解决方案以 Skill 形式沉淀，其他团队可复用、评论、改进，形成知识正向循环。</p>\n<h2>五、工作流即知识沉淀的载体</h2>\n<p>将最佳实践固化到工作流中，新人通过运行工作流学习团队方法论，工作流执行过程本身成为知识的传递过程。</p>\n<h2>六、突破人机交互瓶颈</h2>\n<p>通过 CLAUDE.md 约束、多层记忆系统、意图驱动替代指令驱动，让人机交互从\"手把手教\"变为\"目标定义\"。</p>\n<h2>七、实践效果与思考</h2>\n<p>团队落地效果：新人上手时间缩短 60%，工作流复用率达到 70%+，跨团队协作效率提升显著。</p>\n<p><b>核心理念：Skill、Agent、工具链会随模型迭代更新，但领域知识是永恒的。</b></p>",
+      "tags": [
+        "dev",
+        "agent",
+        "harness",
+        "知识管理"
+      ],
+      "source": "https://mp.weixin.qq.com/s/Xy8NwrHZRWv301eTZz4Dpw",
+      "sourceLabel": "腾讯技术工程"
+    },
+    {
       "title": "推荐搞 Agent 的把这个 4 万 Star 的 GitHub 项目研究透",
       "date": "2026-04-27",
       "body": "<p>pi-mono 是一个 TypeScript 单仓项目，专门用来构建 AI Agent 和管理 LLM 部署，冲到 GitHub 4 万 Star。</p><p>OpenClaw 的核心运行时，就是基于 Pi 的 SDK 构建的。</p><p><b>极简哲学</b>：核心只有 4 个工具（read/write/edit/bash），系统提示词不到 1000 token。没有 MCP、没有子 Agent、没有权限弹窗、没有 Plan 模式。</p><p><b>7 个独立 npm 包</b>：pi-ai（统一 20+ LLM 提供商）、pi-agent-core（轻量运行时）、pi-coding-agent（主产品）、pi-tui、pi-web-ui、pi-mom、pi-pods。</p><p><b>亮点</b>：20+ LLM 统一接入（支持 OAuth 订阅登录）；Session 树状分支；Extensions 扩展（有人做了 Doom 扩展）；Skills 技能系统（Markdown 即技能）；四种运行模式（交互终端/Print-JSON/RPC/SDK 嵌入）。</p>",
@@ -1703,6 +1797,30 @@
     }
   ],
   "star": [
+    {
+      "title": "claw-code — OpenClaw最强代码执行版本，GitHub破10万Stars",
+      "date": "2026-04-28",
+      "body": "<p><b>claw-code</b>是OpenClaw生态中最强大的代码执行分支，由ultraworkers团队开发。GitHub Stars突破<b>10万</b>，是有史以来增长最快的AI编程相关repo。</p><p>该repo解锁后受到社区热捧，展示了AI代码执行能力在开发者中的强劲需求。</p>",
+      "tags": [
+        "star",
+        "dev",
+        "ai"
+      ],
+      "source": "https://github.com/ultraworkers/claw-code",
+      "sourceLabel": "GitHub"
+    },
+    {
+      "title": "MemPalace — AI记忆系统，GitHub 43k Stars",
+      "date": "2026-04-28",
+      "body": "<p><b>MemPalace</b>是GitHub上的高评分AI记忆系统，在基准测试中创下历史最高分，且完全免费。它为AI Agent提供持久化记忆和上下文管理能力。</p><p>日增<b>5407 Stars</b>，是最快崛起的AI基础设施项目之一。</p>",
+      "tags": [
+        "star",
+        "ai",
+        "agent"
+      ],
+      "source": "https://github.com/mempalace/mempalace",
+      "sourceLabel": "GitHub"
+    },
     {
       "title": "OpenClaw — 跨平台个人 AI 助手（171394⭐，日增 58305⭐）",
       "date": "2026-04-26",
