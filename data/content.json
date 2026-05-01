@@ -1,49 +1,181 @@
 {
-  "lastUpdate": "2026-04-30T08:00:00Z",
+  "lastUpdate": "2026-05-01T00:05:37Z",
   "days": [
+    {
+      "date": "2026-05-01",
+      "daily": [
+        {
+          "title": "OpenAI 正式关闭 Sora：算力烧钱无底洞，全球视频生成市场格局重塑",
+          "body": "<p>2026年3月25日，OpenAI正式宣布关闭旗下视频生成工具<strong>Sora</strong>，包括独立应用、API接口及ChatGPT内置视频功能。据报道，Sora每天烧掉约<strong>100万美元</strong>算力成本，而全球用户数从峰值100万大幅下滑至不足50万。</p><p>OpenAI同时宣布终止与迪士尼含10亿美元的合作协议，转而聚焦机器人和核心产品线。分析认为，OpenAI关闭Sora并非产品失败，而是算力紧缺下的战略取舍——不代表文生视频赛道失势，反而是市场洗牌的开始，国产工具迎来弯道超车机会。</p>",
+          "tags": [
+            "video",
+            "ai",
+            "deep"
+          ],
+          "source": "腾讯新闻 / 腾讯网"
+        },
+        {
+          "title": "TurboDiffusion 开源框架：RTX 5090 上 1.9 秒生成视频，速度提升 100~200 倍",
+          "body": "<p>由清华大学、生命科学中心和加州大学伯克利分校联合开发的<strong>TurboDiffusion</strong>开源框架，将视频生成速度提升100~200倍。该框架基于Wan2.1和Wan2.2模型，在WebUI基础上进行深度二次开发，实现了文本到视频（T2V）和图像到视频（I2V）的高效生成。</p><p>核心技术突破在于融合了<strong>SageAttention</strong>（稀疏线性注意力）、<strong>SLA</strong>（稀流线性注意力）和<strong>rCM</strong>（时间步跳跃）等前沿算法。这意味着原本需184秒完成的视频生成任务，在单张RTX 5090显卡上仅需<strong>1.9秒</strong>即可输出，彻底改变了创意生产的节奏。</p>",
+          "tags": [
+            "video",
+            "ai",
+            "deep",
+            "tool"
+          ],
+          "source": "CSDN / GitHub"
+        },
+        {
+          "title": "AI 短剧进入全流程工业化阶段：制作成本降低 95%，30 分钟搞定过去 4-5 小时工作",
+          "body": "<p>到2026年，AI真人短剧已不再是「一个模型 + 一段提示词 = 一条视频」的粗放玩法，而是进入了多模型协同、参考图驱动、镜头级生产、后期统一、发行前置的完整工业化阶段。脚本+画面+配音+剪辑全流程，AI自动搞定，不需要专业技能。</p><p>行业数据显示，AI短剧制作成本已降低95%以上，效率提升10倍。以前一个团队3-5人做1条1分钟短剧需4-5小时，现在30分钟就能搞定全套。真正的门槛已从「会不会用AI」转变为「能否解决跨场景角色一致性和多集管理能力」。</p>",
+          "tags": [
+            "video",
+            "ai",
+            "deep"
+          ],
+          "source": "腾讯云开发者社区 / 搜狗微信"
+        },
+        {
+          "title": "Helios 实时流式视频生成：北大/清华/伯克利联合开源，首个支持实时输出的视频模型",
+          "body": "<p><strong>Helios</strong>是北京大学Yuan Lab发布的实时流式视频生成模型，由清华大学与加州大学伯克利分校联合开发。该项目支持实时流式输出，是首个支持该能力的视频生成模型，在长视频时序一致性方面保持技术领先，并已与Diffusers库实现无缝集成。</p><p>核心技术创新：视频编码器（Video Encoder）、扩散Transformer（Diffusion Transformer）、流式解码器（Streaming Decoder）、时序一致性模块（Temporal Consistency），以及低延迟高帧率输出。应用场景涵盖：游戏直播、影视预览、虚拟制片、教育培训等。</p>",
+          "tags": [
+            "video",
+            "ai",
+            "deep",
+            "tool"
+          ],
+          "source": "GitHub PKU-YuanGroup/Helios / CSDN"
+        },
+        {
+          "title": "Google Cloud 发布《AI Agent Trends 2026》：五大方向重塑企业价值，3466 名决策者调研",
+          "body": "<p>Google Cloud发布《AI Agent Trends 2026》报告，基于3466名全球企业决策者的调研数据，结合Google DeepMind的技术洞察，系统梳理了AI Agent在企业市场中的五大关键趋势。报告指出：AI Agent正在从概念走向规模化应用，成为企业数字化转型的核心驱动力。</p><p>2026年，企业智能化已步入「主动行动」时代——AI Agent不再是被动工具，而是能够自主理解、规划并执行复杂任务的「数字员工」，正在重塑整个企业软件市场格局。</p>",
+          "tags": [
+            "ai",
+            "agent",
+            "deep"
+          ],
+          "source": "腾讯新闻 / Google Cloud"
+        }
+      ],
+      "money": [
+        {
+          "title": "AI 短剧月入 140 万美元案例复盘：TurboDiffusion 掀起的赚钱逻辑",
+          "body": "<p>2026年，AI短剧制作模式（脚本+画面+配音+剪辑全流程AI自动搞定）月收入已达<strong>140万美元</strong>（约1011万人民币）。生成画面用即梦AI或Runway，打几句文字就出高清视频；配音+字幕+剪辑全靠剪映AI，自动对齐+一键成片。</p><p>整套工具月成本不到200块，比影视会员还便宜。效率翻10倍，1个人顶过去一个团队。TurboDiffusion等开源框架的爆发，将进一步拉低技术门槛，让更多人进入这个赛道。</p>",
+          "tags": [
+            "money",
+            "video",
+            "ai"
+          ],
+          "source": "搜狗微信"
+        },
+        {
+          "title": "2026 年 AI 内容产业五大趋势：开源 I2V 模型弹性 GPU 成本为主流",
+          "body": "<p>2026年AI内容产业五大趋势深度解析。从单图生成已不再稀奇，真正值得关注的是「如何让生成结果稳定地延续到多帧、多个镜头，乃至形成可用的视频序列」。在这个方向上，<strong>gpt-image 2</strong>和开源<strong>I2VGen-XL</strong>系列正在引领图像转视频（I2V）的技术迭代。</p><p>开源I2V模型的技术突破在于：I2VGen-XL不仅实现了WebUI交互、参数可调、批量输出等工程化功能，更通过模块化设计支持多卡并行与显存优化，为个人创作者和中小企业提供了低成本、高效率的视频生成方案。</p>",
+          "tags": [
+            "money",
+            "video",
+            "ai"
+          ],
+          "source": "CSDN"
+        }
+      ],
+      "tools": [
+        {
+          "title": "VibeVoice — 微软开源语音 AI 模型，登顶 GitHub Trending 榜首",
+          "body": "<p><strong>VibeVoice</strong>是微软开源的轻量级实时语音合成系统，基于VibeVoice-Realtime-0.5B模型构建。尽管参数总量仅0.5B，但在实时语音合成方面表现出色，特别适合需要快速部署和实时响应的应用场景。</p><p>技术亮点：仅需7.5Hz超低码率tokenizer和60分钟长音频处理能力荣登GitHub榜首，每日增长超过130颗星；支持最长90分钟、4名说谎人的多角色对话，音色更丰富、语调节奏更趋自然；300ms超高延迟语音生成；已与Hugging Face Transformers库直接集成。</p>",
+          "tags": [
+            "tool",
+            "ai"
+          ],
+          "source": "GitHub microsoft/VibeVoice / CSDN"
+        },
+        {
+          "title": "Superpowers — 面向编程 Agent 的技能框架与开发方法论",
+          "body": "<p><strong>Superpowers</strong>是 obra 发布的面向编程 Agent 的技能框架与开源方法论项目，定位为 AI 编程 Agent 的技能库与开发指南。该项目通过系统化的技能定义与组合机制，帮助开发者构建更强大的编程智能体。</p><p>技术特点：采用 Shell + JavaScript 构建，提供可扩展的 Agent 技能定义体系；支持多步骤复杂任务拆解与执行；已获得超过10000颗GitHub星标，持续保持高增长态势。</p>",
+          "tags": [
+            "tool",
+            "agent",
+            "ai"
+          ],
+          "source": "GitHub obra/superpowers / CSDN"
+        },
+        {
+          "title": "OpenScreen — 免费开源的屏幕录制与演示视频制作工具",
+          "body": "<p><strong>OpenScreen</strong>是由 siddharthvaddem 发布的免费开源屏幕录制与演示视频制作工具，GitHub 持续保持高增长。该工具为用户提供了无需昂贵商业软件即可完成专业级屏幕录制和演示视频制作的完整解决方案。</p><p>技术亮点：完全免费开源，无使用限制；支持多种输出格式；针对演示视频制作场景优化，适合创作者、教育工作者和企业培训场景。</p>",
+          "tags": [
+            "tool",
+            "video",
+            "ai"
+          ],
+          "source": "GitHub siddharthvaddem/openscreen / CSDN"
+        }
+      ]
+    },
     {
       "date": "2026-04-30",
       "daily": [
         {
           "title": "NousResearch/hermes-agent 登顶 GitHub Trending，OpenClaw 超越 Linux 成为历史第一开源项目",
           "body": "<p>本周 AI Agent 领域迎来重磅里程碑。<strong>NousResearch</strong> 发布的 <strong>hermes-agent</strong> 项目在 GitHub Trending 榜单单日新增 <strong>+6,115 stars</strong>，总量突破 47,577，持续占据 Python 分类榜首。与此同时，<strong>OpenClaw</strong> 以超 24.8 万 GitHub stars 正式超越 Linux，登上历史最受喜爱开源项目宝座，标志着 AI Agent 元年正式启动。</p><p>从 2025 年的「对话窗口」进化到 2026 年的「数字员工」，Agent 已从实习生进化成正式员工，主动拆解目标、调用工具、自我修正成为标配能力。</p>",
-          "tags": ["ai", "agent"],
+          "tags": [
+            "ai",
+            "agent"
+          ],
           "source": "GitHub Trending / 腾讯新闻"
         },
         {
           "title": "MiniMax Hailuo 02 全球排名第二，性能超越 Google Veo 3，ARR 超 1.5 亿美元",
           "body": "<p>MiniMax 旗下视频生成模型 <strong>Hailuo 02</strong> 在 Artificial Analysis 基准榜单中升至全球第二，仅次于字节 Seedance 1.0，超越 Google Veo 3。该模型支持 10 秒 1080P 视频生成，30FPS，定价 $0.28/条，已在全球上线。</p><p>商业化层面，MiniMax 创始人阎忡披露：2026 年 2 月公司 ARR（年度经常性收入）已超 <strong>1.5 亿美元</strong>；面向企业客户和个人开发者的开放平台，2 月新注册用户数已达 2025 年 12 月的 4 倍以上，增速惊人。</p>",
-          "tags": ["video", "ai", "tool"],
+          "tags": [
+            "video",
+            "ai",
+            "tool"
+          ],
           "source": "Hailuo 官网 / 腾讯新闻"
         },
         {
           "title": "字节跳动 Seedance 2.0 内测：运镜规划 + 跨镜头一致性 + 原生音画同步",
           "body": "<p>2026 年春节前，字节跳动旗下 AI 视频生成大模型 <strong>Seedance 2.0</strong> 开启内测。与过往「让图片动起来」的初级生成不同，Seedance 2.0 的运镜规划、跨镜头的角色一致性以及原生的音画同步能力，在一定程度上解决了 AI 视频长期存在的可用率低、成本高的核心痛点。行业分析认为这是视频生成模型从「Demo 阶段」走向「工业落地」的关键转折。</p>",
-          "tags": ["video", "ai"],
+          "tags": [
+            "video",
+            "ai"
+          ],
           "source": "腾讯新闻"
         },
         {
           "title": "爱奇艺 AI 艺人库引发争议：112 万讨论登顶热搜，AI+视觉成焦点事件",
           "body": "<p>4 月 20 日，爱奇艺在世界大会上宣布正式推出商用专业级影视制作平台「纳曜 Pro」，构建 AI 艺人库。据知微舆论场数据，截至 21 日相关声量已达 <strong>112 万篇</strong>，登上主流平台热搜/热榜 64 个，累计在榜时长 274 小时，事件影响力指数达 78.4，成为「视觉+AI」的焦占事件。AI 艺人是否能够真正替代传统演员、以及相关的版权、伦理问题引发广泛讨论。</p>",
-          "tags": ["ai", "video"],
+          "tags": [
+            "ai",
+            "video"
+          ],
           "source": "知微舆论场 / 腾讯新闻"
         },
         {
           "title": "2026 年 Q1 全球大模型日均发布 3 个，中国产品总调用量首超美国",
           "body": "<p>据《第 21 轮 AI 产业研究》报告，2026 年 Q1 全球主要 AI 实验室共推出 267 个大模型，平均每天近 3 个新模型，刷新了自生成式 AI 爆发以来的发布速度纪录。在 OpenRouter 平台全球 Token 调用量前五名中，中国产品占据四席（MiniMax、DeepSeek、GLM、Kimi）。2 月中旬，中国模型产品总调用量首次超越美国——这不仅是技术领先的体现，更是 Agent 产品引燃的规模化商用胜势。</p>",
-          "tags": ["ai", "agent"],
+          "tags": [
+            "ai",
+            "agent"
+          ],
           "source": "腾讯新闻"
         },
         {
           "title": "AI 短剧产业工业化：制作成本降低 95%，「低门槛+高产能+精品化」时代来临",
           "body": "<p>2026 年全球 AI 视频生成技术迎来集中爆发期。Sora 2（OpenAI）、快手可灵、字节 Seedance 2.0 等旗舰模型相继登陆，以电影级画质、角色稳定、多镜头叙事、原生音画同步为目标，AI 视频正式从技术演示走向产业落地。</p><p>在国内，微短剧月产量稳定在 3000 部以上，2025 年直接吸纳就业人口 69 万人，叠加产业链乘数效应后总体贡献突破 203 万人。剪辑师职位占比高达 15.9%，高居招聘需求首位。行业正进入「AI 把拍摄门槛打穿、又把爆款门槛抬高」的新阶段。</p>",
-          "tags": ["video", "ai"],
+          "tags": [
+            "video",
+            "ai"
+          ],
           "source": "腾讯新闻 / 搜狗微信"
         },
         {
           "title": "GitHub Trending 新项目速览：omi、dive-into-llms、higgs-audio",
           "body": "<p><strong>omi</strong>（+609 today, 10,551 total）：可捕捉屏幕和对话、实时转录、生成摘要和操作项目，并提供 AI 聊天的智能助手，支持 Dart 语言。</p><p><strong>dive-into-llms</strong>（+547 today, 32,108 total）：动手学大模型系列编程实践教程，适合关注 LLM 应用和智能体工程化的团队。</p><p><strong>boson-ai/higgs-audio</strong>（最新 V2.5）：Boson AI 的文本-音频基础模型，在表达性音频生成和韵律适配方面表现突出，支持旁白、克隆声音及同时生成语音和背景音乐。</p>",
-          "tags": ["ai", "tool"],
+          "tags": [
+            "ai",
+            "tool"
+          ],
           "source": "GitHub Trending / CSDN"
         }
       ],
@@ -51,13 +183,21 @@
         {
           "title": "2026 年普通人用 AI 赚钱的 3 大方向：出售指令、训练智能体、授权 IP",
           "body": "<p>2026 年，AI 已从技术探索期迈向商业成熟期。普通人可通过三种路径变现：<strong>（1）出售 AI 指令/提示词包</strong>——高质量的 Prompt 本身已成商品；<strong>（2）训练私有智能体</strong>——为企业或垂直行业定制 Agent；<strong>（3）AI 推广拉新</strong>——各大厂（千问、豆包、即梦等）正大力补贴拉新，用户通过邀请注册可获现金奖励。据腾讯新闻数据，头部平台砸钱搞活动一点不手软。</p><p>关键提示：AI 赚钱的核心不在于工具本身，而在于跨场景的角色一致性和多集管理能力——能够用 AI 规模化产出内容、同时保持 IP 调性一致的人，将获得最大红利。</p>",
-          "tags": ["money", "ai", "agent"],
+          "tags": [
+            "money",
+            "ai",
+            "agent"
+          ],
           "source": "腾讯新闻"
         },
         {
           "title": "AI 视频 + 短剧：520 亿规模市场的结构性变革，剪辑师需求高居榜首",
           "body": "<p>中国微短剧市场正经历由 AI 技术驱动的结构性变革。据北京大学国家发展研究院数据，全微短剧月产量稳定在 3000 部以上，2025 年直接吸纳就业人口 69 万人，叠加产业链乘数效应后总体贡献突破 203 万人。剪辑师/后期职位占比 15.9%，高居招聘需求首位，AI 视频后期培训成新风口。</p><p>AI 把短剧的生产成本降低了 95% 以上，但真正制约 AI 短剧工业化的是跨场景的角色一致性和多集管理能力——能解决这个问题的团队，将拿下这 520 亿规模市场的头部红利。</p>",
-          "tags": ["money", "video", "ai"],
+          "tags": [
+            "money",
+            "video",
+            "ai"
+          ],
           "source": "腾讯新闻"
         }
       ],
@@ -65,31 +205,49 @@
         {
           "title": "MiniMax Hailuo 02 — 全球 AI 视频生成排行第二",
           "body": "<p>Hailuo 02 是 MiniMax 推出的电影级 AI 视频生成模型，在全球 Artificial Analysis 榜单排名第二（仅次于字节 Seedance），超越 Google Veo 3。支持 10 秒 1080P、30FPS 视频生成，定价 $0.28/视频，全球同步上线。技术亮点：底层架构全面重构，训练和推理效率均提升 2.5 倍；复杂指令响应率达 85%，显著高于竞品；可生成极高物理复杂度场景视频（如杂技等高难度内容）。</p>",
-          "tags": ["tool", "video"],
+          "tags": [
+            "tool",
+            "video"
+          ],
           "source": "Hailuo 官网"
         },
         {
           "title": "爱奇艺纳曜 Pro — AI 艺人库 + 全流程 70 个智能体覆盖",
           "body": "<p>爱奇艺在世界大会上正式商用「纳曜 Pro」专业级影视制作平台，集约 70 个智能体覆盖创作全流程，并开放 IP 库、数字资产库及 100 位艺人入驻的 AI 艺人库。爱奇艺首席内容官王小曦表示：AI 技术打破了「大制作+个性化+头部内容」的不可能三角。</p>",
-          "tags": ["tool", "video", "ai"],
+          "tags": [
+            "tool",
+            "video",
+            "ai"
+          ],
           "source": "腾讯新闻"
         },
         {
           "title": "MiniMax Media Agent — 支持全形态全功能创作",
           "body": "<p>Hailuo Video Agent 正式升级为支持全形态全功能创作的 <strong>Media Agent</strong>，已在全球同步上线。Media Agent 可端到端处理从脚本到成片的完整视频制作流程，标志着 AI 视频工具从单点生成向全链路自动化演进。</p>",
-          "tags": ["tool", "video", "agent"],
+          "tags": [
+            "tool",
+            "video",
+            "agent"
+          ],
           "source": "MiniMax 官方"
         },
         {
           "title": "Boson AI Higgs-Audio V2.5 — 高保真音频生成进入生产环境",
           "body": "<p>Higgs-Audio V2.5 是 Boson AI 推出的文本-音频基础模型，专为高保真生产环境设计。在 EmergentTTS-Eval 基准上表现优异，支持自动韵律适配、旋律哼唱、语音与背景音乐同步生成，无需后训练或微调即可达到优秀效果。</p>",
-          "tags": ["tool", "ai"],
+          "tags": [
+            "tool",
+            "ai"
+          ],
           "source": "GitHub boson-ai/higgs-audio"
         },
         {
           "title": " NousResearch hermes-agent — 史上最快增长的 Agent 项目之一",
           "body": "<p>hermes-agent 是 NousResearch 发布的「与你共同成长的 AI 智能体」项目，GitHub 单日新增 +6,115 stars，14 天内突破 47,577 stars，持续占据 Python Trending 榜首。项目定位为多能力协同 Agent，支持复杂任务拆解、自主执行与反思修正。</p>",
-          "tags": ["tool", "agent", "ai"],
+          "tags": [
+            "tool",
+            "agent",
+            "ai"
+          ],
           "source": "GitHub / CSDN"
         }
       ]
