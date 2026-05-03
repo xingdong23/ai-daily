@@ -1,6 +1,95 @@
 {
-  "lastUpdate": "2026-05-02T08:00:00Z",
+  "lastUpdate": "2026-05-03T00:01:44Z",
   "days": [
+    {
+      "date": "2026-05-03",
+      "daily": [
+        {
+          "title": "NVIDIA GTC 2026 发布 Vera Rubin 架构：宣布 Agentic AI 算力时代正式开启",
+          "body": "<p>NVIDIA 在 GTC 2026（3 月 17 日）正式发布下一代 <strong>Vera Rubin</strong> 架构，财报显示全年营收 2159 亿美元（同比增长 65%），Q4 数据中心业务贡献 623 亿美元，占比高达 91.5%。NVIDIA 明确将「<strong>Agentic AI</strong>」（代理式 AI）定位为下一代算力核心驱动力，数据中心液冷方案全面升级，AI 数据中心物理形态迎来根本性变革。</p><p>英伟达 CEO 黄仁勋表示：「AI Agent 将重塑每一个行业的工作方式。」此次 GTC 大会发布的 Vera Rubin 芯片专为大规模多 Agent 协作场景设计，标志着 AI 算力竞争正式进入「Agent 驱动」新阶段。</p>",
+          "tags": [
+            "ai",
+            "agent",
+            "deep"
+          ],
+          "source": "NVIDIA GTC 2026 / CSDN"
+        },
+        {
+          "title": "SambaNova × Intel 联合推出 Agentic AI 异构推理方案，剑指企业级多 Agent 部署",
+          "body": "<p>2026 年 4 月 8 日，SambaNova 宣布与 Intel 达成新阶段合作，推出面向 <strong>Agentic AI</strong> 的异构硬件解决方案。该方案将 GPU（用于 Prefill 预填充）、Intel Xeon 6 处理器（兼作主机与「行动」CPU）、SambaNova RDU（用于 Decode 解码）三者结合，为复杂 Agentic AI 应用提供高端推理服务。</p><p>这是业内首个专门针对多 Agent 协同推理场景的异构计算方案，企业可以在单一硬件平台上高效运行研究 Agent、编码 Agent、审查 Agent 等多个专业化 Agent，标志着企业级 Agent 部署从概念验证走向规模化生产。</p>",
+          "tags": [
+            "ai",
+            "agent",
+            "deep"
+          ],
+          "source": "腾讯网 / CSDN"
+        },
+        {
+          "title": "字节跳动 Deer-Flow 登顶开源 Agent 榜单：长时域 SuperAgent 一体化研究/编码/创作框架",
+          "body": "<p><strong>Deer-Flow</strong> 是字节跳动（ByteDance）发布的开源长时域 SuperAgent 框架，专注于研究、编码和创作任务一体化执行。该项目已获得 1965 次 commits，支持飞书（Feishu）平台集成，并在 GitHub 持续保持高活跃度。</p><p>技术特点：采用多 Agent 协作架构，支持沙箱环境执行代码；集成多种技能（Skills）体系；提供完整的前后端分离架构，支持 Docker 部署；与 LangChain 等主流框架深度集成。Deer-Flow 的出现进一步丰富了开源 Agent 生态，也为国内开发者提供了可与 OpenClaw 对比的本地化 Agent 方案选择。</p>",
+          "tags": [
+            "ai",
+            "agent",
+            "tool"
+          ],
+          "source": "GitHub bytedance/deer-flow / CSDN"
+        },
+        {
+          "title": "GitHub 平台因 AI 爆发遭遇容量危机：正在重建以应对 10 倍负载",
+          "body": "<p>GitHub 于 2025 年 10 月启动了扩容计划，目标是将平台承载能力提升至原有的 <strong>10 倍</strong>，以应对激增的需求。然而到 2026 年，平台仍面临严重的容量问题，正在进行根本性重建。</p><p>此次容量危机的根源在于 AI 编码工具的爆发式增长——Copilot、Claude Code、OpenClaw、Superpowers 等工具驱动了前所未有的代码提交潮。GitHub CEO Thomas Dohmke 坦承：「我们低估了 AI 时代的代码产出速度。」平台正在加速重建基础设施，预计 2026 年下半年完成扩容升级。</p>",
+          "tags": [
+            "ai",
+            "agent",
+            "deep"
+          ],
+          "source": "IT之家 / 腾讯新闻"
+        }
+      ],
+      "money": [
+        {
+          "title": "AI 短剧变现新路径：平台补贴 + 内容电商双轮驱动，2026 年个人创作者月入天花板再突破",
+          "body": "<p>2026 年，AI 短剧变现已形成成熟的「平台补贴 + 内容电商」双轮驱动模式。平台侧，各大厂（抖音、快手、微信视频号）对 AI 生成的短剧内容给予高额流量补贴和算法优先推荐；电商侧，AI 短剧天然适合植入式广告和带货转化，用户停留时长比传统图文高 3 倍以上。</p><p>行业数据显示，头部 AI 短剧创作者月收入已突破 <strong>50 万元</strong>，主要构成：平台分成（约 40%）+ 广告植入（约 35%）+ 电商带货（约 25%）。关键门槛：跨 10 集以上的角色一致性保持，以及多账号矩阵的批量生产能力。工具成本已低至每月 200 元以内，ROI 可达 1:50 以上。</p>",
+          "tags": [
+            "money",
+            "video",
+            "ai"
+          ],
+          "source": "腾讯新闻 / 抖音官方数据"
+        }
+      ],
+      "tools": [
+        {
+          "title": "Deer-Flow — 字节跳动开源 SuperAgent 框架，支持飞书集成",
+          "body": "<p><strong>Deer-Flow</strong> 是字节跳动发布的开源长时域 SuperAgent 框架，GitHub 已积累 1965+ commits，支持研究、编码、创作全流程一体化执行。项目架构采用模块化设计，前端基于 Playwright E2E 测试，后端支持 Docker 部署，已实现飞书（Lark）原生集成。</p><p>核心亮点：多 Agent 协作流水线、沙箱安全执行环境、完整的前后端架构、与 LangChain 生态深度整合。适合需要本地部署、自有数据安全要求高的企业或团队使用。</p>",
+          "tags": [
+            "tool",
+            "agent",
+            "ai"
+          ],
+          "source": "GitHub bytedance/deer-flow"
+        },
+        {
+          "title": "Superpowers — 面向 AI 编程 Agent 的技能框架，每日增长超 800 stars",
+          "body": "<p><strong>Superpowers</strong> 是 obra 发布的面向 AI 编程 Agent 的技能框架与开发方法论项目，采用 Shell + JavaScript 构建，提供可扩展的 Agent 技能定义体系，支持多步骤复杂任务拆解与执行。</p><p>该框架在 GitHub Trending 上每日增长超过 800 stars，反映出开发者对 AI 编程 Agent 系统化方法论的强烈需求。Superpowers 的核心价值在于：将人类程序员的经验转化为可被 Agent 调用和执行的技能单元，让 AI 编程从「单点生成」进化为「可组合技能执行」。</p>",
+          "tags": [
+            "tool",
+            "agent",
+            "ai"
+          ],
+          "source": "GitHub obra/superpowers / CSDN"
+        },
+        {
+          "title": "TradingAgents — 多智能体 LLM 金融交易框架，开源社区关注度持续攀升",
+          "body": "<p><strong>TradingAgents</strong> 是 TauricResearch 发布的多智能体 LLM 金融交易框架，它不仅是一个静态的预测模型，而是一套模拟真实金融投研流程的协作系统。与单点 AI 工具不同，TradingAgents 由多个专业化 Agent 组成：一个负责信息检索的 Research Agent、一个负责代码生成的 Coder Agent、一个负责质量审查的 Reviewer Agent，通过协议互相通信、互相校准。</p><p>该框架代表了「多智能体协作」在垂直领域（金融）落地的最新探索，被视为 AI + Crypto/FinTech 赛道的重要基础设施。</p>",
+          "tags": [
+            "tool",
+            "agent",
+            "ai"
+          ],
+          "source": "GitHub TauricResearch/TradingAgents / CSDN"
+        }
+      ]
+    },
     {
       "date": "2026-05-02",
       "daily": [
