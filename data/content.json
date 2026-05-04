@@ -1,6 +1,156 @@
 {
-  "lastUpdate": "2026-05-03T00:01:44Z",
+  "lastUpdate": "2026-05-04T00:03:49Z",
   "days": [
+    {
+      "date": "2026-05-04",
+      "daily": [
+        {
+          "title": "Sora 正式关闭：日烧 100 万美元算力，OpenAI 战略转向机器人与核心产品线",
+          "body": "<p>2026年3月25日，OpenAI正式关闭旗下视频生成工具<strong>Sora</strong>，包括独立应用、API接口及ChatGPT内置视频功能。据多方报道，Sora每天烧掉约<strong>100万美元</strong>算力成本，而全球用户数从峰值100万大幅下滑至不足50万。</p><p>OpenAI同时宣布终止与迪士尼含10亿美元的合作协议，转而聚焦机器人和核心产品线。分析认为，OpenAI关闭Sora并非产品失败，而是算力紧缺下的战略取舍——不代表文生视频赛道失势，反而是市场洗牌的开始，国产工具迎来弯道超车机会。</p>",
+          "tags": [
+            "video",
+            "ai",
+            "deep"
+          ],
+          "source": "腾讯新闻 / 腾讯网"
+        },
+        {
+          "title": "Vidu AI 1.5 登场：生数科技再升级，视频生成进入「好用人」阶段",
+          "body": "<p><strong>Vidu AI 1.5</strong>是生数科技发布的下一代视频生成模型，在前代基础上实现了多维度升级。该版本不仅延续了上一代的电影级画质输出能力，更重点优化了镜头间的角色一致性和复杂场景的物理仿真能力，用户体验从「能生成」迈向「好用」。</p><p>生数科技是国内视频生成领域的头部玩家，Vidu系列在多次国内外评测中表现优异。Vidu AI 1.5的发布标志着国内AI视频工具正在快速追赶国际顶尖水平，且在本地化和成本控制上具备明显优势。</p>",
+          "tags": [
+            "video",
+            "ai",
+            "deep",
+            "tool"
+          ],
+          "source": "生数科技官网 / 腾讯新闻"
+        },
+        {
+          "title": "斯坦福 HAI 发布《2026 年人工智能指数报告》：12 张图读懂 AI 发展现状",
+          "body": "<p>斯坦福大学以人为本人工智能研究所（Stanford HAI）于4月13日发布了<strong>《2026年人工智能指数报告》</strong>（The 2026 AI Index Report），这份长达400多页的报告涵盖数十个数据指标与图表，从基准测试得分、投资规模、公众认知等多个维度，全面解读AI发展现状。</p><p>报告指出，2026年AI已深度融入企业日常运营，70%员工与94%高管每日使用AI超过30分钟，64%高管日均使用超2小时。全球AI投资持续攀升，中国模型产品总调用量首次超越美国，成为本轮报告最重磅信号之一。</p>",
+          "tags": [
+            "ai",
+            "deep",
+            "agent"
+          ],
+          "source": "斯坦福 HAI / 知网 / 腾讯新闻"
+        },
+        {
+          "title": "NousResearch hermes-agent 单日 +6,115 stars，OpenClaw 超越 Linux 成为历史第一开源项目",
+          "body": "<p>本周AI Agent领域迎来重磅里程碑。<strong>NousResearch</strong>发布的<strong>hermes-agent</strong>项目在GitHub Trending单日新增<strong>+6,115 stars</strong>，总量突破47,577，持续占据Python分类榜首。与此同时，<strong>OpenClaw</strong>以超24.8万GitHub stars正式超越Linux，登上历史最受喜爱开源项目宝座，标志着AI Agent元年正式启动。</p><p>从2025年的「对话窗口」进化到2026年的「数字员工」，Agent已从实习生进化成正式员工，主动拆解目标、调用工具、自我修正成为标配能力。</p>",
+          "tags": [
+            "ai",
+            "agent",
+            "deep"
+          ],
+          "source": "GitHub Trending / 腾讯新闻"
+        },
+        {
+          "title": "A2A + MCP 协议全面融合：华为发布 A2A-T，2026 年成 Agent 互联元年",
+          "body": "<p>2026年，AI Agent领域最重要的基础设施演进正在发生——<strong>A2A</strong>（Agent-to-Agent）与<strong>MCP</strong>（Model Context Protocol）两套协议正从竞争走向融合，共同奠定多Agent协作的标准框架。</p><p><strong>MCP</strong>由Anthropic主导，解决的是Agent与外部工具/数据源的标准化连接问题——相当于AI时代的「USB接口」，让大模型能与各种外部资源无缝交互；<strong>A2A</strong>由Google在Cloud Next 25大会上开源，解决的是Agent之间的直接对话与协作问题——相当于AI时代的「TCP/IP」，让不同厂商的Agent能互相通信。</p><p>在MWC 2026上，华为正式宣布启动<strong>A2A-T</strong>（Agent-to-Agent for Telecom）开源计划，旨在通过开放协议加速多Agent协同自动化生产。微软随后宣布在Azure AI Foundry和Copilot Studio两大平台同时支持A2A + MCP两大协议。</p>",
+          "tags": [
+            "agent",
+            "ai",
+            "deep"
+          ],
+          "source": "CSDN / DZone / 华为官网"
+        },
+        {
+          "title": "2026 Q1 全球大模型日均发布 3 个，中国产品总调用量首超美国",
+          "body": "<p>据《第21轮AI产业研究》报告，2026年Q1全球主要AI实验室共推出267个大模型，平均每天近3个新模型，刷新了自生成式AI爆发以来的发布速度纪录。在OpenRouter平台全球Token调用量前五名中，中国产品占据四席（MiniMax、DeepSeek、GLM、Kimi）。</p><p>2月中旬，中国模型产品总调用量首次超越美国——这不仅是技术领先的体现，更是Agent产品引燃的规模化商用胜势。</p>",
+          "tags": [
+            "ai",
+            "agent"
+          ],
+          "source": "腾讯新闻"
+        }
+      ],
+      "money": [
+        {
+          "title": "AI 短剧变现新路径：平台补贴 + 内容电商双轮驱动，2026 年个人创作者月入天花板再突破",
+          "body": "<p>2026年，AI短剧变现已形成成熟的「平台补贴 + 内容电商」双轮驱动模式。平台侧，各大厂（抖音、快手、微信视频号）对AI生成的短剧内容给予高额流量补贴和算法优先推荐；电商侧，AI短剧天然适合植入式广告和带货转化，用户停留时长比传统图文高3倍以上。</p><p>行业数据显示，头部AI短剧创作者月收入已突破<strong>50万元</strong>，主要构成：平台分成（约40%）+ 广告植入（约35%）+ 电商带货（约25%）。关键门槛：跨10集以上的角色一致性保持，以及多账号矩阵的批量生产能力。工具成本已低至每月200元以内，ROI可达1:50以上。</p>",
+          "tags": [
+            "money",
+            "video",
+            "ai"
+          ],
+          "source": "腾讯新闻 / 抖音官方数据"
+        },
+        {
+          "title": "2026 年普通人用 AI 赚钱的 3 大方向：出售指令、训练智能体、授权 IP",
+          "body": "<p>2026年，AI已从技术探索期迈向商业成熟期。普通人可通过三种路径变现：<strong>（1）出售AI指令/提示词包</strong>——高质量的Prompt本身已成商品；<strong>（2）训练私有智能体</strong>——为企业或垂直行业定制Agent；<strong>（3）AI推广拉新</strong>——各大厂（千问、豆包、即梦等）正大力补贴拉新，用户通过邀请注册可获现金奖励。</p><p>关键提示：AI赚钱的核心不在于工具本身，而在于跨场景的角色一致性和多集管理能力——能够用AI规模化产出内容、同时保持IP调性一致的人，将获得最大红利。</p>",
+          "tags": [
+            "money",
+            "ai",
+            "agent"
+          ],
+          "source": "腾讯新闻"
+        },
+        {
+          "title": "MiniMax 港交所上市：年营收增长 158.9%，ARR 超 1.5 亿美元后的资本市场首秀",
+          "body": "<p>2026年，MiniMax正式向港交所提交IPO申请，成为大模型出海商业化的标志性事件。财务数据显示：2025年营收同比增长<strong>158.9%</strong>；2026年2月ARR（年度经常性收入）已突破<strong>1.5亿美元</strong>；国际市场收入占比达73%，累计服务全球超过200个国家和地区约2亿用户。</p><p>收入结构中，Hailuo 02视频生成API和MiniMax开放平台贡献了主要增量——企业客户数和开发者注册数双双呈现4倍+的季度环比增速。</p>",
+          "tags": [
+            "money",
+            "video",
+            "ai"
+          ],
+          "source": "腾讯新闻 / 雪球"
+        }
+      ],
+      "tools": [
+        {
+          "title": "VibeVoice — 微软开源语音 AI 模型，登顶 GitHub Trending 榜首",
+          "body": "<p><strong>VibeVoice</strong>是微软开源的轻量级实时语音合成系统，基于VibeVoice-Realtime-0.5B模型构建。尽管参数总量仅0.5B，但在实时语音合成方面表现出色，特别适合需要快速部署和实时响应的应用场景。</p><p>技术亮点：仅需7.5Hz超低码率tokenizer和60分钟长音频处理能力荣登GitHub榜首，每日增长超过130颗星；支持最长90分钟、4名说谎人的多角色对话，音色更丰富、语调节奏更趋自然；300ms超高延迟语音生成；已与Hugging Face Transformers库直接集成。</p>",
+          "tags": [
+            "tool",
+            "ai"
+          ],
+          "source": "GitHub microsoft/VibeVoice / CSDN"
+        },
+        {
+          "title": "Superpowers — 面向编程 Agent 的技能框架与开发方法论",
+          "body": "<p><strong>Superpowers</strong>是 obra 发布的面向编程Agent的技能框架与开源方法论项目，定位为AI编程Agent的技能库与开发指南。该项目通过系统化的技能定义与组合机制，帮助开发者构建更强大的编程智能体。</p><p>技术特点：采用Shell + JavaScript构建，提供可扩展的Agent技能定义体系；支持多步骤复杂任务拆解与执行；已获得超过10000颗GitHub星标，持续保持高增长态势。每日增长超过800 stars。</p>",
+          "tags": [
+            "tool",
+            "agent",
+            "ai"
+          ],
+          "source": "GitHub obra/superpowers / CSDN"
+        },
+        {
+          "title": "TradingAgents — 多智能体 LLM 金融交易框架，开源社区关注度持续攀升",
+          "body": "<p><strong>TradingAgents</strong>是TauricResearch发布的多智能体LLM金融交易框架，它不仅是一个静态的预测模型，而是一套模拟真实金融投研流程的协作系统。与单点AI工具不同，TradingAgents由多个专业化Agent组成：一个负责信息检索的Research Agent、一个负责代码生成的Coder Agent、一个负责质量审查的Reviewer Agent，通过协议互相通信、互相校准。</p><p>该框架代表了「多智能体协作」在垂直领域（金融）落地的最新探索，被视为AI + Crypto/FinTech赛道的重要基础设施。</p>",
+          "tags": [
+            "tool",
+            "agent",
+            "ai"
+          ],
+          "source": "GitHub TauricResearch/TradingAgents / CSDN"
+        },
+        {
+          "title": "Helios — 北大/清华/伯克利联合开源实时流式视频生成模型",
+          "body": "<p><strong>Helios</strong>是北京大学Yuan Lab发布的实时流式视频生成模型，由清华大学与加州大学伯克利分校联合开发。该项目支持实时流式输出，是首个支持该能力的视频生成模型，在长视频时序一致性方面保持技术领先，并已与Diffusers库实现无缝集成。</p><p>核心技术创新：视频编码器（Video Encoder）、扩散Transformer（Diffusion Transformer）、流式解码器（Streaming Decoder）、时序一致性模块（Temporal Consistency），以及低延迟高帧率输出。应用场景涵盖：游戏直播、影视预览、虚拟制片、教育培训等。</p>",
+          "tags": [
+            "tool",
+            "video",
+            "ai",
+            "deep"
+          ],
+          "source": "GitHub PKU-YuanGroup/Helios / CSDN"
+        },
+        {
+          "title": "TurboDiffusion — RTX 5090 上 1.9 秒生成视频，速度提升 100~200 倍",
+          "body": "<p>由清华大学、生命科学中心和加州大学伯克利分校联合开发的<strong>TurboDiffusion</strong>开源框架，将视频生成速度提升100~200倍。该框架基于Wan2.1和Wan2.2模型，在WebUI基础上进行深度二次开发，实现了文本到视频（T2V）和图像到视频（I2V）的高效生成。</p><p>核心技术突破在于融合了<strong>SageAttention</strong>（稀疏线性注意力）、<strong>SLA</strong>（稀流线性注意力）和<strong>rCM</strong>（时间步跳跃）等前沿算法。这意味着原本需184秒完成的视频生成任务，在单张RTX 5090显卡上仅需<strong>1.9秒</strong>即可输出，彻底改变了创意生产的节奏。</p>",
+          "tags": [
+            "tool",
+            "video",
+            "ai",
+            "deep"
+          ],
+          "source": "CSDN / GitHub"
+        }
+      ]
+    },
     {
       "date": "2026-05-03",
       "daily": [
