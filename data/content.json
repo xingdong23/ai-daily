@@ -1,6 +1,65 @@
 {
-  "lastUpdate": "2026-05-04T00:03:49Z",
+  "lastUpdate": "2026-05-05T00:04:26Z",
   "days": [
+    {
+      "date": "2026-05-05",
+      "daily": [
+        {
+          "title": "全球 AI 视频生成市场 2028 年将达 67 亿美元，年复合增长率 34.2%",
+          "body": "<p>据 <strong>Grand View Research</strong> 最新预测，全球 AI 视频生成市场正经历爆发式增长，预计将以 <strong>34.2%</strong> 的年复合增长率（CAGR）扩张，2028 年市场规模将突破 <strong>67 亿美元</strong>。</p><p>与此同时，Sensor Tower 2026 年 Q1 数据同步显示，短剧类 App 全球累计下载量已突破 <strong>2.5 亿次</strong>，其中 ReelShort 以 8000 万次下载量稳居第一，DramaBox（4500 万）和 GoodShort（2200 万）分列二三位——AI 短剧出海已成为内容出海最强劲增量赛道。</p><p>市场格局方面：全球 AI 视频生成市场预计 2026 年将突破 300 亿美元，字节 Seedance、快手可灵、MiniMax Hailuo 02 等头部模型持续拉高行业天花板。</p>",
+          "tags": [
+            "video",
+            "ai",
+            "money",
+            "deep"
+          ],
+          "source": "Grand View Research / Sensor Tower Q1 2026"
+        },
+        {
+          "title": "OpenAI 战略大转向：2030 年算力支出目标从 1.4 万亿美元大幅下调至 6000 亿美元",
+          "body": "<p>OpenAI 内部计划曝光：<strong>2030 年算力支出目标从此前的 1.4 万亿美元大幅下调至 6000 亿美元</strong>，降幅高达 57%。这一战略性收缩标志着 AI 行业从「暴力堆算力」时代向「高效推理」时代的转折点。</p><p>与此同时，英伟达（NVDA.US）、软银、亚马逊（AMZN.US）等战略投资者争相入局，据预估总投资估值或达 <strong>7300 亿美元</strong>。供需两端的张力正在重塑 AI 产业的资本结构与技术路线。</p><p>行业分析认为，推理效率优化（蒸馏、稀疏注意力、量化）和推理芯片多元化（ASIC、国产 GPU）是支撑这一转变的技术基础，也将成为 2026 年后半段的投资主线。</p>",
+          "tags": [
+            "ai",
+            "deep"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com"
+        },
+        {
+          "title": "腾讯云发布《2026 年 AI 元年：智能时代的正式启幕》：三大核心驱动力全面解读",
+          "body": "<p>腾讯云开发者社区于 2026 年 5 月 5 日发布深度长文，系统梳理「为何 2026 年是 AI 元年」的三大核心驱动力：</p><p><strong>1. 技术突破</strong>：大模型进入「成熟应用期」，能力边界持续拓宽，GPT-5、Claude 4、Gemini 2 等旗舰模型推理能力显著提升。</p><p><strong>2. 产业需求</strong>：数字化转型进入「深水区」，AI 成为核心引擎，倒逼企业从「尝试 AI」走向「规模化部署」。</p><p><strong>3. 政策护航</strong>：全球协同规范，为 AI 发展划定「安全边界」——欧盟 AI Act、美国 AI 行政令、中国生成式 AI 管理办法等相继落地。</p><p>文章判断：2026 年 AI 已从「技术探索期」迈向「商业成熟期」，真正决定胜负的不再是「能否做到」，而是「如何做到得更稳、更快、更便宜」。</p>",
+          "tags": [
+            "ai",
+            "deep",
+            "agent"
+          ],
+          "source": "腾讯云开发者社区 / cloud.tencent.com"
+        }
+      ],
+      "money": [
+        {
+          "title": "AI 短剧出海爆发：Sensor Tower Q1 数据——ReelShort 8000万次下载领跑",
+          "body": "<p>Sensor Tower 2026 年 Q1 数据新鲜出炉，短剧出海格局已全面清晰：</p><p>📊 <strong>累计下载量</strong>：短剧类 App 全球累计下载量突破 <strong>2.5 亿次</strong>，同比增长超 300%。</p><p>🏆 <strong>头部格局</strong>：ReelShort 以 8000 万次下载稳居第一，DramaBox（4500 万）排名第二，GoodShort（2200 万）位列第三，三家合计市占率超 58%。</p><p>💡 <strong>变现路径</strong>：订阅制 + 广告变现双轮驱动，单部短剧 ROI 可达 1:50 以上，AI 生成短剧制作成本已低至每月 200 元以内。</p><p>📍 <strong>出海关键</strong>：本地化内容策略（语言、文化、审美）+ 多平台分发（iOS/Android/Web）+ 社媒裂变是短剧出海的三板斧。</p>",
+          "tags": [
+            "money",
+            "video",
+            "ai"
+          ],
+          "source": "Sensor Tower Q1 2026 / App Store 数据"
+        }
+      ],
+      "tools": [
+        {
+          "title": "Wocreate AI：垂直电商场景的 AI 视频生成利器，支持一键换背景/换模特/换场景",
+          "body": "<p><strong>Wocreate（沃创 AI）</strong>是一款专为企业电商客户、内容创作者及教培机构设计的 AI 视频生成工具，定位为「电商与内容创作的提效利器」。</p><p>核心功能亮点：<strong>一键换背景</strong>（上传产品图即可匹配场景）、<strong>AI 换模特</strong>（解决模特成本高、拍摄周期长的痛点）、<strong>AI 换产品特</strong>（一张产品图生成无限风格变体）、<strong>图片融合</strong>（多图元素无缝合成）。</p><p>该工具深度覆盖电商与内容场景，支持文生图、文生视频、AI 对口型等功能，保证产品视频去水印且支持无限制生成，是目前电商 AI 视频工具中本地化体验最好的选择之一。</p>",
+          "tags": [
+            "tool",
+            "video",
+            "ai"
+          ],
+          "source": "腾讯新闻 / 新智元"
+        }
+      ]
+    },
     {
       "date": "2026-05-04",
       "daily": [
