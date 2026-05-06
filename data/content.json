@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-06T05:28:42Z",
+  "lastUpdate": "2026-05-06T05:59:51Z",
   "days": [
     {
       "date": "2026-05-06",
@@ -65,6 +65,24 @@
             "ai"
           ],
           "source": "搜狐财经"
+        },
+        {
+          "title": "2.85 亿美元一夜归零：Drift Protocol 被盗敲响 DeFi 安全警钟",
+          "body": "<p>2026 年 4 月 1 日，<strong>Solana 生态头部永续 DEX Drift Protocol</strong> 遭遇重大黑客攻击，损失金额约 <strong>2.2 亿至 2.85 亿美元</strong>，成为 2026 年迄今为止最大规模的 DeFi 黑客攻击事件。</p><p>Drift 在 X 上发文称：「我们观察到协议出现异常活动，目前正在调查中。请不要在调查期间向协议内存入资金。这不是愚人节玩笑。」</p><p>安全教训：DeFi 世界中没有客服帮你追回资金，没有银行为你兜底。必做检查：合约开源审计、拒绝无授权、认准官方入口、警惕异常高收益、隔离资产分散风险。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com / 2026-04"
+        },
+        {
+          "title": "渣打银行：2026 年或是以太坊爆发年，目标价 2030 年新高",
+          "body": "<p>据 <strong>渣打银行</strong>（Standard Chartered）最新研究报告，2026 年可能是 <strong>以太坊（ETH）的突破年</strong>，并设定 2030 年目标价新高预期。</p><p>报告核心观点：以太坊 ETF 的机构资金持续流入；Layer 2 生态（Arbitrum、Optimism、Base）扩张加速；DeFi  TVL（总锁仓量）触底回升；Dencun 升级降低 Rollup 成本，生态应用活性显著提升。渣打同时指出，监管环境趋于明确是 ETH 价格上涨的关键催化剂。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "Stocks News Feed / 2026-05"
         }
       ],
       "tools": [
@@ -107,6 +125,61 @@
             "ai"
           ],
           "source": "CSDN 博客"
+        }
+      ],
+      "dev": [
+        {
+          "title": "TradingAgents v0.2.4 发布：结构化输出 Agent + LangGraph 检查点 + Docker 支持",
+          "body": "<p>2026 年 4 月，<strong>TradingAgents</strong>（TauricResearch）发布 v0.2.4 版本，带来多项关键升级：</p><p>核心新特性：<strong>结构化输出 Agent</strong>（Research Manager、Trader、Portfolio Manager 全面采用 LLM.with_structured_output，返回 Pydantic 类型实例）；<strong>LangGraph 检查点恢复</strong>（--checkpoint 参数，崩溃后可从最后一个成功步骤恢复）；<strong>持久化决策日志</strong>（取代原有的每 Agent BM25 记忆）；<strong>多 Provider 支持</strong>（新增 DeepSeek、Qwen、GLM、Azure）；<strong>Docker 部署支持</strong>以及 Windows UTF-8 编码修复。</p><p>GitHub: <a href='https://github.com/TauricResearch/TradingAgents'>TauricResearch/TradingAgents</a></p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money",
+            "agent"
+          ],
+          "source": "GitHub TauricResearch/TradingAgents / CHANGELOG.md"
+        },
+        {
+          "title": "算法交易市场规模 2026 年达 35.9 亿美元，预计 2033 年翻倍至 66.8 亿",
+          "body": "<p>据 <strong>Coherent Market Insights</strong> 最新市场研究报告，2026 年全球算法交易（Algorithmic Trading）市场规模估计为 <strong>USD 35.9 亿</strong>，预计以年复合增长率（CAGR）持续扩张，2033 年将达到 <strong>USD 66.8 亿</strong>。</p><p>核心驱动力：AI 与机器学习技术深度融合，使交易算法具备自学习能力；数据驱动决策需求持续攀升；高频交易与量化策略的机构采纳率不断提升。报告指出，技术复杂度提升和监管合规需求是市场增长的两大结构性支撑。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "Coherent Market Insights / 2026-03"
+        },
+        {
+          "title": "CryptoQuant 2026 加密量化大赛香港成功举办，400+ 机构参与",
+          "body": "<p>2026 年 2 月 11 日，<strong>CryptoQuant 2026 加密量化交易大赛</strong>在香港 CAI 院士大厦正式发布，由 Barron's 巴伦中文、DeAI Expo 联合主办，CGV、NEXTFIN.AI、ME、CryptoAlpha 和 ChainDD、B7 Capital 等机构联合发起。活动现场聚集了超过 400 名来自主流资产管理公司、港股上市公司、加密交易所、量化策略团队、私募基金、家族办公室、Web3 投资基金、加密行业项目方等行业主要负责人，就数字资产管理、AI 驱动交易、链上交易策略等前沿话题展开探讨。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com / Barron's"
+        },
+        {
+          "title": "AI 重构加密量化交易：BeeQuant 打造人人可用的智能策略平台",
+          "body": "<p>2026 年，AI 与 Web3 的融合正在进入全新阶段。对于加密货币量化交易行业来说，BeeQuant 的出现，正在让原本属于少数专业机构的量化能力，逐步走向大众化、普及化。</p><p>BeeQuant 定位为 <strong>AI-Native 加密货币量化交易平台</strong>，致力于通过人工智能、可视化策略构建和自动化执行能力，降低量化交易门槛，让更多普通用户也能参与到专业级策略交易中来。平台核心能力：AI 驱动的策略生成与优化、实时市场分析与信号、多交易所统一管理、自定义回测与模拟交易。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "so.html5.qq.com / 2026-04"
+        }
+      ],
+      "aiTool": [
+        {
+          "title": "手把手教你用 Qlib 搭建第一个 AI 量化策略（2026 避坑指南）",
+          "body": "<p>Qlib 是微软亚洲研究院发布的面向 AI 的量化投资平台，旨在实现潜力、增强研究能力并创造 AI 技术在量化投资中的价值。2026 年最新教程覆盖了 Qlib 的完整安装流程与常见报错解决方案。</p><p>核心内容：conda 环境搭建（Python 3.8-3.10 兼容性最佳）；LightGBM GPU 版本安装（解决 OpenMP 问题）；数据层、机器学习层、策略回测层三大模块解析；与 backtrader、zipline 的优劣对比。</p><p>GitHub: <a href='https://github.com/microsoft/qlib'>microsoft/qlib</a></p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "CSDN 博客 / GitHub microsoft/qlib / 2026-04"
         }
       ]
     },
