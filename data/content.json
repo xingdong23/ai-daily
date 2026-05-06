@@ -1,6 +1,78 @@
 {
-  "lastUpdate": "2026-05-05T00:04:26Z",
+  "lastUpdate": "2026-05-06T00:03:59Z",
   "days": [
+    {
+      "date": "2026-05-06",
+      "daily": [
+        {
+          "title": "Runway 正式发布 Gen-4.5：登顶全球视频模型榜首，正面击败 Google Veo 3 与 OpenAI Sora 2 Pro",
+          "body": "<p>Runway 于 2026 年正式发布其最新一代视频生成旗舰模型 <strong>Gen-4.5</strong>，在第三方独立基准测试中，Gen-4.5 在核心性能上正面击败了 Google Veo 3 和 OpenAI Sora 2 Pro，登顶全球视频模型榜首。</p><p>Gen-4.5 的核心技术亮点：<strong>运动质量（motion quality）</strong>达到行业最高水平，动作流畅度和物理真实性显著优于竞品；<strong>Prompt 遵从度（prompt adherence）</strong>大幅提升，生成内容与文字描述的一致性更高；<strong>视觉保真度（visual fidelity）</strong>达到电影级水准。</p><p>Runway CEO 此前接受采访时表示：AI 视频只是世界模型的序章。该公司已累计融资 8.6 亿美元，估值达 53 亿美元，模型正与 Google、OpenAI 等顶级实验室正面竞争。Runway 同时布局通用世界模型，应用场景覆盖游戏、机器人乃至更接近通用智能的领域。</p>",
+          "tags": [
+            "video",
+            "ai",
+            "deep"
+          ],
+          "source": "Runway 官网 / Digital Trends / so.html5.qq.com"
+        },
+        {
+          "title": "Meta 秘密研发 Mango 视频模型 + Avocado 文本模型：与 Scale AI 联合打造，2026 上半年发布",
+          "body": "<p>据《华尔街日报》报道，Meta 正在由 Scale AI 联合创始人王烨山（Yash Shan）领导的超智能实验室下开发新的 AI 模型系列：代号为 <strong>Mango</strong> 的图像和视频模型，以及内部称为 <strong>Avocado</strong> 的新型文本模型。</p><p>该科技巨头计划在 2026 年上半年发布这些新模型。报道引用了 Meta 的内部问答会，首席产品官 Chris Cox 在会上公布了新的路线图。</p><p>与此同时，Meta 宣布了 Llama Stack 的重大更新，将其开源框架扩展至企业级应用，并为 Agent 协作场景提供更完善的支持。这是 Meta 在 AI 开源领域的最新战略动作，也意味着视频生成赛道又添一重量级玩家。</p>",
+          "tags": [
+            "video",
+            "ai",
+            "deep"
+          ],
+          "source": "华尔街日报 / so.html5.qq.com / Meta 官方"
+        },
+        {
+          "title": "腾讯云发布《2026 年 AI 赚钱八大方向》：普通人破局的最短路径",
+          "body": "<p>2026 年，AI 已从技术探索期迈向商业成熟期。腾讯云开发者社区于 2026 年 5 月 6 日发布深度分析，系统梳理了普通人在 AI 时代的变现路径：</p><p><strong>（1）AI 中视频</strong>——YouTube 等平台上 AI 生成的深度解说/评测内容，单个账号年收入可达数十万；<strong>（2）AI 短剧</strong>——平台补贴加内容电商双轮驱动，头部创作者月收入已突破 50 万元；<strong>（3）垂直领域 AI 工具包</strong>——面向特定行业的 Prompt 模板、Agent 定制服务；<strong>（4）AI 推广拉新</strong>——各大厂（千问、豆包、即梦等）正大力补贴拉新，用户通过邀请注册可获现金奖励。</p><p>关键洞察：在垂直细分赛道拥有角色一致性和多集管理能力的 AI 规模化内容生产能力，是 2026 年普通人弯道超车的核心武器。</p>",
+          "tags": [
+            "ai",
+            "money",
+            "video",
+            "deep"
+          ],
+          "source": "腾讯云开发者社区 / cloud.tencent.com"
+        }
+      ],
+      "money": [
+        {
+          "title": "个人用 AI 短剧在 YouTube 变现 3 万元复盘：从零开始的完整路径",
+          "body": "<p>一位创作者完整复盘了他用 AI 短剧在 YouTube 上变现的路径：从试错、找对标，到开通 YouTube 合作伙伴计划（YPP）收到第一笔 414 美元，再到复制多个账号，全年累计获得约 <strong>3 万元人民币</strong>的广告分成。</p><p>核心路径：AI 绘图生成画面、AI 配音加字幕、AI 剪辑（剪映 AI）自动对齐、多账号矩阵分发。工具月成本不到 200 元，效率提升 10 倍，一个人顶过去一个团队。</p><p>关键教训：YPP 审核趋严，需要持续产出原创内容；多账号矩阵是规模化放大的核心策略；内容本地化（语言、文化、审美）是出海成功的关键门槛。</p>",
+          "tags": [
+            "money",
+            "video",
+            "ai"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com"
+        }
+      ],
+      "tools": [
+        {
+          "title": "GenVidBench — AAAI 2026 发布：600 万规模 AI 生成视频检测基准",
+          "body": "<p><strong>GenVidBench</strong> 是 AAAI 2026 录用的论文成果，由研究团队发布的高质量 AI 生成视频检测基准。该基准包含 <strong>600 万</strong>量级的样本规模，专门用于评估模型对 AI 生成视频的识别与检测能力。</p><p>GenVidBench 的发布标志着 AI 视频检测（深伪检测）领域进入规模化基准测试阶段，为内容溯源、版权保护和 AI 安全提供了重要的评估基础设施。该基准覆盖了多种主流 AI 视频生成模型，对检测算法的泛化能力提出了更高要求。</p>",
+          "tags": [
+            "tool",
+            "video",
+            "ai",
+            "deep"
+          ],
+          "source": "GitHub genvidbench/GenVidBench / AAAI 2026"
+        },
+        {
+          "title": "Video-DB Director — AI 视频 Agent 框架：像用 ChatGPT 一样处理视频",
+          "body": "<p><strong>Director</strong> 是 VideoDB 发布的 AI 视频 Agent 框架，被描述为视频版 ChatGPT。该框架可以构建能够推理复杂视频任务的视频 Agent，如搜索、编辑、剪辑、生成等，并支持即时流式输出结果。</p><p>核心功能：输入自然语言命令（如「总结视频内容」「搜索特定片段」「即时创建片段」），即可驱动底层视频理解与生成能力；内置与 VideoDB 视频即数据基础设施的深度集成；支持多步骤视频处理流水线的自动化编排。</p><p>Director 的定位是降低视频 AI 应用的开发门槛，让开发者能像使用 ChatGPT 一样便捷地构建复杂视频工作流，是视频 AI 工具化方向的重要里程碑。</p>",
+          "tags": [
+            "tool",
+            "video",
+            "ai",
+            "agent"
+          ],
+          "source": "GitHub video-db/Director / VideoDB 官网"
+        }
+      ]
+    },
     {
       "date": "2026-05-05",
       "daily": [
