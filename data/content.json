@@ -1,6 +1,133 @@
 {
-  "lastUpdate": "2026-05-06T05:59:51Z",
+  "lastUpdate": "2026-05-07T00:03:22Z",
   "days": [
+    {
+      "date": "2026-05-07",
+      "daily": [],
+      "money": [
+        {
+          "title": "渣打银行：2026 年或是以太坊爆发年，目标价 2030 年新高",
+          "body": "<p>据 <strong>渣打银行</strong>（Standard Chartered）最新研究报告，2026 年可能是 <strong>以太坊（ETH）的突破年</strong>，并设定 2030 年目标价新高预期。</p><p>报告核心观点：以太坊 ETF 的机构资金持续流入；Layer 2 生态（Arbitrum、Optimism、Base）扩张加速；DeFi TVL（总锁仓量）触底回升；Dencun 升级降低 Rollup 成本，生态应用活性显著提升。渣打同时指出，监管环境趋于明确是 ETH 价格上涨的关键催化剂。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "Stocks News Feed / so.html5.qq.com / 2026-05"
+        },
+        {
+          "title": "东方红量化混合 A（580007）2026 年一季度利润 100.93 万元，净值增长 6%",
+          "body": "<p>2026 年第一季度，东方红量化混合 A（580007）基金交出了一份亮眼的成绩单。报告显示该基金在第一季度实现利润 <strong>100.93 万元</strong>，净值增长率达 <strong>6%</strong>。截至 2026 年 4 月 22 日，东方红量化混合 A 的单位净值为 0.812 元，近一年的复权单位净值增长率高达 <strong>75.06%</strong>，在同类基金中表现优异。</p><p>管理人人丛俊在一季报中指出，人工智能的快速发展仍是推动市场的重要因素。当前，算力竞争如火如荼，未见减缓的趋势。同时，庞大的数据中心使得美国市场面临持续的「缺电」叙事，这对相关产业链的投资带来了新的机遇。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "搜狐财经 / 2026-04"
+        },
+        {
+          "title": "2.85 亿美元一夜归零：Drift Protocol 被盗敲响 DeFi 安全警钟",
+          "body": "<p>2026 年 4 月 1 日，<strong>Solana 生态头部永续 DEX Drift Protocol</strong> 遭遇重大黑客攻击，损失金额约 <strong>2.2 亿至 2.85 亿美元</strong>，成为 2026 年迄今为止最大规模的 DeFi 黑客攻击事件。</p><p>Drift 在 X 上发文称：「我们观察到协议出现异常活动，目前正在调查中。请不要在调查期间向协议内存入资金。这不是愚人节玩笑。」</p><p>安全教训：DeFi 世界中没有客服帮你追回资金，没有银行为你兜底。必做检查：合约开源审计、拒绝无授权、认准官方入口、警惕异常高收益、隔离资产分散风险。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com / 2026-04"
+        },
+        {
+          "title": "BeeQuant：AI-Native 加密货币量化交易平台，降低量化交易门槛",
+          "body": "<p>2026 年，AI 与 Web3 的融合正在进入全新阶段。<strong>BeeQuant</strong> 的出现，正在让原本属于少数专业机构的量化能力，逐步走向大众化、普及化。</p><p>BeeQuant 定位为 <strong>AI-Native 加密货币量化交易平台</strong>，致力于通过人工智能、可视化策略构建和自动化执行能力，降低量化交易门槛，让更多普通用户也能参与到专业级策略交易中来。平台核心能力：AI 驱动的策略生成与优化、实时市场分析与信号、多交易所统一管理、自定义回测与模拟交易。</p>",
+          "tags": [
+            "money",
+            "ai",
+            "dev"
+          ],
+          "source": "so.html5.qq.com / 2026-04"
+        }
+      ],
+      "tools": [],
+      "dev": [
+        {
+          "title": "FinRL-X 发布：AI4Finance 开源模块化量化交易基础设施，317 Commits 里程碑",
+          "body": "<p>GitHub 开源项目 <strong>FinRL-X</strong>（AI4Finance-Foundation/FinRL-Trading）是面向量化交易的 AI-Native 模块化基础设施，代表了 AI 与量化金融深度融合的最新开源实践。</p><p>核心特点：模块化架构，支持数据层、算法层、风控层解耦；内置多种强化学习算法（PPO、SAC、DQN 等）；兼容 backtrader、zipline 等主流回测框架；提供 Docker 部署支持，适合机构级量化研究。</p><p>GitHub: <a href='https://github.com/AI4Finance-Foundation/FinRL-Trading'>AI4Finance-Foundation/FinRL-Trading</a></p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "GitHub AI4Finance-Foundation/FinRL-Trading / 2026-03"
+        },
+        {
+          "title": "TradingAgents v0.2.4 发布：结构化输出 Agent + LangGraph 检查点 + Docker 支持",
+          "body": "<p>2026 年 4 月，<strong>TradingAgents</strong>（TauricResearch）发布 v0.2.4 版本，带来多项关键升级：</p><p>核心新特性：<strong>结构化输出 Agent</strong>（Research Manager、Trader、Portfolio Manager 全面采用 LLM.with_structured_output）；<strong>LangGraph 检查点恢复</strong>（--checkpoint 参数）；<strong>持久化决策日志</strong>（取代原有的每 Agent BM25 记忆）；<strong>多 Provider 支持</strong>（新增 DeepSeek、Qwen、GLM、Azure）；<strong>Docker 部署支持</strong>以及 Windows UTF-8 编码修复。</p><p>GitHub: <a href='https://github.com/TauricResearch/TradingAgents'>TauricResearch/TradingAgents</a></p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money",
+            "agent"
+          ],
+          "source": "GitHub TauricResearch/TradingAgents / CHANGELOG.md / 2026-04"
+        },
+        {
+          "title": "算法交易市场规模 2026 年达 35.9 亿美元，预计 2033 年翻倍至 66.8 亿",
+          "body": "<p>据 <strong>Coherent Market Insights</strong> 最新市场研究报告，2026 年全球算法交易（Algorithmic Trading）市场规模估计为 <strong>USD 35.9 亿</strong>，预计以年复合增长率（CAGR）持续扩张，2033 年将达到 <strong>USD 66.8 亿</strong>。</p><p>核心驱动力：AI 与机器学习技术深度融合，使交易算法具备自学习能力；数据驱动决策需求持续攀升；高频交易与量化策略的机构采纳率不断提升。报告指出，技术复杂度提升和监管合规需求是市场增长的两大结构性支撑。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "Coherent Market Insights / 2026-03"
+        },
+        {
+          "title": "CryptoQuant 2026 加密量化大赛香港成功举办，400+ 机构参与",
+          "body": "<p>2026 年 2 月 11 日，<strong>CryptoQuant 2026 加密量化交易大赛</strong>在香港 CAI 院士大厦正式发布，由 Barron's 巴伦中文、DeAI Expo 联合主办。活动现场聚集了超过 400 名来自主流资产管理公司、港股上市公司、加密交易所、量化策略团队、私募基金、家族办公室等行业主要负责人，就数字资产管理、AI 驱动交易、链上交易策略等前沿话题展开探讨。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com / Barron's / 2026-02"
+        }
+      ],
+      "aiTool": [
+        {
+          "title": "Qlib 2026 避坑指南：微软亚洲研究院 AI 量化投资平台安装与实战",
+          "body": "<p><strong>Qlib</strong> 是微软亚洲研究院发布的面向 AI 的量化投资平台，旨在实现潜力、增强研究能力并创造 AI 技术在量化投资中的价值。2026 年最新教程覆盖了 Qlib 的完整安装流程与常见报错解决方案。</p><p>核心内容：conda 环境搭建（Python 3.8-3.10 兼容性最佳）；LightGBM GPU 版本安装（解决 OpenMP 问题）；数据层、机器学习层、策略回测层三大模块解析；与 backtrader、zipline 的优劣对比。</p><p>GitHub: <a href='https://github.com/microsoft/qlib'>microsoft/qlib</a></p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "CSDN 博客 / GitHub microsoft/qlib / 2026-04"
+        },
+        {
+          "title": "VN.PY 2026 最新版：国内主流量化交易平台核心特色与优劣对比",
+          "body": "<p>2026 年最新实盘量化交易平台概览报告，深度对比国内主流平台核心特色：<strong>AlphaGBM</strong>：AI 驱动的下一代智能量化与期权分析引擎，底层基于 Gradient Boosting Machine（GBM）和强化学习，能实时重仓 3D 波动率曲面并预测隐含波动率（IV）走向，内置语义情感分析引擎。<strong>VN.PY</strong>：国内最流行的开源量化交易框架之一，2026 年持续更新，支持证券、期货、期权多品种，覆盖掘金量化、聚宽、米筐等主要数据源，适合有编程基础的量化爱好者。</p>",
+          "tags": [
+            "aiTool",
+            "ai"
+          ],
+          "source": "CSDN 博客 / 2026-04"
+        },
+        {
+          "title": "freqtrade：GitHub Top1000 开源量化交易框架，回测/监控/机器学习一站式",
+          "body": "<p><strong>freqtrade</strong> 是 GitHub Top1000 的开源量化交易框架项目，提供回测、回测分析、监控/控制界面以及机器学习策略优化等核心功能。仅需实现一个策略文件放到对应文件夹，设置好配置文件，就可以进行回测、运行策略。</p><p>框架亮点：提供 Telegram 和网页版 UI 界面用于监控和控制策略；支持机器学习方法做数据分析和策略优化；社区活跃，文档完善，适合有编程基础的量化爱好者入门首选。</p><p>GitHub: <a href='https://github.com/freqtrade/freqtrade'>freqtrade/freqtrade</a></p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "GitHub freqtrade / 知乎 / 2026-04"
+        },
+        {
+          "title": "Panda AI：国内首个个人量化投研 AI 助手，人人都能低门槛量化",
+          "body": "<p>专访 Panda AI 李俊苒：量化投资将不再只是「机构级游戏」。Panda AI 是国内首个个人量化投研 AI 助手，致力于实现「人人都能低门槛量化」，已连续举办三届面向普通投资者开放的因子大赛。</p><p>值得注意的是，这种「去门槛化」的趋势，在 2026 年的金融数据终端与券商炒股软件中，表现得尤为明显。曾经被机构垄断的投研能力，正通过大模型技术加速「下沉」。</p>",
+          "tags": [
+            "aiTool",
+            "ai"
+          ],
+          "source": "南方财经 / 证券时报 / 2026-04"
+        }
+      ]
+    },
     {
       "date": "2026-05-06",
       "daily": [
