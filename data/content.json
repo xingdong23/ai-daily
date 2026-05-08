@@ -1,6 +1,53 @@
 {
-  "lastUpdate": "2026-05-07T00:03:22Z",
+  "lastUpdate": "2026-05-08T08:30:00Z",
   "days": [
+    {
+      "date": "2026-05-08",
+      "daily": [],
+      "money": [
+        {
+          "title": "VIX 恐慌指数单日飙升 3.12 点至 26.87 点，美股波动率卷土重来",
+          "body": "<p>据每经 AI 快讯，3 月 6 日美股恐慌指数 <strong>VIX</strong> 再度大幅波动，单日飙升 <strong>3.12 点</strong>至 <strong>26.87 点</strong>，显示市场焦虑情绪明显升温。</p><p>机构分析指出，当前美股正处于一个罕见的时刻：指数在创历史新高，但波动率也在同步攀升。这种「涨却不降波动」的特征组合，在历史上往往是泡沫阶段的前兆。本周市场将迎来两大集中考验：<strong>FOMC 利率决议</strong>，以及「科技七巨头」中五家的财报。两者叠加，构成近期最密集的交易催化剂窗口。</p>",
+          "tags": ["money", "ai"],
+          "source": "每经 AI 快讯 / so.html5.qq.com / 2026-03"
+        },
+        {
+          "title": "2026 年全球热门赛道 ETF 大合集来了！美股结构性分化，科技股震荡调整",
+          "body": "<p>2026 年开年至今，全球市场波动加大，宏观预期与产业浪潮共振，各类资产走出截然不同的行情。</p><p>海外市场方面，美股呈现结构性分化，科技股在 AI 资本开支预期与估值压力下震荡调整，道琼斯指数相对稳健。欧洲、亚洲市场则跟随全球流动性预期波动，韩国股市在两个交易日暴跌 18% 后次日暴涨 9.63%。</p>",
+          "tags": ["money", "ai"],
+          "source": "so.html5.qq.com / 2026-03"
+        }
+      ],
+      "tools": [],
+      "dev": [
+        {
+          "title": "Hidden Markov Model + Neural Network 能源量化交易：COVID 期间 83% 回报率，Sharpe 0.77",
+          "body": "<p>arXiv 学术论文提出新型 AI 量化方法——将<strong>隐马尔可夫模型（HMM）与神经网络</strong>深度融合，结合 Black-Litterman 组合优化，在 COVID 期间（2019-2022）实现<strong>83% 回报率</strong>，Sharpe 比率达 <strong>0.77</strong>。该系统包含双重风控模型，在高波动期间表现出色。</p><p>研究在 QuantConnect 平台实现，选择高流动性、大盘能源股票，采用三年预热期确保算法正常运行，通过预测价格走势生成交易信号。</p><p>论文：<a href='https://arxiv.org/abs/2407.19858'>AI-Powered Energy Algorithmic Trading</a></p>",
+          "tags": ["dev", "ai", "money"],
+          "source": "arXiv / QuantConnect / 2024-07"
+        },
+        {
+          "title": "QuantConnect 2026：489K 量化社区，云端研究/回测/Live Trading 一体化平台",
+          "body": "<p><strong>QuantConnect</strong> 是全球领先的量化交易开源平台，提供云端研究、回测、AI 优化和 Live Trading 全流程支持。平台拥有 <strong>489K</strong> 量化社区用户，支持证券数据标（FIGI、CUSIP、ISIN），可安装自定义包，支持机器学习和特征选择库训练模型。</p><p>2026 年最新能力：<strong>Mia</strong>—— Agentic AI 助手，可自动设计、回测、优化和实盘交易量化策略；支持 Python 和 F# 策略开发；提供完整的事件驱动回测引擎。</p><p>官网：<a href='https://quantconnect.com/'>quantconnect.com</a></p>",
+          "tags": ["dev", "ai", "money"],
+          "source": "QuantConnect.com / 2026-04"
+        }
+      ],
+      "aiTool": [
+        {
+          "title": "backtrader + dash + plotly 量化回测可视化：从策略到交互图表的完整实战",
+          "body": "<p>针对 backtrader 回测结果展示不佳的问题，社区开发者使用 <strong>dash 和 plotly</strong> 重构了回测可视化模块，实现三大核心功能：回测指标的完整统计（年化复利回报率、夏普率、最大回撤等）；多年度收益曲线叠加对比；交互式图表支持导出。</p><p>该方案已用于实盘策略复盘，支持 Jupyter Notebook 和 Web 页面两种展示形态。</p>",
+          "tags": ["aiTool", "dev", "ai"],
+          "source": "知乎 / 2020-04"
+        },
+        {
+          "title": "GitHub phytal/algorithmic-trading-python：Python + ML 量化交易入门的完整路径",
+          "body": "<p>GitHub 开源项目 <strong>algorithmic-trading-python</strong>（phytal）提供了从入门到实战的完整量化交易学习路径，基于 freeCodeCamp 课程体系，覆盖：等权 S&P 500 指数、定量动量策略、定量价值策略、无监督学习交易策略。</p><p>使用 <strong>yfinance</strong> 获取实时股票数据，包含完整的因子计算、估值模型和 Pandas 分析框架。</p><p>GitHub：<a href='https://github.com/phytal/algorithmic-trading-python'>phytal/algorithmic-trading-python</a></p>",
+          "tags": ["aiTool", "dev", "ai"],
+          "source": "GitHub phytal/algorithmic-trading-python / 2026-05"
+        }
+      ]
+    },
     {
       "date": "2026-05-07",
       "daily": [],
@@ -8,38 +55,25 @@
         {
           "title": "渣打银行：2026 年或是以太坊爆发年，目标价 2030 年新高",
           "body": "<p>据 <strong>渣打银行</strong>（Standard Chartered）最新研究报告，2026 年可能是 <strong>以太坊（ETH）的突破年</strong>，并设定 2030 年目标价新高预期。</p><p>报告核心观点：以太坊 ETF 的机构资金持续流入；Layer 2 生态（Arbitrum、Optimism、Base）扩张加速；DeFi TVL（总锁仓量）触底回升；Dencun 升级降低 Rollup 成本，生态应用活性显著提升。渣打同时指出，监管环境趋于明确是 ETH 价格上涨的关键催化剂。</p>",
-          "tags": [
-            "money",
-            "ai"
-          ],
+          "tags": ["money", "ai"],
           "source": "Stocks News Feed / so.html5.qq.com / 2026-05"
         },
         {
           "title": "东方红量化混合 A（580007）2026 年一季度利润 100.93 万元，净值增长 6%",
           "body": "<p>2026 年第一季度，东方红量化混合 A（580007）基金交出了一份亮眼的成绩单。报告显示该基金在第一季度实现利润 <strong>100.93 万元</strong>，净值增长率达 <strong>6%</strong>。截至 2026 年 4 月 22 日，东方红量化混合 A 的单位净值为 0.812 元，近一年的复权单位净值增长率高达 <strong>75.06%</strong>，在同类基金中表现优异。</p><p>管理人人丛俊在一季报中指出，人工智能的快速发展仍是推动市场的重要因素。当前，算力竞争如火如荼，未见减缓的趋势。同时，庞大的数据中心使得美国市场面临持续的「缺电」叙事，这对相关产业链的投资带来了新的机遇。</p>",
-          "tags": [
-            "money",
-            "ai"
-          ],
+          "tags": ["money", "ai"],
           "source": "搜狐财经 / 2026-04"
         },
         {
           "title": "2.85 亿美元一夜归零：Drift Protocol 被盗敲响 DeFi 安全警钟",
           "body": "<p>2026 年 4 月 1 日，<strong>Solana 生态头部永续 DEX Drift Protocol</strong> 遭遇重大黑客攻击，损失金额约 <strong>2.2 亿至 2.85 亿美元</strong>，成为 2026 年迄今为止最大规模的 DeFi 黑客攻击事件。</p><p>Drift 在 X 上发文称：「我们观察到协议出现异常活动，目前正在调查中。请不要在调查期间向协议内存入资金。这不是愚人节玩笑。」</p><p>安全教训：DeFi 世界中没有客服帮你追回资金，没有银行为你兜底。必做检查：合约开源审计、拒绝无授权、认准官方入口、警惕异常高收益、隔离资产分散风险。</p>",
-          "tags": [
-            "money",
-            "ai"
-          ],
+          "tags": ["money", "ai"],
           "source": "腾讯新闻 / so.html5.qq.com / 2026-04"
         },
         {
           "title": "BeeQuant：AI-Native 加密货币量化交易平台，降低量化交易门槛",
           "body": "<p>2026 年，AI 与 Web3 的融合正在进入全新阶段。<strong>BeeQuant</strong> 的出现，正在让原本属于少数专业机构的量化能力，逐步走向大众化、普及化。</p><p>BeeQuant 定位为 <strong>AI-Native 加密货币量化交易平台</strong>，致力于通过人工智能、可视化策略构建和自动化执行能力，降低量化交易门槛，让更多普通用户也能参与到专业级策略交易中来。平台核心能力：AI 驱动的策略生成与优化、实时市场分析与信号、多交易所统一管理、自定义回测与模拟交易。</p>",
-          "tags": [
-            "money",
-            "ai",
-            "dev"
-          ],
+          "tags": ["money", "ai", "dev"],
           "source": "so.html5.qq.com / 2026-04"
         }
       ],
@@ -48,42 +82,25 @@
         {
           "title": "FinRL-X 发布：AI4Finance 开源模块化量化交易基础设施，317 Commits 里程碑",
           "body": "<p>GitHub 开源项目 <strong>FinRL-X</strong>（AI4Finance-Foundation/FinRL-Trading）是面向量化交易的 AI-Native 模块化基础设施，代表了 AI 与量化金融深度融合的最新开源实践。</p><p>核心特点：模块化架构，支持数据层、算法层、风控层解耦；内置多种强化学习算法（PPO、SAC、DQN 等）；兼容 backtrader、zipline 等主流回测框架；提供 Docker 部署支持，适合机构级量化研究。</p><p>GitHub: <a href='https://github.com/AI4Finance-Foundation/FinRL-Trading'>AI4Finance-Foundation/FinRL-Trading</a></p>",
-          "tags": [
-            "dev",
-            "ai",
-            "money"
-          ],
+          "tags": ["dev", "ai", "money"],
           "source": "GitHub AI4Finance-Foundation/FinRL-Trading / 2026-03"
         },
         {
           "title": "TradingAgents v0.2.4 发布：结构化输出 Agent + LangGraph 检查点 + Docker 支持",
           "body": "<p>2026 年 4 月，<strong>TradingAgents</strong>（TauricResearch）发布 v0.2.4 版本，带来多项关键升级：</p><p>核心新特性：<strong>结构化输出 Agent</strong>（Research Manager、Trader、Portfolio Manager 全面采用 LLM.with_structured_output）；<strong>LangGraph 检查点恢复</strong>（--checkpoint 参数）；<strong>持久化决策日志</strong>（取代原有的每 Agent BM25 记忆）；<strong>多 Provider 支持</strong>（新增 DeepSeek、Qwen、GLM、Azure）；<strong>Docker 部署支持</strong>以及 Windows UTF-8 编码修复。</p><p>GitHub: <a href='https://github.com/TauricResearch/TradingAgents'>TauricResearch/TradingAgents</a></p>",
-          "tags": [
-            "dev",
-            "ai",
-            "money",
-            "agent"
-          ],
+          "tags": ["dev", "ai", "money", "agent"],
           "source": "GitHub TauricResearch/TradingAgents / CHANGELOG.md / 2026-04"
         },
         {
           "title": "算法交易市场规模 2026 年达 35.9 亿美元，预计 2033 年翻倍至 66.8 亿",
           "body": "<p>据 <strong>Coherent Market Insights</strong> 最新市场研究报告，2026 年全球算法交易（Algorithmic Trading）市场规模估计为 <strong>USD 35.9 亿</strong>，预计以年复合增长率（CAGR）持续扩张，2033 年将达到 <strong>USD 66.8 亿</strong>。</p><p>核心驱动力：AI 与机器学习技术深度融合，使交易算法具备自学习能力；数据驱动决策需求持续攀升；高频交易与量化策略的机构采纳率不断提升。报告指出，技术复杂度提升和监管合规需求是市场增长的两大结构性支撑。</p>",
-          "tags": [
-            "dev",
-            "ai",
-            "money"
-          ],
+          "tags": ["dev", "ai", "money"],
           "source": "Coherent Market Insights / 2026-03"
         },
         {
           "title": "CryptoQuant 2026 加密量化大赛香港成功举办，400+ 机构参与",
           "body": "<p>2026 年 2 月 11 日，<strong>CryptoQuant 2026 加密量化交易大赛</strong>在香港 CAI 院士大厦正式发布，由 Barron's 巴伦中文、DeAI Expo 联合主办。活动现场聚集了超过 400 名来自主流资产管理公司、港股上市公司、加密交易所、量化策略团队、私募基金、家族办公室等行业主要负责人，就数字资产管理、AI 驱动交易、链上交易策略等前沿话题展开探讨。</p>",
-          "tags": [
-            "dev",
-            "ai",
-            "money"
-          ],
+          "tags": ["dev", "ai", "money"],
           "source": "腾讯新闻 / so.html5.qq.com / Barron's / 2026-02"
         }
       ],
@@ -91,39 +108,25 @@
         {
           "title": "Qlib 2026 避坑指南：微软亚洲研究院 AI 量化投资平台安装与实战",
           "body": "<p><strong>Qlib</strong> 是微软亚洲研究院发布的面向 AI 的量化投资平台，旨在实现潜力、增强研究能力并创造 AI 技术在量化投资中的价值。2026 年最新教程覆盖了 Qlib 的完整安装流程与常见报错解决方案。</p><p>核心内容：conda 环境搭建（Python 3.8-3.10 兼容性最佳）；LightGBM GPU 版本安装（解决 OpenMP 问题）；数据层、机器学习层、策略回测层三大模块解析；与 backtrader、zipline 的优劣对比。</p><p>GitHub: <a href='https://github.com/microsoft/qlib'>microsoft/qlib</a></p>",
-          "tags": [
-            "aiTool",
-            "dev",
-            "ai"
-          ],
+          "tags": ["aiTool", "dev", "ai"],
           "source": "CSDN 博客 / GitHub microsoft/qlib / 2026-04"
         },
         {
           "title": "VN.PY 2026 最新版：国内主流量化交易平台核心特色与优劣对比",
           "body": "<p>2026 年最新实盘量化交易平台概览报告，深度对比国内主流平台核心特色：<strong>AlphaGBM</strong>：AI 驱动的下一代智能量化与期权分析引擎，底层基于 Gradient Boosting Machine（GBM）和强化学习，能实时重仓 3D 波动率曲面并预测隐含波动率（IV）走向，内置语义情感分析引擎。<strong>VN.PY</strong>：国内最流行的开源量化交易框架之一，2026 年持续更新，支持证券、期货、期权多品种，覆盖掘金量化、聚宽、米筐等主要数据源，适合有编程基础的量化爱好者。</p>",
-          "tags": [
-            "aiTool",
-            "ai"
-          ],
+          "tags": ["aiTool", "ai"],
           "source": "CSDN 博客 / 2026-04"
         },
         {
           "title": "freqtrade：GitHub Top1000 开源量化交易框架，回测/监控/机器学习一站式",
           "body": "<p><strong>freqtrade</strong> 是 GitHub Top1000 的开源量化交易框架项目，提供回测、回测分析、监控/控制界面以及机器学习策略优化等核心功能。仅需实现一个策略文件放到对应文件夹，设置好配置文件，就可以进行回测、运行策略。</p><p>框架亮点：提供 Telegram 和网页版 UI 界面用于监控和控制策略；支持机器学习方法做数据分析和策略优化；社区活跃，文档完善，适合有编程基础的量化爱好者入门首选。</p><p>GitHub: <a href='https://github.com/freqtrade/freqtrade'>freqtrade/freqtrade</a></p>",
-          "tags": [
-            "aiTool",
-            "dev",
-            "ai"
-          ],
+          "tags": ["aiTool", "dev", "ai"],
           "source": "GitHub freqtrade / 知乎 / 2026-04"
         },
         {
           "title": "Panda AI：国内首个个人量化投研 AI 助手，人人都能低门槛量化",
           "body": "<p>专访 Panda AI 李俊苒：量化投资将不再只是「机构级游戏」。Panda AI 是国内首个个人量化投研 AI 助手，致力于实现「人人都能低门槛量化」，已连续举办三届面向普通投资者开放的因子大赛。</p><p>值得注意的是，这种「去门槛化」的趋势，在 2026 年的金融数据终端与券商炒股软件中，表现得尤为明显。曾经被机构垄断的投研能力，正通过大模型技术加速「下沉」。</p>",
-          "tags": [
-            "aiTool",
-            "ai"
-          ],
+          "tags": ["aiTool", "ai"],
           "source": "南方财经 / 证券时报 / 2026-04"
         }
       ]
@@ -134,42 +137,25 @@
         {
           "title": "Runway 正式发布 Gen-4.5：登顶全球视频模型榜首，正面击败 Google Veo 3 与 OpenAI Sora 2 Pro",
           "body": "<p>Runway 于 2026 年正式发布其最新一代视频生成旗舰模型 <strong>Gen-4.5</strong>，在第三方独立基准测试中，Gen-4.5 在核心性能上正面击败了 Google Veo 3 和 OpenAI Sora 2 Pro，登顶全球视频模型榜首。</p><p>Gen-4.5 的核心技术亮点：<strong>运动质量（motion quality）</strong>达到行业最高水平，动作流畅度和物理真实性显著优于竞品；<strong>Prompt 遵从度（prompt adherence）</strong>大幅提升，生成内容与文字描述的一致性更高；<strong>视觉保真度（visual fidelity）</strong>达到电影级水准。</p><p>Runway CEO 此前接受采访时表示：AI 视频只是世界模型的序章。该公司已累计融资 8.6 亿美元，估值达 53 亿美元，模型正与 Google、OpenAI 等顶级实验室正面竞争。Runway 同时布局通用世界模型，应用场景覆盖游戏、机器人乃至更接近通用智能的领域。</p>",
-          "tags": [
-            "video",
-            "ai",
-            "deep"
-          ],
+          "tags": ["video", "ai", "deep"],
           "source": "Runway 官网 / Digital Trends / so.html5.qq.com"
         },
         {
           "title": "Meta 秘密研发 Mango 视频模型 + Avocado 文本模型：与 Scale AI 联合打造，2026 上半年发布",
           "body": "<p>据《华尔街日报》报道，Meta 正在由 Scale AI 联合创始人王烨山（Yash Shan）领导的超智能实验室下开发新的 AI 模型系列：代号为 <strong>Mango</strong> 的图像和视频模型，以及内部称为 <strong>Avocado</strong> 的新型文本模型。</p><p>该科技巨头计划在 2026 年上半年发布这些新模型。报道引用了 Meta 的内部问答会，首席产品官 Chris Cox 在会上公布了新的路线图。</p><p>与此同时，Meta 宣布了 Llama Stack 的重大更新，将其开源框架扩展至企业级应用，并为 Agent 协作场景提供更完善的支持。这是 Meta 在 AI 开源领域的最新战略动作，也意味着视频生成赛道又添一重量级玩家。</p>",
-          "tags": [
-            "video",
-            "ai",
-            "deep"
-          ],
+          "tags": ["video", "ai", "deep"],
           "source": "华尔街日报 / so.html5.qq.com / Meta 官方"
         },
         {
           "title": "腾讯云发布《2026 年 AI 赚钱八大方向》：普通人破局的最短路径",
           "body": "<p>2026 年，AI 已从技术探索期迈向商业成熟期。腾讯云开发者社区于 2026 年 5 月 6 日发布深度分析，系统梳理了普通人在 AI 时代的变现路径：</p><p><strong>（1）AI 中视频</strong>——YouTube 等平台上 AI 生成的深度解说/评测内容，单个账号年收入可达数十万；<strong>（2）AI 短剧</strong>——平台补贴加内容电商双轮驱动，头部创作者月收入已突破 50 万元；<strong>（3）垂直领域 AI 工具包</strong>——面向特定行业的 Prompt 模板、Agent 定制服务；<strong>（4）AI 推广拉新</strong>——各大厂（千问、豆包、即梦等）正大力补贴拉新，用户通过邀请注册可获现金奖励。</p><p>关键洞察：在垂直细分赛道拥有角色一致性和多集管理能力的 AI 规模化内容生产能力，是 2026 年普通人弯道超车的核心武器。</p>",
-          "tags": [
-            "ai",
-            "money",
-            "video",
-            "deep"
-          ],
+          "tags": ["ai", "money", "video", "deep"],
           "source": "腾讯云开发者社区 / cloud.tencent.com"
         },
         {
           "title": "2026 年度 AI 金融研究工具全景概览：TradingAgents 领跑，多智能体协作成量化新范式",
           "body": "<p>2026 年，AI 金融研究工具赛道正经历深刻变革。GitHub 开源项目 <strong>TradingAgents</strong>（TauricResearch）代表了多智能体协作在垂直领域（金融）落地的最新探索——一套模拟真实金融机构投研流程的协作系统，由 Research Agent（信息检索）、Coder Agent（代码生成）、Reviewer Agent（质量审查）三个专业化 Agent 组成，通过协议互相通信、互相校准。</p><p>与此同时，国内量化工具也快速进化。<strong>AlphaGBM</strong> 作为 2026 年量化圈内最受技术极客瞩目的「黑马」，彻底打破了传统券商或回测框架「只提供通道和静态算法」的局限，将机器学习直接植入了交易底层——不仅是交易平台，更是一个集数据清洗、特征工程、模型预测、风险归因于一体的综合性 AI 量化系统。底层基于 Gradient Boosting Machine（GBM，如 LightGBM 架构）和强化学习，擅长处理金融时序等高噪声表格化数据；能够实时重仓 3D 波动率曲面，并预测隐含波动率（IV）走向；内置语义情感分析引擎，可对财报会议语调及社交媒体情绪进行量化处理。</p>",
-          "tags": [
-            "ai",
-            "money",
-            "deep"
-          ],
+          "tags": ["ai", "money", "deep"],
           "source": "CSDN / 腾讯新闻"
         }
       ],
@@ -177,38 +163,25 @@
         {
           "title": "个人用 AI 短剧在 YouTube 变现 3 万元复盘：从零开始的完整路径",
           "body": "<p>一位创作者完整复盘了他用 AI 短剧在 YouTube 上变现的路径：从试错、找对标，到开通 YouTube 合作伙伴计划（YPP）收到第一笔 414 美元，再到复制多个账号，全年累计获得约 <strong>3 万元人民币</strong>的广告分成。</p><p>核心路径：AI 绘图生成画面、AI 配音加字幕、AI 剪辑（剪映 AI）自动对齐、多账号矩阵分发。工具月成本不到 200 元，效率提升 10 倍，一个人顶过去一个团队。</p><p>关键教训：YPP 审核趋严，需要持续产出原创内容；多账号矩阵是规模化放大的核心策略；内容本地化（语言、文化、审美）是出海成功的关键门槛。</p>",
-          "tags": [
-            "money",
-            "video",
-            "ai"
-          ],
+          "tags": ["money", "video", "ai"],
           "source": "腾讯新闻 / so.html5.qq.com"
         },
         {
           "title": "东方红量化混合 A（580007）2026 年一季度利润 100.93 万元，净值增长 6%",
           "body": "<p>2026 年第一季度，东方红量化混合 A（580007）基金交出了一份亮眼的成绩单。报告显示该基金在第一季度实现利润 <strong>100.93 万元</strong>，净值增长率达 <strong>6%</strong>。截至 2026 年 4 月 22 日，东方红量化混合 A 的单位净值为 0.812 元，近一年的复权单位净值增长率高达 <strong>75.06%</strong>，在同类基金中表现优异。</p><p>管理人人丛俊在一季报中指出，人工智能的快速发展仍是推动市场的重要因素。当前，算力竞争如火如荼，未见减缓的趋势。同时，庞大的数据中心使得美国市场面临持续的「缺电」叙事，这对相关产业链的投资带来了新的机遇。</p>",
-          "tags": [
-            "money",
-            "ai"
-          ],
+          "tags": ["money", "ai"],
           "source": "搜狐财经"
         },
         {
           "title": "2.85 亿美元一夜归零：Drift Protocol 被盗敲响 DeFi 安全警钟",
           "body": "<p>2026 年 4 月 1 日，<strong>Solana 生态头部永续 DEX Drift Protocol</strong> 遭遇重大黑客攻击，损失金额约 <strong>2.2 亿至 2.85 亿美元</strong>，成为 2026 年迄今为止最大规模的 DeFi 黑客攻击事件。</p><p>Drift 在 X 上发文称：「我们观察到协议出现异常活动，目前正在调查中。请不要在调查期间向协议内存入资金。这不是愚人节玩笑。」</p><p>安全教训：DeFi 世界中没有客服帮你追回资金，没有银行为你兜底。必做检查：合约开源审计、拒绝无授权、认准官方入口、警惕异常高收益、隔离资产分散风险。</p>",
-          "tags": [
-            "money",
-            "ai"
-          ],
+          "tags": ["money", "ai"],
           "source": "腾讯新闻 / so.html5.qq.com / 2026-04"
         },
         {
           "title": "渣打银行：2026 年或是以太坊爆发年，目标价 2030 年新高",
           "body": "<p>据 <strong>渣打银行</strong>（Standard Chartered）最新研究报告，2026 年可能是 <strong>以太坊（ETH）的突破年</strong>，并设定 2030 年目标价新高预期。</p><p>报告核心观点：以太坊 ETF 的机构资金持续流入；Layer 2 生态（Arbitrum、Optimism、Base）扩张加速；DeFi  TVL（总锁仓量）触底回升；Dencun 升级降低 Rollup 成本，生态应用活性显著提升。渣打同时指出，监管环境趋于明确是 ETH 价格上涨的关键催化剂。</p>",
-          "tags": [
-            "money",
-            "ai"
-          ],
+          "tags": ["money", "ai"],
           "source": "Stocks News Feed / 2026-05"
         }
       ],
@@ -216,41 +189,25 @@
         {
           "title": "GenVidBench — AAAI 2026 发布：600 万规模 AI 生成视频检测基准",
           "body": "<p><strong>GenVidBench</strong> 是 AAAI 2026 录用的论文成果，由研究团队发布的高质量 AI 生成视频检测基准。该基准包含 <strong>600 万</strong>量级的样本规模，专门用于评估模型对 AI 生成视频的识别与检测能力。</p><p>GenVidBench 的发布标志着 AI 视频检测（深伪检测）领域进入规模化基准测试阶段，为内容溯源、版权保护和 AI 安全提供了重要的评估基础设施。该基准覆盖了多种主流 AI 视频生成模型，对检测算法的泛化能力提出了更高要求。</p>",
-          "tags": [
-            "tool",
-            "video",
-            "ai",
-            "deep"
-          ],
+          "tags": ["tool", "video", "ai", "deep"],
           "source": "GitHub genvidbench/GenVidBench / AAAI 2026"
         },
         {
           "title": "Video-DB Director — AI 视频 Agent 框架：像用 ChatGPT 一样处理视频",
           "body": "<p><strong>Director</strong> 是 VideoDB 发布的 AI 视频 Agent 框架，被描述为视频版 ChatGPT。该框架可以构建能够推理复杂视频任务的视频 Agent，如搜索、编辑、剪辑、生成等，并支持即时流式输出结果。</p><p>核心功能：输入自然语言命令（如「总结视频内容」「搜索特定片段」「即时创建片段」），即可驱动底层视频理解与生成能力；内置与 VideoDB 视频即数据基础设施的深度集成；支持多步骤视频处理流水线的自动化编排。</p><p>Director 的定位是降低视频 AI 应用的开发门槛，让开发者能像使用 ChatGPT 一样便捷地构建复杂视频工作流，是视频 AI 工具化方向的重要里程碑。</p>",
-          "tags": [
-            "tool",
-            "video",
-            "ai",
-            "agent"
-          ],
+          "tags": ["tool", "video", "ai", "agent"],
           "source": "GitHub video-db/Director / VideoDB 官网"
         },
         {
           "title": "Panda AI：国内首个个人量化投研 AI 助手，致力实现「人人都能低门槛量化」",
           "body": "<p>专访 Panda AI 李俊苒：量化投资将不再只是「机构级游戏」。Panda AI 是国内首个个人量化投研 AI 助手，致力于实现「人人都能低门槛量化」，已连续举办三届面向普通投资者开放的因子大赛。而李俊苒是 99 年出生的量化私募基金经理，长期从事量化交易与 AI 在金融市场的应用研究。</p><p>值得注意的是，这种「去门槛化」的趋势，在 2026 年的金融数据终端与券商炒股软件中，同样表现得尤为明显。曾经被机构垄断的投研能力，正通过大模型技术加速「下沉」。未来市场需要的，是一个便捷、低成本、高度自定义的 AI 工具平台，而非简单的「炒股龙虾」类工具。</p>",
-          "tags": [
-            "tool",
-            "ai"
-          ],
+          "tags": ["tool", "ai"],
           "source": "南方财经 / 证券时报"
         },
         {
           "title": "VN.PY 2026 最新版：国内主流量化交易平台核心特色与优劣对比",
           "body": "<p>2026 年最新实盘量化交易平台概览报告，深度对比国内主流平台核心特色：<strong>AlphaGBM</strong>：AI 驱动的下一代智能量化与期权分析引擎。底层基于 Gradient Boosting Machine（GBM，如 LightGBM 架构）和强化学习，擅于处理金融时序等高噪声表格化数据；能实时重仓 3D 波动率曲面并预测隐含波动率（IV）走向；内置语义情感分析引擎，可对财报会议语调及社交媒体情绪进行量化处理。支持 Sell Put、Wheeling（轮转策略）等复杂衍生品策略，提供动态对冲（Auto-Hedging）和极端行情下的「流动性黑洞」模型实时回测功能。<strong>VN.PY</strong>：国内最流行的开源量化交易框架之一，2026 年持续更新，支持证券、期货、期权多品种，覆盖掘金量化、聚宽、米筐等主要数据源，适合有编程基础的量化爱好者。</p>",
-          "tags": [
-            "tool",
-            "ai"
-          ],
+          "tags": ["tool", "ai"],
           "source": "CSDN 博客"
         }
       ],
@@ -258,42 +215,25 @@
         {
           "title": "TradingAgents v0.2.4 发布：结构化输出 Agent + LangGraph 检查点 + Docker 支持",
           "body": "<p>2026 年 4 月，<strong>TradingAgents</strong>（TauricResearch）发布 v0.2.4 版本，带来多项关键升级：</p><p>核心新特性：<strong>结构化输出 Agent</strong>（Research Manager、Trader、Portfolio Manager 全面采用 LLM.with_structured_output，返回 Pydantic 类型实例）；<strong>LangGraph 检查点恢复</strong>（--checkpoint 参数，崩溃后可从最后一个成功步骤恢复）；<strong>持久化决策日志</strong>（取代原有的每 Agent BM25 记忆）；<strong>多 Provider 支持</strong>（新增 DeepSeek、Qwen、GLM、Azure）；<strong>Docker 部署支持</strong>以及 Windows UTF-8 编码修复。</p><p>GitHub: <a href='https://github.com/TauricResearch/TradingAgents'>TauricResearch/TradingAgents</a></p>",
-          "tags": [
-            "dev",
-            "ai",
-            "money",
-            "agent"
-          ],
+          "tags": ["dev", "ai", "money", "agent"],
           "source": "GitHub TauricResearch/TradingAgents / CHANGELOG.md"
         },
         {
           "title": "算法交易市场规模 2026 年达 35.9 亿美元，预计 2033 年翻倍至 66.8 亿",
           "body": "<p>据 <strong>Coherent Market Insights</strong> 最新市场研究报告，2026 年全球算法交易（Algorithmic Trading）市场规模估计为 <strong>USD 35.9 亿</strong>，预计以年复合增长率（CAGR）持续扩张，2033 年将达到 <strong>USD 66.8 亿</strong>。</p><p>核心驱动力：AI 与机器学习技术深度融合，使交易算法具备自学习能力；数据驱动决策需求持续攀升；高频交易与量化策略的机构采纳率不断提升。报告指出，技术复杂度提升和监管合规需求是市场增长的两大结构性支撑。</p>",
-          "tags": [
-            "dev",
-            "ai",
-            "money"
-          ],
+          "tags": ["dev", "ai", "money"],
           "source": "Coherent Market Insights / 2026-03"
         },
         {
           "title": "CryptoQuant 2026 加密量化大赛香港成功举办，400+ 机构参与",
           "body": "<p>2026 年 2 月 11 日，<strong>CryptoQuant 2026 加密量化交易大赛</strong>在香港 CAI 院士大厦正式发布，由 Barron's 巴伦中文、DeAI Expo 联合主办，CGV、NEXTFIN.AI、ME、CryptoAlpha 和 ChainDD、B7 Capital 等机构联合发起。活动现场聚集了超过 400 名来自主流资产管理公司、港股上市公司、加密交易所、量化策略团队、私募基金、家族办公室、Web3 投资基金、加密行业项目方等行业主要负责人，就数字资产管理、AI 驱动交易、链上交易策略等前沿话题展开探讨。</p>",
-          "tags": [
-            "dev",
-            "ai",
-            "money"
-          ],
+          "tags": ["dev", "ai", "money"],
           "source": "腾讯新闻 / so.html5.qq.com / Barron's"
         },
         {
           "title": "AI 重构加密量化交易：BeeQuant 打造人人可用的智能策略平台",
           "body": "<p>2026 年，AI 与 Web3 的融合正在进入全新阶段。对于加密货币量化交易行业来说，BeeQuant 的出现，正在让原本属于少数专业机构的量化能力，逐步走向大众化、普及化。</p><p>BeeQuant 定位为 <strong>AI-Native 加密货币量化交易平台</strong>，致力于通过人工智能、可视化策略构建和自动化执行能力，降低量化交易门槛，让更多普通用户也能参与到专业级策略交易中来。平台核心能力：AI 驱动的策略生成与优化、实时市场分析与信号、多交易所统一管理、自定义回测与模拟交易。</p>",
-          "tags": [
-            "dev",
-            "ai",
-            "money"
-          ],
+          "tags": ["dev", "ai", "money"],
           "source": "so.html5.qq.com / 2026-04"
         }
       ],
@@ -301,610 +241,8 @@
         {
           "title": "手把手教你用 Qlib 搭建第一个 AI 量化策略（2026 避坑指南）",
           "body": "<p>Qlib 是微软亚洲研究院发布的面向 AI 的量化投资平台，旨在实现潜力、增强研究能力并创造 AI 技术在量化投资中的价值。2026 年最新教程覆盖了 Qlib 的完整安装流程与常见报错解决方案。</p><p>核心内容：conda 环境搭建（Python 3.8-3.10 兼容性最佳）；LightGBM GPU 版本安装（解决 OpenMP 问题）；数据层、机器学习层、策略回测层三大模块解析；与 backtrader、zipline 的优劣对比。</p><p>GitHub: <a href='https://github.com/microsoft/qlib'>microsoft/qlib</a></p>",
-          "tags": [
-            "aiTool",
-            "dev",
-            "ai"
-          ],
+          "tags": ["aiTool", "dev", "ai"],
           "source": "CSDN 博客 / GitHub microsoft/qlib / 2026-04"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-05",
-      "daily": [
-        {
-          "title": "全球 AI 视频生成市场 2028 年将达 67 亿美元，年复合增长率 34.2%",
-          "body": "<p>据 <strong>Grand View Research</strong> 最新预测，全球 AI 视频生成市场正经历爆发式增长，预计将以 <strong>34.2%</strong> 的年复合增长率（CAGR）扩张，2028 年市场规模将突破 <strong>67 亿美元</strong>。</p><p>与此同时，Sensor Tower 2026 年 Q1 数据同步显示，短剧类 App 全球累计下载量已突破 <strong>2.5 亿次</strong>，其中 ReelShort 以 8000 万次下载量稳居第一，DramaBox（4500 万）和 GoodShort（2200 万）分列二三位——AI 短剧出海已成为内容出海最强劲增量赛道。</p><p>市场格局方面：全球 AI 视频生成市场预计 2026 年将突破 300 亿美元，字节 Seedance、快手可灵、MiniMax Hailuo 02 等头部模型持续拉高行业天花板。</p>",
-          "tags": [
-            "video",
-            "ai",
-            "money",
-            "deep"
-          ],
-          "source": "Grand View Research / Sensor Tower Q1 2026"
-        },
-        {
-          "title": "OpenAI 战略大转向：2030 年算力支出目标从 1.4 万亿美元大幅下调至 6000 亿美元",
-          "body": "<p>OpenAI 内部计划曝光：<strong>2030 年算力支出目标从此前的 1.4 万亿美元大幅下调至 6000 亿美元</strong>，降幅高达 57%。这一战略性收缩标志着 AI 行业从「暴力堆算力」时代向「高效推理」时代的转折点。</p><p>与此同时，英伟达（NVDA.US）、软银、亚马逊（AMZN.US）等战略投资者争相入局，据预估总投资估值或达 <strong>7300 亿美元</strong>。供需两端的张力正在重塑 AI 产业的资本结构与技术路线。</p><p>行业分析认为，推理效率优化（蒸馏、稀疏注意力、量化）和推理芯片多元化（ASIC、国产 GPU）是支撑这一转变的技术基础，也将成为 2026 年后半段的投资主线。</p>",
-          "tags": [
-            "ai",
-            "deep"
-          ],
-          "source": "腾讯新闻 / so.html5.qq.com"
-        },
-        {
-          "title": "腾讯云发布《2026 年 AI 元年：智能时代的正式启幕》：三大核心驱动力全面解读",
-          "body": "<p>腾讯云开发者社区于 2026 年 5 月 5 日发布深度长文，系统梳理「为何 2026 年是 AI 元年」的三大核心驱动力：</p><p><strong>1. 技术突破</strong>：大模型进入「成熟应用期」，能力边界持续拓宽，GPT-5、Claude 4、Gemini 2 等旗舰模型推理能力显著提升。</p><p><strong>2. 产业需求</strong>：数字化转型进入「深水区」，AI 成为核心引擎，倒逼企业从「尝试 AI」走向「规模化部署」。</p><p><strong>3. 政策护航</strong>：全球协同规范，为 AI 发展划定「安全边界」——欧盟 AI Act、美国 AI 行政令、中国生成式 AI 管理办法等相继落地。</p><p>文章判断：2026 年 AI 已从「技术探索期」迈向「商业成熟期」，真正决定胜负的不再是「能否做到」，而是「如何做到得更稳、更快、更便宜」。</p>",
-          "tags": [
-            "ai",
-            "deep",
-            "agent"
-          ],
-          "source": "腾讯云开发者社区 / cloud.tencent.com"
-        }
-      ],
-      "money": [
-        {
-          "title": "AI 短剧出海爆发：Sensor Tower Q1 数据——ReelShort 8000万次下载领跑",
-          "body": "<p>Sensor Tower 2026 年 Q1 数据新鲜出炉，短剧出海格局已全面清晰：</p><p>📊 <strong>累计下载量</strong>：短剧类 App 全球累计下载量突破 <strong>2.5 亿次</strong>，同比增长超 300%。</p><p>🏆 <strong>头部格局</strong>：ReelShort 以 8000 万次下载稳居第一，DramaBox（4500 万）排名第二，GoodShort（2200 万）位列第三，三家合计市占率超 58%。</p><p>💡 <strong>变现路径</strong>：订阅制 + 广告变现双轮驱动，单部短剧 ROI 可达 1:50 以上，AI 生成短剧制作成本已低至每月 200 元以内。</p><p>📍 <strong>出海关键</strong>：本地化内容策略（语言、文化、审美）+ 多平台分发（iOS/Android/Web）+ 社媒裂变是短剧出海的三板斧。</p>",
-          "tags": [
-            "money",
-            "video",
-            "ai"
-          ],
-          "source": "Sensor Tower Q1 2026 / App Store 数据"
-        }
-      ],
-      "tools": [
-        {
-          "title": "Wocreate AI：垂直电商场景的 AI 视频生成利器，支持一键换背景/换模特/换场景",
-          "body": "<p><strong>Wocreate（沃创 AI）</strong>是一款专为企业电商客户、内容创作者及教培机构设计的 AI 视频生成工具，定位为「电商与内容创作的提效利器」。</p><p>核心功能亮点：<strong>一键换背景</strong>（上传产品图即可匹配场景）、<strong>AI 换模特</strong>（解决模特成本高、拍摄周期长的痛点）、<strong>AI 换产品特</strong>（一张产品图生成无限风格变体）、<strong>图片融合</strong>（多图元素无缝合成）。</p><p>该工具深度覆盖电商与内容场景，支持文生图、文生视频、AI 对口型等功能，保证产品视频去水印且支持无限制生成，是目前电商 AI 视频工具中本地化体验最好的选择之一。</p>",
-          "tags": [
-            "tool",
-            "video",
-            "ai"
-          ],
-          "source": "腾讯新闻 / 新智元"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-04",
-      "daily": [
-        {
-          "title": "Sora 正式关闭：日烧 100 万美元算力，OpenAI 战略转向机器人与核心产品线",
-          "body": "<p>2026年3月25日，OpenAI正式关闭旗下视频生成工具<strong>Sora</strong>，包括独立应用、API接口及ChatGPT内置视频功能。据多方报道，Sora每天烧掉约<strong>100万美元</strong>算力成本，而全球用户数从峰值100万大幅下滑至不足50万。</p><p>OpenAI同时宣布终止与迪士尼含10亿美元的合作协议，转而聚焦机器人和核心产品线。分析认为，OpenAI关闭Sora并非产品失败，而是算力紧缺下的战略取舍——不代表文生视频赛道失势，反而是市场洗牌的开始，国产工具迎来弯道超车机会。</p>",
-          "tags": [
-            "video",
-            "ai",
-            "deep"
-          ],
-          "source": "腾讯新闻 / 腾讯网"
-        },
-        {
-          "title": "Vidu AI 1.5 登场：生数科技再升级，视频生成进入「好用人」阶段",
-          "body": "<p><strong>Vidu AI 1.5</strong>是生数科技发布的下一代视频生成模型，在前代基础上实现了多维度升级。该版本不仅延续了上一代的电影级画质输出能力，更重点优化了镜头间的角色一致性和复杂场景的物理仿真能力，用户体验从「能生成」迈向「好用」。</p><p>生数科技是国内视频生成领域的头部玩家，Vidu系列在多次国内外评测中表现优异。Vidu AI 1.5的发布标志着国内AI视频工具正在快速追赶国际顶尖水平，且在本地化和成本控制上具备明显优势。</p>",
-          "tags": [
-            "video",
-            "ai",
-            "deep",
-            "tool"
-          ],
-          "source": "生数科技官网 / 腾讯新闻"
-        },
-        {
-          "title": "斯坦福 HAI 发布《2026 年人工智能指数报告》：12 张图读懂 AI 发展现状",
-          "body": "<p>斯坦福大学以人为本人工智能研究所（Stanford HAI）于4月13日发布了<strong>《2026年人工智能指数报告》</strong>（The 2026 AI Index Report），这份长达400多页的报告涵盖数十个数据指标与图表，从基准测试得分、投资规模、公众认知等多个维度，全面解读AI发展现状。</p><p>报告指出，2026年AI已深度融入企业日常运营，70%员工与94%高管每日使用AI超过30分钟，64%高管日均使用超2小时。全球AI投资持续攀升，中国模型产品总调用量首次超越美国，成为本轮报告最重磅信号之一。</p>",
-          "tags": [
-            "ai",
-            "deep",
-            "agent"
-          ],
-          "source": "斯坦福 HAI / 知网 / 腾讯新闻"
-        },
-        {
-          "title": "NousResearch hermes-agent 单日 +6,115 stars，OpenClaw 超越 Linux 成为历史第一开源项目",
-          "body": "<p>本周AI Agent领域迎来重磅里程碑。<strong>NousResearch</strong>发布的<strong>hermes-agent</strong>项目在GitHub Trending单日新增<strong>+6,115 stars</strong>，总量突破47,577，持续占据Python分类榜首。与此同时，<strong>OpenClaw</strong>以超24.8万GitHub stars正式超越Linux，登上历史最受喜爱开源项目宝座，标志着AI Agent元年正式启动。</p><p>从2025年的「对话窗口」进化到2026年的「数字员工」，Agent已从实习生进化成正式员工，主动拆解目标、调用工具、自我修正成为标配能力。</p>",
-          "tags": [
-            "ai",
-            "agent",
-            "deep"
-          ],
-          "source": "GitHub Trending / 腾讯新闻"
-        },
-        {
-          "title": "A2A + MCP 协议全面融合：华为发布 A2A-T，2026 年成 Agent 互联元年",
-          "body": "<p>2026年，AI Agent领域最重要的基础设施演进正在发生——<strong>A2A</strong>（Agent-to-Agent）与<strong>MCP</strong>（Model Context Protocol）两套协议正从竞争走向融合，共同奠定多Agent协作的标准框架。</p><p><strong>MCP</strong>由Anthropic主导，解决的是Agent与外部工具/数据源的标准化连接问题——相当于AI时代的「USB接口」，让大模型能与各种外部资源无缝交互；<strong>A2A</strong>由Google在Cloud Next 25大会上开源，解决的是Agent之间的直接对话与协作问题——相当于AI时代的「TCP/IP」，让不同厂商的Agent能互相通信。</p><p>在MWC 2026上，华为正式宣布启动<strong>A2A-T</strong>（Agent-to-Agent for Telecom）开源计划，旨在通过开放协议加速多Agent协同自动化生产。微软随后宣布在Azure AI Foundry和Copilot Studio两大平台同时支持A2A + MCP两大协议。</p>",
-          "tags": [
-            "agent",
-            "ai",
-            "deep"
-          ],
-          "source": "CSDN / DZone / 华为官网"
-        },
-        {
-          "title": "2026 Q1 全球大模型日均发布 3 个，中国产品总调用量首超美国",
-          "body": "<p>据《第21轮AI产业研究》报告，2026年Q1全球主要AI实验室共推出267个大模型，平均每天近3个新模型，刷新了自生成式AI爆发以来的发布速度纪录。在OpenRouter平台全球Token调用量前五名中，中国产品占据四席（MiniMax、DeepSeek、GLM、Kimi）。</p><p>2月中旬，中国模型产品总调用量首次超越美国——这不仅是技术领先的体现，更是Agent产品引燃的规模化商用胜势。</p>",
-          "tags": [
-            "ai",
-            "agent"
-          ],
-          "source": "腾讯新闻"
-        }
-      ],
-      "money": [
-        {
-          "title": "AI 短剧变现新路径：平台补贴 + 内容电商双轮驱动，2026 年个人创作者月入天花板再突破",
-          "body": "<p>2026年，AI短剧变现已形成成熟的「平台补贴 + 内容电商」双轮驱动模式。平台侧，各大厂（抖音、快手、微信视频号）对AI生成的短剧内容给予高额流量补贴和算法优先推荐；电商侧，AI短剧天然适合植入式广告和带货转化，用户停留时长比传统图文高3倍以上。</p><p>行业数据显示，头部AI短剧创作者月收入已突破<strong>50万元</strong>，主要构成：平台分成（约40%）+ 广告植入（约35%）+ 电商带货（约25%）。关键门槛：跨10集以上的角色一致性保持，以及多账号矩阵的批量生产能力。工具成本已低至每月200元以内，ROI可达1:50以上。</p>",
-          "tags": [
-            "money",
-            "video",
-            "ai"
-          ],
-          "source": "腾讯新闻 / 抖音官方数据"
-        },
-        {
-          "title": "2026 年普通人用 AI 赚钱的 3 大方向：出售指令、训练智能体、授权 IP",
-          "body": "<p>2026年，AI已从技术探索期迈向商业成熟期。普通人可通过三种路径变现：<strong>（1）出售AI指令/提示词包</strong>——高质量的Prompt本身已成商品；<strong>（2）训练私有智能体</strong>——为企业或垂直行业定制Agent；<strong>（3）AI推广拉新</strong>——各大厂（千问、豆包、即梦等）正大力补贴拉新，用户通过邀请注册可获现金奖励。</p><p>关键提示：AI赚钱的核心不在于工具本身，而在于跨场景的角色一致性和多集管理能力——能够用AI规模化产出内容、同时保持IP调性一致的人，将获得最大红利。</p>",
-          "tags": [
-            "money",
-            "ai",
-            "agent"
-          ],
-          "source": "腾讯新闻"
-        },
-        {
-          "title": "MiniMax 港交所上市：年营收增长 158.9%，ARR 超 1.5 亿美元后的资本市场首秀",
-          "body": "<p>2026年，MiniMax正式向港交所提交IPO申请，成为大模型出海商业化的标志性事件。财务数据显示：2025年营收同比增长<strong>158.9%</strong>；2026年2月ARR（年度经常性收入）已突破<strong>1.5亿美元</strong>；国际市场收入占比达73%，累计服务全球超过200个国家和地区约2亿用户。</p><p>收入结构中，Hailuo 02视频生成API和MiniMax开放平台贡献了主要增量——企业客户数和开发者注册数双双呈现4倍+的季度环比增速。</p>",
-          "tags": [
-            "money",
-            "video",
-            "ai"
-          ],
-          "source": "腾讯新闻 / 雪球"
-        }
-      ],
-      "tools": [
-        {
-          "title": "VibeVoice — 微软开源语音 AI 模型，登顶 GitHub Trending 榜首",
-          "body": "<p><strong>VibeVoice</strong>是微软开源的轻量级实时语音合成系统，基于VibeVoice-Realtime-0.5B模型构建。尽管参数总量仅0.5B，但在实时语音合成方面表现出色，特别适合需要快速部署和实时响应的应用场景。</p><p>技术亮点：仅需7.5Hz超低码率tokenizer和60分钟长音频处理能力荣登GitHub榜首，每日增长超过130颗星；支持最长90分钟、4名说谎人的多角色对话，音色更丰富、语调节奏更趋自然；300ms超高延迟语音生成；已与Hugging Face Transformers库直接集成。</p>",
-          "tags": [
-            "tool",
-            "ai"
-          ],
-          "source": "GitHub microsoft/VibeVoice / CSDN"
-        },
-        {
-          "title": "Superpowers — 面向编程 Agent 的技能框架与开发方法论",
-          "body": "<p><strong>Superpowers</strong>是 obra 发布的面向编程Agent的技能框架与开源方法论项目，定位为AI编程Agent的技能库与开发指南。该项目通过系统化的技能定义与组合机制，帮助开发者构建更强大的编程智能体。</p><p>技术特点：采用Shell + JavaScript构建，提供可扩展的Agent技能定义体系；支持多步骤复杂任务拆解与执行；已获得超过10000颗GitHub星标，持续保持高增长态势。每日增长超过800 stars。</p>",
-          "tags": [
-            "tool",
-            "agent",
-            "ai"
-          ],
-          "source": "GitHub obra/superpowers / CSDN"
-        },
-        {
-          "title": "TradingAgents — 多智能体 LLM 金融交易框架，开源社区关注度持续攀升",
-          "body": "<p><strong>TradingAgents</strong>是TauricResearch发布的多智能体LLM金融交易框架，它不仅是一个静态的预测模型，而是一套模拟真实金融投研流程的协作系统。与单点AI工具不同，TradingAgents由多个专业化Agent组成：一个负责信息检索的Research Agent、一个负责代码生成的Coder Agent、一个负责质量审查的Reviewer Agent，通过协议互相通信、互相校准。</p><p>该框架代表了「多智能体协作」在垂直领域（金融）落地的最新探索，被视为AI + Crypto/FinTech赛道的重要基础设施。</p>",
-          "tags": [
-            "tool",
-            "agent",
-            "ai"
-          ],
-          "source": "GitHub TauricResearch/TradingAgents / CSDN"
-        },
-        {
-          "title": "Helios — 北大/清华/伯克利联合开源实时流式视频生成模型",
-          "body": "<p><strong>Helios</strong>是北京大学Yuan Lab发布的实时流式视频生成模型，由清华大学与加州大学伯克利分校联合开发。该项目支持实时流式输出，是首个支持该能力的视频生成模型，在长视频时序一致性方面保持技术领先，并已与Diffusers库实现无缝集成。</p><p>核心技术创新：视频编码器（Video Encoder）、扩散Transformer（Diffusion Transformer）、流式解码器（Streaming Decoder）、时序一致性模块（Temporal Consistency），以及低延迟高帧率输出。应用场景涵盖：游戏直播、影视预览、虚拟制片、教育培训等。</p>",
-          "tags": [
-            "tool",
-            "video",
-            "ai",
-            "deep"
-          ],
-          "source": "GitHub PKU-YuanGroup/Helios / CSDN"
-        },
-        {
-          "title": "TurboDiffusion — RTX 5090 上 1.9 秒生成视频，速度提升 100~200 倍",
-          "body": "<p>由清华大学、生命科学中心和加州大学伯克利分校联合开发的<strong>TurboDiffusion</strong>开源框架，将视频生成速度提升100~200倍。该框架基于Wan2.1和Wan2.2模型，在WebUI基础上进行深度二次开发，实现了文本到视频（T2V）和图像到视频（I2V）的高效生成。</p><p>核心技术突破在于融合了<strong>SageAttention</strong>（稀疏线性注意力）、<strong>SLA</strong>（稀流线性注意力）和<strong>rCM</strong>（时间步跳跃）等前沿算法。这意味着原本需184秒完成的视频生成任务，在单张RTX 5090显卡上仅需<strong>1.9秒</strong>即可输出，彻底改变了创意生产的节奏。</p>",
-          "tags": [
-            "tool",
-            "video",
-            "ai",
-            "deep"
-          ],
-          "source": "CSDN / GitHub"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-03",
-      "daily": [
-        {
-          "title": "NVIDIA GTC 2026 发布 Vera Rubin 架构：宣布 Agentic AI 算力时代正式开启",
-          "body": "<p>NVIDIA 在 GTC 2026（3 月 17 日）正式发布下一代 <strong>Vera Rubin</strong> 架构，财报显示全年营收 2159 亿美元（同比增长 65%），Q4 数据中心业务贡献 623 亿美元，占比高达 91.5%。NVIDIA 明确将「<strong>Agentic AI</strong>」（代理式 AI）定位为下一代算力核心驱动力，数据中心液冷方案全面升级，AI 数据中心物理形态迎来根本性变革。</p><p>英伟达 CEO 黄仁勋表示：「AI Agent 将重塑每一个行业的工作方式。」此次 GTC 大会发布的 Vera Rubin 芯片专为大规模多 Agent 协作场景设计，标志着 AI 算力竞争正式进入「Agent 驱动」新阶段。</p>",
-          "tags": [
-            "ai",
-            "agent",
-            "deep"
-          ],
-          "source": "NVIDIA GTC 2026 / CSDN"
-        },
-        {
-          "title": "SambaNova × Intel 联合推出 Agentic AI 异构推理方案，剑指企业级多 Agent 部署",
-          "body": "<p>2026 年 4 月 8 日，SambaNova 宣布与 Intel 达成新阶段合作，推出面向 <strong>Agentic AI</strong> 的异构硬件解决方案。该方案将 GPU（用于 Prefill 预填充）、Intel Xeon 6 处理器（兼作主机与「行动」CPU）、SambaNova RDU（用于 Decode 解码）三者结合，为复杂 Agentic AI 应用提供高端推理服务。</p><p>这是业内首个专门针对多 Agent 协同推理场景的异构计算方案，企业可以在单一硬件平台上高效运行研究 Agent、编码 Agent、审查 Agent 等多个专业化 Agent，标志着企业级 Agent 部署从概念验证走向规模化生产。</p>",
-          "tags": [
-            "ai",
-            "agent",
-            "deep"
-          ],
-          "source": "腾讯网 / CSDN"
-        },
-        {
-          "title": "字节跳动 Deer-Flow 登顶开源 Agent 榜单：长时域 SuperAgent 一体化研究/编码/创作框架",
-          "body": "<p><strong>Deer-Flow</strong> 是字节跳动（ByteDance）发布的开源长时域 SuperAgent 框架，专注于研究、编码和创作任务一体化执行。该项目已获得 1965 次 commits，支持飞书（Feishu）平台集成，并在 GitHub 持续保持高活跃度。</p><p>技术特点：采用多 Agent 协作架构，支持沙箱环境执行代码；集成多种技能（Skills）体系；提供完整的前后端分离架构，支持 Docker 部署；与 LangChain 等主流框架深度集成。Deer-Flow 的出现进一步丰富了开源 Agent 生态，也为国内开发者提供了可与 OpenClaw 对比的本地化 Agent 方案选择。</p>",
-          "tags": [
-            "ai",
-            "agent",
-            "tool"
-          ],
-          "source": "GitHub bytedance/deer-flow / CSDN"
-        },
-        {
-          "title": "GitHub 平台因 AI 爆发遭遇容量危机：正在重建以应对 10 倍负载",
-          "body": "<p>GitHub 于 2025 年 10 月启动了扩容计划，目标是将平台承载能力提升至原有的 <strong>10 倍</strong>，以应对激增的需求。然而到 2026 年，平台仍面临严重的容量问题，正在进行根本性重建。</p><p>此次容量危机的根源在于 AI 编码工具的爆发式增长——Copilot、Claude Code、OpenClaw、Superpowers 等工具驱动了前所未有的代码提交潮。GitHub CEO Thomas Dohmke 坦承：「我们低估了 AI 时代的代码产出速度。」平台正在加速重建基础设施，预计 2026 年下半年完成扩容升级。</p>",
-          "tags": [
-            "ai",
-            "agent",
-            "deep"
-          ],
-          "source": "IT之家 / 腾讯新闻"
-        }
-      ],
-      "money": [
-        {
-          "title": "AI 短剧变现新路径：平台补贴 + 内容电商双轮驱动，2026 年个人创作者月入天花板再突破",
-          "body": "<p>2026 年，AI 短剧变现已形成成熟的「平台补贴 + 内容电商」双轮驱动模式。平台侧，各大厂（抖音、快手、微信视频号）对 AI 生成的短剧内容给予高额流量补贴和算法优先推荐；电商侧，AI 短剧天然适合植入式广告和带货转化，用户停留时长比传统图文高 3 倍以上。</p><p>行业数据显示，头部 AI 短剧创作者月收入已突破 <strong>50 万元</strong>，主要构成：平台分成（约 40%）+ 广告植入（约 35%）+ 电商带货（约 25%）。关键门槛：跨 10 集以上的角色一致性保持，以及多账号矩阵的批量生产能力。工具成本已低至每月 200 元以内，ROI 可达 1:50 以上。</p>",
-          "tags": [
-            "money",
-            "video",
-            "ai"
-          ],
-          "source": "腾讯新闻 / 抖音官方数据"
-        }
-      ],
-      "tools": [
-        {
-          "title": "Deer-Flow — 字节跳动开源 SuperAgent 框架，支持飞书集成",
-          "body": "<p><strong>Deer-Flow</strong> 是字节跳动发布的开源长时域 SuperAgent 框架，GitHub 已积累 1965+ commits，支持研究、编码、创作全流程一体化执行。项目架构采用模块化设计，前端基于 Playwright E2E 测试，后端支持 Docker 部署，已实现飞书（Lark）原生集成。</p><p>核心亮点：多 Agent 协作流水线、沙箱安全执行环境、完整的前后端架构、与 LangChain 生态深度整合。适合需要本地部署、自有数据安全要求高的企业或团队使用。</p>",
-          "tags": [
-            "tool",
-            "agent",
-            "ai"
-          ],
-          "source": "GitHub bytedance/deer-flow"
-        },
-        {
-          "title": "Superpowers — 面向 AI 编程 Agent 的技能框架，每日增长超 800 stars",
-          "body": "<p><strong>Superpowers</strong> 是 obra 发布的面向 AI 编程 Agent 的技能框架与开发方法论项目，采用 Shell + JavaScript 构建，提供可扩展的 Agent 技能定义体系，支持多步骤复杂任务拆解与执行。</p><p>该框架在 GitHub Trending 上每日增长超过 800 stars，反映出开发者对 AI 编程 Agent 系统化方法论的强烈需求。Superpowers 的核心价值在于：将人类程序员的经验转化为可被 Agent 调用和执行的技能单元，让 AI 编程从「单点生成」进化为「可组合技能执行」。</p>",
-          "tags": [
-            "tool",
-            "agent",
-            "ai"
-          ],
-          "source": "GitHub obra/superpowers / CSDN"
-        },
-        {
-          "title": "TradingAgents — 多智能体 LLM 金融交易框架，开源社区关注度持续攀升",
-          "body": "<p><strong>TradingAgents</strong> 是 TauricResearch 发布的多智能体 LLM 金融交易框架，它不仅是一个静态的预测模型，而是一套模拟真实金融投研流程的协作系统。与单点 AI 工具不同，TradingAgents 由多个专业化 Agent 组成：一个负责信息检索的 Research Agent、一个负责代码生成的 Coder Agent、一个负责质量审查的 Reviewer Agent，通过协议互相通信、互相校准。</p><p>该框架代表了「多智能体协作」在垂直领域（金融）落地的最新探索，被视为 AI + Crypto/FinTech 赛道的重要基础设施。</p>",
-          "tags": [
-            "tool",
-            "agent",
-            "ai"
-          ],
-          "source": "GitHub TauricResearch/TradingAgents / CSDN"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-02",
-      "daily": [
-        {
-          "title": "A2A + MCP 协议全面融合：华为发布 A2A-T，2026 年成 Agent 互联元年",
-          "body": "<p>2026 年，AI Agent 领域最重要的基础设施演进正在发生——<strong>A2A</strong>（Agent-to-Agent）与<strong>MCP</strong>（Model Context Protocol）两套协议正从竞争走向融合，共同奠定多 Agent 协作的标准框架。</p><p><strong>MCP</strong>由 Anthropic 主导，解决的是 Agent 与外部工具/数据源的标准化连接问题——相当于 AI 时代的「USB 接口」，让大模型能与各种外部资源无缝交互；<strong>A2A</strong>由 Google 在 Cloud Next 25 大会上开源，解决的是 Agent 之间的直接对话与协作问题——相当于 AI 时代的「TCP/IP」，让不同厂商的 Agent 能互相通信。</p><p>在 MWC 2026 上，华为正式宣布启动 <strong>A2A-T</strong>（Agent-to-Agent for Telecom）开源计划，由全球电信产业伙伴于 2026 年 2 月联合发布，包含 IG1453 Beta 版本及增强版提示词元模型 IG1453A，旨在通过开放协议加速多 Agent 协同自动化生产。微软随后宣布在 Azure AI Foundry 和 Copilot Studio 两大平台同时支持 A2A + MCP 两大协议。</p><p>两大协议配合使用，正在构建互连互通的 AI 智能体生态体系，让不同 AI 应用无缝协作——正如 TCP/IP 奠定了互联网时代的基础，A2A+MCP 有望成为 AI 智能体时代的基石。</p>",
-          "tags": [
-            "agent",
-            "ai",
-            "deep"
-          ],
-          "source": "CSDN / DZone / 华为官网"
-        },
-        {
-          "title": "OpenClaw 全面指南发布：26 万星标登顶 GitHub，AI Agent 时代已来",
-          "body": "<p>2026 年 5 月 2 日，腾讯云开发者社区连发三篇深度解析，全面梳理 OpenClaw 项目的技术架构与生态版图。OpenClaw（代号「小红虾」）以 <strong>26 万+ GitHub Stars</strong> 正式超越 Linux 和 React，登顶全球开源项目 Top1——这也是 GitHub 历史上首个在 4 个月内完成从 0 到 25 万星标跃升的软件项目。</p><p>OpenClaw 的核心定位是「自主 AI Agent 平台」——支持在本地电脑或云端服务器上部署自主 AI 助手，兼容 Telegram、Discord、Slack、飞书等主流即时通讯工具，模型层支持 Anthropic、OpenAI、MiniMax 等多厂商切换。</p><p>里程碑节点：2026 年 3 月，OpenClaw 超越 Linux；2026 年 2 月发布 v2026.2.23 版本，强化安全防护并集成 Sonnet 4.6 模型，支持 1M 超长上下文和 Subagents 子代理功能，同步推出 iOS 分享扩展与 Slack 原生流式传输。OKX Ventures 评价：「AI 不再等用户去找它，而是主动在用户已有的平台上帮用户做事。」</p>",
-          "tags": [
-            "ai",
-            "agent",
-            "deep"
-          ],
-          "source": "腾讯云开发者社区 / CloudTencent"
-        }
-      ],
-      "money": [
-        {
-          "title": "MiniMax 港交所上市：年营收增长 158.9%，ARR 超 1.5 亿美元后的资本市场首秀",
-          "body": "<p>2026 年，MiniMax 正式向港交所提交 IPO 申请，成为大模型出海商业化的标志性事件。财务数据显示：2025 年营收同比增长 <strong>158.9%</strong>；2026 年 2 月 ARR（年度经常性收入）已突破 <strong>1.5 亿美元</strong>；国际市场收入占比达 73%，累计服务全球超过 200 个国家和地区约 2 亿用户。</p><p>收入结构中，Hailuo 02 视频生成 API 和 MiniMax 开放平台贡献了主要增量——企业客户数和开发者注册数双双呈现 4 倍+的季度环比增速。创始人阎忡杰表示：「我们跑得足够快！」在大模型商业化落地这道题上，MiniMax 率先给出了阶段性答案。</p>",
-          "tags": [
-            "money",
-            "video",
-            "ai"
-          ],
-          "source": "腾讯新闻 / 雪球"
-        }
-      ],
-      "tools": [
-        {
-          "title": "OpenClaw 2026 全面指南：是什么、能做什么、如何部署",
-          "body": "<p>该指南由腾讯云开发者社区于 2026 年 5 月 2 日发布，系统梳理了 OpenClaw 的定位、核心能力与技术架构。OpenClaw 是一个开源、自托管的 AI 智能体平台，能真正理解用户指令并在本地电脑上自动执行文件操作、办公自动化等任务。</p><p>核心特点：不依赖阿云的完整部署方案，支持多种模型选择（Anthropic Sonnet、OpenAI、DeepSeek、MiniMax 等）；支持飞书、Telegram、Discord、Slack 等多平台接入；Skills 技能体系让 Agent 能力可复用；内置 MCP 协议支持。</p><p>该指南适合想了解 AI Agent 全栈生态、一站式部署个人 AI 助手的开发者参考。</p>",
-          "tags": [
-            "tool",
-            "agent",
-            "ai"
-          ],
-          "source": "腾讯云开发者社区"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-01",
-      "daily": [
-        {
-          "title": "OpenAI 正式关闭 Sora：算力烧钱无底洞，全球视频生成市场格局重塑",
-          "body": "<p>2026年3月25日，OpenAI正式宣布关闭旗下视频生成工具<strong>Sora</strong>，包括独立应用、API接口及ChatGPT内置视频功能。据报道，Sora每天烧掉约<strong>100万美元</strong>算力成本，而全球用户数从峰值100万大幅下滑至不足50万。</p><p>OpenAI同时宣布终止与迪士尼含10亿美元的合作协议，转而聚焦机器人和核心产品线。分析认为，OpenAI关闭Sora并非产品失败，而是算力紧缺下的战略取舍——不代表文生视频赛道失势，反而是市场洗牌的开始，国产工具迎来弯道超车机会。</p>",
-          "tags": [
-            "video",
-            "ai",
-            "deep"
-          ],
-          "source": "腾讯新闻 / 腾讯网"
-        },
-        {
-          "title": "TurboDiffusion 开源框架：RTX 5090 上 1.9 秒生成视频，速度提升 100~200 倍",
-          "body": "<p>由清华大学、生命科学中心和加州大学伯克利分校联合开发的<strong>TurboDiffusion</strong>开源框架，将视频生成速度提升100~200倍。该框架基于Wan2.1和Wan2.2模型，在WebUI基础上进行深度二次开发，实现了文本到视频（T2V）和图像到视频（I2V）的高效生成。</p><p>核心技术突破在于融合了<strong>SageAttention</strong>（稀疏线性注意力）、<strong>SLA</strong>（稀流线性注意力）和<strong>rCM</strong>（时间步跳跃）等前沿算法。这意味着原本需184秒完成的视频生成任务，在单张RTX 5090显卡上仅需<strong>1.9秒</strong>即可输出，彻底改变了创意生产的节奏。</p>",
-          "tags": [
-            "video",
-            "ai",
-            "deep",
-            "tool"
-          ],
-          "source": "CSDN / GitHub"
-        },
-        {
-          "title": "AI 短剧进入全流程工业化阶段：制作成本降低 95%，30 分钟搞定过去 4-5 小时工作",
-          "body": "<p>到2026年，AI真人短剧已不再是「一个模型 + 一段提示词 = 一条视频」的粗放玩法，而是进入了多模型协同、参考图驱动、镜头级生产、后期统一、发行前置的完整工业化阶段。脚本+画面+配音+剪辑全流程，AI自动搞定，不需要专业技能。</p><p>行业数据显示，AI短剧制作成本已降低95%以上，效率提升10倍。以前一个团队3-5人做1条1分钟短剧需4-5小时，现在30分钟就能搞定全套。真正的门槛已从「会不会用AI」转变为「能否解决跨场景角色一致性和多集管理能力」。</p>",
-          "tags": [
-            "video",
-            "ai",
-            "deep"
-          ],
-          "source": "腾讯云开发者社区 / 搜狗微信"
-        },
-        {
-          "title": "Helios 实时流式视频生成：北大/清华/伯克利联合开源，首个支持实时输出的视频模型",
-          "body": "<p><strong>Helios</strong>是北京大学Yuan Lab发布的实时流式视频生成模型，由清华大学与加州大学伯克利分校联合开发。该项目支持实时流式输出，是首个支持该能力的视频生成模型，在长视频时序一致性方面保持技术领先，并已与Diffusers库实现无缝集成。</p><p>核心技术创新：视频编码器（Video Encoder）、扩散Transformer（Diffusion Transformer）、流式解码器（Streaming Decoder）、时序一致性模块（Temporal Consistency），以及低延迟高帧率输出。应用场景涵盖：游戏直播、影视预览、虚拟制片、教育培训等。</p>",
-          "tags": [
-            "video",
-            "ai",
-            "deep",
-            "tool"
-          ],
-          "source": "GitHub PKU-YuanGroup/Helios / CSDN"
-        },
-        {
-          "title": "Google Cloud 发布《AI Agent Trends 2026》：五大方向重塑企业价值，3466 名决策者调研",
-          "body": "<p>Google Cloud发布《AI Agent Trends 2026》报告，基于3466名全球企业决策者的调研数据，结合Google DeepMind的技术洞察，系统梳理了AI Agent在企业市场中的五大关键趋势。报告指出：AI Agent正在从概念走向规模化应用，成为企业数字化转型的核心驱动力。</p><p>2026年，企业智能化已步入「主动行动」时代——AI Agent不再是被动工具，而是能够自主理解、规划并执行复杂任务的「数字员工」，正在重塑整个企业软件市场格局。</p>",
-          "tags": [
-            "ai",
-            "agent",
-            "deep"
-          ],
-          "source": "腾讯新闻 / Google Cloud"
-        }
-      ],
-      "money": [
-        {
-          "title": "AI 短剧月入 140 万美元案例复盘：TurboDiffusion 掀起的赚钱逻辑",
-          "body": "<p>2026年，AI短剧制作模式（脚本+画面+配音+剪辑全流程AI自动搞定）月收入已达<strong>140万美元</strong>（约1011万人民币）。生成画面用即梦AI或Runway，打几句文字就出高清视频；配音+字幕+剪辑全靠剪映AI，自动对齐+一键成片。</p><p>整套工具月成本不到200块，比影视会员还便宜。效率翻10倍，1个人顶过去一个团队。TurboDiffusion等开源框架的爆发，将进一步拉低技术门槛，让更多人进入这个赛道。</p>",
-          "tags": [
-            "money",
-            "video",
-            "ai"
-          ],
-          "source": "搜狗微信"
-        },
-        {
-          "title": "2026 年 AI 内容产业五大趋势：开源 I2V 模型弹性 GPU 成本为主流",
-          "body": "<p>2026年AI内容产业五大趋势深度解析。从单图生成已不再稀奇，真正值得关注的是「如何让生成结果稳定地延续到多帧、多个镜头，乃至形成可用的视频序列」。在这个方向上，<strong>gpt-image 2</strong>和开源<strong>I2VGen-XL</strong>系列正在引领图像转视频（I2V）的技术迭代。</p><p>开源I2V模型的技术突破在于：I2VGen-XL不仅实现了WebUI交互、参数可调、批量输出等工程化功能，更通过模块化设计支持多卡并行与显存优化，为个人创作者和中小企业提供了低成本、高效率的视频生成方案。</p>",
-          "tags": [
-            "money",
-            "video",
-            "ai"
-          ],
-          "source": "CSDN"
-        }
-      ],
-      "tools": [
-        {
-          "title": "VibeVoice — 微软开源语音 AI 模型，登顶 GitHub Trending 榜首",
-          "body": "<p><strong>VibeVoice</strong>是微软开源的轻量级实时语音合成系统，基于VibeVoice-Realtime-0.5B模型构建。尽管参数总量仅0.5B，但在实时语音合成方面表现出色，特别适合需要快速部署和实时响应的应用场景。</p><p>技术亮点：仅需7.5Hz超低码率tokenizer和60分钟长音频处理能力荣登GitHub榜首，每日增长超过130颗星；支持最长90分钟、4名说谎人的多角色对话，音色更丰富、语调节奏更趋自然；300ms超高延迟语音生成；已与Hugging Face Transformers库直接集成。</p>",
-          "tags": [
-            "tool",
-            "ai"
-          ],
-          "source": "GitHub microsoft/VibeVoice / CSDN"
-        },
-        {
-          "title": "Superpowers — 面向编程 Agent 的技能框架与开发方法论",
-          "body": "<p><strong>Superpowers</strong>是 obra 发布的面向编程 Agent 的技能框架与开源方法论项目，定位为 AI 编程 Agent 的技能库与开发指南。该项目通过系统化的技能定义与组合机制，帮助开发者构建更强大的编程智能体。</p><p>技术特点：采用 Shell + JavaScript 构建，提供可扩展的 Agent 技能定义体系；支持多步骤复杂任务拆解与执行；已获得超过10000颗GitHub星标，持续保持高增长态势。</p>",
-          "tags": [
-            "tool",
-            "agent",
-            "ai"
-          ],
-          "source": "GitHub obra/superpowers / CSDN"
-        },
-        {
-          "title": "OpenScreen — 免费开源的屏幕录制与演示视频制作工具",
-          "body": "<p><strong>OpenScreen</strong>是由 siddharthvaddem 发布的免费开源屏幕录制与演示视频制作工具，GitHub 持续保持高增长。该工具为用户提供了无需昂贵商业软件即可完成专业级屏幕录制和演示视频制作的完整解决方案。</p><p>技术亮点：完全免费开源，无使用限制；支持多种输出格式；针对演示视频制作场景优化，适合创作者、教育工作者和企业培训场景。</p>",
-          "tags": [
-            "tool",
-            "video",
-            "ai"
-          ],
-          "source": "GitHub siddharthvaddem/openscreen / CSDN"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-30",
-      "daily": [
-        {
-          "title": "NousResearch/hermes-agent 登顶 GitHub Trending，OpenClaw 超越 Linux 成为历史第一开源项目",
-          "body": "<p>本周 AI Agent 领域迎来重磅里程碑。<strong>NousResearch</strong> 发布的 <strong>hermes-agent</strong> 项目在 GitHub Trending 榜单单日新增 <strong>+6,115 stars</strong>，总量突破 47,577，持续占据 Python 分类榜首。与此同时，<strong>OpenClaw</strong> 以超 24.8 万 GitHub stars 正式超越 Linux，登上历史最受喜爱开源项目宝座，标志着 AI Agent 元年正式启动。</p><p>从 2025 年的「对话窗口」进化到 2026 年的「数字员工」，Agent 已从实习生进化成正式员工，主动拆解目标、调用工具、自我修正成为标配能力。</p>",
-          "tags": [
-            "ai",
-            "agent"
-          ],
-          "source": "GitHub Trending / 腾讯新闻"
-        },
-        {
-          "title": "MiniMax Hailuo 02 全球排名第二，性能超越 Google Veo 3，ARR 超 1.5 亿美元",
-          "body": "<p>MiniMax 旗下视频生成模型 <strong>Hailuo 02</strong> 在 Artificial Analysis 基准榜单中升至全球第二，仅次于字节 Seedance 1.0，超越 Google Veo 3。该模型支持 10 秒 1080P 视频生成，30FPS，定价 $0.28/条，已在全球上线。</p><p>商业化层面，MiniMax 创始人阎忡披露：2026 年 2 月公司 ARR（年度经常性收入）已超 <strong>1.5 亿美元</strong>；面向企业客户和个人开发者的开放平台，2 月新注册用户数已达 2025 年 12 月的 4 倍以上，增速惊人。</p>",
-          "tags": [
-            "video",
-            "ai",
-            "tool"
-          ],
-          "source": "Hailuo 官网 / 腾讯新闻"
-        },
-        {
-          "title": "字节跳动 Seedance 2.0 内测：运镜规划 + 跨镜头一致性 + 原生音画同步",
-          "body": "<p>2026 年春节前，字节跳动旗下 AI 视频生成大模型 <strong>Seedance 2.0</strong> 开启内测。与过往「让图片动起来」的初级生成不同，Seedance 2.0 的运镜规划、跨镜头的角色一致性以及原生的音画同步能力，在一定程度上解决了 AI 视频长期存在的可用率低、成本高的核心痛点。行业分析认为这是视频生成模型从「Demo 阶段」走向「工业落地」的关键转折。</p>",
-          "tags": [
-            "video",
-            "ai"
-          ],
-          "source": "腾讯新闻"
-        },
-        {
-          "title": "爱奇艺 AI 艺人库引发争议：112 万讨论登顶热搜，AI+视觉成焦点事件",
-          "body": "<p>4 月 20 日，爱奇艺在世界大会上宣布正式推出商用专业级影视制作平台「纳曜 Pro」，构建 AI 艺人库。据知微舆论场数据，截至 21 日相关声量已达 <strong>112 万篇</strong>，登上主流平台热搜/热榜 64 个，累计在榜时长 274 小时，事件影响力指数达 78.4，成为「视觉+AI」的焦占事件。AI 艺人是否能够真正替代传统演员、以及相关的版权、伦理问题引发广泛讨论。</p>",
-          "tags": [
-            "ai",
-            "video"
-          ],
-          "source": "知微舆论场 / 腾讯新闻"
-        },
-        {
-          "title": "2026 年 Q1 全球大模型日均发布 3 个，中国产品总调用量首超美国",
-          "body": "<p>据《第 21 轮 AI 产业研究》报告，2026 年 Q1 全球主要 AI 实验室共推出 267 个大模型，平均每天近 3 个新模型，刷新了自生成式 AI 爆发以来的发布速度纪录。在 OpenRouter 平台全球 Token 调用量前五名中，中国产品占据四席（MiniMax、DeepSeek、GLM、Kimi）。2 月中旬，中国模型产品总调用量首次超越美国——这不仅是技术领先的体现，更是 Agent 产品引燃的规模化商用胜势。</p>",
-          "tags": [
-            "ai",
-            "agent"
-          ],
-          "source": "腾讯新闻"
-        },
-        {
-          "title": "AI 短剧产业工业化：制作成本降低 95%，「低门槛+高产能+精品化」时代来临",
-          "body": "<p>2026 年全球 AI 视频生成技术迎来集中爆发期。Sora 2（OpenAI）、快手可灵、字节 Seedance 2.0 等旗舰模型相继登陆，以电影级画质、角色稳定、多镜头叙事、原生音画同步为目标，AI 视频正式从技术演示走向产业落地。</p><p>在国内，微短剧月产量稳定在 3000 部以上，2025 年直接吸纳就业人口 69 万人，叠加产业链乘数效应后总体贡献突破 203 万人。剪辑师职位占比高达 15.9%，高居招聘需求首位。行业正进入「AI 把拍摄门槛打穿、又把爆款门槛抬高」的新阶段。</p>",
-          "tags": [
-            "video",
-            "ai"
-          ],
-          "source": "腾讯新闻 / 搜狗微信"
-        },
-        {
-          "title": "GitHub Trending 新项目速览：omi、dive-into-llms、higgs-audio",
-          "body": "<p><strong>omi</strong>（+609 today, 10,551 total）：可捕捉屏幕和对话、实时转录、生成摘要和操作项目，并提供 AI 聊天的智能助手，支持 Dart 语言。</p><p><strong>dive-into-llms</strong>（+547 today, 32,108 total）：动手学大模型系列编程实践教程，适合关注 LLM 应用和智能体工程化的团队。</p><p><strong>boson-ai/higgs-audio</strong>（最新 V2.5）：Boson AI 的文本-音频基础模型，在表达性音频生成和韵律适配方面表现突出，支持旁白、克隆声音及同时生成语音和背景音乐。</p>",
-          "tags": [
-            "ai",
-            "tool"
-          ],
-          "source": "GitHub Trending / CSDN"
-        }
-      ],
-      "money": [
-        {
-          "title": "2026 年普通人用 AI 赚钱的 3 大方向：出售指令、训练智能体、授权 IP",
-          "body": "<p>2026 年，AI 已从技术探索期迈向商业成熟期。普通人可通过三种路径变现：<strong>（1）出售 AI 指令/提示词包</strong>——高质量的 Prompt 本身已成商品；<strong>（2）训练私有智能体</strong>——为企业或垂直行业定制 Agent；<strong>（3）AI 推广拉新</strong>——各大厂（千问、豆包、即梦等）正大力补贴拉新，用户通过邀请注册可获现金奖励。据腾讯新闻数据，头部平台砸钱搞活动一点不手软。</p><p>关键提示：AI 赚钱的核心不在于工具本身，而在于跨场景的角色一致性和多集管理能力——能够用 AI 规模化产出内容、同时保持 IP 调性一致的人，将获得最大红利。</p>",
-          "tags": [
-            "money",
-            "ai",
-            "agent"
-          ],
-          "source": "腾讯新闻"
-        },
-        {
-          "title": "AI 视频 + 短剧：520 亿规模市场的结构性变革，剪辑师需求高居榜首",
-          "body": "<p>中国微短剧市场正经历由 AI 技术驱动的结构性变革。据北京大学国家发展研究院数据，全微短剧月产量稳定在 3000 部以上，2025 年直接吸纳就业人口 69 万人，叠加产业链乘数效应后总体贡献突破 203 万人。剪辑师/后期职位占比 15.9%，高居招聘需求首位，AI 视频后期培训成新风口。</p><p>AI 把短剧的生产成本降低了 95% 以上，但真正制约 AI 短剧工业化的是跨场景的角色一致性和多集管理能力——能解决这个问题的团队，将拿下这 520 亿规模市场的头部红利。</p>",
-          "tags": [
-            "money",
-            "video",
-            "ai"
-          ],
-          "source": "腾讯新闻"
-        }
-      ],
-      "tools": [
-        {
-          "title": "MiniMax Hailuo 02 — 全球 AI 视频生成排行第二",
-          "body": "<p>Hailuo 02 是 MiniMax 推出的电影级 AI 视频生成模型，在全球 Artificial Analysis 榜单排名第二（仅次于字节 Seedance），超越 Google Veo 3。支持 10 秒 1080P、30FPS 视频生成，定价 $0.28/视频，全球同步上线。技术亮点：底层架构全面重构，训练和推理效率均提升 2.5 倍；复杂指令响应率达 85%，显著高于竞品；可生成极高物理复杂度场景视频（如杂技等高难度内容）。</p>",
-          "tags": [
-            "tool",
-            "video"
-          ],
-          "source": "Hailuo 官网"
-        },
-        {
-          "title": "爱奇艺纳曜 Pro — AI 艺人库 + 全流程 70 个智能体覆盖",
-          "body": "<p>爱奇艺在世界大会上正式商用「纳曜 Pro」专业级影视制作平台，集约 70 个智能体覆盖创作全流程，并开放 IP 库、数字资产库及 100 位艺人入驻的 AI 艺人库。爱奇艺首席内容官王小曦表示：AI 技术打破了「大制作+个性化+头部内容」的不可能三角。</p>",
-          "tags": [
-            "tool",
-            "video",
-            "ai"
-          ],
-          "source": "腾讯新闻"
-        },
-        {
-          "title": "MiniMax Media Agent — 支持全形态全功能创作",
-          "body": "<p>Hailuo Video Agent 正式升级为支持全形态全功能创作的 <strong>Media Agent</strong>，已在全球同步上线。Media Agent 可端到端处理从脚本到成片的完整视频制作流程，标志着 AI 视频工具从单点生成向全链路自动化演进。</p>",
-          "tags": [
-            "tool",
-            "video",
-            "agent"
-          ],
-          "source": "MiniMax 官方"
-        },
-        {
-          "title": "Boson AI Higgs-Audio V2.5 — 高保真音频生成进入生产环境",
-          "body": "<p>Higgs-Audio V2.5 是 Boson AI 推出的文本-音频基础模型，专为高保真生产环境设计。在 EmergentTTS-Eval 基准上表现优异，支持自动韵律适配、旋律哼唱、语音与背景音乐同步生成，无需后训练或微调即可达到优秀效果。</p>",
-          "tags": [
-            "tool",
-            "ai"
-          ],
-          "source": "GitHub boson-ai/higgs-audio"
-        },
-        {
-          "title": " NousResearch hermes-agent — 史上最快增长的 Agent 项目之一",
-          "body": "<p>hermes-agent 是 NousResearch 发布的「与你共同成长的 AI 智能体」项目，GitHub 单日新增 +6,115 stars，14 天内突破 47,577 stars，持续占据 Python Trending 榜首。项目定位为多能力协同 Agent，支持复杂任务拆解、自主执行与反思修正。</p>",
-          "tags": [
-            "tool",
-            "agent",
-            "ai"
-          ],
-          "source": "GitHub / CSDN"
         }
       ]
     }
