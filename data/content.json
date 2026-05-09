@@ -1,6 +1,84 @@
 {
-  "lastUpdate": "2026-05-08T08:30:00Z",
+  "lastUpdate": "2026-05-09T08:30:00Z",
   "days": [
+    {
+      "date": "2026-05-09",
+      "daily": [],
+      "money": [
+        {
+          "title": "XRP 单日暴涨 10%：加密市场强劲反弹，机构买入信号明显",
+          "body": "<p>据 Stocks News Feed 报道，加密货币 <strong>XRP</strong> 周一大幅上涨，单日涨幅达 <strong>10%</strong>，市场呈现强劲看涨态势。同期，<strong>Bitcoin</strong> 小幅回落至 1.8K，市场在美国 CPI 数据公布前保持谨慎。</p><p>分析师指出，XRP 此次暴涨与机构持续买入密切相关，叠加监管环境趋于明确，XRP 生态的应用场景正在快速扩展。比特币短期承压主要受宏观因素影响，长期牛市结构未变。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "Stocks News Feed / so.html5.qq.com / 2026-05"
+        },
+        {
+          "title": "CoinFound 年度报告：2026 年进入\"可编程金融\"加速期，8 大宏观力量与 7 大投资趋势",
+          "body": "<p>1 月 21 日，CoinFound 正式发布《CoinFound 年度报告：TradFi x Crypto 2026 年展望》，该报告聚焦 TradFi 与 Crypto 的深度融合趋势。</p><p>报告核心观点：2025 是\"融合临界点\"，2026 将进入\"可编程金融\"加速期。报告提炼 8 大 Mega Forces 与 7 大投资趋势——从稳定币 2.0 争夺全球支付基础设施，到 RWA 从\"发行\"走向\"实用\"，再到股票代币化、DAT 分解与集中等关键变量。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "CoinFound / new.qq.com / 2026-01"
+        },
+        {
+          "title": "2026 年 4 月 Crypto VC 月报：总融资约 15.54 亿美元，环比 -66.91%，同比 -42.75%",
+          "body": "<p>根据 RootData 统计，2026 年 4 月 Crypto VC 公开的风投项目共 <strong>76 个</strong>，环比上升 22.58%（2026 年 3 月为 62 个项目），同比 -19.15%（2025 年 4 月为 94 个项目）。</p><p>4 月 Crypto VC 总融资额约为 <strong>15.54 亿美元</strong>，环比 -66.91%（2026 年 3 月为 46.96 亿美元），同比 -42.75%（2025 年 4 月为 27.14 亿美元）。市场整体降温，融资事件数环比小幅回升但总额大幅萎缩，表明单笔融资规模在收缩。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "吴说区块链 / so.html5.qq.com / RootData / 2026-05"
+        }
+      ],
+      "tools": [],
+      "dev": [
+        {
+          "title": "Order Flow Trading 2026：从订单流读懂市场\"为什么\"而非\"到哪里\"",
+          "body": "<p><strong>Order Flow Trading</strong> 是 2026 年备受专业交易者关注的技术分析方法，通过分析实时成交订单、买卖盘活动、成交量增量（Volume Delta）、流动性及订单簿行为来读懂市场情绪。</p><p>与传统的\"价格去了哪里\"问题不同，Order Flow 交易试图回答\"价格为什么去了那里，是谁让它去的\"。该方法在高频交易和机构量化中广泛应用，核心工具包括 DOM（Depth of Market）、订单流图表和成交量分析。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "富途牛牛资讯 / news.futunn.com / 2026-05"
+        },
+        {
+          "title": "Backtrader 2026 全面更新：feature-rich Python 回测与交易框架持续活跃",
+          "body": "<p><strong>Backtrader</strong> 是功能丰富的 Python 回测和交易框架，2026 年仍保持活跃更新。框架核心特点：允许用户专注于编写可复用的交易策略、指标和分析器，而无需花时间构建基础设施。</p><p>支持 Open Source（GitHub），用户可以自由使用、修改、审计和分享。文档完善，提供 QuickStart、深度主题和博客等丰富资源。框架核心模块：Cerebro（执行引擎）、DataFeed（数据模块）、Strategy（策略）、Indicator（指标）、Broker（券商）和 Analyzer（分析）。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "backtrader.com / 2026-05"
+        }
+      ],
+      "aiTool": [
+        {
+          "title": "Freqtrade 2026 评测：GitHub Top1000 开源加密货币自动交易机器人",
+          "body": "<p><strong>Freqtrade</strong> 是 GitHub Top1000 的开源量化交易框架项目，专为加密货币设计，提供回测、绘图和资金管理工具以及机器学习策略优化功能。仅需实现一个策略文件放到对应文件夹，设置好配置文件，就可以进行回测和运行策略。</p><p>框架亮点：支持 Telegram 和网页版 UI 界面用于监控和控制策略；支持机器学习方法做数据分析和策略优化；社区活跃，文档完善，适合有编程基础的量化爱好者入门首选。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "SourceForge / GitHub freqtrade / 2026-05"
+        },
+        {
+          "title": "fastquant：封装 backtrader，仅用 3 行代码即可回测交易策略，含机器学习/情绪策略",
+          "body": "<p>GitHub 开源项目 <strong>fastquant</strong> 封装了 backtrader，旨在进一步简化量化策略开发，对初学者特别友好。框架核心能力：</p><p>仅需 <strong>3 行代码</strong>即可完成经典双均线策略回测；支持机器学习策略（如随机森林、SVM 等）；支持新闻情绪策略——根据新闻分析情绪进行交易；支持自定义回测参数（手续费、滑点等）。</p><p>GitHub: <a href='https://github.com/nicholaspcd/fastquant'>nicholaspcd/fastquant</a></p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "知乎 / GitHub fastquant / 2026-05"
+        }
+      ]
+    },
     {
       "date": "2026-05-08",
       "daily": [],
@@ -8,13 +86,19 @@
         {
           "title": "VIX 恐慌指数单日飙升 3.12 点至 26.87 点，美股波动率卷土重来",
           "body": "<p>据每经 AI 快讯，3 月 6 日美股恐慌指数 <strong>VIX</strong> 再度大幅波动，单日飙升 <strong>3.12 点</strong>至 <strong>26.87 点</strong>，显示市场焦虑情绪明显升温。</p><p>机构分析指出，当前美股正处于一个罕见的时刻：指数在创历史新高，但波动率也在同步攀升。这种「涨却不降波动」的特征组合，在历史上往往是泡沫阶段的前兆。本周市场将迎来两大集中考验：<strong>FOMC 利率决议</strong>，以及「科技七巨头」中五家的财报。两者叠加，构成近期最密集的交易催化剂窗口。</p>",
-          "tags": ["money", "ai"],
+          "tags": [
+            "money",
+            "ai"
+          ],
           "source": "每经 AI 快讯 / so.html5.qq.com / 2026-03"
         },
         {
           "title": "2026 年全球热门赛道 ETF 大合集来了！美股结构性分化，科技股震荡调整",
           "body": "<p>2026 年开年至今，全球市场波动加大，宏观预期与产业浪潮共振，各类资产走出截然不同的行情。</p><p>海外市场方面，美股呈现结构性分化，科技股在 AI 资本开支预期与估值压力下震荡调整，道琼斯指数相对稳健。欧洲、亚洲市场则跟随全球流动性预期波动，韩国股市在两个交易日暴跌 18% 后次日暴涨 9.63%。</p>",
-          "tags": ["money", "ai"],
+          "tags": [
+            "money",
+            "ai"
+          ],
           "source": "so.html5.qq.com / 2026-03"
         }
       ],
@@ -23,13 +107,21 @@
         {
           "title": "Hidden Markov Model + Neural Network 能源量化交易：COVID 期间 83% 回报率，Sharpe 0.77",
           "body": "<p>arXiv 学术论文提出新型 AI 量化方法——将<strong>隐马尔可夫模型（HMM）与神经网络</strong>深度融合，结合 Black-Litterman 组合优化，在 COVID 期间（2019-2022）实现<strong>83% 回报率</strong>，Sharpe 比率达 <strong>0.77</strong>。该系统包含双重风控模型，在高波动期间表现出色。</p><p>研究在 QuantConnect 平台实现，选择高流动性、大盘能源股票，采用三年预热期确保算法正常运行，通过预测价格走势生成交易信号。</p><p>论文：<a href='https://arxiv.org/abs/2407.19858'>AI-Powered Energy Algorithmic Trading</a></p>",
-          "tags": ["dev", "ai", "money"],
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
           "source": "arXiv / QuantConnect / 2024-07"
         },
         {
           "title": "QuantConnect 2026：489K 量化社区，云端研究/回测/Live Trading 一体化平台",
           "body": "<p><strong>QuantConnect</strong> 是全球领先的量化交易开源平台，提供云端研究、回测、AI 优化和 Live Trading 全流程支持。平台拥有 <strong>489K</strong> 量化社区用户，支持证券数据标（FIGI、CUSIP、ISIN），可安装自定义包，支持机器学习和特征选择库训练模型。</p><p>2026 年最新能力：<strong>Mia</strong>—— Agentic AI 助手，可自动设计、回测、优化和实盘交易量化策略；支持 Python 和 F# 策略开发；提供完整的事件驱动回测引擎。</p><p>官网：<a href='https://quantconnect.com/'>quantconnect.com</a></p>",
-          "tags": ["dev", "ai", "money"],
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
           "source": "QuantConnect.com / 2026-04"
         }
       ],
@@ -37,13 +129,21 @@
         {
           "title": "backtrader + dash + plotly 量化回测可视化：从策略到交互图表的完整实战",
           "body": "<p>针对 backtrader 回测结果展示不佳的问题，社区开发者使用 <strong>dash 和 plotly</strong> 重构了回测可视化模块，实现三大核心功能：回测指标的完整统计（年化复利回报率、夏普率、最大回撤等）；多年度收益曲线叠加对比；交互式图表支持导出。</p><p>该方案已用于实盘策略复盘，支持 Jupyter Notebook 和 Web 页面两种展示形态。</p>",
-          "tags": ["aiTool", "dev", "ai"],
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
           "source": "知乎 / 2020-04"
         },
         {
           "title": "GitHub phytal/algorithmic-trading-python：Python + ML 量化交易入门的完整路径",
           "body": "<p>GitHub 开源项目 <strong>algorithmic-trading-python</strong>（phytal）提供了从入门到实战的完整量化交易学习路径，基于 freeCodeCamp 课程体系，覆盖：等权 S&P 500 指数、定量动量策略、定量价值策略、无监督学习交易策略。</p><p>使用 <strong>yfinance</strong> 获取实时股票数据，包含完整的因子计算、估值模型和 Pandas 分析框架。</p><p>GitHub：<a href='https://github.com/phytal/algorithmic-trading-python'>phytal/algorithmic-trading-python</a></p>",
-          "tags": ["aiTool", "dev", "ai"],
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
           "source": "GitHub phytal/algorithmic-trading-python / 2026-05"
         }
       ]
@@ -55,25 +155,38 @@
         {
           "title": "渣打银行：2026 年或是以太坊爆发年，目标价 2030 年新高",
           "body": "<p>据 <strong>渣打银行</strong>（Standard Chartered）最新研究报告，2026 年可能是 <strong>以太坊（ETH）的突破年</strong>，并设定 2030 年目标价新高预期。</p><p>报告核心观点：以太坊 ETF 的机构资金持续流入；Layer 2 生态（Arbitrum、Optimism、Base）扩张加速；DeFi TVL（总锁仓量）触底回升；Dencun 升级降低 Rollup 成本，生态应用活性显著提升。渣打同时指出，监管环境趋于明确是 ETH 价格上涨的关键催化剂。</p>",
-          "tags": ["money", "ai"],
+          "tags": [
+            "money",
+            "ai"
+          ],
           "source": "Stocks News Feed / so.html5.qq.com / 2026-05"
         },
         {
           "title": "东方红量化混合 A（580007）2026 年一季度利润 100.93 万元，净值增长 6%",
           "body": "<p>2026 年第一季度，东方红量化混合 A（580007）基金交出了一份亮眼的成绩单。报告显示该基金在第一季度实现利润 <strong>100.93 万元</strong>，净值增长率达 <strong>6%</strong>。截至 2026 年 4 月 22 日，东方红量化混合 A 的单位净值为 0.812 元，近一年的复权单位净值增长率高达 <strong>75.06%</strong>，在同类基金中表现优异。</p><p>管理人人丛俊在一季报中指出，人工智能的快速发展仍是推动市场的重要因素。当前，算力竞争如火如荼，未见减缓的趋势。同时，庞大的数据中心使得美国市场面临持续的「缺电」叙事，这对相关产业链的投资带来了新的机遇。</p>",
-          "tags": ["money", "ai"],
+          "tags": [
+            "money",
+            "ai"
+          ],
           "source": "搜狐财经 / 2026-04"
         },
         {
           "title": "2.85 亿美元一夜归零：Drift Protocol 被盗敲响 DeFi 安全警钟",
           "body": "<p>2026 年 4 月 1 日，<strong>Solana 生态头部永续 DEX Drift Protocol</strong> 遭遇重大黑客攻击，损失金额约 <strong>2.2 亿至 2.85 亿美元</strong>，成为 2026 年迄今为止最大规模的 DeFi 黑客攻击事件。</p><p>Drift 在 X 上发文称：「我们观察到协议出现异常活动，目前正在调查中。请不要在调查期间向协议内存入资金。这不是愚人节玩笑。」</p><p>安全教训：DeFi 世界中没有客服帮你追回资金，没有银行为你兜底。必做检查：合约开源审计、拒绝无授权、认准官方入口、警惕异常高收益、隔离资产分散风险。</p>",
-          "tags": ["money", "ai"],
+          "tags": [
+            "money",
+            "ai"
+          ],
           "source": "腾讯新闻 / so.html5.qq.com / 2026-04"
         },
         {
           "title": "BeeQuant：AI-Native 加密货币量化交易平台，降低量化交易门槛",
           "body": "<p>2026 年，AI 与 Web3 的融合正在进入全新阶段。<strong>BeeQuant</strong> 的出现，正在让原本属于少数专业机构的量化能力，逐步走向大众化、普及化。</p><p>BeeQuant 定位为 <strong>AI-Native 加密货币量化交易平台</strong>，致力于通过人工智能、可视化策略构建和自动化执行能力，降低量化交易门槛，让更多普通用户也能参与到专业级策略交易中来。平台核心能力：AI 驱动的策略生成与优化、实时市场分析与信号、多交易所统一管理、自定义回测与模拟交易。</p>",
-          "tags": ["money", "ai", "dev"],
+          "tags": [
+            "money",
+            "ai",
+            "dev"
+          ],
           "source": "so.html5.qq.com / 2026-04"
         }
       ],
@@ -82,25 +195,42 @@
         {
           "title": "FinRL-X 发布：AI4Finance 开源模块化量化交易基础设施，317 Commits 里程碑",
           "body": "<p>GitHub 开源项目 <strong>FinRL-X</strong>（AI4Finance-Foundation/FinRL-Trading）是面向量化交易的 AI-Native 模块化基础设施，代表了 AI 与量化金融深度融合的最新开源实践。</p><p>核心特点：模块化架构，支持数据层、算法层、风控层解耦；内置多种强化学习算法（PPO、SAC、DQN 等）；兼容 backtrader、zipline 等主流回测框架；提供 Docker 部署支持，适合机构级量化研究。</p><p>GitHub: <a href='https://github.com/AI4Finance-Foundation/FinRL-Trading'>AI4Finance-Foundation/FinRL-Trading</a></p>",
-          "tags": ["dev", "ai", "money"],
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
           "source": "GitHub AI4Finance-Foundation/FinRL-Trading / 2026-03"
         },
         {
           "title": "TradingAgents v0.2.4 发布：结构化输出 Agent + LangGraph 检查点 + Docker 支持",
           "body": "<p>2026 年 4 月，<strong>TradingAgents</strong>（TauricResearch）发布 v0.2.4 版本，带来多项关键升级：</p><p>核心新特性：<strong>结构化输出 Agent</strong>（Research Manager、Trader、Portfolio Manager 全面采用 LLM.with_structured_output）；<strong>LangGraph 检查点恢复</strong>（--checkpoint 参数）；<strong>持久化决策日志</strong>（取代原有的每 Agent BM25 记忆）；<strong>多 Provider 支持</strong>（新增 DeepSeek、Qwen、GLM、Azure）；<strong>Docker 部署支持</strong>以及 Windows UTF-8 编码修复。</p><p>GitHub: <a href='https://github.com/TauricResearch/TradingAgents'>TauricResearch/TradingAgents</a></p>",
-          "tags": ["dev", "ai", "money", "agent"],
+          "tags": [
+            "dev",
+            "ai",
+            "money",
+            "agent"
+          ],
           "source": "GitHub TauricResearch/TradingAgents / CHANGELOG.md / 2026-04"
         },
         {
           "title": "算法交易市场规模 2026 年达 35.9 亿美元，预计 2033 年翻倍至 66.8 亿",
           "body": "<p>据 <strong>Coherent Market Insights</strong> 最新市场研究报告，2026 年全球算法交易（Algorithmic Trading）市场规模估计为 <strong>USD 35.9 亿</strong>，预计以年复合增长率（CAGR）持续扩张，2033 年将达到 <strong>USD 66.8 亿</strong>。</p><p>核心驱动力：AI 与机器学习技术深度融合，使交易算法具备自学习能力；数据驱动决策需求持续攀升；高频交易与量化策略的机构采纳率不断提升。报告指出，技术复杂度提升和监管合规需求是市场增长的两大结构性支撑。</p>",
-          "tags": ["dev", "ai", "money"],
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
           "source": "Coherent Market Insights / 2026-03"
         },
         {
           "title": "CryptoQuant 2026 加密量化大赛香港成功举办，400+ 机构参与",
           "body": "<p>2026 年 2 月 11 日，<strong>CryptoQuant 2026 加密量化交易大赛</strong>在香港 CAI 院士大厦正式发布，由 Barron's 巴伦中文、DeAI Expo 联合主办。活动现场聚集了超过 400 名来自主流资产管理公司、港股上市公司、加密交易所、量化策略团队、私募基金、家族办公室等行业主要负责人，就数字资产管理、AI 驱动交易、链上交易策略等前沿话题展开探讨。</p>",
-          "tags": ["dev", "ai", "money"],
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
           "source": "腾讯新闻 / so.html5.qq.com / Barron's / 2026-02"
         }
       ],
@@ -108,25 +238,39 @@
         {
           "title": "Qlib 2026 避坑指南：微软亚洲研究院 AI 量化投资平台安装与实战",
           "body": "<p><strong>Qlib</strong> 是微软亚洲研究院发布的面向 AI 的量化投资平台，旨在实现潜力、增强研究能力并创造 AI 技术在量化投资中的价值。2026 年最新教程覆盖了 Qlib 的完整安装流程与常见报错解决方案。</p><p>核心内容：conda 环境搭建（Python 3.8-3.10 兼容性最佳）；LightGBM GPU 版本安装（解决 OpenMP 问题）；数据层、机器学习层、策略回测层三大模块解析；与 backtrader、zipline 的优劣对比。</p><p>GitHub: <a href='https://github.com/microsoft/qlib'>microsoft/qlib</a></p>",
-          "tags": ["aiTool", "dev", "ai"],
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
           "source": "CSDN 博客 / GitHub microsoft/qlib / 2026-04"
         },
         {
           "title": "VN.PY 2026 最新版：国内主流量化交易平台核心特色与优劣对比",
           "body": "<p>2026 年最新实盘量化交易平台概览报告，深度对比国内主流平台核心特色：<strong>AlphaGBM</strong>：AI 驱动的下一代智能量化与期权分析引擎，底层基于 Gradient Boosting Machine（GBM）和强化学习，能实时重仓 3D 波动率曲面并预测隐含波动率（IV）走向，内置语义情感分析引擎。<strong>VN.PY</strong>：国内最流行的开源量化交易框架之一，2026 年持续更新，支持证券、期货、期权多品种，覆盖掘金量化、聚宽、米筐等主要数据源，适合有编程基础的量化爱好者。</p>",
-          "tags": ["aiTool", "ai"],
+          "tags": [
+            "aiTool",
+            "ai"
+          ],
           "source": "CSDN 博客 / 2026-04"
         },
         {
           "title": "freqtrade：GitHub Top1000 开源量化交易框架，回测/监控/机器学习一站式",
           "body": "<p><strong>freqtrade</strong> 是 GitHub Top1000 的开源量化交易框架项目，提供回测、回测分析、监控/控制界面以及机器学习策略优化等核心功能。仅需实现一个策略文件放到对应文件夹，设置好配置文件，就可以进行回测、运行策略。</p><p>框架亮点：提供 Telegram 和网页版 UI 界面用于监控和控制策略；支持机器学习方法做数据分析和策略优化；社区活跃，文档完善，适合有编程基础的量化爱好者入门首选。</p><p>GitHub: <a href='https://github.com/freqtrade/freqtrade'>freqtrade/freqtrade</a></p>",
-          "tags": ["aiTool", "dev", "ai"],
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
           "source": "GitHub freqtrade / 知乎 / 2026-04"
         },
         {
           "title": "Panda AI：国内首个个人量化投研 AI 助手，人人都能低门槛量化",
           "body": "<p>专访 Panda AI 李俊苒：量化投资将不再只是「机构级游戏」。Panda AI 是国内首个个人量化投研 AI 助手，致力于实现「人人都能低门槛量化」，已连续举办三届面向普通投资者开放的因子大赛。</p><p>值得注意的是，这种「去门槛化」的趋势，在 2026 年的金融数据终端与券商炒股软件中，表现得尤为明显。曾经被机构垄断的投研能力，正通过大模型技术加速「下沉」。</p>",
-          "tags": ["aiTool", "ai"],
+          "tags": [
+            "aiTool",
+            "ai"
+          ],
           "source": "南方财经 / 证券时报 / 2026-04"
         }
       ]
@@ -137,25 +281,42 @@
         {
           "title": "Runway 正式发布 Gen-4.5：登顶全球视频模型榜首，正面击败 Google Veo 3 与 OpenAI Sora 2 Pro",
           "body": "<p>Runway 于 2026 年正式发布其最新一代视频生成旗舰模型 <strong>Gen-4.5</strong>，在第三方独立基准测试中，Gen-4.5 在核心性能上正面击败了 Google Veo 3 和 OpenAI Sora 2 Pro，登顶全球视频模型榜首。</p><p>Gen-4.5 的核心技术亮点：<strong>运动质量（motion quality）</strong>达到行业最高水平，动作流畅度和物理真实性显著优于竞品；<strong>Prompt 遵从度（prompt adherence）</strong>大幅提升，生成内容与文字描述的一致性更高；<strong>视觉保真度（visual fidelity）</strong>达到电影级水准。</p><p>Runway CEO 此前接受采访时表示：AI 视频只是世界模型的序章。该公司已累计融资 8.6 亿美元，估值达 53 亿美元，模型正与 Google、OpenAI 等顶级实验室正面竞争。Runway 同时布局通用世界模型，应用场景覆盖游戏、机器人乃至更接近通用智能的领域。</p>",
-          "tags": ["video", "ai", "deep"],
+          "tags": [
+            "video",
+            "ai",
+            "deep"
+          ],
           "source": "Runway 官网 / Digital Trends / so.html5.qq.com"
         },
         {
           "title": "Meta 秘密研发 Mango 视频模型 + Avocado 文本模型：与 Scale AI 联合打造，2026 上半年发布",
           "body": "<p>据《华尔街日报》报道，Meta 正在由 Scale AI 联合创始人王烨山（Yash Shan）领导的超智能实验室下开发新的 AI 模型系列：代号为 <strong>Mango</strong> 的图像和视频模型，以及内部称为 <strong>Avocado</strong> 的新型文本模型。</p><p>该科技巨头计划在 2026 年上半年发布这些新模型。报道引用了 Meta 的内部问答会，首席产品官 Chris Cox 在会上公布了新的路线图。</p><p>与此同时，Meta 宣布了 Llama Stack 的重大更新，将其开源框架扩展至企业级应用，并为 Agent 协作场景提供更完善的支持。这是 Meta 在 AI 开源领域的最新战略动作，也意味着视频生成赛道又添一重量级玩家。</p>",
-          "tags": ["video", "ai", "deep"],
+          "tags": [
+            "video",
+            "ai",
+            "deep"
+          ],
           "source": "华尔街日报 / so.html5.qq.com / Meta 官方"
         },
         {
           "title": "腾讯云发布《2026 年 AI 赚钱八大方向》：普通人破局的最短路径",
           "body": "<p>2026 年，AI 已从技术探索期迈向商业成熟期。腾讯云开发者社区于 2026 年 5 月 6 日发布深度分析，系统梳理了普通人在 AI 时代的变现路径：</p><p><strong>（1）AI 中视频</strong>——YouTube 等平台上 AI 生成的深度解说/评测内容，单个账号年收入可达数十万；<strong>（2）AI 短剧</strong>——平台补贴加内容电商双轮驱动，头部创作者月收入已突破 50 万元；<strong>（3）垂直领域 AI 工具包</strong>——面向特定行业的 Prompt 模板、Agent 定制服务；<strong>（4）AI 推广拉新</strong>——各大厂（千问、豆包、即梦等）正大力补贴拉新，用户通过邀请注册可获现金奖励。</p><p>关键洞察：在垂直细分赛道拥有角色一致性和多集管理能力的 AI 规模化内容生产能力，是 2026 年普通人弯道超车的核心武器。</p>",
-          "tags": ["ai", "money", "video", "deep"],
+          "tags": [
+            "ai",
+            "money",
+            "video",
+            "deep"
+          ],
           "source": "腾讯云开发者社区 / cloud.tencent.com"
         },
         {
           "title": "2026 年度 AI 金融研究工具全景概览：TradingAgents 领跑，多智能体协作成量化新范式",
           "body": "<p>2026 年，AI 金融研究工具赛道正经历深刻变革。GitHub 开源项目 <strong>TradingAgents</strong>（TauricResearch）代表了多智能体协作在垂直领域（金融）落地的最新探索——一套模拟真实金融机构投研流程的协作系统，由 Research Agent（信息检索）、Coder Agent（代码生成）、Reviewer Agent（质量审查）三个专业化 Agent 组成，通过协议互相通信、互相校准。</p><p>与此同时，国内量化工具也快速进化。<strong>AlphaGBM</strong> 作为 2026 年量化圈内最受技术极客瞩目的「黑马」，彻底打破了传统券商或回测框架「只提供通道和静态算法」的局限，将机器学习直接植入了交易底层——不仅是交易平台，更是一个集数据清洗、特征工程、模型预测、风险归因于一体的综合性 AI 量化系统。底层基于 Gradient Boosting Machine（GBM，如 LightGBM 架构）和强化学习，擅长处理金融时序等高噪声表格化数据；能够实时重仓 3D 波动率曲面，并预测隐含波动率（IV）走向；内置语义情感分析引擎，可对财报会议语调及社交媒体情绪进行量化处理。</p>",
-          "tags": ["ai", "money", "deep"],
+          "tags": [
+            "ai",
+            "money",
+            "deep"
+          ],
           "source": "CSDN / 腾讯新闻"
         }
       ],
@@ -163,25 +324,38 @@
         {
           "title": "个人用 AI 短剧在 YouTube 变现 3 万元复盘：从零开始的完整路径",
           "body": "<p>一位创作者完整复盘了他用 AI 短剧在 YouTube 上变现的路径：从试错、找对标，到开通 YouTube 合作伙伴计划（YPP）收到第一笔 414 美元，再到复制多个账号，全年累计获得约 <strong>3 万元人民币</strong>的广告分成。</p><p>核心路径：AI 绘图生成画面、AI 配音加字幕、AI 剪辑（剪映 AI）自动对齐、多账号矩阵分发。工具月成本不到 200 元，效率提升 10 倍，一个人顶过去一个团队。</p><p>关键教训：YPP 审核趋严，需要持续产出原创内容；多账号矩阵是规模化放大的核心策略；内容本地化（语言、文化、审美）是出海成功的关键门槛。</p>",
-          "tags": ["money", "video", "ai"],
+          "tags": [
+            "money",
+            "video",
+            "ai"
+          ],
           "source": "腾讯新闻 / so.html5.qq.com"
         },
         {
           "title": "东方红量化混合 A（580007）2026 年一季度利润 100.93 万元，净值增长 6%",
           "body": "<p>2026 年第一季度，东方红量化混合 A（580007）基金交出了一份亮眼的成绩单。报告显示该基金在第一季度实现利润 <strong>100.93 万元</strong>，净值增长率达 <strong>6%</strong>。截至 2026 年 4 月 22 日，东方红量化混合 A 的单位净值为 0.812 元，近一年的复权单位净值增长率高达 <strong>75.06%</strong>，在同类基金中表现优异。</p><p>管理人人丛俊在一季报中指出，人工智能的快速发展仍是推动市场的重要因素。当前，算力竞争如火如荼，未见减缓的趋势。同时，庞大的数据中心使得美国市场面临持续的「缺电」叙事，这对相关产业链的投资带来了新的机遇。</p>",
-          "tags": ["money", "ai"],
+          "tags": [
+            "money",
+            "ai"
+          ],
           "source": "搜狐财经"
         },
         {
           "title": "2.85 亿美元一夜归零：Drift Protocol 被盗敲响 DeFi 安全警钟",
           "body": "<p>2026 年 4 月 1 日，<strong>Solana 生态头部永续 DEX Drift Protocol</strong> 遭遇重大黑客攻击，损失金额约 <strong>2.2 亿至 2.85 亿美元</strong>，成为 2026 年迄今为止最大规模的 DeFi 黑客攻击事件。</p><p>Drift 在 X 上发文称：「我们观察到协议出现异常活动，目前正在调查中。请不要在调查期间向协议内存入资金。这不是愚人节玩笑。」</p><p>安全教训：DeFi 世界中没有客服帮你追回资金，没有银行为你兜底。必做检查：合约开源审计、拒绝无授权、认准官方入口、警惕异常高收益、隔离资产分散风险。</p>",
-          "tags": ["money", "ai"],
+          "tags": [
+            "money",
+            "ai"
+          ],
           "source": "腾讯新闻 / so.html5.qq.com / 2026-04"
         },
         {
           "title": "渣打银行：2026 年或是以太坊爆发年，目标价 2030 年新高",
           "body": "<p>据 <strong>渣打银行</strong>（Standard Chartered）最新研究报告，2026 年可能是 <strong>以太坊（ETH）的突破年</strong>，并设定 2030 年目标价新高预期。</p><p>报告核心观点：以太坊 ETF 的机构资金持续流入；Layer 2 生态（Arbitrum、Optimism、Base）扩张加速；DeFi  TVL（总锁仓量）触底回升；Dencun 升级降低 Rollup 成本，生态应用活性显著提升。渣打同时指出，监管环境趋于明确是 ETH 价格上涨的关键催化剂。</p>",
-          "tags": ["money", "ai"],
+          "tags": [
+            "money",
+            "ai"
+          ],
           "source": "Stocks News Feed / 2026-05"
         }
       ],
@@ -189,25 +363,41 @@
         {
           "title": "GenVidBench — AAAI 2026 发布：600 万规模 AI 生成视频检测基准",
           "body": "<p><strong>GenVidBench</strong> 是 AAAI 2026 录用的论文成果，由研究团队发布的高质量 AI 生成视频检测基准。该基准包含 <strong>600 万</strong>量级的样本规模，专门用于评估模型对 AI 生成视频的识别与检测能力。</p><p>GenVidBench 的发布标志着 AI 视频检测（深伪检测）领域进入规模化基准测试阶段，为内容溯源、版权保护和 AI 安全提供了重要的评估基础设施。该基准覆盖了多种主流 AI 视频生成模型，对检测算法的泛化能力提出了更高要求。</p>",
-          "tags": ["tool", "video", "ai", "deep"],
+          "tags": [
+            "tool",
+            "video",
+            "ai",
+            "deep"
+          ],
           "source": "GitHub genvidbench/GenVidBench / AAAI 2026"
         },
         {
           "title": "Video-DB Director — AI 视频 Agent 框架：像用 ChatGPT 一样处理视频",
           "body": "<p><strong>Director</strong> 是 VideoDB 发布的 AI 视频 Agent 框架，被描述为视频版 ChatGPT。该框架可以构建能够推理复杂视频任务的视频 Agent，如搜索、编辑、剪辑、生成等，并支持即时流式输出结果。</p><p>核心功能：输入自然语言命令（如「总结视频内容」「搜索特定片段」「即时创建片段」），即可驱动底层视频理解与生成能力；内置与 VideoDB 视频即数据基础设施的深度集成；支持多步骤视频处理流水线的自动化编排。</p><p>Director 的定位是降低视频 AI 应用的开发门槛，让开发者能像使用 ChatGPT 一样便捷地构建复杂视频工作流，是视频 AI 工具化方向的重要里程碑。</p>",
-          "tags": ["tool", "video", "ai", "agent"],
+          "tags": [
+            "tool",
+            "video",
+            "ai",
+            "agent"
+          ],
           "source": "GitHub video-db/Director / VideoDB 官网"
         },
         {
           "title": "Panda AI：国内首个个人量化投研 AI 助手，致力实现「人人都能低门槛量化」",
           "body": "<p>专访 Panda AI 李俊苒：量化投资将不再只是「机构级游戏」。Panda AI 是国内首个个人量化投研 AI 助手，致力于实现「人人都能低门槛量化」，已连续举办三届面向普通投资者开放的因子大赛。而李俊苒是 99 年出生的量化私募基金经理，长期从事量化交易与 AI 在金融市场的应用研究。</p><p>值得注意的是，这种「去门槛化」的趋势，在 2026 年的金融数据终端与券商炒股软件中，同样表现得尤为明显。曾经被机构垄断的投研能力，正通过大模型技术加速「下沉」。未来市场需要的，是一个便捷、低成本、高度自定义的 AI 工具平台，而非简单的「炒股龙虾」类工具。</p>",
-          "tags": ["tool", "ai"],
+          "tags": [
+            "tool",
+            "ai"
+          ],
           "source": "南方财经 / 证券时报"
         },
         {
           "title": "VN.PY 2026 最新版：国内主流量化交易平台核心特色与优劣对比",
           "body": "<p>2026 年最新实盘量化交易平台概览报告，深度对比国内主流平台核心特色：<strong>AlphaGBM</strong>：AI 驱动的下一代智能量化与期权分析引擎。底层基于 Gradient Boosting Machine（GBM，如 LightGBM 架构）和强化学习，擅于处理金融时序等高噪声表格化数据；能实时重仓 3D 波动率曲面并预测隐含波动率（IV）走向；内置语义情感分析引擎，可对财报会议语调及社交媒体情绪进行量化处理。支持 Sell Put、Wheeling（轮转策略）等复杂衍生品策略，提供动态对冲（Auto-Hedging）和极端行情下的「流动性黑洞」模型实时回测功能。<strong>VN.PY</strong>：国内最流行的开源量化交易框架之一，2026 年持续更新，支持证券、期货、期权多品种，覆盖掘金量化、聚宽、米筐等主要数据源，适合有编程基础的量化爱好者。</p>",
-          "tags": ["tool", "ai"],
+          "tags": [
+            "tool",
+            "ai"
+          ],
           "source": "CSDN 博客"
         }
       ],
@@ -215,25 +405,42 @@
         {
           "title": "TradingAgents v0.2.4 发布：结构化输出 Agent + LangGraph 检查点 + Docker 支持",
           "body": "<p>2026 年 4 月，<strong>TradingAgents</strong>（TauricResearch）发布 v0.2.4 版本，带来多项关键升级：</p><p>核心新特性：<strong>结构化输出 Agent</strong>（Research Manager、Trader、Portfolio Manager 全面采用 LLM.with_structured_output，返回 Pydantic 类型实例）；<strong>LangGraph 检查点恢复</strong>（--checkpoint 参数，崩溃后可从最后一个成功步骤恢复）；<strong>持久化决策日志</strong>（取代原有的每 Agent BM25 记忆）；<strong>多 Provider 支持</strong>（新增 DeepSeek、Qwen、GLM、Azure）；<strong>Docker 部署支持</strong>以及 Windows UTF-8 编码修复。</p><p>GitHub: <a href='https://github.com/TauricResearch/TradingAgents'>TauricResearch/TradingAgents</a></p>",
-          "tags": ["dev", "ai", "money", "agent"],
+          "tags": [
+            "dev",
+            "ai",
+            "money",
+            "agent"
+          ],
           "source": "GitHub TauricResearch/TradingAgents / CHANGELOG.md"
         },
         {
           "title": "算法交易市场规模 2026 年达 35.9 亿美元，预计 2033 年翻倍至 66.8 亿",
           "body": "<p>据 <strong>Coherent Market Insights</strong> 最新市场研究报告，2026 年全球算法交易（Algorithmic Trading）市场规模估计为 <strong>USD 35.9 亿</strong>，预计以年复合增长率（CAGR）持续扩张，2033 年将达到 <strong>USD 66.8 亿</strong>。</p><p>核心驱动力：AI 与机器学习技术深度融合，使交易算法具备自学习能力；数据驱动决策需求持续攀升；高频交易与量化策略的机构采纳率不断提升。报告指出，技术复杂度提升和监管合规需求是市场增长的两大结构性支撑。</p>",
-          "tags": ["dev", "ai", "money"],
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
           "source": "Coherent Market Insights / 2026-03"
         },
         {
           "title": "CryptoQuant 2026 加密量化大赛香港成功举办，400+ 机构参与",
           "body": "<p>2026 年 2 月 11 日，<strong>CryptoQuant 2026 加密量化交易大赛</strong>在香港 CAI 院士大厦正式发布，由 Barron's 巴伦中文、DeAI Expo 联合主办，CGV、NEXTFIN.AI、ME、CryptoAlpha 和 ChainDD、B7 Capital 等机构联合发起。活动现场聚集了超过 400 名来自主流资产管理公司、港股上市公司、加密交易所、量化策略团队、私募基金、家族办公室、Web3 投资基金、加密行业项目方等行业主要负责人，就数字资产管理、AI 驱动交易、链上交易策略等前沿话题展开探讨。</p>",
-          "tags": ["dev", "ai", "money"],
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
           "source": "腾讯新闻 / so.html5.qq.com / Barron's"
         },
         {
           "title": "AI 重构加密量化交易：BeeQuant 打造人人可用的智能策略平台",
           "body": "<p>2026 年，AI 与 Web3 的融合正在进入全新阶段。对于加密货币量化交易行业来说，BeeQuant 的出现，正在让原本属于少数专业机构的量化能力，逐步走向大众化、普及化。</p><p>BeeQuant 定位为 <strong>AI-Native 加密货币量化交易平台</strong>，致力于通过人工智能、可视化策略构建和自动化执行能力，降低量化交易门槛，让更多普通用户也能参与到专业级策略交易中来。平台核心能力：AI 驱动的策略生成与优化、实时市场分析与信号、多交易所统一管理、自定义回测与模拟交易。</p>",
-          "tags": ["dev", "ai", "money"],
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
           "source": "so.html5.qq.com / 2026-04"
         }
       ],
@@ -241,7 +448,11 @@
         {
           "title": "手把手教你用 Qlib 搭建第一个 AI 量化策略（2026 避坑指南）",
           "body": "<p>Qlib 是微软亚洲研究院发布的面向 AI 的量化投资平台，旨在实现潜力、增强研究能力并创造 AI 技术在量化投资中的价值。2026 年最新教程覆盖了 Qlib 的完整安装流程与常见报错解决方案。</p><p>核心内容：conda 环境搭建（Python 3.8-3.10 兼容性最佳）；LightGBM GPU 版本安装（解决 OpenMP 问题）；数据层、机器学习层、策略回测层三大模块解析；与 backtrader、zipline 的优劣对比。</p><p>GitHub: <a href='https://github.com/microsoft/qlib'>microsoft/qlib</a></p>",
-          "tags": ["aiTool", "dev", "ai"],
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
           "source": "CSDN 博客 / GitHub microsoft/qlib / 2026-04"
         }
       ]
