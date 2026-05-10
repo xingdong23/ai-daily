@@ -1,6 +1,114 @@
 {
-  "lastUpdate": "2026-05-09T08:30:00Z",
+  "lastUpdate": "2026-05-10T08:30:00Z",
   "days": [
+    {
+      "date": "2026-05-10",
+      "daily": [],
+      "money": [
+        {
+          "title": "美国终于要给加密货币「正名」了：CLARITY Act 将确立完整监管框架",
+          "body": "<p>2026 年 5 月，美国白宫正式表态，希望在 7 月 4 日之前推动《CLARITY Act（数字资产市场明确法案）》通过国会。这意味着：美国第一次开始尝试建立完整的加密货币监管框架。</p><p>根据目前公开的法案内容：CFTC 将拥有「数字商品」现货市场的主要监管权；SEC 继续监管证券型数字资产；数字资产交易平台将建立正式注册制度；项目方可申请「成熟网络」认证，以摆脱证券属性认定。</p><p>分析指出：Crypto 正在从「监管灰色地带」逐渐走向正式金融体系，机构入场障碍将进一步降低。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "so.html5.qq.com / 2026-05"
+        },
+        {
+          "title": "Abu Dhabi 金融科技创业公司 LTVX.ai 正式发布：AI 解决 2640 亿美元拒付问题",
+          "body": "<p>阿布扎比金融科技创业公司 <strong>LTVX.ai</strong> 正式发布，宣布通过 AI 技术解决每年高达 <strong>2640 亿美元</strong>的数字支付拒付（declined transaction）问题。该公司主打针对银行、支付机构和商户的 AI 反欺诈与智能路由解决方案。</p><p>创始团队表示，LTVX.ai 通过深度学习模型分析交易上下文特征，可将拒付率降低 40% 以上，同时不影响合规标准。该项目获得中东主权基金支持，是 2026 年传统金融+AI 融合的重要信号。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "cryptocoinsnet.com / 2026-05"
+        },
+        {
+          "title": "2026 年 TradFi x Crypto 融合加速：DeFi 从「发行」走向「实用」阶段",
+          "body": "<p>CoinFound 年度报告（TradFi x Crypto 2026 年展望）核心观点：2025 年是「融合临界点」，2026 年正式进入「可编程金融」加速期。</p><p>报告提炼 8 大 Mega Forces 与 7 大投资趋势：稳定币 2.0 争夺全球支付基础设施；RWA 从「发行」走向「实用」（代币化国债、REITs）；股票代币化加速；DAT 分解与集中等关键变量正在重塑金融格局。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "CoinFound / new.qq.com / 2026-01"
+        }
+      ],
+      "tools": [],
+      "dev": [
+        {
+          "title": "TradingAgents-CN 中文增强版发布：基于多智能体 LLM 的中文金融交易框架",
+          "body": "<p>GitCode 开源项目 <strong>TradingAgents-CN</strong> 是 TradingAgents 官方项目的中文增强版——基于多智能体 LLM 的中文金融交易框架，专为中文社区优化。</p><p>核心架构：继承原版多 Agent 协作体系（Research Manager、Coder Agent、Reviewer Agent），同时针对中文金融市场进行了专项适配，支持 A 股、港股数据接口，以及中文新闻情绪分析。适合有编程基础、想用 LLM 构建量化策略的开发者。</p><p>GitHub: <a href='https://gitcode.com/GitHub_Trending/tr/TradingAgents-CN'>GitHub_Trending/tr/TradingAgents-CN</a></p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "GitCode / CSDN / 2026-05"
+        },
+        {
+          "title": "Hidden Markov Model + Neural Network 能源量化交易：COVID 期间 83% 回报率，Sharpe 0.77",
+          "body": "<p>arXiv 学术论文提出新型 AI 量化方法——将<strong>隐马尔可夫模型（HMM）与神经网络</strong>深度融合，结合 Black-Litterman 组合优化，在 COVID 期间（2019-2022）实现<strong>83% 回报率</strong>，Sharpe 比率达 <strong>0.77</strong>。该系统包含双重风控模型，在高波动期间表现出色。</p><p>研究在 QuantConnect 平台实现，选择高流动性、大盘能源股票，采用三年预热期确保算法正常运行，通过预测价格走势生成交易信号。</p><p>论文：<a href='https://arxiv.org/abs/2407.19858'>AI-Powered Energy Algorithmic Trading</a></p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "arXiv / QuantConnect / 2026-05"
+        },
+        {
+          "title": "QuantStart 2026 更新：算法交易全栈学习资源，涵盖 Python/C++/量化策略",
+          "body": "<p><strong>QuantStart</strong> 是全球领先的量化交易学习平台，2026 年 5 月持续更新，提供从入门到专业的完整量化交易知识体系。</p><p>平台核心内容：量化交易基础（统计、金融工程）、机器学习在量化中的应用（Alpha 因子挖掘）、C++ 高频交易框架、算法策略回测与实盘对接。配套 Quantcademy 在线学习社区和 QSTrader 开源回测引擎。</p><p>官网：<a href='https://www.quantstart.com/'>quantstart.com</a></p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "QuantStart.com / 2026-05"
+        },
+        {
+          "title": "BitsStrategy 发布全自动 AI 交易机器人，24/7 捕捉加密市场机会",
+          "body": "<p><strong>BitsStrategy</strong> 宣布推出全新全自动 AI 加密交易机器人，主打 24/7 自动捕捉加密市场机会。该机器人利用 AI 算法进行趋势跟踪、套利检测和情绪分析，无需人工干预即可在多个交易所执行策略。</p><p>官方称该系统适合希望在波动市场中实现自动化交易的投资者，支持主流加密货币和 DeFi 协议。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "cryptocoinsnet.com / BitsStrategy / 2026-05"
+        }
+      ],
+      "aiTool": [
+        {
+          "title": "StockHero AI 交易机器人 2026 年 5 月更新：Sigma Series 策略实盘验证",
+          "body": "<p><strong>StockHero</strong> 是 2026 年备受关注的 AI 股票交易机器人平台，5 月最新更新显示其 Sigma Series 策略已在所有用户的真实实盘交易中验证表现。</p><p>平台亮点：支持对接全球主流券商 API 进行自动化交易；提供多策略支持（趋势跟踪、均值回归、事件驱动等）；直观的 Web 控制台和移动端监控；用户反馈持续好评，胜率声称达到宣传水平。</p><p>官网：<a href='https://stockhero.ai/'>stockhero.ai</a></p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "StockHero.ai / 2026-05"
+        },
+        {
+          "title": "ApeX DEX：5150 亿美元交易量，去中心化永续合约平台，支持 100x 杠杆",
+          "body": "<p><strong>ApeX</strong> 是基于 Solana/多链的去中心化永续合约交易平台，定位为「机构级 DEX」，累计交易量已突破 <strong>5150 亿美元</strong>，完成交易笔数达 9.87 亿笔。</p><p>核心特色：ApeX Omni 聚合多链流动性；零 Gas 费 + 低交易手续费；支持高达 <strong>100x 杠杆</strong>；支持 BTC、ETH、TAO 等主流资产；跨保证金（Cross Collateral）功能。2026 年持续扩大市场覆盖，是 Solana 生态 DeFi 的核心基础设施之一。</p><p>官网：<a href='https://www.apex.exchange/'>apex.exchange</a></p>",
+          "tags": [
+            "aiTool",
+            "ai",
+            "money"
+          ],
+          "source": "ApeX Exchange / cryptocoinsnet.com / 2026-05"
+        },
+        {
+          "title": "GitHub BitFancy/Solana-Trading-Bot：开源 Solana 链上交易机器人，支持 MEV/套利",
+          "body": "<p>GitHub 开源项目 <strong>BitFancy/Solana-Trading-Bot</strong> 提供了一套完整的 Solana 链上交易机器人基础设施，支持 Jito Bundling（MEV 策略）、自动套利和 DEX 交易。</p><p>核心功能：多 DEX 交易量机器人（支持 Raydium、Pumpfun、Meteora）；实时监控 Telegram 报警；自动买/卖和趋势检测；MEV 优化策略和跨链桥接方案。项目适合有编程基础、想在 Solana 链上开发量化交易系统的开发者。</p><p>GitHub: <a href='https://github.com/BitFancy/Solana-Trading-Bot'>BitFancy/Solana-Trading-Bot</a></p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "GitHub BitFancy/Solana-Trading-Bot / 2026-05"
+        }
+      ]
+    },
     {
       "date": "2026-05-09",
       "daily": [],
