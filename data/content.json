@@ -1,6 +1,102 @@
 {
-  "lastUpdate": "2026-05-06T05:28:42Z",
+  "lastUpdate": "2026-05-11T00:00:00Z",
   "days": [
+    {
+      "date": "2026-05-11",
+      "daily": [
+        {
+          "title": "2026年量化技术趋势：人工智能与算法在策略中的角色",
+          "body": "<p>2026年，主流策略已经开始集成强化学习算法，系统能够像下棋一样，根据实盘反馈不断自我修正参数。这意味着未来的量化系统不再是死板的代码，而是一个能够自我进化的交易智能体。此外，个人量化工具的普及化也是不可逆转的——随着计算力的提升和算法的优化，曾经需要超级计算机运行的模型，现在通过专业的量化终端（如QMT或PTrade）就能在普通云服务器上落地。</p>",
+          "tags": [
+            "ai",
+            "money",
+            "deep"
+          ],
+          "source": "CSDN / 量化百科"
+        },
+        {
+          "title": "GitHub phytal/algorithmic-trading-python: Python + 机器学习算法交易项目",
+          "body": "<p>这是一个基于 freeCodeCamp 课程的算法交易 Python 入门项目，旨在熟悉 yfinance、估值和 pandas 框架。项目包含四个部分：等权重 S&P 500 指数基金、定量动量投资策略、定量价值投资策略、无监督学习交易策略。项目使用 Python 实现完整的量化策略回测流程，涵盖数据获取、特征计算、无监督学习聚类等核心步骤。</p>",
+          "tags": [
+            "ai",
+            "money",
+            "deep"
+          ],
+          "source": "GitHub phytal/algorithmic-trading-python"
+        }
+      ],
+      "money": [
+        {
+          "title": "CryptoQuant 2026加密量化大赛在香港正式上线",
+          "body": "<p>2026年2月11日，CryptoQuant 2026加密量化交易大赛在香港CAI大厦正式发布。本次活动由Barron's巴伦中文、DeAI Expo主办，CGV、NEXTFIN.AI、ME、CryptoAlpha和ChainDD联合主办。一场名为不确定时代下的加密量化交易的论坛作为活动的版块之一也在香港同步进行。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯新闻 / new.qq.com"
+        },
+        {
+          "title": "对比基于LLM的交易机器人：AI智慧体、技术与自动化交易实测结果",
+          "body": "<p>实测表现：在2024年IJCAI FinLLM挑战赛（股票交易）中超越传统算法智能体。集成方式：模块化Python框架，可连接实时市场数据源，便于拓展。支持加密市场分析，具备退货模型以保障稳定性，并支持流式处理实现低延迟。已证用于加密货币自动交易，可提供实时交易见解和头盔管理，包括自动止损/止盈。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "FlowHunt / IJCAI FinLLM 2024"
+        }
+      ],
+      "tools": [
+        {
+          "title": "Backtrader、Zipline、PyAlgoTrade 三大开源量化回测工具比较",
+          "body": "<p>2025年Backtrader star 16.3K，fork 4.2K；Zipline star 18.2K。Backtrader v102（2024.06）已支持 asyncio 数据流与 PyArrow 加速；Zipline 最新稳定版仍为 2.0.0（2021.08），GitHub Issues 中73%为 pandas 2.0 incompatible。Backtrader 是策略即代码的事件驱动框架，Zipline 则是市场即模型的隐式约束框架。新手建议 Backtrader 入手，易用性强且社区活跃。</p>",
+          "tags": [
+            "tool",
+            "ai"
+          ],
+          "source": "CSDN / 知乎"
+        },
+        {
+          "title": "MoneyFlare 2026年推出免费AI加密货币交易机器人",
+          "body": "<p>MoneyFlare 于2026年5月2日推出了其AI加密货币交易机器人，这是一款免费的、完全自动化的解决方案，旨在使加密货币交易在2026年变得更加普及。这是首个针对普通用户的免费AI加密货币交易平台，降低了量化交易的入门门槛。</p>",
+          "tags": [
+            "tool",
+            "ai",
+            "money"
+          ],
+          "source": "Reportify / MoneyFlare官方"
+        },
+        {
+          "title": "TradingView自动化交易2026完全攻略：从设置到串接券商",
+          "body": "<p>TradingView自动化交易并非平台内置功能，而是通过其快讯(Alerts)结合Webhook技术，将交易信号发送至第三方平台，再由第三方平台代为向用户的券商账户下单。核心技术是Pine Script语言，用于编写交易策略的触发条件。当市场状况满足条件时，Webhook系统将指令即时传达出去。</p>",
+          "tags": [
+            "video",
+            "ai",
+            "money"
+          ],
+          "source": "TradingView / wsdiscuss.com"
+        }
+      ],
+      "videoTools": []
+    },
+    {
+      "date": "2026-05-08",
+      "daily": [],
+      "money": [],
+      "tools": [
+        {
+          "title": "MateClaw：基于 Spring AI Alibaba 的开源多智能体 AI 操作系统（附架构详解）",
+          "body": "<p><strong>MateClaw</strong> 是一个基于 Spring AI Alibaba 构建的开源多智能体 AI 操作系统，定位是「跑在你自己的硬件上、一个 JAR 包、数据不出门」的私有化 AI 平台。与 Dify（工作流编排器）、LobeChat（聊天界面）不同，MateClaw 是完整的多智能体 AI 操作系统。</p><p><strong>核心架构四层：</strong></p><ul><li><strong>Layer 1 多智能体编排</strong>：基于 StateGraph 有向图，ReAct + Plan-and-Execute 两种推理模式；Agent 之间通过 DelegateAgentTool 互相委派任务</li><li><strong>Layer 2 知识引擎 LLM Wiki</strong>：不只是向量检索碎片，而是读透 PDF/MD 后吐出结构化 Wiki 页面（含摘要、双向链接、溯源指针）</li><li><strong>Layer 2 四层记忆生命周期</strong>：PROFILE.md + MEMORY.md + DREAMS.md + NUDGES.md</li><li><strong>Layer 3 MCP + Tool Guard</strong>：14 个内置工具 + MCP 协议接入任意工具；Tool Guard 规则保障安全</li><li><strong>Layer 4 全渠道接入</strong>：Web + 桌面端 + 钉钉/飞书/企业微信/微信/Telegram/Discord/QQ/Slack</li></ul><p><strong>技术栈：</strong>Spring Boot 3.5 + Spring AI Alibaba 1.1 + StateGraph + MCP + Vue 3 + MySQL/H2 + Electron，Apache 2.0 开源。</p><p><strong>v1.0.418 新特性：</strong>工作空间隔离（四级权限）+ Doctor 健康检查 + 完整国际化 + 自然语言定时任务 + 安全加固（JWT + prompt 注入检测）。</p><p><strong>快速上手：</strong>桌面端下载即用（自带 JRE 21）+ Docker 一键部署 + 源码运行。Ollama 用户零配置自动发现。</p>",
+          "tags": [
+            "tool",
+            "ai",
+            "java",
+            "multi-agent",
+            "open-source"
+          ],
+          "source": "IT码徒 / mp.weixin.qq.com"
+        }
+      ]
+    },
     {
       "date": "2026-05-06",
       "daily": [
