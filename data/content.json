@@ -1,6 +1,75 @@
 {
-  "lastUpdate": "2026-05-11T00:00:00Z",
+  "lastUpdate": "2026-05-13T08:00:00Z",
   "days": [
+    {
+      "date": "2026-05-13",
+      "daily": [],
+      "money": [
+        {
+          "title": "Galaxy 2026年加密预测：比特币缓慢逼近25万美元，Solana通证削减方案撤回",
+          "body": "<p>Galaxy 研究机构发布 2026 年 26 项加密市场预测：比特币到 2027 年将达到 25 万美元，价格将缓慢逼近； Solana 链上经济正从 Meme 周期转向创收业务，推动互联网资本市场竞争者市值从约 75 亿美元增长到 200 亿美元； Solana 的通证削减方案未能通过（SIMD-0411 撤回）， Solana 的通证改革将陷入僵局。</p><p>其他关键预测：美国证券交易委员会将为去中心化金融（DeFi）领域的代币化证券开闸道路，使合法的代币化证券能够融入 DeFi；到 2026 年底，去中心化交易所（DEX）的交易量将占现货交易量的 25% 以上。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "Galaxy / chainweeks.com / 2025-12"
+        },
+        {
+          "title": "贝莱德：AI仍将主导2026年市场，但投机性交易及杠杆恐加剧波动",
+          "body": "<p>全球最大资产管理公司贝莱德预计人工智能（AI）将在2026年继续主导市场，但同时预测投机性交易和杠杆操作将加剧市场风险，可能导致投资者经历类似上月大幅抛售的动荡行情。</p><p>贝莱德欧洲、中东和非洲地区首席股票策略师海伦·朱尔（Helen Zhu）指出：「AI 股票的集中度已达到极高水平，市场情绪指标显示投资者过于乐观。」</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "Reportify / 智通财经 / 2025-12"
+        }
+      ],
+      "tools": [],
+      "dev": [
+        {
+          "title": "Freqtrade 2026.3 发布：开源加密货币自动交易机器人持续进化",
+          "body": "<p>Freqtrade 是用 Python 编写 GPL-3.0 开源许可证的加密货币量化交易框架，由欧洲社区长期维护，2026 年 3 月已发布第 111 个版本。核心定位：让有 Python 基础的人，能够把自己的交易想法转化成自动执行的算法策略，并在真实交易所上运行。</p><p>核心功能：回测与回测分析；Telegram 和网页版 UI 用于监控和控制策略；支持机器学习方法做数据分析和策略优化；支持 Binance、Bybit、Kraken 等多个交易所。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "CSDN / GitHub freqtrade / 2026-04"
+        },
+        {
+          "title": "GitHub ZhuLinsen/daily_stock_analysis：LLM驱动的 A/H/美股智能分析系统",
+          "body": "<p>GitHub 开源项目 <strong>daily_stock_analysis</strong> 是基于 AI 大模型的 A股/港股/美股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱。</p><p>核心功能：AI 决策报告（核心结论、评分、趋势、买卖点位、风险警告、催化剂因素）；多市场数据聚合 A股/港股/美股/ETF；行情、K线、技术指标、资金流、筹码、新闻、公告和基本面；多轮追问，支持均线、缠论、波浪、趋势等 11 种内置策略。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "GitHub ZhuLinsen/daily_stock_analysis / 2026-05"
+        }
+      ],
+      "aiTool": [
+        {
+          "title": "GitHub ari99/algorithmic_trading：Tensorflow + Polygon + Alpaca 量化交易实战",
+          "body": "<p>GitHub 开源项目 <strong>ari99/algorithmic_trading</strong> 提供了一套完整的量化交易项目实战演示，使用 Tensorflow、Polygon 和 Alpaca 进行算法交易，并在 AWS SageMaker 上进行训练。</p><p>项目完整流程：下载历史数据、数据预处理、特征工程、构建模型、验证模型性能、回测统计。适合有机器学习基础的量化交易开发者参考学习。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "GitHub ari99/algorithmic_trading / 2026-05"
+        },
+        {
+          "title": "GitHub Arkay92/BinanceAITradeBot：CNN-LSTM + NLP 混合加密交易机器人",
+          "body": "<p>GitHub 开源项目 <strong>Arkay92/BinanceAITradeBot</strong> 是一款针对 Binance 平台设计的自动化 AI 交易机器人，利用技术分析、情绪分析和机器学习算法实时做出明智的交易决策。</p><p>核心特色：采用混合 CNN-LSTM 模型进行价格预测；使用自然语言处理（NLP）技术从各种文本来源评估市场情绪；支持实时加密货币价格预测；情绪分析与 API 数据融合。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "GitHub Arkay92/BinanceAITradeBot / 2026-05"
+        }
+      ]
+    },
     {
       "date": "2026-05-11",
       "daily": [
