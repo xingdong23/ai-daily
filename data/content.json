@@ -1,6 +1,110 @@
 {
-  "lastUpdate": "2026-05-13T08:00:00Z",
+  "lastUpdate": "2026-05-14T00:00:00Z",
   "days": [
+    {
+      "date": "2026-05-14",
+      "daily": [
+        {
+          "title": "CryptoQuant 2026全球数字资管论坛与加密量化大赛在香港正式发布",
+          "body": "<p>2026年2月11日，CryptoQuant 2026加密量化交易大赛在香港CAI大厦正式发布。本次活动由Barron's巴伦中文、DeAI Expo主办，CGV、NEXTFIN.AI、ME、CryptoAlpha和ChainDD联合主办，汇聚超过400名来自主流资管公司、港股上市公司、加密交易所、量化策略团队的行业主要负责人，围绕数字资产管理、AI驱动交易、链上交易策略等前沿议题展开探讨。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯新闻 / new.qq.com"
+        },
+        {
+          "title": "2026年度AI金融研究工具全景概览：TradingAgents为何受关注",
+          "body": "<p>2026年4月7日发布的《2026年度AI金融研究工具概览》指出，TradingAgents之所以在开源社区中受到较多关注，是因为它不仅仅是一个静态的预测模型，而是一套模拟真实金融机构研究流程的协作系统。运作机制：想象一下，在您的计算机上运行着三个专业化的AI角色——分析师团队（一个专注于数据指标分析，另一个实时追踪全球新闻动态，还有一个专门负责监控社交媒体情绪）、交易员团队、风控团队。</p>",
+          "tags": [
+            "ai",
+            "money",
+            "deep"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com"
+        },
+        {
+          "title": "QRTransformer分位数回归时间序列区间预测：MATLAB实现",
+          "body": "<p>基于Transformer的分位数回归(QRTransformer)用于时间序列预测任务，结合深度学习强大的序列建模能力与分位数回归的不确定性量化优势，实现对目标变量条件分布分位的估计，进而构建预测区间，为风险评估和决策提供依据。功能：读取并预处理数据(滞后8步构造样本)、划分训练集(80%)与测试集(20%)；对指定分位数(0.02:0.05:0.97)循环训练多个Transformer网络。</p>",
+          "tags": [
+            "ai",
+            "deep"
+          ],
+          "source": "CSDN / mbd.pub"
+        }
+      ],
+      "money": [
+        {
+          "title": "2026年TradFi x Crypto展望：驱动2026年的8大宏观力量与7大投资趋势",
+          "body": "<p>2025年是\"融合临界点\"，2026年将进入\"可编程金融\"加速期。报告中共提炼8大 Mega Forces 与7大投资趋势展望：从稳定币2.0争夺全球支付基础设施，到RWA从\"发行\"走向\"效用\"，再到股票代币化、DAT分叉与集中等关键变量。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com"
+        },
+        {
+          "title": "DeFi Development Corp打造最大Solana金库，战略布局一览",
+          "body": "<p>DeFi Development Corp是一家上市公司，拥有公开交易公司中最大的Solana国库，持仓超过62万枚SOL，价值约9000万美金。该公司以积极参与Solana生态系统并优先追求每股SOL最大化而著称。投资者关系主管Dan Kang在Rug Radio的\"FOMO Hour\"节目中讨论了公司的策略。</p>",
+          "tags": [
+            "money"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com"
+        },
+        {
+          "title": "美股恐慌指数VIX触及三个月新高至25.36点",
+          "body": "<p>美股恐慌指数VIX上涨18%，最新至25.36点，触及三个月新高。芝商所波动率指数(VIX)升至三个月来最高水平，投资者纷纷买入防护措施，防范股市进一步下跌。VIX本周收于29点以上，而今年大部分时间里，该指标一直低于20点的30年平均水平。</p>",
+          "tags": [
+            "money"
+          ],
+          "source": "财联社 / so.html5.qq.com"
+        }
+      ],
+      "dev": [
+        {
+          "title": "Freqtrade交易机器人：开源免费加密货币自动交易框架",
+          "body": "<p>Freqtrade是一款用Python编写的免费开源加密货币交易机器人。它旨在支持所有主要交易所，并通过Telegram或WebUI进行控制。它包含回测、绘图和资金管理工具，以及通过机器学习进行策略优化。目前支持：Binance、Bittrex、FTX、Gate.io、Kraken、OKX等交易所。特性：基于Python 3.8+，三行命令即可完成安装，支持Docker快速部署。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "Freqtrade官方 / freqtrade.org.cn"
+        },
+        {
+          "title": "FinRL-Trading：AI4Finance-Foundation模块化AI原生量化交易基础设施",
+          "body": "<p>FinRL-X是一个AI原生模块化量化交易基础设施，为量化交易提供了标准化的研究流程框架。与传统回测框架不同，FinRL-X注重深度学习与强化学习在量化交易中的应用，提供了包括数据处理、特征工程、模型训练、回测评估在内的完整流水线。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "GitHub AI4Finance-Foundation/FinRL-Trading"
+        }
+      ],
+      "aiTool": [
+        {
+          "title": "GitHub ari99/algorithmic_trading：TensorFlow + Polygon + Alpaca量化交易实战",
+          "body": "<p>GitHub 开源项目 ari99/algorithmic_trading 提供了一套完整的量化交易项目实战演示，使用 Tensorflow、Polygon 和 Alpaca 进行算法交易，并在 AWS SageMaker 上进行训练。项目完整流程：下载历史数据、数据预处理、特征工程、构建模型、验证模型性能、回测统计。</p>",
+          "tags": [
+            "aiTool",
+            "ai",
+            "money"
+          ],
+          "source": "GitHub ari99/algorithmic_trading"
+        },
+        {
+          "title": "Backtrader、Zipline、PyAlgoTrade三大开源量化回测工具对比",
+          "body": "<p>2025年Backtrader star 16.3K，fork 4.2K；Zipline star 18.2K。Backtrader v102（2024.06）已支持 asyncio 数据流与 PyArrow 加速；Zipline 最新稳定版仍为 2.0.0（2021.08），GitHub Issues 中73%为 pandas 2.0 incompatible。Backtrader 是策略即代码的事件驱动框架，Zipline 则是市场即模型的隐式约束框架。新手建议 Backtrader 入手，易用性强且社区活跃。</p>",
+          "tags": [
+            "aiTool",
+            "ai"
+          ],
+          "source": "CSDN / 知乎"
+        }
+      ],
+      "videoTools": []
+    },
     {
       "date": "2026-05-13",
       "daily": [],
