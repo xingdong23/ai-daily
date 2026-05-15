@@ -1,6 +1,134 @@
 {
-  "lastUpdate": "2026-05-14T00:00:00Z",
+  "lastUpdate": "2026-05-15T00:00:00Z",
   "days": [
+    {
+      "date": "2026-05-15",
+      "daily": [
+        {
+          "title": "Arthur Hayes：比特币年末目标价12.5万美元，美国国防与AI基础催生信贷需求",
+          "body": "<p>Arthur Hayes 在比特币2026大会表示：美国国防与 AI 基础催生信贷需求，年末目标价12.5万美元。他指出BTC正在进入\"机构采用\"新阶段，美元流动性扩张将成为价格上行的核心驱动力。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com"
+        },
+        {
+          "title": "比特币重返8万美元：MicroStrategy再买入535枚BTC耗资4300万美元",
+          "body": "<p>MicroStrategy 再次买入约535枚Bitcoin，成交总额约4300万美元，折合平均买入价约8.03万美元/枚。比特币重返8万美元心理关口，市场情绪有所回暖。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "PANews / so.html5.qq.com / 2026-05-11"
+        },
+        {
+          "title": "TradingAgents-CN深度拆解：如何用多智能体LLM构建你的AI交易系统",
+          "body": "<p>深度拆解TradingAgents-CN：基于多智能体LLM的中文金融交易框架。TradingAgents-CN 基于多智能体LLM的中文金融交易框架。项目地址: https://gitcode.com/GitHub_Trending/tr/TradingAgents-CN</p>",
+          "tags": [
+            "ai",
+            "money",
+            "dev"
+          ],
+          "source": "CSDN / blog.csdn.net / 2026-05-09"
+        }
+      ],
+      "money": [
+        {
+          "title": "比特币现报79,656美元，市场波动性升高",
+          "body": "<p>比特币现报$79,656.32（24h -1.26%），市场在8万美元关口反复试探。VIX恐慌指数此前触及25.36点三个月新高，投资者需关注宏观风险偏好变化。</p>",
+          "tags": [
+            "money"
+          ],
+          "source": "coin360.com / 2026-05-14"
+        },
+        {
+          "title": "Solana联创预测2026年：稳定币规模破万亿美元，人形机器人出货10万台",
+          "body": "<p>Solana 联创 Anatoly Yakovenko 发布2026年预测：稳定币总规模突破1万亿美元以上；量子计算和可编程核心聚变仍将像今天一样难以真正落地；AI 将解决一个千年难题；人形机器人出货10万台；星舰完成两次成功的商业飞行。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "PANews / new.qq.com / 2025-12-27"
+        }
+      ],
+      "dev": [
+        {
+          "title": "Backtrader v2.0+ 新特性：asyncio数据流与PyArrow加速回测",
+          "body": "<p>Backtrader是Python生态中最活跃的开源量化回测框架，v102（2024.06）已支持asyncio数据流与PyArrow加速。策略即代码的事件驱动框架设计，适合有Python基础的量化开发者快速上手。支持：自定义指标、回测分析、可视化图表、实盘对接。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "Backtrader官方 / backtrader.com / 2026-05"
+        },
+        {
+          "title": "Freqtrade 2026.3发布：开源加密货币自动交易机器人持续进化",
+          "body": "<p>Freqtrade 是用 Python 编写 GPL-3.0 开源许可证的加密货币量化交易框架，由欧洲社区长期维护，2026年3月已发布第111个版本。核心定位：让有 Python 基础的人，能够把自己的交易想法转化成自动执行的算法策略，并在真实交易所上运行。核心功能：回测与回测分析；Telegram 和网页版 UI 用于监控和控制策略；支持机器学习方法做数据分析和策略优化；支持 Binance、Bybit、Kraken 等多个交易所。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "CSDN / GitHub freqtrade / 2026-04"
+        },
+        {
+          "title": "GitHub lavibula/BitcoinPrediction：比特币价格预测机器学习项目",
+          "body": "<p>GitHub 开源项目 lavibula/BitcoinPrediction 提供比特币价格预测的完整机器学习实现。项目包含数据处理、特征工程、模型选择与评估等完整流程，支持SVM等多种模型对比实验。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "GitHub lavibula/BitcoinPrediction / 2026-05"
+        }
+      ],
+      "aiTool": [
+        {
+          "title": "GitHub Immutal0/solana-trading-bot：Raydium、Pumpfunbundler、sniper等全套Solana交易机器人",
+          "body": "<p>GitHub 开源项目 Immutal0/solana-trading-bot 提供多款 Solana 链上交易机器人：Multi-Dex Volume Bot（追踪 Raydium、Pumpfun、Meteora 等多DEX交易量，实时预警、自动买卖）；Twitter Sniper Bot（监控 Twitter 上的 Solana 代币发布并即时抢购）；AI驱动的情绪分析。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "money"
+          ],
+          "source": "GitHub Immutal0/solana-trading-bot / 2026-04"
+        },
+        {
+          "title": "GitHub Cryptolyfe/Algorithmic_Trading：QuantConnect上的BTC/ETH算法交易",
+          "body": "<p>GitHub 开源项目 Cryptolyfe/Algorithmic_Trading 在 QuantConnect 上实现加密货币算法交易。使用历史数据训练 NeuralNetworkAlgorithm，根据深度学习模型预测价格进行交易决策，并在回测中评估风险收益表现。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "GitHub Cryptolyfe/Algorithmic_Trading / 2026-04"
+        },
+        {
+          "title": "GitHub RustyCZ/CryptoBlade：C#实现的Bybit算法交易机器人",
+          "body": "<p>GitHub 开源项目 CryptoBlade 是一款用 C# 编写的加密货币算法交易机器人，专为 Bybit 交易所设计。基于 DirectionalScalper 策略启发，根据市场状态动态切换策略方向，在多个时间周期上执行交易。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "money"
+          ],
+          "source": "GitHub RustyCZ/CryptoBlade / 2023-11"
+        }
+      ],
+      "videoTools": [
+        {
+          "title": "Freqtrade官方中文站：开源加密货币交易机器人",
+          "body": "<p>Freqtrade 官方中文站提供完整的开源加密货币自动交易框架文档。三行命令即可完成安装，支持 Docker 快速部署，包含回测、绘图和资金管理工具，以及通过机器学习进行策略优化。</p>",
+          "tags": [
+            "videoTools",
+            "dev",
+            "ai"
+          ],
+          "source": "Freqtrade官方 / freqtrade.org.cn"
+        }
+      ]
+    },
     {
       "date": "2026-05-14",
       "daily": [
