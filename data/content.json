@@ -1,6 +1,97 @@
 {
-  "lastUpdate": "2026-05-15T00:00:00Z",
+  "lastUpdate": "2026-05-16T08:00:00Z",
   "days": [
+    {
+      "date": "2026-05-16",
+      "daily": [],
+      "dev": [
+        {
+          "title": "FinRL-X: AI-Native 模块化量化交易基础设施，GitHub 星标超 15k",
+          "body": "<p>FinRL-X 是 AI4Finance Foundation 推出的下一代 AI 原生量化交易基础设施，通过权重中心化接口统一数据处理、策略组合、回测与券商执行。最新版本已累积 317 次提交，支持 Docker 部署，与 FinRL-Library（177 commits）并列量化开源核心项目。</p><p>FinRL-Library（NeurIPS 2020）专注于深度强化学习（DRL）驱动的自动股票交易，包含 DDPG、TD3、SAC、PPO、DQN 等算法实现。项目分支包括多股票交易、单股票交易、加密货币 Binance 历史数据、组合配置等示例。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "GitHub AI4Finance-Foundation / FinRL-Trading / 2026-03"
+        },
+        {
+          "title": "TradingAgents-CN：多智能体 LLM 协作量化交易框架",
+          "body": "<p>TradingAgents-CN 是基于多智能体 LLM 的中文金融交易框架，源自 AI4Finance 开源社区。该框架将金融分析任务分配给不同专业智能体协作完成：基本面分析师评估公司财务数据和行业地位；技术分析师负责K线形态、趋势线和技术指标；情绪分析师实时追踪全球新闻动态；风控模型评估风险并生成信号。各智能体分工明确、相互校验，适用于量化交易和投资分析领域。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "GitCode / TradingAgents-CN / 2026-04"
+        }
+      ],
+      "aiTool": [
+        {
+          "title": "GitHub ari99/algorithmic_trading：TensorFlow + Polygon + Alpaca 量化交易实战",
+          "body": "<p>ari99/algorithmic_trading 是一套完整的量化交易实战演示项目，使用 TensorFlow 进行模型构建，结合 Polygon 行情数据API和 Alpaca 券商接口，实现在 AWS SageMaker 上进行训练与部署。项目覆盖完整流程：历史数据下载、数据预处理、特征工程、模型构建、模型性能验证、回测统计。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "GitHub ari99/algorithmic_trading / 2026-05"
+        },
+        {
+          "title": "GitHub phytal/algorithmic-trading-python：机器学习算法交易从入门到实战",
+          "body": "<p>基于 freeCodeCamp 课程的算法交易 Python 入门项目，包含四大策略模块：等权重 S&P 500 指数基金（被动跟踪）、动量投资策略（相对强弱）、价值投资策略（量化估值）、无监督学习交易策略（聚类分析）。使用 yfinance 获取数据，pandas 进行特征计算，配合 scikit-learn 进行无监督聚类，最终完成策略回测。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "GitHub phytal/algorithmic-trading-python / 2026-05"
+        }
+      ],
+      "money": [
+        {
+          "title": "Bitcoin 维持 $78,755 高位，供应收紧与 ETF 资金流入共振",
+          "body": "<p>2026 年 5 月中旬，加密市场数据显示 BTC 现报 $78,755（+2.30%），ETH $2,332（+1.60%），SOL $83.94（+1.80%）。CryptoValley Journal 周报指出比特币供应正在收紧，Altcoins 持续分化。Charles Schwab 已推出 BTC 和 ETH 现货交易服务，传统金融机构入场信号明显。a16z 第 5 期加密基金（$2.2B）完成募集，机构资金持续流入加密市场。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "99Bitcoins / CryptoValley Journal / 2026-05"
+        },
+        {
+          "title": "VIX 恐慌指数飙升创年内新高，关税冲击下市场进入观望模式",
+          "body": "<p>芝交所波动率指数（VIX）周内多次飙升，创 4 月以来最高水平，达 29 点以上，远超 20 点以下的 30 年均值。市场广泛性指数处于极端高位，投资者正放弃「单边做多」的幻想，转入高度防御的「观望模式（Wait-and-See）」。地缘政治冲突与关税政策反复令交易员陷入方向迷失。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯新闻 / QQ资讯 / 2026-04"
+        }
+      ],
+      "videoTools": [
+        {
+          "title": "TradingView 自动化交易 2026：Webhook + Pine Script 信号下单全攻略",
+          "body": "<p>TradingView 自动化交易通过快讯（Alerts）结合 Webhook 技术，将交易信号发送至第三方平台，再由第三方平台向用户券商账户下单。核心技术是 Pine Script 语言，用于编写触发条件（买入/卖出/止损/止盈）。当市场状况满足条件时，Webhook 即时传达指令。支持 Interactive Brokers、TD Ameritrade、Tradovate 等主流券商，实现策略信号全自动化执行。</p>",
+          "tags": [
+            "videoTools",
+            "ai",
+            "money"
+          ],
+          "source": "TradingView / wsdiscuss.com / 2026-04"
+        },
+        {
+          "title": "CryptoQuant 2026 加密量化大赛完整议程：500+ 量化交易员参与",
+          "body": "<p>CryptoQuant 2026 加密量化大赛正式上线香港 CAi 大厦，活动由 Barron's 巴伦中文、DeAI Expo 联合主办。大赛打造实时对战平台——「数字显微镜」，集实时对战、策略评估、数据透明化于一体，构建公开透明的竞争场。平台提供实盘交易排行榜、模拟盘策略评估、链上数据透明度等核心功能，吸引超过 500 名量化交易员参与。</p>",
+          "tags": [
+            "videoTools",
+            "ai",
+            "money"
+          ],
+          "source": "腾讯新闻 / new.qq.com / 2026-02"
+        }
+      ],
+      "tools": []
+    },
     {
       "date": "2026-05-15",
       "daily": [
