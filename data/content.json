@@ -1,96 +1,237 @@
 {
-  "lastUpdate": "2026-05-16T08:00:00Z",
+  "lastUpdate": "2026-05-15T00:00:00Z",
   "days": [
     {
-      "date": "2026-05-16",
-      "daily": [],
-      "dev": [
+      "date": "2026-05-15",
+      "daily": [
         {
-          "title": "FinRL-X: AI-Native 模块化量化交易基础设施，GitHub 星标超 15k",
-          "body": "<p>FinRL-X 是 AI4Finance Foundation 推出的下一代 AI 原生量化交易基础设施，通过权重中心化接口统一数据处理、策略组合、回测与券商执行。最新版本已累积 317 次提交，支持 Docker 部署，与 FinRL-Library（177 commits）并列量化开源核心项目。</p><p>FinRL-Library（NeurIPS 2020）则专注于深度强化学习（DRL）驱动的自动股票交易，包含 DDPG、TD3、SAC、PPO、DQN 等算法实现。项目分支包括多股票交易、单股票交易、加密货币 Binance 历史数据、组合配置等示例。</p>",
+          "title": "Arthur Hayes：比特币年末目标价12.5万美元，美国国防与AI基础催生信贷需求",
+          "body": "<p>Arthur Hayes 在比特币2026大会表示：美国国防与 AI 基础催生信贷需求，年末目标价12.5万美元。他指出BTC正在进入\"机构采用\"新阶段，美元流动性扩张将成为价格上行的核心驱动力。</p>",
           "tags": [
-            "dev",
-            "ai",
-            "money"
-          ],
-          "source": "GitHub AI4Finance-Foundation / FinRL-Trading / 2026-03"
-        },
-        {
-          "title": "TradingAgents-CN：多智能体 LLM 协作量化交易框架",
-          "body": "<p>TradingAgents-CN 是基于多智能体 LLM 的中文金融交易框架，源自 AI4Finance 开源社区。该框架将金融分析任务分配给不同专业智能体协作完成：基本面分析师评估公司财务数据和行业地位；技术分析师负责K线形态、趋势线和技术指标；情绪分析师实时追踪全球新闻动态；风控模型评估风险并生成信号。各智能体分工明确、相互校验，可用于量化交易和投资分析领域。</p>",
-          "tags": [
-            "dev",
-            "ai",
-            "money"
-          ],
-          "source": "GitCode / TradingAgents-CN / 2026-04"
-        }
-      ],
-      "aiTool": [
-        {
-          "title": "GitHub ari99/algorithmic_trading：TensorFlow + Polygon + Alpaca 量化交易实战项目",
-          "body": "<p>ari99/algorithmic_trading 是一套完整的量化交易实战演示项目，使用 TensorFlow 进行模型构建，结合 Polygon 行情数据API和 Alpaca 券商接口，实现在 AWS SageMaker 上进行训练与部署。项目覆盖完整流程：历史数据下载、数据预处理、特征工程、模型构建、模型性能验证、回测统计。适合有机器学习基础的量化交易开发者参考学习。</p>",
-          "tags": [
-            "aiTool",
-            "dev",
+            "money",
             "ai"
           ],
-          "source": "GitHub ari99/algorithmic_trading / 2026-05"
+          "source": "腾讯新闻 / so.html5.qq.com"
         },
         {
-          "title": "GitHub phytal/algorithmic-trading-python：机器学习算法交易从入门到实战",
-          "body": "<p>基于 freeCodeCamp 课程的算法交易 Python 入门项目，包含四大策略模块：等权重 S&P 500 指数基金（被动跟踪）、动量投资策略（相对强弱）、价值投资策略（量化估值）、无监督学习交易策略（聚类分析）。使用 yfinance 获取数据，pandas 进行特征计算，配合 scikit-learn 进行无监督聚类，最终完成策略回测。</p>",
+          "title": "比特币重返8万美元：MicroStrategy再买入535枚BTC耗资4300万美元",
+          "body": "<p>MicroStrategy 再次买入约535枚Bitcoin，成交总额约4300万美元，折合平均买入价约8.03万美元/枚。比特币重返8万美元心理关口，市场情绪有所回暖。</p>",
           "tags": [
-            "aiTool",
-            "dev",
+            "money",
             "ai"
           ],
-          "source": "GitHub phytal/algorithmic-trading-python / 2026-05"
+          "source": "PANews / so.html5.qq.com / 2026-05-11"
+        },
+        {
+          "title": "TradingAgents-CN深度拆解：如何用多智能体LLM构建你的AI交易系统",
+          "body": "<p>深度拆解TradingAgents-CN：基于多智能体LLM的中文金融交易框架。TradingAgents-CN 基于多智能体LLM的中文金融交易框架。项目地址: https://gitcode.com/GitHub_Trending/tr/TradingAgents-CN</p>",
+          "tags": [
+            "ai",
+            "money",
+            "dev"
+          ],
+          "source": "CSDN / blog.csdn.net / 2026-05-09"
         }
       ],
       "money": [
         {
-          "title": "Bitcoin 维持 $78,755 高位，供应收紧与 ETF 资金流入共振",
-          "body": "<p>2026 年 5 月 15 日，加密市场数据显示 BTC 现报 $78,755.74（+2.30%），ETH $2,332.99（+1.60%），SOL $83.94（+1.80%）。CryptoValley Journal 周报指出比特币供应正在收紧，Altcoins 持续分化。Charles Schwab 已推出 BTC 和 ETH 现货交易服务，传统金融机构入场信号明显。a16z 宣布第 5 期加密基金（$2.2B），机构资金持续流入加密市场。</p>",
+          "title": "比特币现报79,656美元，市场波动性升高",
+          "body": "<p>比特币现报$79,656.32（24h -1.26%），市场在8万美元关口反复试探。VIX恐慌指数此前触及25.36点三个月新高，投资者需关注宏观风险偏好变化。</p>",
           "tags": [
-            "money",
-            "ai"
+            "money"
           ],
-          "source": "99Bitcoins / CryptoValley Journal / 2026-05"
+          "source": "coin360.com / 2026-05-14"
         },
         {
-          "title": "VIX 恐慌指数周内飙升，4月关税冲击下市场波动率创年内新高",
-          "body": "<p>2026 年初以来，VIX 指数多次大幅波动，投资者急于买入防保护措施。芝交所波动率指数（VIX）周内飙升至上月最高水平，达 29 点以上，远超 20 点以下的 30 年均值。市场广泛性指数处于极端高位，暗示「单边做多的幻想」正在被放弃，转入高度防御的「观望模式（Wait-and-See）」。关税政策反复令交易员陷入方向迷失。</p>",
+          "title": "Solana联创预测2026年：稳定币规模破万亿美元，人形机器人出货10万台",
+          "body": "<p>Solana 联创 Anatoly Yakovenko 发布2026年预测：稳定币总规模突破1万亿美元以上；量子计算和可编程核心聚变仍将像今天一样难以真正落地；AI 将解决一个千年难题；人形机器人出货10万台；星舰完成两次成功的商业飞行。</p>",
           "tags": [
             "money",
             "ai"
           ],
-          "source": "腾讯新闻 / QQ资讯 / 2026-04"
+          "source": "PANews / new.qq.com / 2025-12-27"
+        }
+      ],
+      "dev": [
+        {
+          "title": "Backtrader v2.0+ 新特性：asyncio数据流与PyArrow加速回测",
+          "body": "<p>Backtrader是Python生态中最活跃的开源量化回测框架，v102（2024.06）已支持asyncio数据流与PyArrow加速。策略即代码的事件驱动框架设计，适合有Python基础的量化开发者快速上手。支持：自定义指标、回测分析、可视化图表、实盘对接。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "Backtrader官方 / backtrader.com / 2026-05"
+        },
+        {
+          "title": "Freqtrade 2026.3发布：开源加密货币自动交易机器人持续进化",
+          "body": "<p>Freqtrade 是用 Python 编写 GPL-3.0 开源许可证的加密货币量化交易框架，由欧洲社区长期维护，2026年3月已发布第111个版本。核心定位：让有 Python 基础的人，能够把自己的交易想法转化成自动执行的算法策略，并在真实交易所上运行。核心功能：回测与回测分析；Telegram 和网页版 UI 用于监控和控制策略；支持机器学习方法做数据分析和策略优化；支持 Binance、Bybit、Kraken 等多个交易所。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "CSDN / GitHub freqtrade / 2026-04"
+        },
+        {
+          "title": "GitHub lavibula/BitcoinPrediction：比特币价格预测机器学习项目",
+          "body": "<p>GitHub 开源项目 lavibula/BitcoinPrediction 提供比特币价格预测的完整机器学习实现。项目包含数据处理、特征工程、模型选择与评估等完整流程，支持SVM等多种模型对比实验。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "GitHub lavibula/BitcoinPrediction / 2026-05"
+        }
+      ],
+      "aiTool": [
+        {
+          "title": "GitHub Immutal0/solana-trading-bot：Raydium、Pumpfunbundler、sniper等全套Solana交易机器人",
+          "body": "<p>GitHub 开源项目 Immutal0/solana-trading-bot 提供多款 Solana 链上交易机器人：Multi-Dex Volume Bot（追踪 Raydium、Pumpfun、Meteora 等多DEX交易量，实时预警、自动买卖）；Twitter Sniper Bot（监控 Twitter 上的 Solana 代币发布并即时抢购）；AI驱动的情绪分析。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "money"
+          ],
+          "source": "GitHub Immutal0/solana-trading-bot / 2026-04"
+        },
+        {
+          "title": "GitHub Cryptolyfe/Algorithmic_Trading：QuantConnect上的BTC/ETH算法交易",
+          "body": "<p>GitHub 开源项目 Cryptolyfe/Algorithmic_Trading 在 QuantConnect 上实现加密货币算法交易。使用历史数据训练 NeuralNetworkAlgorithm，根据深度学习模型预测价格进行交易决策，并在回测中评估风险收益表现。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "GitHub Cryptolyfe/Algorithmic_Trading / 2026-04"
+        },
+        {
+          "title": "GitHub RustyCZ/CryptoBlade：C#实现的Bybit算法交易机器人",
+          "body": "<p>GitHub 开源项目 CryptoBlade 是一款用 C# 编写的加密货币算法交易机器人，专为 Bybit 交易所设计。基于 DirectionalScalper 策略启发，根据市场状态动态切换策略方向，在多个时间周期上执行交易。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "money"
+          ],
+          "source": "GitHub RustyCZ/CryptoBlade / 2023-11"
         }
       ],
       "videoTools": [
         {
-          "title": "TradingView 自动化交易 2026 完全攻略：Webhook + Pine Script 信号下单",
-          "body": "<p>TradingView 自动化交易通过快讯（Alerts）结合 Webhook 技术，将交易信号发送至第三方平台，再由第三方平台向用户券商账户下单。核心技术是 Pine Script 语言，用于编写触发条件（买入/卖出/止损/止盈）。当市场状况满足条件时，Webhook 即时传达指令。</p><p>支持的券商包括 Interactive Brokers、TD Ameritrade、Tradovate 等，策略信号生成后可实现全自动化执行，无需手动盯盘。</p>",
+          "title": "Freqtrade官方中文站：开源加密货币交易机器人",
+          "body": "<p>Freqtrade 官方中文站提供完整的开源加密货币自动交易框架文档。三行命令即可完成安装，支持 Docker 快速部署，包含回测、绘图和资金管理工具，以及通过机器学习进行策略优化。</p>",
           "tags": [
             "videoTools",
-            "ai",
-            "money"
+            "dev",
+            "ai"
           ],
-          "source": "TradingView / wsdiscuss.com / 2026-04"
+          "source": "Freqtrade官方 / freqtrade.org.cn"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "daily": [
+        {
+          "title": "CryptoQuant 2026全球数字资管论坛与加密量化大赛在香港正式发布",
+          "body": "<p>2026年2月11日，CryptoQuant 2026加密量化交易大赛在香港CAI大厦正式发布。本次活动由Barron's巴伦中文、DeAI Expo主办，CGV、NEXTFIN.AI、ME、CryptoAlpha和ChainDD联合主办，汇聚超过400名来自主流资管公司、港股上市公司、加密交易所、量化策略团队的行业主要负责人，围绕数字资产管理、AI驱动交易、链上交易策略等前沿议题展开探讨。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯新闻 / new.qq.com"
         },
         {
-          "title": "CryptoQuant 2026 全球数字资产管理论坛暨加密量化大赛完整议程公布",
-          "body": "<p>CryptoQuant 2026 加密量化大赛正式上线香港 CAi 大厦，活动由 Barron's 巴伦中文、DeAI Expo 主办，汇聚全球顶级量化机构与交易员。大赛打造实时对战平台——「数字显微镜」，集实时对战、策略评估、数据透明化于一体，目标是打破传统策略展示的「黑盒」，构建公开透明的竞争场。</p><p>平台提供实盘交易排行榜、模拟盘策略评估、链上数据透明度等核心功能，吸引超过 500 名量化交易员参与。</p>",
+          "title": "2026年度AI金融研究工具全景概览：TradingAgents为何受关注",
+          "body": "<p>2026年4月7日发布的《2026年度AI金融研究工具概览》指出，TradingAgents之所以在开源社区中受到较多关注，是因为它不仅仅是一个静态的预测模型，而是一套模拟真实金融机构研究流程的协作系统。运作机制：想象一下，在您的计算机上运行着三个专业化的AI角色——分析师团队（一个专注于数据指标分析，另一个实时追踪全球新闻动态，还有一个专门负责监控社交媒体情绪）、交易员团队、风控团队。</p>",
           "tags": [
-            "videoTools",
+            "ai",
+            "money",
+            "deep"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com"
+        },
+        {
+          "title": "QRTransformer分位数回归时间序列区间预测：MATLAB实现",
+          "body": "<p>基于Transformer的分位数回归(QRTransformer)用于时间序列预测任务，结合深度学习强大的序列建模能力与分位数回归的不确定性量化优势，实现对目标变量条件分布分位的估计，进而构建预测区间，为风险评估和决策提供依据。功能：读取并预处理数据(滞后8步构造样本)、划分训练集(80%)与测试集(20%)；对指定分位数(0.02:0.05:0.97)循环训练多个Transformer网络。</p>",
+          "tags": [
+            "ai",
+            "deep"
+          ],
+          "source": "CSDN / mbd.pub"
+        }
+      ],
+      "money": [
+        {
+          "title": "2026年TradFi x Crypto展望：驱动2026年的8大宏观力量与7大投资趋势",
+          "body": "<p>2025年是\"融合临界点\"，2026年将进入\"可编程金融\"加速期。报告中共提炼8大 Mega Forces 与7大投资趋势展望：从稳定币2.0争夺全球支付基础设施，到RWA从\"发行\"走向\"效用\"，再到股票代币化、DAT分叉与集中等关键变量。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com"
+        },
+        {
+          "title": "DeFi Development Corp打造最大Solana金库，战略布局一览",
+          "body": "<p>DeFi Development Corp是一家上市公司，拥有公开交易公司中最大的Solana国库，持仓超过62万枚SOL，价值约9000万美金。该公司以积极参与Solana生态系统并优先追求每股SOL最大化而著称。投资者关系主管Dan Kang在Rug Radio的\"FOMO Hour\"节目中讨论了公司的策略。</p>",
+          "tags": [
+            "money"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com"
+        },
+        {
+          "title": "美股恐慌指数VIX触及三个月新高至25.36点",
+          "body": "<p>美股恐慌指数VIX上涨18%，最新至25.36点，触及三个月新高。芝商所波动率指数(VIX)升至三个月来最高水平，投资者纷纷买入防护措施，防范股市进一步下跌。VIX本周收于29点以上，而今年大部分时间里，该指标一直低于20点的30年平均水平。</p>",
+          "tags": [
+            "money"
+          ],
+          "source": "财联社 / so.html5.qq.com"
+        }
+      ],
+      "dev": [
+        {
+          "title": "Freqtrade交易机器人：开源免费加密货币自动交易框架",
+          "body": "<p>Freqtrade是一款用Python编写的免费开源加密货币交易机器人。它旨在支持所有主要交易所，并通过Telegram或WebUI进行控制。它包含回测、绘图和资金管理工具，以及通过机器学习进行策略优化。目前支持：Binance、Bittrex、FTX、Gate.io、Kraken、OKX等交易所。特性：基于Python 3.8+，三行命令即可完成安装，支持Docker快速部署。</p>",
+          "tags": [
+            "dev",
             "ai",
             "money"
           ],
-          "source": "腾讯新闻 / new.qq.com / 2026-02"
+          "source": "Freqtrade官方 / freqtrade.org.cn"
+        },
+        {
+          "title": "FinRL-Trading：AI4Finance-Foundation模块化AI原生量化交易基础设施",
+          "body": "<p>FinRL-X是一个AI原生模块化量化交易基础设施，为量化交易提供了标准化的研究流程框架。与传统回测框架不同，FinRL-X注重深度学习与强化学习在量化交易中的应用，提供了包括数据处理、特征工程、模型训练、回测评估在内的完整流水线。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "GitHub AI4Finance-Foundation/FinRL-Trading"
         }
       ],
-      "tools": []
+      "aiTool": [
+        {
+          "title": "GitHub ari99/algorithmic_trading：TensorFlow + Polygon + Alpaca量化交易实战",
+          "body": "<p>GitHub 开源项目 ari99/algorithmic_trading 提供了一套完整的量化交易项目实战演示，使用 Tensorflow、Polygon 和 Alpaca 进行算法交易，并在 AWS SageMaker 上进行训练。项目完整流程：下载历史数据、数据预处理、特征工程、构建模型、验证模型性能、回测统计。</p>",
+          "tags": [
+            "aiTool",
+            "ai",
+            "money"
+          ],
+          "source": "GitHub ari99/algorithmic_trading"
+        },
+        {
+          "title": "Backtrader、Zipline、PyAlgoTrade三大开源量化回测工具对比",
+          "body": "<p>2025年Backtrader star 16.3K，fork 4.2K；Zipline star 18.2K。Backtrader v102（2024.06）已支持 asyncio 数据流与 PyArrow 加速；Zipline 最新稳定版仍为 2.0.0（2021.08），GitHub Issues 中73%为 pandas 2.0 incompatible。Backtrader 是策略即代码的事件驱动框架，Zipline 则是市场即模型的隐式约束框架。新手建议 Backtrader 入手，易用性强且社区活跃。</p>",
+          "tags": [
+            "aiTool",
+            "ai"
+          ],
+          "source": "CSDN / 知乎"
+        }
+      ],
+      "videoTools": []
     },
     {
       "date": "2026-05-13",
