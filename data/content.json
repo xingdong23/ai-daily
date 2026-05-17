@@ -1,6 +1,165 @@
 {
-  "lastUpdate": "2026-05-16T08:00:00Z",
+  "lastUpdate": "2026-05-17T08:00:00Z",
   "days": [
+    {
+      "date": "2026-05-17",
+      "daily": [
+        {
+          "title": "TradingAgents-CN深度拆解：多智能体LLM如何重构金融交易研究流程",
+          "body": "<p>TradingAgents-CN 是基于多智能体 LLM 的中文金融交易框架，源自 AI4Finance 开源社区。该框架将金融分析任务分配给不同专业智能体协作完成：基本面分析师评估公司财务数据和行业地位；技术分析师负责K线形态、趋势线和技术指标；情绪分析师实时追踪全球新闻动态；风控模型评估风险并生成交易信号。</p><p>运作机制：在您的计算机上运行着三个专业化AI角色——分析师团队（数据指标分析、全球新闻追踪、社交媒体情绪监控）、交易员团队、风控团队。通过协议互相通信、互相校准，显著提升决策准确率。</p>",
+          "tags": [
+            "ai",
+            "money",
+            "dev"
+          ],
+          "source": "CSDN / cloud.tencent.com / 2026-05-17"
+        },
+        {
+          "title": "GitHub aayushgit/NewsSentiment：金融新闻情绪分析预测股价走势",
+          "body": "<p>GitHub 开源项目 aayushgit/NewsSentiment 提供了一套完整的金融新闻情绪分析 Python 实现，用于股票市场预测。项目利用自然语言处理（NLP）技术对金融新闻进行情绪分析，并将分析结果与股价历史数据结合，训练机器学习模型预测市场走势。</p><p>核心方法：利用 GPT-2 和 BERT 等预训练语言模型，对新闻标题和正文进行情绪分类；将情绪得分与历史价格数据融合，构建预测特征；支持实时新闻流接入与情感评分更新。</p>",
+          "tags": [
+            "ai",
+            "money",
+            "dev"
+          ],
+          "source": "GitHub aayushgit/NewsSentiment / 2026-05"
+        },
+        {
+          "title": "Arthur Hayes：比特币年末目标价12.5万美元，美国国防与AI基础催生信贷需求",
+          "body": "<p>Arthur Hayes 在比特币2026大会表示：美国国防与 AI 基础催生信贷需求，年末目标价12.5万美元。他指出BTC正在进入\"机构采用\"新阶段，美元流动性扩张将成为价格上行的核心驱动力。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com"
+        },
+        {
+          "title": "MicroStrategy再买入535枚BTC，耗资4300万美元重返8万美元关口",
+          "body": "<p>MicroStrategy 再次买入约535枚Bitcoin，成交总额约4300万美元，折合平均买入价约8.03万美元/枚。比特币重返8万美元心理关口，市场情绪有所回暖，机构持续买入信号明显。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "PANews / so.html5.qq.com / 2026-05-11"
+        }
+      ],
+      "dev": [
+        {
+          "title": "TradingAgents v0.2.4发布：结构化输出Agent、Docker支持与Windows UTF-8修复",
+          "body": "<p>TradingAgents v0.2.4于2026年4月正式发布，带来多项重要更新：新增Research Manager、Trader、Portfolio Manager等结构化输出Agent；集成LangGraph检查点恢复功能；持久化决策日志；支持DeepSeek/Qwen/GLM/Azure多模型提供商；官方提供Docker支持及Windows UTF-8编码修复。</p><p>项目已支持GPT-5.4/Gemini 3.1/Claude 4.6等旗舰模型，提供五层评级量表，与OpenAI Responses API和Anthropic effort control全面集成，跨平台稳定性进一步提升。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "GitHub TauricResearch/TradingAgents / 2026-04"
+        },
+        {
+          "title": "Qlib v0.9.8：微软AI量化投资平台持续迭代，支持RL学习框架",
+          "body": "<p>Qlib是由微软开发的AI量化投资平台，旨在用AI技术赋能量化研究，涵盖从研究想法到落地生产的完整流程。Qlib支持多种ML建模范式，包括监督学习、市场动态建模和强化学习（RL），现已集成RD-Agent自动化研发流程。</p><p>最新版本v0.9.8包含RL学习框架支持，用户可通过强化学习方法优化投资策略。平台提供完整的数据处理、特征工程、模型训练与回测评估流水线，适合需要AI驱动量化研究的团队。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "GitHub microsoft/qlib / 2026-05"
+        },
+        {
+          "title": "2026年AI金融研究工具全景概览：TradingAgents为何受关注",
+          "body": "<p>2026年4月发布的《AI金融研究工具概览》指出，TradingAgents之所以在开源社区中受到较多关注，是因为它不仅仅是一个静态的预测模型，而是一套模拟真实金融机构研究流程的协作系统。</p><p>运作机制：在您的计算机上运行着三个专业化的AI角色——分析师团队（一个专注于数据指标分析，另一个实时追踪全球新闻动态，还有一个专门负责监控社交媒体情绪）、交易员团队、风控团队，各司其职并相互校验。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com / 2026-04-15"
+        }
+      ],
+      "aiTool": [
+        {
+          "title": "GitHub Arkay92/BinanceAITradeBot：CNN-LSTM + NLP 混合加密交易机器人",
+          "body": "<p>GitHub 开源项目 Arkay92/BinanceAITradeBot 是一款针对 Binance 平台设计的自动化 AI 交易机器人，利用技术分析、情绪分析和机器学习算法实时做出明智的交易决策。</p><p>核心特色：采用混合 CNN-LSTM 模型进行价格预测；使用自然语言处理（NLP）技术从各种文本来源评估市场情绪；支持实时加密货币价格预测；情绪分析与 API 数据融合，实现全自动交易信号生成。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "GitHub Arkay92/BinanceAITradeBot / 2026-05"
+        },
+        {
+          "title": "GitHub Immutal0/solana-trading-bot：Raydium、Pumpfun、sniper等全套Solana交易机器人",
+          "body": "<p>GitHub 开源项目 Immutal0/solana-trading-bot 提供多款 Solana 链上交易机器人：Multi-Dex Volume Bot（追踪 Raydium、Pumpfun、Meteora 等多DEX交易量，实时预警、自动买卖）；Twitter Sniper Bot（监控 Twitter 上的 Solana 代币发布并即时抢购）；AI驱动的情绪分析交易机器人。</p><p>支持实时监控多DEX平台交易量，AI分析社交媒体情绪捕捉早期代币机会，适合DeFi套利和一级市场套利场景。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "money"
+          ],
+          "source": "GitHub Immutal0/solana-trading-bot / 2026-04"
+        },
+        {
+          "title": "GitHub lavibula/BitcoinPrediction：比特币价格预测机器学习项目",
+          "body": "<p>GitHub 开源项目 lavibula/BitcoinPrediction 提供比特币价格预测的完整机器学习实现。项目包含数据处理、特征工程、模型选择与评估等完整流程，支持 SVM 等多种模型对比实验，可用于量化交易策略研究。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "money"
+          ],
+          "source": "GitHub lavibula/BitcoinPrediction / 2026-05"
+        }
+      ],
+      "money": [
+        {
+          "title": "Bitcoin重返8万美元关口：机构资金持续流入，MicroStrategy再购535枚BTC",
+          "body": "<p>2026年5月中旬，加密市场数据显示 BTC 现报约 $77,996（24h -1.8%），在8万美元关口反复试探。MicroStrategy 再次买入约535枚BTC，成交总额约4300万美元，折合均价约8.03万美元/枚，显示机构持续买入信号。</p><p>同时，Charles Schwab 已推出 BTC 和 ETH 现货交易服务，传统金融机构入场信号明显。a16z 第5期加密基金（$2.2B）完成募集，机构资金持续流入加密市场。CryptoValley Journal 周报指出比特币供应正在收紧，Altcoins 持续分化。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "99Bitcoins / CryptoValley Journal / coin360.com / 2026-05"
+        },
+        {
+          "title": "Galaxy：2026年比特币缓慢逼近25万美元，DEX现货交易占比将达25%",
+          "body": "<p>Galaxy 研究机构发布 2026 年 26 项加密市场预测：比特币到 2027 年将达到 25 万美元，价格将缓慢逼近； Solana 链上经济正从 Meme 周期转向创收业务； Solana 的通证削减方案未能通过（SIMD-0411 撤回）。</p><p>其他关键预测：美国证券交易委员会将为去中心化金融（DeFi）领域的代币化证券开闸道路；到 2026 年底，去中心化交易所（DEX）的交易量将占现货交易量的 25% 以上。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "Galaxy / chainweeks.com / 2025-12"
+        },
+        {
+          "title": "贝莱德：AI仍将主导2026年市场，但投机性交易及杠杆恐加剧波动",
+          "body": "<p>全球最大资产管理公司贝莱德预计人工智能（AI）将在2026年继续主导市场，但同时预测投机性交易和杠杆操作将加剧市场风险，可能导致投资者经历类似上月大幅抛售的动荡行情。</p><p>贝莱德欧洲、中东和非洲地区首席股票策略师海伦·朱尔（Helen Zhu）指出：「AI 股票的集中度已达到极高水平，市场情绪指标显示投资者过于乐观。」</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "Reportify / 智通财经 / 2025-12"
+        }
+      ],
+      "videoTools": [
+        {
+          "title": "Freqtrade官方中文站：开源加密货币交易机器人三行命令快速上手",
+          "body": "<p>Freqtrade 官方中文站提供完整的开源加密货币自动交易框架文档。三行命令即可完成安装，支持 Docker 快速部署，包含回测、绘图和资金管理工具，以及通过机器学习进行策略优化。</p><p>支持 Binance、Bybit、Kraken 等多个交易所，是目前最活跃的开源加密货币量化框架之一，GitHub star 数持续增长。</p>",
+          "tags": [
+            "videoTools",
+            "dev",
+            "ai"
+          ],
+          "source": "Freqtrade官方 / freqtrade.org.cn"
+        },
+        {
+          "title": "TradingView自动化交易2026：Webhook + Pine Script信号下单全攻略",
+          "body": "<p>TradingView 自动化交易通过快讯（Alerts）结合 Webhook 技术，将交易信号发送至第三方平台，再由第三方平台向用户券商账户下单。核心技术是 Pine Script 语言，用于编写触发条件（买入/卖出/止损/止盈）。</p><p>当市场状况满足条件时，Webhook 即时传达指令。支持 Interactive Brokers、TD Ameritrade、Tradovate 等主流券商，实现策略信号全自动化执行。</p>",
+          "tags": [
+            "videoTools",
+            "ai",
+            "money"
+          ],
+          "source": "TradingView / wsdiscuss.com / 2026-04"
+        }
+      ],
+      "tools": []
+    },
     {
       "date": "2026-05-16",
       "daily": [],
