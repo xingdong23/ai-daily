@@ -1,6 +1,158 @@
 {
-  "lastUpdate": "2026-05-17T08:00:00Z",
+  "lastUpdate": "2026-05-18T00:00:00Z",
   "days": [
+    {
+      "date": "2026-05-18",
+      "daily": [
+        {
+          "title": "算法交易市场预计2026年达35.9亿美元，2033年增至66.8亿美元",
+          "body": "<p>算法交易市场规模与趋势预测：2026年估值35.9亿美元，预计2033年达到66.8亿美元，复合年增长率约9.2%。增长驱动因素包括高频交易、量化策略普及以及AI在金融领域的深度应用。</p>",
+          "tags": [
+            "dev",
+            "ai"
+          ],
+          "source": "coherentmarketinsights.com / 2026-05-18"
+        },
+        {
+          "title": "FinRL-Trading: AI原生模块化量化交易基础设施",
+          "body": "<p>FinRL-X是AI4Finance Foundation开源的模块化AI量化交易基础设施，支持强化学习驱动的交易策略、回测与实盘对接。提供Docker化部署、317次提交、完整数据与示例。</p>",
+          "tags": [
+            "dev",
+            "ai"
+          ],
+          "source": "GitHub AI4Finance-Foundation/FinRL-Trading / 2026-05-18"
+        }
+      ],
+      "money": [
+        {
+          "title": "CryptoQuant 2026加密量化大赛香港正式发榜",
+          "body": "<p>CryptoQuant 2026加密量化交易大赛2026年2月11日在香港CAI院士大厦正式发布，由Barron's巴伦中文、DeAI Expo联合主办，汇聚全球量化交易者同台竞技，展示AI量化策略与市场预测能力。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯新闻 new.qq.com / 2026-02-27"
+        },
+        {
+          "title": "CryptoQuant 2026平台上线：打破策略黑箱，实时排行榜展示真实交易成绩",
+          "body": "<p>CryptoQuant 2026官方平台(cryptoquant.fund)上线，集实时对战、策略评估、数据透明化于一体，旨在打破传统策略展示的「黑箱」，打造公开、透明的竞争场。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯新闻 new.qq.com / 2026-01-23"
+        },
+        {
+          "title": "2026年AI产业链Q1持续高景气态，智能人ETF(159142)精准覆盖AI全链",
+          "body": "<p>2026年一季度AI算力基础设施与AI应用板块持续高景气态，招商证券数据显示AI数据服务、AI算力基础设施、AI应用三大细分板块扣非净利润增速显著，机构重点关注平安智能人ETF。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯QQ搜索 / 2026-05-07"
+        },
+        {
+          "title": "美股今日交易清淡：标普500下跌0.53%，防御性板块占优",
+          "body": "<p>2026年5月7日（周四），美国股市防御性持仓为主，成交量清淡，能源板块表现较强。投资者关注大型财报季，中美贸易摩擦等地缘政治风险持续影响市场情绪，VIX波动率指数维持相对平稳。</p>",
+          "tags": [
+            "money"
+          ],
+          "source": "stockmarketwatch.com / 2026-05-08"
+        },
+        {
+          "title": "2026年加密终局：终于学会用股权思维经营代币",
+          "body": "<p>加密领域存在「好币」难题——大多数代币在法律和战略层面都没有被认真对待。类比股票思维经营代币将成为2026年行业趋势，合法合规的代币经济设计将成为核心竞争优势。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯QQ搜索 so.html5.qq.com / 2026-02-03"
+        },
+        {
+          "title": "Backpack Exchange 将于7月18日上线CLOUD",
+          "body": "<p>据官方消息，Backpack Exchange 将于7月18日19:30上线CLOUD。这是该加密货币交易平台的重要产品升级，预计为用户带来更高效的现货与合约交易体验。</p>",
+          "tags": [
+            "money"
+          ],
+          "source": "腾讯QQ搜索 so.html5.qq.com / 2025-06-18"
+        }
+      ],
+      "dev": [
+        {
+          "title": "TradingAgents-CN深度拆解：如何用多智能体LLM构建AI交易系统",
+          "body": "<p>TradingAgents中文增强版——基于多智能体LLM的中文金融交易框架，深度拆解如何用多个大模型协同构建完整的AI量化交易系统，支持策略研究、回测与实盘模拟。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "CSDN blog.csdn.net / 2026-05-03"
+        },
+        {
+          "title": "2026年AI Agent趋势报告：金融行业从合规监管到财富管理的全面革新",
+          "body": "<p>Google Cloud发布《2026年AI智能体趋势报告》，指出金融行业正经历从合规监管到财富管理的全面革新，Agentic AI从通识走向垂直领域自主决策，量化交易、资产配置为重点落地场景。</p>",
+          "tags": [
+            "dev",
+            "ai"
+          ],
+          "source": "博客园 cnblogs.com / 2026-05-05"
+        },
+        {
+          "title": "Backtrader: 功能丰富的Python量化回测框架",
+          "body": "<p>Backtrader是开源Python框架，专注回测与交易策略开发，支持指标自定义、分析器、可视化，文档完善，社区活跃。2026年仍持续活跃更新，是量化入门首选框架。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "backtrader.com / 2026-05"
+        }
+      ],
+      "aiTool": [
+        {
+          "title": "5分钟上手Crypto Trading Bot: 部署教程",
+          "body": "<p>完整教程教你5分钟内部署加密货币自动交易机器人，支持Binance Futures等交易所，可配置dip_catcher、dca_dipper等策略，实时监控市场数据，支持手动下单与回测。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "money"
+          ],
+          "source": "CSDN blog.csdn.net / 2026-03-22"
+        },
+        {
+          "title": "全球首款边办公边交易机器人：免安装、优回测数据",
+          "body": "<p>专注区块链技术研究，集成人工智能、大数据、深度学习能力。全球首款边办公边交易机器人，完全免费、与实盘基本接近的回测数据，优化网格参数和下单逻辑，收益优于80%同类策略。</p>",
+          "tags": [
+            "aiTool",
+            "money"
+          ],
+          "source": "aijiebot.com / 2026-05-16"
+        },
+        {
+          "title": "AI炒股机器人: 区块自动化量化交易基金平台",
+          "body": "<p>AI金融自动赚钱机器人、Excel Crypto Trading bot、区块链自动化量化交易基金平台，实现wequant、botvs等回测结果优差异，优秀数据提供商，支持自定义调用交易函数，纯办公环境运行。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "money"
+          ],
+          "source": "aijiebot.com / 2026-05-16"
+        }
+      ],
+      "videoTools": [
+        {
+          "title": "Backtrader黄金交叉策略Python实现与回测演示",
+          "body": "<p>Bilibili视频教程演示如何使用Backtrader实现黄金交叉算法交易策略，包含完整Python代码示例、事件驱动型回测框架讲解，适合量化入门者学习参考。</p>",
+          "tags": [
+            "videoTools",
+            "dev",
+            "ai"
+          ],
+          "source": "Bilibili / 2023-01-22"
+        }
+      ],
+      "agent": []
+    },
     {
       "date": "2026-05-17",
       "daily": [
