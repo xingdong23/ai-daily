@@ -1,6 +1,152 @@
 {
-  "lastUpdate": "2026-05-20T00:00:00Z",
+  "lastUpdate": "2026-05-21T00:00:00Z",
   "days": [
+    {
+      "date": "2026-05-21",
+      "daily": [
+        {
+          "title": "CZ：AI Agent交易量将达人类千倍，加密货币将取代Visa和SWIFT",
+          "body": "<p>CZ（前币安CEO）在最新访谈中预测：AI Agent的加密货币交易量未来将达人类交易员的千倍水平，加密货币将逐步取代Visa和SWIFT的传统支付地位。同时AI技术加速区块链开发，钱包将更易用安全，稳定币市场或超预期发展。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯新闻 new.qq.com / 2026-05-08"
+        },
+        {
+          "title": "AI Native加密量化平台BeeQuant正式上线：打破策略黑箱",
+          "body": "<p>2026年3月12日，全球首个AI-Native加密货币量化交易基础设施BeeQuant正式上线。该平台以AI技术为核心，致力于打破量化交易的专业壁垒，推动行业从「信息不对称」向「智能平权」转型。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "搜狐 sohu.com / 2026-03-12"
+        },
+        {
+          "title": "5月比特币ETF资金净流入52亿美元，超越黄金ETF",
+          "body": "<p>2026年5月，美国比特币现货ETF净流入资金达52亿美元，同期黄金ETF净流出15.8亿美元。贝莱德IBIT 5月总净流入59亿美元，灰度ETF（ARKB）净流出2.92亿美元。机构资金持续流入加密市场趋势明显。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "金色财经 / so.html5.qq.com / 2026-06-02"
+        },
+        {
+          "title": "MicroStrategy再买535枚BTC重返8万美元，机构买入信号持续",
+          "body": "<p>MicroStrategy再次买入约535枚Bitcoin，成交总额约4300万美元，折合均价约8.03万美元/枚。比特币重返8万美元心理关口。Strategy Inc.（MSTR）本月已累计买入价值39亿美元的BTC，为一年来单月最高。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯QQ搜索 / so.html5.qq.com / 2026-04-27"
+        }
+      ],
+      "dev": [
+        {
+          "title": "Qlib v0.9.8：微软AI量化投资平台支持RL强化学习框架",
+          "body": "<p>Qlib是由微软开发的AI量化投资平台，涵盖从研究到生产的完整流程。最新版本v0.9.8新增强化学习（RL）框架支持，用户可通过强化学习方法优化投资策略。现已集成RD-Agent自动化研发流程。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "GitHub microsoft/qlib / 2026-05"
+        },
+        {
+          "title": "FinRL-X：AI4Finance模块化量化基础设施，Docker一键部署",
+          "body": "<p>FinRL-X是AI4Finance Foundation推出的模块化AI量化交易基础设施，通过权重中心化接口统一数据处理、策略组合、回测与券商执行。支持强化学习驱动的交易策略，已累积317次提交，GitHub星标超15k。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "GitHub AI4Finance-Foundation / FinRL-Trading / 2026-03"
+        },
+        {
+          "title": "Backtrader v2.0+：asyncio数据流与PyArrow加速量化回测",
+          "body": "<p>Backtrader是Python生态中最活跃的开源量化回测框架，v102版本已支持asyncio数据流与PyArrow加速。策略即代码的事件驱动框架设计，适合有Python基础的量化开发者快速上手。</p>",
+          "tags": [
+            "dev",
+            "ai",
+            "money"
+          ],
+          "source": "Backtrader官方 / backtrader.com / 2026-05"
+        }
+      ],
+      "aiTool": [
+        {
+          "title": "GitHub Arkay92/BinanceAITradeBot：CNN-LSTM + NLP 混合加密交易机器人",
+          "body": "<p>GitHub开源项目Arkay92/BinanceAITradeBot针对Binance平台设计的自动化AI交易机器人，采用混合CNN-LSTM模型进行价格预测，同时使用NLP技术从各种文本来源评估市场情绪，实现全自动交易信号生成。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "ai"
+          ],
+          "source": "GitHub Arkay92/BinanceAITradeBot / 2026-05"
+        },
+        {
+          "title": "GitHub Immutal0/solana-trading-bot：Raydium/Pumpfun/sniper全套Solana交易机器人",
+          "body": "<p>GitHub开源项目Immutal0/solana-trading-bot提供多款Solana链上交易机器人：Multi-Dex Volume Bot追踪Raydium、Pumpfun等多DEX交易量实时预警自动买卖；Twitter Sniper Bot监控Twitter上的Solana代币发布即时抢购；AI驱动情绪分析交易机器人。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "money"
+          ],
+          "source": "GitHub Immutal0/solana-trading-bot / 2026-04"
+        },
+        {
+          "title": "5分钟上手Crypto Trading Bot：Freqtrade部署教程",
+          "body": "<p>完整教程教你5分钟内部署加密货币自动交易机器人Freqtrade，支持Binance Futures等交易所，可配置dip_catcher、dca_dipper等策略。Freqtrade 2026.3版本已发布第111个版本，是目前最活跃的开源加密货币量化框架之一。</p>",
+          "tags": [
+            "aiTool",
+            "dev",
+            "money"
+          ],
+          "source": "CSDN blog.csdn.net / 2026-03-22"
+        }
+      ],
+      "money": [
+        {
+          "title": "BTC触及95,000美元创年内新高后回落，24h 11万人爆仓",
+          "body": "<p>2026年5月20日BTC盘中触及95,000美元创年内新高（24h +1.44%），随后急剧回落至93,000美元附近，24小时全网合约爆仓11万人。Arthur Hayes在比特币2026大会表示：年末目标价12.5万美元。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "腾讯新闻 / so.html5.qq.com / 2026-05-20"
+        },
+        {
+          "title": "Galaxy预测：2027年BTC逼近25万美元，DEX现货占比将达25%",
+          "body": "<p>Galaxy研究机构发布2026年26项加密市场关键预测：比特币到2027年将缓慢逼近25万美元；Solana链上经济正从Meme周期转向创收业务；美国SEC将为DeFi领域代币化证券开闸；2026年底DEX现货交易量将占现货总量25%以上。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "Galaxy / chainweeks.com / 2025-12"
+        },
+        {
+          "title": "普华永道：银行业AI应用已覆盖欺诈风控、预测分析等核心场景",
+          "body": "<p>普华永道报告显示AI已从试点走向规模化应用，金融机构的AI核心场景已覆盖客户个性化推荐、欺诈风控检测、预测性分析等多个领域。零售银行业务被认作「最适合AI探索的场景」，DeepSeek等新技术正显著降低AI大模型应用成本。</p>",
+          "tags": [
+            "money",
+            "ai"
+          ],
+          "source": "普华永道 / so.html5.qq.com / 2026-03-17"
+        },
+        {
+          "title": "国泰君安：TCN/Timesnet/Master+GRU因子选股rankIC达10%，年化超额30%",
+          "body": "<p>国泰君安2025Q1研报显示，基于TCN、Timesnet、Master+GRU等深度学习时序模型的AI因子选股在A股各宽基指数上表现优异。因子rankIC达10%左右，多头组年化超额收益高达30%，最大回撤控制在14-17%。</p>",
+          "tags": [
+            "money",
+            "ai",
+            "dev"
+          ],
+          "source": "国泰君安证券研究 / sohu.com / 2025-02-18"
+        }
+      ],
+      "videoTools": [],
+      "agent": []
+    },
     {
       "date": "2026-05-18",
       "daily": [
